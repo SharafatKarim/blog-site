@@ -58,7 +58,7 @@ seo:
   # ...
 ---
 
-This article shows some useful and daily-driver type syntax, that I may use daily. First, right after heading, one example , followed by it's syntax. I won't explain.
+This article shows some useful and daily-driver type syntax, that I may use daily. First, right after heading, one example , followed by it's syntax. I won't explain though 😅.
 
 {{< admonition >}}
   To learn in detail and easily, you may use following references,
