@@ -21,6 +21,8 @@ If you want to know how I build this site, then my answer is,
 I've written a lot about them in another post. You may also get almost all of the important links there. Here's the link,
 - [Love It Hugo](https://sharafat.pages.dev/love-it-hugo/)
 
+> The theme I'm currently using is quite unstable and some features seem to be not working! So I'll recommend using LoveIt.
+
 ### Copyright
 Those two are well documented and you can easily use them without actually learning HTML and CSS. And of course if you want to reuse my configurations and posts, feel free to do so. I'll share a hugo template soon(hope). If you also copy my articles, I'll really appreciate it if you at least become my friend 😅.
 
