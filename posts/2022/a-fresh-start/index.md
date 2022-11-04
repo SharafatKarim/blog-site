@@ -26,17 +26,19 @@ So what about my previous webpage (that was an static HTML page). And of course 
 ## How?
 If you want to know how I build this site, then my answer is,
 - HUGO
-- Love It (Hugo theme)
+- ~~Love It (Hugo theme)~~ (currently I'm using [FeelIt](https://feelit.khusika.dev/))
 
 ### Guide
 I've written a lot about them in another post. You may also get almost all of the important links there. Here's the link,
-- [Love It Hugo](https://sharafatkarim.github.io/love-it-hugo/)
+- [Love It Hugo](https://sharafat.pages.dev/love-it-hugo/)
+
+> The theme I'm currently using is quite unstable and some features seem to be not working! So I'll recommend using LoveIt.
 
 ### Copyright
-Those two are well documented and you can easily use them without actually learning HTML and CSS. And of course if you want to reuse my configurations and posts, feel free to do so. Fork [my repository](https://github.com/SharafatKarim/SharafatKarim.github.io). If you also copy my articles, I'll really appreciate it if you at least become my friend 😅.
+Those two are well documented and you can easily use them without actually learning HTML and CSS. And of course if you want to reuse my configurations and posts, feel free to do so. I'll share a hugo template soon(hope). If you also copy my articles, I'll really appreciate it if you at least become my friend 😅.
 
 ## Where?
-So where can I host them and price? Well, I use GitHub to host for free and I don't have the money to buy a domain name. So yeah! You can host for free or maybe....... 😅
+So where can I host them and price? Well, I ~~used GitHub to host for free~~ (currently cloudflare pages) and I don't have the money to buy a domain name. So yeah! You can host for free or maybe....... 😅
 
 ## Tutorial?
 Just read those documentations 🧐, and if you still has issues feel free to text me. Maybe I'll create a tutorial, who knows? 😅
