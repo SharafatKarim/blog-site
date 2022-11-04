@@ -1,8 +1,12 @@
 # blog-site
 Contents of my [blog site](https://sharafat.pages.dev/). Feel free to contribute!
 
-There's an another feeling whenever you do something for the first time, right? And this is the first post of this website so it's quite important for me 😅.
-Let's get started!
+## Address?
+Entering shrafatkarim.github.io will redirect you to [sharafat.pages.dev](https://sharafat.pages.dev/)
+
+## Why redirection?
+I moved my webpage there (cloudflare page) cause I may use some sensitive information in the config file of the website. But you can still read or contribute to my webpage. If you want to create a website like that one, I've a free template available for you!
+
 
 ## Previous page?
 So what about my previous webpage (that was an static HTML page). And of course there was some CSS. It's still alive, I think 😅. Try the following link,
