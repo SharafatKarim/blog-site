@@ -109,6 +109,7 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 |enve | 2D animation software|
 |kdenlive | video editor|
 |Astrofox | Audio visualization into video|
+|glaxnimate | Lightweight animation|
 
 ## Internet
 |Application|Description|
