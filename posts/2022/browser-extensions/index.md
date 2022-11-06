@@ -138,8 +138,27 @@ Get information instantly about websites' terms of service and privacy policies,
 - [Website](https://tosdr.org/)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/)
 
+## Facebook Container
+
+Prevent Facebook from tracking you around the web. The Facebook Container extension for Firefox helps you take control and isolate your web activity from Facebook
+
+- [Website](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
+- [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
+
+## Enhancer for YouTube™
+Built to get the most out of YouTube, this extension comes packed with all sorts of features that allow you, among other things, to manage ads as you wish, control the playback speed and the volume level with the mouse wheel, automate repetitive tasks such as selecting the appropriate playback quality, configure dozens of keyboard shortcuts to control YouTube like a pro, and much more... Give it a try!
+
+- [Website](https://www.mrfdev.com/enhancer-for-youtube)
+- [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/)
+
 # Also,
 check some of those. Maybe you will something unexpected, 🎃 who knows ؟
+
+## TinEye Reverse Image Search
+TinEye uses image identification technology, not keywords: when you upload an image to TinEye, TinEye creates a unique and compact digital signature or 'fingerprint' for it, then compares this fingerprint to every other image in the TinEye index to find matches. TinEye does not typically find similar images; it finds exact matches including those that have been cropped, edited or resized.
+
+- [Website](https://tineye.com/)
+- [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/tineye-reverse-image-search/)
 
 ## Web Archives
 View archived and cached versions of web pages on 10+ search engines, such as the Wayback Machine, Archive․is, Google, Bing, Yandex, Baidu and Yahoo.
@@ -159,6 +178,12 @@ Drag scrollbar with your middle mouse button anywhere on the page. Supports also
 
 - [Website](https://fastaddons.com/)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/scroll_anywhere/)
+
+## Dictionary anywhere
+View definitions easily as you browse the web. Double-click any word to view its definition in a small pop-up bubble. It also supports Spanish, German, French language alongside English. Enjoy Reading Uninterrupted!!!.
+
+- [Website](https://github.com/meetDeveloper/Dictionary-Anywhere)
+- [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/dictionary-anyvhere/)
 
 ## To Google Translate
 Highlight text on a web page and send it to Google Translate or listen the pronunciation.
@@ -207,10 +232,18 @@ If you want to explore more, here's a short suggestion,
 16. ⚔️ Netcraft
 17. 👻 Canvas Fingerprint Defender
 18. 🖥️ Age Restriction Bypass for YouTube
+19. 🔽 [Easy Youtube Video Downloader Express](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/)
+20. ℹ️ [Google Lighthouse](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/)
 
 And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/en-US/firefox/). (Especially the recommended part)
 
 {{< admonition quote "And," >}}
-IF your'e a firefox user, try those themes made specifically for kde plasma!
+IF your'e a Firefox user, try those themes made specifically for kde plasma!
 - [Qogir Dark blue](https://addons.mozilla.org/en-US/firefox/addon/qogir-dark-for-firefox/)
 {{< /admonition >}}
+
+## Acknowledgements
+
+Special thanks to,
+- [Alive @user](t.me/RankCoder) - founder of [Linux Bangla](https://t.me/linux_bangla) community.
+- [Shahid Parvez](http://mrsnailo.github.io) - Linux lover - Tech enthusiast - Student and my teacher.
