@@ -13,8 +13,8 @@ tags: ["notes", "browser", "internet"]
 categories: ["notes"]
 summary: "Some of the useful desktop browser extentions for daily driving."
 
-featuredImage: "featured-image.png"
-featuredImagePreview: "featured-image.png"
+featuredImage: "featured-image.jpg"
+featuredImagePreview: "featured-image.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
