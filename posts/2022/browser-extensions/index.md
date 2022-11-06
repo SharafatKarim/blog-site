@@ -152,7 +152,7 @@ Built to get the most out of YouTube, this extension comes packed with all sorts
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/)
 
 # Also,
-check some of those. Maybe you will something unexpected, 🎃 who knows ؟
+check some of those. Maybe you will find something unexpected, 🎃 who knows ؟
 
 ## TinEye Reverse Image Search
 TinEye uses image identification technology, not keywords: when you upload an image to TinEye, TinEye creates a unique and compact digital signature or 'fingerprint' for it, then compares this fingerprint to every other image in the TinEye index to find matches. TinEye does not typically find similar images; it finds exact matches including those that have been cropped, edited or resized.
