@@ -14,6 +14,8 @@ tags: ["general", "notice", "website"]
 categories: ["general"]
 
 featuredImage: "featured-image"
+
+license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
 There's an another feeling whenever you do something for the first time, right? And this is the first post of this website so it's quite important for me 😅.

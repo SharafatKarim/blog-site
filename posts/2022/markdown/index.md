@@ -56,6 +56,7 @@ library:
 seo:
   images: []
   # ...
+license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
 This article shows some useful and daily-driver type syntax, that I may use daily. First, right after heading, one example , followed by it's syntax. I won't explain though 😅.

@@ -56,6 +56,7 @@ library:
 seo:
   images: []
   # ...
+license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 I've wrote a lot of documents, more like cheat sheets (formal language 😅). Some of them were deleted, some of them resides in my old HDD *maybe* and some of them are in a or two data centers of telegram maybe.
 

@@ -3,8 +3,8 @@ title: "Useful Browser Extensions"
 date: 2022-11-06T09:08:10+06:00
 lastmod: 2022-11-06T09:08:10+06:00
 draft: false
-author: ""
-authorLink: ""
+author: "Sharafat Karim"
+authorLink: "https://sharafat.pages.dev/about/"
 description: "Some of the useful desktop browser extentions for daily driving."
 license: ""
 images: []
@@ -57,6 +57,8 @@ library:
 seo:
   images: []
   # ...
+
+license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
 Some of the useful desktop browser extentions for daily driving. Some of the extensions are only available for ***Firefox*** or Firefox based browsers. Please keep it in mind.

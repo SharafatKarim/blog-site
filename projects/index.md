@@ -5,10 +5,10 @@ draft: false
 description: "Projects, repos and documentations"
 images: []
 
-lightgallery: true
+lightgallery: false
 
 math:
-  enable: true
+  enable: false
 
 comment:
   enable: false

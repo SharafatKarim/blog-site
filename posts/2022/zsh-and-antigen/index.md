@@ -57,6 +57,7 @@ library:
 seo:
   images: []
   # ...
+license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
 A guide to install and customize zsh along with different plugins with the help of antigen plugin manager. But what are those?

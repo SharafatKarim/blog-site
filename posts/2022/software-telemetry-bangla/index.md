@@ -56,6 +56,7 @@ library:
 seo:
   images: []
   # ...
+license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 আমরা অনেকেই সফটওয়্যারের বিভিন্ন খবরে এই টার্মটির সাথে পরিচিত হই। কখনো কি ভেবে দেখেছেন কি এই টেলিমেট্রি? বাংলা ভাষায় টেলিমেট্রি বলতে বিভিন্ন সংজ্ঞা থাকতে পারে। সেদিকে যাবো না, আপনি চাইলে কিছু প্রয়োগ এই লিংক থেকে দেখে নিতে পারেন।
 - [Stackify- telemetry tutorial](https://stackify.com/telemetry-tutorial/)
