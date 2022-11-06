@@ -3,8 +3,8 @@ title: "Useful Linux Applications"
 date: 2022-10-29T08:34:36+06:00
 lastmod: 2022-10-29T08:34:36+06:00
 draft: false
-author: ""
-authorLink: ""
+author: "Sharafat Karim"
+authorLink: "https://sharafat.pages.dev/about/"
 description: "Yet an another list of useful Applications that you can try in Linux."
 license: ""
 images: []

@@ -3,8 +3,8 @@ title: "zsh and antigen - installation to customization"
 date: 2022-10-30T08:41:37+06:00
 lastmod: 2022-10-30T08:41:37+06:00
 draft: false
-author: ""
-authorLink: ""
+author: "Sharafat Karim"
+authorLink: "https://sharafat.pages.dev/about/"
 description: "A guide to install and customize zsh along with different plugins with the help of antigen plugin manager."
 license: ""
 images: []

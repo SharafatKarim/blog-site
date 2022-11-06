@@ -1,5 +1,7 @@
 ---
 title: "A Fresh Start!"
+author: "Sharafat Karim"
+authorLink: "https://sharafat.pages.dev/about/"
 date: 2022-10-17T10:11:05+06:00
 draft: false
 

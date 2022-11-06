@@ -3,8 +3,8 @@ title: "Love It, Hugo"
 date: 2022-10-19T11:59:01+06:00
 lastmod: 2022-10-20T11:59:01+06:00
 draft: false
-author: ""
-authorLink: ""
+author: "Sharafat Karim"
+authorLink: "https://sharafat.pages.dev/about/"
 description: ""
 license: ""
 images: []

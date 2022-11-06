@@ -3,8 +3,8 @@ title: "Font এবং glyph পরিচিতি (পর্ব ১)"
 date: 2022-10-21T08:06:07+06:00
 lastmod: 2022-10-21T08:06:07+06:00
 draft: false
-author: ""
-authorLink: ""
+author: "Sharafat Karim"
+authorLink: "https://sharafat.pages.dev/about/"
 description: ""
 license: ""
 images: []

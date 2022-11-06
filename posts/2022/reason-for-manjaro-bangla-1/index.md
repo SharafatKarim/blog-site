@@ -4,8 +4,8 @@ date: 2022-10-21T06:03:15+06:00
 lastmod: 2022-10-21T09:03:15+06:00
 draft: false
 author: ""
-authorLink: ""
-description: ""
+author: "Sharafat Karim"
+authorLink: "https://sharafat.pages.dev/about/"
 license: ""
 images: []
 

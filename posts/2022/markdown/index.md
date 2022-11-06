@@ -3,8 +3,8 @@ title: "Markdown Syntax"
 date: 2022-10-20T08:22:05+06:00
 lastmod: 2022-10-20T08:22:05+06:00
 draft: false
-author: ""
-authorLink: ""
+author: "Sharafat Karim"
+authorLink: "https://sharafat.pages.dev/about/"
 description: ""
 license: ""
 images: []

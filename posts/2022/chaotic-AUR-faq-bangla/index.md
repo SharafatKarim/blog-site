@@ -3,8 +3,8 @@ title: "Chaotic AUR সম্পর্কে কিছুটা প্রশ্�
 date: 2022-10-21T08:24:27+06:00
 lastmod: 2022-10-21T08:24:27+06:00
 draft: false
-author: ""
-authorLink: ""
+author: "Sharafat Karim"
+authorLink: "https://sharafat.pages.dev/about/"
 description: ""
 license: ""
 images: []
