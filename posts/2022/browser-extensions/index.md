@@ -61,7 +61,7 @@ seo:
 license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
-Some of the useful desktop browser extentions for daily driving. Some of the extensions are only available for ***Firefox*** or Firefox based browsers. Please keep it in mind.
+Some of the useful desktop browser extensions for daily driving. Some of the extensions are only available for ***Firefox*** or Firefox based browsers. Please keep it in mind.
 
 {{< admonition note "BTW," >}}
 This is a simple personal collection. There might be more better extensions that I may not know. I'll appreciate it if you share your experience with us.

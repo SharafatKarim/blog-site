@@ -198,4 +198,4 @@ Got any more question?
 
 Let me share a trick! In this website, you'll see headings starting with a vertical line or `#`, You can basically right click on them and copy a link which will work as a hyperlink to that specific Heading!
 
-- [Read more here](https://sharafatkarim.github.io/markdown-syntax/) about markdown from me!
+- [Read more here](markdown) about markdown from me!
