@@ -12,7 +12,7 @@ images: []
 tags: ["academy", "study", "pdf"]
 categories: ["academy"]
 
-featuredImage: "featured-image.png"
+featuredImage: "featured-image.jpg"
 featuredImagePreview: ""
 
 hiddenFromHomePage: false

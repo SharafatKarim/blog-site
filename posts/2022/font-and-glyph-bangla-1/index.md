@@ -12,7 +12,7 @@ images: []
 tags: ["font", "computer", "basic"]
 categories: ["computer"]
 
-featuredImage: "font-glyph-1.png"
+featuredImage: "font-glyph-1.jpg"
 featuredImagePreview: ""
 
 hiddenFromHomePage: false

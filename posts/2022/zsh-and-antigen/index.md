@@ -13,8 +13,8 @@ tags: ["linux","zsh","tutorial"]
 categories: ["linux"]
 summary: "A guide to install and customize zsh along with different plugins with the help of antigen plugin manager."
 
-featuredImage: "featured-image.png"
-featuredImagePreview: "featured-image-preview.png"
+featuredImage: "featured-image.jpg"
+featuredImagePreview: "featured-image-preview.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

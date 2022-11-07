@@ -13,8 +13,8 @@ tags: ["linux","software","notes"]
 categories: ["linux"]
 summary: "Yet an another list of useful Applications that you can try in Linux."
 
-featuredImage: "useful-linux-apps.png"
-featuredImagePreview: "featured-image.png"
+featuredImage: "useful-linux-apps.jpg"
+featuredImagePreview: "featured-image.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
