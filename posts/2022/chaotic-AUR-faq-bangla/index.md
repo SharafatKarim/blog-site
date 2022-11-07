@@ -12,8 +12,8 @@ images: []
 tags: ["aur","archlinux"]
 categories: ["linux"]
 
-featuredImage: "featured-image.png"
-featuredImagePreview: "featured-image.png"
+featuredImage: "featured-image.jpg"
+featuredImagePreview: "featured-image.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
