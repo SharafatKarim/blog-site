@@ -175,7 +175,7 @@ Blockquote
 ## Task List
 ``` markdown
 - [ ] this task is incomplete
-- [ ] this task is completed
+- [x] this task is completed
 ```
 - [ ] this task is incomplete
 - [x] this task is completed
