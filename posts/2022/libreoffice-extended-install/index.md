@@ -13,8 +13,8 @@ tags: ["linux","software","office"]
 categories: ["software"]
 summary: "A proper way to do some extended checkups and troubleshooting for LibrOffice."
 
-featuredImage: "https://res.cloudinary.com/dte603aka/image/upload/v1667887825/blog/2022/final_bqnt0u.jpg"
-featuredImagePreview: "https://res.cloudinary.com/dte603aka/image/upload/v1667887825/blog/2022/final_bqnt0u.jpg"
+featuredImage: "featured-image.jpg"
+featuredImagePreview: "featured-image.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
