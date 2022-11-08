@@ -203,3 +203,9 @@ If you've extra toolbars like this one,
 From the menubar, view, Toolbars, disable corresponding entry.
 
 ![](https://res.cloudinary.com/dte603aka/image/upload/v1667877708/blog/2022/Screenshot_20221108_092125_zkaqnj.png)
+
+## Wrapping Up
+
+In this way you can get the most of the Libre Office experience but that's not all. You can still extend it's possibilities by using extensions and fell free to contact with us or in our telegram communities if you face any problem or anything in mind.
+
+Thanks for reading so far 🫠.
