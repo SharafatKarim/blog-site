@@ -2,7 +2,7 @@
 title: "Libreoffice Extended Installation"
 date: 2022-11-08T08:03:12+06:00
 lastmod: 2022-11-08T08:03:12+06:00
-draft: true
+draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 description: "A proper way to do some extended checkups and troubleshooting for LibrOffice."
