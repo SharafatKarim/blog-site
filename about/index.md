@@ -17,7 +17,7 @@ comment:
   enable: false
 ---
 <p><img width="40%" align="right" alt="Github Header" src="https://raw.githubusercontent.com/SharafatKarim/SharafatKarim/main/git-header.svg"/></p>
-<b>
+
 
 - 🐧 A Linux enthusiast
 - ❤️‍🔥 I like open-source projects
