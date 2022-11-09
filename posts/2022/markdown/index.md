@@ -295,7 +295,7 @@ This is an another footnote with label [^label]
 ```
 <!-- This is a comment! -->
 {{< admonition >}}
-Maybe ctrl + / will do the trick 😅
+Maybe Ctrl + / will do the trick 😅
 
 So how will you you view my comment?
 - let us know in the comment section 🕹
