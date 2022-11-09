@@ -27,7 +27,14 @@ I've written a lot about them in another post. You may also get almost all of th
 Those two are well documented and you can easily use them without actually learning HTML and CSS. And of course if you want to reuse my configurations and posts, feel free to do so. I'll share a hugo template soon(hope). If you also copy my articles, I'll really appreciate it if you at least become my friend 😅.
 
 ## Where?
-So where can I host them and price? Well, I ~~used GitHub to host for free~~ (currently cloudflare pages) and I don't have the money to buy a domain name. So yeah! You can host for free or maybe....... 😅
+So where can I host them and price? Well, I ~~used GitHub to host for free~~ (currently Cloudflare pages) and I don't have the money to buy a domain name. So yeah! You can host for free or maybe....... 😅
 
 ## Tutorial?
 Just read those documentations 🧐, and if you still has issues feel free to text me. Maybe I'll create a tutorial, who knows? 😅
+
+## Direct cloning
+You can directly clone my contents in your 'hugo' or any kind of website through submodule or you can just fork and edit further!
+To access my contents through submodule, run,
+```
+
+```
