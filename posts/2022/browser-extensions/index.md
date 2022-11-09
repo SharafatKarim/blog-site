@@ -234,6 +234,7 @@ If you want to explore more, here's a short suggestion,
 18. 🖥️ Age Restriction Bypass for YouTube
 19. 🔽 [Easy Youtube Video Downloader Express](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/)
 20. ℹ️ [Google Lighthouse](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/)
+21. 🧊 [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) 
 
 And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/en-US/firefox/). (Especially the recommended part)
 

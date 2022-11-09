@@ -74,68 +74,68 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 {{< /admonition >}}
 
 ## Development
-|Application|Description|
-|:---|:---|
-|gnome-boxes | virtualization made simple|
-|code | core text editor of vs-code (Code OSS)|
-|kate | text editor|
-|gitg | gnome based GUI tool of git|
-|jupyter-notebook | The language-agnostic HTML notebook application for Project Jupyter|
-|ipython | An enhanced Interactive Python shell.|
-|bluegriffon | WYSIWYG html & css |
+| Application      | Description                                   |
+|:---------------- |:--------------------------------------------- |
+| gnome-boxes      | virtualization made simple                    |
+| code             | core text editor of vs-code (Code OSS)        |
+| kate             | text editor                                   |
+| gitg             | gnome based GUI tool of git                   |
+| jupyter-notebook | HTML notebook application for Project Jupyter |
+| ipython          | An enhanced Interactive Python shell.         |
+| bluegriffon      | WYSIWYG html & css                            |
 
 ## Education
-|Application|Description|
-|:---|:---|
-|xaos | Interactive fractal zoomer|
+| Application | Description                |
+|:----------- |:-------------------------- |
+| xaos        | Interactive fractal zoomer |
 
 ## Games
-|Application|Description|
-|:---|:---|
-|tlauncher | Freeware Minecraft launcher|
-|minetest | Infinity block sandbox like Minecraft|
-|albion-online | Cross Platform sandbox MMO |
-|assault cube | Mini battle royal type lightweight game|
+| Application   | Description                             |
+|:------------- |:--------------------------------------- |
+| tlauncher     | Freeware Minecraft launcher             |
+| minetest      | Infinity block sandbox like Minecraft   |
+| albion-online | Cross Platform sandbox MMO              |
+| assault cube  | Mini battle royal type lightweight game |
 
 ## Graphics
-|Application|Description|
-|:---|:---|
-|blender | 3D modeler|
-|gimp | image editor|
-|[g'mic](https://gmic.eu/) | digital image processing (plugin)|
-|inkscape | vector graphics|
-|krita | digital painting|
-|gwenview | image viewer|
-|natron | open source compositing software|
-|enve | 2D animation software|
-|kdenlive | video editor|
-|Astrofox | Audio visualization into video|
-|glaxnimate | Lightweight animation|
+| Application               | Description                       |
+|:------------------------- |:--------------------------------- |
+| blender                   | 3D modeler                        |
+| gimp                      | image editor                      |
+| [g'mic](https://gmic.eu/) | digital image processing (plugin) |
+| inkscape                  | vector graphics                   |
+| krita                     | digital painting                  |
+| gwenview                  | image viewer                      |
+| natron                    | open source compositing software  |
+| enve                      | 2D animation software             |
+| kdenlive                  | video editor                      |
+| Astrofox                  | Audio visualization into video    |
+| glaxnimate                | Lightweight animation             |
 
 ## Internet
-|Application|Description|
-|:---|:---|
-|firefox|browser|
-|caprine|messenger electron copy|
-|telegram|messaging app|
-|discord|an another one|
-|element|matrix client|
-|kde connect|desktop-mobile integration|
-|uget|download manager|
-|team viewer|remote desktop accessing|
+| Application | Description                |
+|:----------- |:-------------------------- |
+| firefox     | browser                    |
+| caprine     | messenger electron copy    |
+| telegram    | messaging app              |
+| discord     | an another one             |
+| element     | matrix client              |
+| kde connect | desktop-mobile integration |
+| uget        | download manager           |
+| team viewer | remote desktop accessing   |
 
 ## Multimedia
-|Application|Description|
-|:---|:---|
-|cuttlefish | Icon viewer|
-|vlc| media player|
-|handbrake | video trans-coder|
-|obs studio | screen record and stream|
-|simple screen recorder | screen recorder|
-|picard | audio tagging tool (MusicBrainz Picard)|
-|audacity | audio edit|
-|kid3-qt | audio tag editor|
-|sound converter | GTK audio batch converter |
+| Application            | Description                             |
+|:---------------------- |:--------------------------------------- |
+| cuttlefish             | Icon viewer                             |
+| vlc                    | media player                            |
+| handbrake              | video trans-coder                       |
+| obs studio             | screen record and stream                |
+| simple screen recorder | screen recorder                         |
+| picard                 | audio tagging tool (MusicBrainz Picard) |
+| audacity               | audio edit                              |
+| kid3-qt                | audio tag editor                        |
+| sound converter        | GTK audio batch converter               |
 
 {{< admonition tip "BTW," >}}
 You can find a list of useful Multimedia related application in "Ubuntu Studio",
@@ -143,10 +143,10 @@ You can find a list of useful Multimedia related application in "Ubuntu Studio",
 {{< /admonition >}}
 
 ## Office
-|Application|Description|
-|:---|:---|
-|libreoffice | office suite|
-|okular|document viewer|
+| Application | Description     |
+|:----------- |:--------------- |
+| libreoffice | office suite    |
+| okular      | document viewer |
 
 {{< admonition tip "And," >}}
 If you are coming from Windows 10 or mac then there's an intersting list you can check,
@@ -154,29 +154,29 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 {{< /admonition >}}
 
 ## System
-|Application|Description|
-|:---|:---|
-|dolphin | file manager|
-|ibus | input method|
-|octopi| software center for archlinux|
-|timeshift| snapshot/backup tool|
-|kvantum | qt theme engine based on svg |
+| Application | Description                   |
+|:----------- |:----------------------------- |
+| dolphin     | file manager                  |
+| ibus        | input method                  |
+| octopi      | software center for archlinux |
+| timeshift   | snapshot/backup tool          |
+| kvantum     | qt theme engine based on svg  |
 
 ## Utilities
-|Application|Description|
-|:---|:---|
-|ark | archiving tool|
-|redshift | color temperature of display|
-|spectacle | screenshot taker|
-|filelight | disk usage statistics|
-|ventoy | multi bootable USB drive creator|
-|obsidian | note talking app with markdown and 600+ plugins|
+| Application | Description                                     |
+|:----------- |:----------------------------------------------- |
+| ark         | archiving tool                                  |
+| redshift    | color temperature of display                    |
+| spectacle   | screenshot taker                                |
+| filelight   | disk usage statistics                           |
+| ventoy      | multi bootable USB drive creator                |
+| obsidian    | note talking app with markdown and 600+ plugins |
 
 ## Cross-Platform
-|Application|Description|
-|:---|:---|
-|wine|windows compatibility layer|
-|q4wine|wine GUI|
+| Application | Description                 |
+|:----------- |:--------------------------- |
+| wine        | windows compatibility layer |
+| q4wine      | wine GUI                    |
 
 ## Schedule
 - [ ] Team fortress 2 (game)
