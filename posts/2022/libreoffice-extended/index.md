@@ -60,7 +60,7 @@ seo:
 license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
-A proper way to do some extended checkups and troubleshooting for LibrOffice. So that while using you don't have to worry much about any missing feature like spelling correction not working, or similar. So then, let's extend our possibilities!
+A proper way to do some extended checkups and troubleshooting for LibreOffice. So that while using you don't have to worry much about any missing feature like spelling correction not working, or similar. So then, let's extend our possibilities!
 
 {{< admonition warning "Requirements," >}}
 This guide is for Linux users only. If you use flatpak or snap, you can avoid [first section](#regular-installing). I'll assume you have enough knowledge on installing a package, given it's name.

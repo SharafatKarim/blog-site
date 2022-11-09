@@ -134,6 +134,8 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 |simple screen recorder | screen recorder|
 |picard | audio tagging tool (MusicBrainz Picard)|
 |audacity | audio edit|
+|kid3-qt | audio tag editor|
+|sound converter | GTK audio batch converter |
 
 {{< admonition tip "BTW," >}}
 You can find a list of useful Multimedia related application in "Ubuntu Studio",
@@ -168,6 +170,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 |spectacle | screenshot taker|
 |filelight | disk usage statistics|
 |ventoy | multi bootable USB drive creator|
+|obsidian | note talking app with markdown and 600+ plugins|
 
 ## Cross-Platform
 |Application|Description|
