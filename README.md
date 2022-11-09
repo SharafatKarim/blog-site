@@ -35,6 +35,7 @@ Just read those documentations 🧐, and if you still has issues feel free to te
 ## Direct cloning
 You can directly clone my contents in your 'hugo' or any kind of website through submodule or you can just fork and edit further!
 To access my contents through submodule, run,
-```
 
+```bash
+git submodule add https://github.com/SharafatKarim/blog-site content/
 ```
