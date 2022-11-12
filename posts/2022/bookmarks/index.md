@@ -121,24 +121,9 @@ It's sole aim is to make design easier, with some stock collections.
 ## Development 
 A place for developers to stop.
 
-- [Jupyter notebook](http://nbviewer.jupyter.org/) - RStudio Style Markdown Notebooks done in Python.
-- [Codility](https://codility.com/programmers/)
-- [Docker hub](https://hub.docker.com/) - Dev-test pipeline automation.
-- [Glot.io](https://glot.io/) - Open source pastebin with runnable snippets and API.
-- [Leetcode discuss](https://discuss.leetcode.com/category/5/interview-questions)
-- [Libraries.io](https://libraries.io/)
-- [Mozilla Thimble](https://thimble.mozilla.org/en-US/) - Online code editor.
-- [OverAPI](http://overapi.com/)
-- [Realm](https://realm.io/)
-- [Respresso](https://respresso.io/) - Let your whole team edit resource files (localizations, images, colors, etc.) with Respresso’s online editor to get them in a platform-specific format, automatically delivered to your source code.
-- [Stackshare tools](https://stackshare.io/trending/tools) - See which open source tools are trending across StackShare.
-- [Arbital](https://arbital.com/) - Hybrid blogging and wiki platform.
-- [Beta Observable](https://beta.observablehq.com/) - Discover insights faster and communicate more effectively with interactive notebooks for data analysis, visualization, and exploration.
-- [Digital ocean](https://www.digitalocean.com/)
-- [Project euler](https://projecteuler.net/archives)
-
 ### Practice
 - [Hacker rank](https://www.hackerrank.com/) - Practice codes
+- [Project euler](https://projecteuler.net/archives)
 
 ### Little tools 
 - [Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code.
