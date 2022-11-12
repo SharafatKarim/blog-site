@@ -79,6 +79,7 @@ A place where a huge data database is waiting for you along with some tools.
 - [Pastebin](https://pastebin.com/) - Store any text online for easy sharing.
 
 ### Search
+- [SearXNG and searx instances](https://searx.space/) - Advance search manager.
 - [Bangs](https://duckduckgo.com/bang?) - Duck duck go bang (advanced search)
 - [Duckduckgo](https://duckduckgo.com/) - Private Web Searching
 - [Slant](https://www.slant.co/) - Ranking of products
@@ -95,6 +96,7 @@ A place where a huge data database is waiting for you along with some tools.
 - [Google projects](https://console.cloud.google.com/start) - Google Cloud
 - [Google trends](https://trends.google.com/trends/) - Explore what the world is searching
 - [Google translate](https://translate.google.com/) - Translate the way you see your world.
+- [Google Keep](https://keep.google.com/) - Google keep (Notes and tasks)
 
 
 ## Design
@@ -210,16 +212,16 @@ Learn as you go cause you can't finish it.
 ## News 
 It's just 4 thing, north, east, west and south and it is so much dynamic.
 
+### Information
+- [Zeef](https://zeef.com/) - Guideline from people.
+- [Numbeo](https://www.numbeo.com/common/) - Numerical data about cities and countries.
+- [myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা](https://www.mygov.bd/) - Bangladesh govt. dashboard
 
 ## Collections 
 It exists so that you don't need to collect again.
 
 ### Plugins
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
-
-### Information
-- [Zeef](https://zeef.com/) - Guideline from people.
-- [Numbeo](https://www.numbeo.com/common/) - Numerical data about cities and countries.
 
 ### Cheat sheets
 - [Vim cheat sheet](https://vim.rtorr.com/) - Cheat sheet for vim shortcuts.
