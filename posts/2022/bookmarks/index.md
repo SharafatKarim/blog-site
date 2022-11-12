@@ -116,6 +116,7 @@ It's sole aim is to make design easier, with some stock collections.
 ### Idea
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
 - [Dribble](https://dribbble.com/shots) - Discover the world’s top Designers & Creatives.
+- [Flickr - explore](https://www.flickr.com/explore) - explore images
 
 
 ## Development 
@@ -243,13 +244,10 @@ It exists so that you don't need to collect again.
 - [Cheatography](https://cheatography.com/) - Cheat sheet | English
 
 ### Photo
-- [Flickr - explore](https://www.flickr.com/explore)
-- [Flickr](https://www.flickr.com/)
 - [Ill gander](https://illgander.com/)
 - [Imgur](https://imgur.com/)
 - [pexels](https://www.pexels.com/) - The best free stock photos & videos shared by talented creators.
 - [Pixabay](https://pixabay.com/) - Shared images and photos (many without Copyright).
-- [Reaction gif albums](http://reactiongifsarchive.imgur.com/) - Library for Reddit's favorite reaction gifs.
 - [Unsplash](https://unsplash.com/) - A large collection of free photos.
 
 ### Video
