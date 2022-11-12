@@ -300,12 +300,7 @@ Let machine automate your fun.
 
 ## Wiki 
 These kind of thing exists so that it can help you fall asleep.
-
-### Info Jungle
-- [List community](https://list.community/) - Easy way to browse curated lists on GitHub.
-
-### Others
-- [Keyboard Maestro](https://wiki.keyboardmaestro.com/User_Manual)
+- [List community](https://list.community/) - Easy way to browse curated lists and docs.
 
 ## Others 
 And some leftovers, can you categorize them?
