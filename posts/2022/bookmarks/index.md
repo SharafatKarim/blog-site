@@ -104,6 +104,7 @@ It's sole aim is to make design easier, with some stock collections.
 
 ### Draw & Notes
 - [Draw.io](https://www.draw.io/) - Online flowchart maker.
+- [Ok! So... Draw online](https://okso.app/) 
 - [Sketch toy](http://sketchtoy.com/) - Free online drawing application that lets you share step-by-step replays of your work.
 
 ### Tools
@@ -164,7 +165,8 @@ Learn as you go cause you can't finish it.
 - [200+ Free Tutorials at GCFGlobal](https://edu.gcfglobal.org/en/topics/) - Basic articles of computer and internet
 - [Home | Linux Journey](https://linuxjourney.com/) - Linux Journey
 - [শুরুর কথা - বাংলায় শেল ও শেলস্ক্রিপ্টিং শেখার কোর্স](https://sh.howtocode.dev/) - Bangla shell scripting
-- [Arch-Linux-Guide/README.md at main · mikeroyal/Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) 
+- [Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) - GitHub
+- [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
 
 ### Math
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
@@ -232,8 +234,13 @@ It's just 4 thing, north, east, west and south and it is so much dynamic.
 ## Collections 
 It exists so that you don't need to collect again.
 
-### Softwares
+### Software 
 - [Ekushey - Bangla keyboard](https://ekushey.org/)
+- [Find Open Source By Searching, Browsing and Combining](https://awesomeopensource.com/) 
+- [GitHub - luong-komorebi/Awesome-Linux-Software: A list of awesome applications, software, tools and other materials for Linux distros.](https://github.com/luong-komorebi/Awesome-Linux-Software#games) - List from GitHub
+
+### Websites
+- [একনজরে বাংলাদেশের জনপ্রিয় ব্লগ সাইট সমূহের তালিকা দেখে নিন - Trickbd.com](https://trickbd.com/blogger/788786)
 
 ### Plugins
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
