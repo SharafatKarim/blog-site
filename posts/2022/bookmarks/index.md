@@ -1,5 +1,5 @@
 ---
-title: "Bookmarks"
+title: "Bookmarks Collection"
 date: 2022-11-12T18:02:49+06:00
 lastmod: 2022-11-12T18:02:49+06:00
 draft: true
@@ -60,3 +60,8 @@ seo:
 license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
+My personal bookmarks collection. Bookmarks of this list can be outdated as well as corrupted. Feel free to fork this project and create your own!
+<!--more-->
+{{< admonition tip "BTW," >}}
+Special thanks to 
+{{< /admonition >}}
