@@ -127,7 +127,7 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 ## Multimedia
 | Application            | Description                             |
 |:---------------------- |:--------------------------------------- |
-| cuttlefish             | Icon viewer                             |
+| ikona                  | Icon viewer                             |
 | vlc                    | media player                            |
 | handbrake              | video trans-coder                       |
 | obs studio             | screen record and stream                |
@@ -171,6 +171,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | filelight   | disk usage statistics                           |
 | ventoy      | multi bootable USB drive creator                |
 | obsidian    | note talking app with markdown and 600+ plugins |
+| krdc        | rdc and vnc client - kde                        |
 
 ## Cross-Platform
 | Application | Description                 |
