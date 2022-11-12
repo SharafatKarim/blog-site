@@ -108,6 +108,7 @@ It's sole aim is to make design easier, with some stock collections.
 - [Sketch toy](http://sketchtoy.com/) - Free online drawing application that lets you share step-by-step replays of your work.
 
 ### Tools
+- [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
 - [Flat UI colours](https://flatuicolors.com/) - color palettes
 
 ### AI
@@ -272,6 +273,8 @@ Let machine automate your fun.
 - [Code combat](https://codecombat.com/) - Programming Game designed for Students.
 - [Codewars](https://www.codewars.com/)
 - [Codingame](https://www.codingame.com/home)
+
+## Games
 - [Itch.io](https://itch.io/) - Simple way to find and share indie games online for free.
 - [Brilliant](https://brilliant.org/) - Online math brain puzzles.
 
