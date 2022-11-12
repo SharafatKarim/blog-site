@@ -160,9 +160,11 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 ## Learn 
 Learn as you go cause you can't finish it.
 
-### Articles
+### Courses
 - [200+ Free Tutorials at GCFGlobal](https://edu.gcfglobal.org/en/topics/) - Basic articles of computer and internet
-- 
+- [Home | Linux Journey](https://linuxjourney.com/) - Linux Journey
+- [শুরুর কথা - বাংলায় শেল ও শেলস্ক্রিপ্টিং শেখার কোর্স](https://sh.howtocode.dev/) - Bangla shell scripting
+- [Arch-Linux-Guide/README.md at main · mikeroyal/Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) 
 
 ### Math
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
@@ -216,12 +218,22 @@ Learn as you go cause you can't finish it.
 ## News 
 It's just 4 thing, north, east, west and south and it is so much dynamic.
 
+### Articles
+- [Trickbd.com - Know for sharing](https://trickbd.com/)
+- [Home SHOPTIPS24.CoM](https://shoptips24.com/)
+- [Edutunebd - শিক্ষার অনলাইন প্লাটফর্ম](https://edutunebd.com/)
+- [Help! Linux ate my RAM!](https://www.linuxatemyram.com/)
+- [যাদুকরদের প্রতি অভিশাপ - curse upon magicians - Ruqyah Support BD](https://ruqyahbd.org/blog/503/curse-against-magician)
+
 ### Information
 - [myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা](https://www.mygov.bd/) - Bangladesh govt. dashboard
 
 
 ## Collections 
 It exists so that you don't need to collect again.
+
+### Softwares
+- [Ekushey - Bangla keyboard](https://ekushey.org/)
 
 ### Plugins
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
