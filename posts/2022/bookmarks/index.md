@@ -125,14 +125,16 @@ A place for developers to stop.
 - [Hacker rank](https://www.hackerrank.com/) - Practice codes
 - [Project euler](https://projecteuler.net/archives)
 
-### Tweak tools 
+### Share
 - [Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code.
-- [Wakatime](https://wakatime.com/dashboard) - Track time and amount you code in particular languages.
-- [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
 - [Asciinema](https://asciinema.org/~nikivi) - Free and open source way to record terminal sessions and share them on the web.
+
+### Tweak tools 
+- [Wakatime](https://wakatime.com/dashboard) - Track time and amount you code in particular languages.
 - [HackMD](https://hackmd.io/) - Real time, Multi-platform Collaborative Markdown note editor.
-- [Overleaf](https://www.overleaf.com) - Online La-TeX editing.
-- [Href tools](https://hreftools.com/) - Online web tools to get work done faster.
+
+## Reference
+- [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
 
 
 ## Tools
@@ -190,7 +192,7 @@ Learn as you go cause you can't finish it.
 - [Physics Travel Guide](https://physicstravelguide.com)
 - [Quizlet](https://quizlet.com/latest)
 - [Ray Wenderlich](https://www.raywenderlich.com/)
-- [Silicon valley dictionary](http://svdictionary.com/) - Online dictionary targeted at Coders, similar to UrbanDictionary
+- [Silicon valley dictionary](http://svdictionary.com/) - Online dictionary targeted at Coders, similar to Urban Dictionary
 - [TED](https://www.ted.com/) - Free Expert Academic Talks.
 - [Tutorials point](https://www.tutorialspoint.com/index.htm) - Online Tutorials at your own pace.
 - [Udacity](https://www.udacity.com/)
