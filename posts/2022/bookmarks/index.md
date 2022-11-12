@@ -173,6 +173,7 @@ Learn as you go cause you can't finish it.
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
 
 ### Programming
+- [Learn today, build a brighter tomorrow. | Code.org](https://code.org/) - Learn today, build a brighter tomorrow
 - [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
 - [Hackr](https://hackr.io/) - Find programming Courses & Tutorials.
 - [W3schools](https://www.w3schools.com/) - The standard for Web Development.
@@ -226,8 +227,10 @@ It's just 4 thing, north, east, west and south and it is so much dynamic.
 - [Edutunebd - শিক্ষার অনলাইন প্লাটফর্ম](https://edutunebd.com/)
 - [Help! Linux ate my RAM!](https://www.linuxatemyram.com/)
 - [যাদুকরদের প্রতি অভিশাপ - curse upon magicians - Ruqyah Support BD](https://ruqyahbd.org/blog/503/curse-against-magician)
+- [মূলপাতা • বিবিজান.কম](https://bibijaan.com/) - Islamic articles
 
 ### Information
+- [Developer Roadmaps](https://roadmap.sh/) - Roadmap
 - [myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা](https://www.mygov.bd/) - Bangladesh govt. dashboard
 
 
@@ -237,7 +240,8 @@ It exists so that you don't need to collect again.
 ### Software 
 - [Ekushey - Bangla keyboard](https://ekushey.org/)
 - [Find Open Source By Searching, Browsing and Combining](https://awesomeopensource.com/) 
-- [GitHub - luong-komorebi/Awesome-Linux-Software: A list of awesome applications, software, tools and other materials for Linux distros.](https://github.com/luong-komorebi/Awesome-Linux-Software#games) - List from GitHub
+- [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software#games) - List from GitHub
+- [Windows 10 Ameliorated](https://ameliorated.info/) - Windows 10 minus the spyware plus added stability and security.
 
 ### Websites
 - [একনজরে বাংলাদেশের জনপ্রিয় ব্লগ সাইট সমূহের তালিকা দেখে নিন - Trickbd.com](https://trickbd.com/blogger/788786)
@@ -246,7 +250,8 @@ It exists so that you don't need to collect again.
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
 
 ### Cheat sheets
-- [Vim cheat sheet](https://vim.rtorr.com/) - Cheat sheet for vim shortcuts.
+- [বাংলা ডেভেলপার চিটশিট | ডেভ সংকেত](https://devsonket.com/) - Bangla cheat-sheet's collection
+- [Cheatography](https://cheatography.com/) - Cheat sheet | English
 
 ### Photo
 - [Flickr - explore](https://www.flickr.com/explore)
