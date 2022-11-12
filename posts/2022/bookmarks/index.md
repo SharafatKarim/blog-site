@@ -142,6 +142,25 @@ A place for developers to stop.
 ## Tools
 Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
+### Productivity
+- [Telegraph](http://telegra.ph/) - snippet share.
+- [Fast fingers](https://10fastfingers.com/typing-test/english) - Online typing test.
+
+### Track contents
+- [Grouvee](https://www.grouvee.com/) - Track your video game collection.
+- [Goodreads](https://www.goodreads.com/) - Track which books you've read.
+- [Trakt](https://trakt.tv/dashboard) - Track which TV shows and Movies you've watched.
+- [Know it all](https://know-it-all.io/) - Web list that helps you track what you know and what you don't about web development.
+
+### Little tweaks
+- [10 min mail](https://10minutemail.com/10MinuteMail/index.html?dswid=-4717) - Have a temporary email for 10 minutes.
+- [Instant.io](https://instant.io/) - Torrent Tracker.
+
+### AI
+- [CrowdAI](https://www.crowdai.org/) - Connects data science experts and enthusiasts with open data to solve specific problems, through challenges.
+- [DataQuest](https://www.dataquest.io/)
+- [Kaggle](https://www.kaggle.com/) - Site devoted to Data Analysis through Machine learning.
+
 
 ## Learn 
 Learn as you go cause you can't finish it.
@@ -225,7 +244,6 @@ It's just 4 thing, north, east, west and south and it is so much dynamic.
 
 ## Collections 
 It exists so that you don't need to collect again.
-
 - [GitHub - 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome) 
 
 ### Software 
@@ -266,7 +284,6 @@ Let machine automate your fun.
 ### Stats
 - [First PR](http://firstpr.me) - See the first GitHub Pull Request you made.
 - [Eventbrite](https://www.eventbrite.com/) - Discover event or create to connect with people.
-- [Trakt](https://trakt.tv/dashboard) - Track which TV shows and Movies you've watched.
 - [World Meters](http://www.worldometers.info/) - World Statistics updated in real time.
 
 ### Coding challengers
