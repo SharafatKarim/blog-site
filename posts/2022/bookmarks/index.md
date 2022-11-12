@@ -70,7 +70,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 {{< /admonition >}}
 
 
-## [Cloud](categories/Cloud.md) 
+## Cloud 
 A place where a huge data database is waiting for you along with some tools.
 
 ### Storage
@@ -97,7 +97,7 @@ A place where a huge data database is waiting for you along with some tools.
 - [Google translate](https://translate.google.com/)
 
 
-## [Design](categories/Design.md)
+## Design
 It's sole aim is to make design easier, with some stock collections.
 
 ### Draw & Notes
@@ -115,7 +115,7 @@ It's sole aim is to make design easier, with some stock collections.
 - [Dribble](https://dribbble.com/shots) - Discover the world’s top Designers & Creatives.
 
 
-## [Development](categories/Development.md) 
+## Development 
 A place for developers to stop.
 
 - [Gitbook](https://www.gitbook.com/) - Collaboration platform using Git as a backbone.
@@ -151,11 +151,11 @@ A place for developers to stop.
 - [Href tools](https://hreftools.com/) - Online web tools to get work done faster.
 
 
-## [Tools](categories/Tools.md)
+## Tools
 Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 
-## [Learn](categories/Learn.md) 
+## Learn 
 Learn as you go cause you can't finish it.
 
 ### Math
@@ -207,17 +207,84 @@ Learn as you go cause you can't finish it.
 - [Chemdiary](https://chemdiary.com/users/sign_in) - Track your drug, research chemical and nootropic use.
 - [Exercism](http://exercism.io/) - Online execution of programming problems.
 
-## [News](categories/News.md) 
+## News 
 It's just 4 thing, north, east, west and south and it is so much dynamic.
 
 
-## [Collections](categories/Collections.md) 
+## Collections 
 It exists so that you don't need to collect again.
-## [Fun](categories/Fun.md)
+
+### Plugins
+- [Vim awesome](http://vimawesome.com/) - Find vim plugins.
+
+### Information
+- [Zeef](https://zeef.com/) - Guideline from people.
+- [Numbeo](https://www.numbeo.com/common/) - Numerical data about cities and countries.
+
+### Cheat sheets
+- [Vim cheat sheet](https://vim.rtorr.com/) - Cheat sheet for vim shortcuts.
+
+### Articles
+- [How stuff works](http://www.howstuffworks.com/) - random article on different materials.
+
+### Photo
+- [Flickr - explore](https://www.flickr.com/explore)
+- [Flickr](https://www.flickr.com/)
+- [Ill gander](https://illgander.com/)
+- [Imgur](https://imgur.com/)
+- [pexels](https://www.pexels.com/) - The best free stock photos & videos shared by talented creators.
+- [Pixabay](https://pixabay.com/) - Shared images and photos (many without Copyright).
+- [Reaction gif albums](http://reactiongifsarchive.imgur.com/) - Library for Reddit's favorite reaction gifs.
+- [Unsplash](https://unsplash.com/) - A large collection of free photos.
+
+### Video
+- [Documentary addict](https://documentaryaddict.com/) - Watch free documentaries.
+- [Letterboxd](https://letterboxd.com)
+- [Streamable](https://streamable.com/) - Video sharing.
+- [Thought maybe](https://thoughtmaybe.com/?ref=producthunt) - Online library of films.
+- [Tube replay](http://www.tubereplay.com/) - Watch a [YouTube](https://www.youtube.com) video on a loop without pressing replay.
+- [Vimeo](https://vimeo.com/) - Free online high quality video sharing.
+- [YouTube](https://www.youtube.com/) - Free Online Video Sharing.
+
+## Fun
 Let machine automate your fun.
-## [Wiki](categories/Wiki.md) 
+
+- [Eventbrite](https://www.eventbrite.com/) - Discover event or create to connect with people.
+- [Trakt](https://trakt.tv/dashboard) - Track which TV shows and Movies you've watched.
+- [World Meters](http://www.worldometers.info/) - World Statistics updated in real time.
+
+### Games
+- [Checkio](https://py.checkio.org/) - Games for coding.
+- [Code combat](https://codecombat.com/) - Programming Game designed for Students.
+- [Codewars](https://www.codewars.com/)
+- [Codingame](https://www.codingame.com/home)
+- [Itch.io](https://itch.io/) - Simple way to find and share indie games online for free.
+- [Brilliant](https://brilliant.org/) - Online math brain puzzles.
+
+### Animation
+- [Matrix multiplication](http://matrixmultiplication.xyz/)
+
+
+## Wiki 
 These kind of thing exists so that it can help you fall asleep.
-## [Finance](categories/Finance.md)
-Can money buy currency? Or vice versa?
+### GitHub related
+- [First PR](http://firstpr.me) - See the first GitHub Pull Request you made.
+- [Free interactive tutorials](https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md)
+- [Git awards](http://git-awards.com) - Find out how your GitHub profile measures up.
+- [Git logs](http://www.gitlogs.com/) - Discover trending repos on GitHub.
+- [Github info](http://githut.info/) - Statistics about GitHub.
+- [GitHub issues](https://github.com/issues) - Look at all of your GitHub Issues (Created, Assigned, or Mentioned).
+- [GitHub profile visualiser](https://github-profile-summary.com/search) - Tool for visualizing GitHub profiles.
+- [Github releases](http://www.somsubhra.com/github-release-stats/)
+- [Github trending](https://github.com/trending) - Top trending GitHub repos.
+- [Github](https://github.com/) - Coding through online collaboration.
+- [List community](https://list.community/) - Easy way to browse curated lists on GitHub.
+- [Works for me](https://works-for-me.github.io/)
+
+### Others
+- [Keyboard Maestro](https://wiki.keyboardmaestro.com/User_Manual)
+
 ## [Others](Others.md) 
 And some leftovers, can you categorize them?
+
+- [WebGL water](http://madebyevan.com/webgl-water/)
