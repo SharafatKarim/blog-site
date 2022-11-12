@@ -63,5 +63,8 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 My personal bookmarks collection. Bookmarks of this list can be outdated as well as corrupted. Feel free to fork this project and create your own!
 <!--more-->
 {{< admonition tip "BTW," >}}
-Special thanks to 
+Special thanks to [Afnan Sami](https://www.afnansami.com/) . I don't think this post would be possible without his help. There's a recent project from him to store and access bookmarks more efficiently,
+- [Unique sites that works!](https://ustw.netlify.app/)
+
+You can also contribute in this project! [Here's the repository](https://github.com/theafnansami/USTW). We'll sincerely appreciate it!
 {{< /admonition >}}
