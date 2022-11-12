@@ -94,7 +94,7 @@ A place where a huge data database is waiting for you along with some tools.
 - [Google forms](https://docs.google.com/forms/u/0/) - servey
 - [Google projects](https://console.cloud.google.com/start) - Google Cloud
 - [Google trends](https://trends.google.com/trends/) - Explore what the world is searching
-- [Google translate](https://translate.google.com/)
+- [Google translate](https://translate.google.com/) - Translate the way you see your world.
 
 
 ## Design
@@ -284,7 +284,7 @@ These kind of thing exists so that it can help you fall asleep.
 ### Others
 - [Keyboard Maestro](https://wiki.keyboardmaestro.com/User_Manual)
 
-## [Others](Others.md) 
+## Others 
 And some leftovers, can you categorize them?
 
 - [WebGL water](http://madebyevan.com/webgl-water/)
