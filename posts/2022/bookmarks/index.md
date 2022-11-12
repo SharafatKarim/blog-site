@@ -125,9 +125,8 @@ A place for developers to stop.
 - [Hacker rank](https://www.hackerrank.com/) - Practice codes
 - [Project euler](https://projecteuler.net/archives)
 
-### Little tools 
+### Tweak tools 
 - [Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code.
-- [Cdecl](https://cdecl.org/) - Translate C code to English.
 - [Wakatime](https://wakatime.com/dashboard) - Track time and amount you code in particular languages.
 - [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
 - [Asciinema](https://asciinema.org/~nikivi) - Free and open source way to record terminal sessions and share them on the web.
