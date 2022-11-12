@@ -162,7 +162,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 Learn as you go cause you can't finish it.
 
 ### Courses
-- [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & 
+- [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
 - [200+ Free Tutorials at GCFGlobal](https://edu.gcfglobal.org/en/topics/) - Basic articles of computer and internet
 - [Home | Linux Journey](https://linuxjourney.com/) - Linux Journey
 - [শুরুর কথা - বাংলায় শেল ও শেলস্ক্রিপ্টিং শেখার কোর্স](https://sh.howtocode.dev/) - Bangla shell scripting
@@ -233,6 +233,8 @@ It's just 4 thing, north, east, west and south and it is so much dynamic.
 
 ### Information
 - [Developer Roadmaps](https://roadmap.sh/) - Roadmap
+- [Git logs](http://www.gitlogs.com/) - Discover trending repos on GitHub.
+- [Github info](http://githut.info/) - Statistics about GitHub.
 - [myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা](https://www.mygov.bd/) - Bangladesh govt. dashboard
 
 
@@ -299,17 +301,8 @@ Let machine automate your fun.
 ## Wiki 
 These kind of thing exists so that it can help you fall asleep.
 
-### GitHub
-- [Git awards](http://git-awards.com) - Find out how your GitHub profile measures up.
-- [Git logs](http://www.gitlogs.com/) - Discover trending repos on GitHub.
-- [Github info](http://githut.info/) - Statistics about GitHub.
-- [GitHub issues](https://github.com/issues) - Look at all of your GitHub Issues (Created, Assigned, or Mentioned).
-- [GitHub profile visualiser](https://github-profile-summary.com/search) - Tool for visualizing GitHub profiles.
-- [Github releases](http://www.somsubhra.com/github-release-stats/)
-- [Github trending](https://github.com/trending) - Top trending GitHub repos.
-- [Github](https://github.com/) - Coding through online collaboration.
+### Info Jungle
 - [List community](https://list.community/) - Easy way to browse curated lists on GitHub.
-- [Works for me](https://works-for-me.github.io/)
 
 ### Others
 - [Keyboard Maestro](https://wiki.keyboardmaestro.com/User_Manual)
