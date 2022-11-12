@@ -140,7 +140,7 @@ A place for developers to stop.
 - [Project euler](https://projecteuler.net/archives)
 
 ### Practice
-- [Advent of code](http://adventofcode.com/)
+- [Hacker rank](https://www.hackerrank.com/) - Practice codes
 
 ### Little tools 
 - [Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code.
@@ -159,6 +159,10 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 ## Learn 
 Learn as you go cause you can't finish it.
+
+### Articles
+- [200+ Free Tutorials at GCFGlobal](https://edu.gcfglobal.org/en/topics/) - Basic articles of computer and internet
+- 
 
 ### Math
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
@@ -213,9 +217,8 @@ Learn as you go cause you can't finish it.
 It's just 4 thing, north, east, west and south and it is so much dynamic.
 
 ### Information
-- [Zeef](https://zeef.com/) - Guideline from people.
-- [Numbeo](https://www.numbeo.com/common/) - Numerical data about cities and countries.
 - [myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা](https://www.mygov.bd/) - Bangladesh govt. dashboard
+
 
 ## Collections 
 It exists so that you don't need to collect again.
@@ -225,9 +228,6 @@ It exists so that you don't need to collect again.
 
 ### Cheat sheets
 - [Vim cheat sheet](https://vim.rtorr.com/) - Cheat sheet for vim shortcuts.
-
-### Articles
-- [How stuff works](http://www.howstuffworks.com/) - random article on different materials.
 
 ### Photo
 - [Flickr - explore](https://www.flickr.com/explore)
