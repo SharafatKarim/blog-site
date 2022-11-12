@@ -68,3 +68,156 @@ Special thanks to [Afnan Sami](https://www.afnansami.com/) . I don't think this 
 
 You can also contribute in this project! [Here's the repository](https://github.com/theafnansami/USTW). We'll sincerely appreciate it!
 {{< /admonition >}}
+
+
+## [Cloud](categories/Cloud.md) 
+A place where a huge data database is waiting for you along with some tools.
+
+### Storage
+- [Google Drive](https://drive.google.com/drive/my-drive) - Cloud storage and cloud editing for files.
+- [Cloudinary](https://cloudinary.com/) - Share media faster through website
+- [Pastebin](https://pastebin.com/) - Store any text online for easy sharing.
+
+### Search
+- [Bangs](https://duckduckgo.com/bang?) - Duck duck go bang (advanced search)
+- [Duckduckgo](https://duckduckgo.com/) - Private Web Searching
+- [Slant](https://www.slant.co/) - Ranking of products
+- [Versus](https://versus.com/en) - Compare almost everything
+- [product hunt](https://www.producthunt.com/) - Share and discover new products
+
+### Google 
+- [Google dashboard](https://myaccount.google.com/dashboard) - all in one place
+- [Google scholar](https://scholar.google.nl/) - Easy searching for Academic Articles
+- [Google Docs](https://docs.google.com/document/u/0/) - words
+- [Google Sheets](https://docs.google.com/spreadsheets/u/0/) - tables & calc
+- [Google Slides](https://docs.google.com/presentation/u/0/) - impress & presentation
+- [Google forms](https://docs.google.com/forms/u/0/) - servey
+- [Google projects](https://console.cloud.google.com/start) - Google Cloud
+- [Google trends](https://trends.google.com/trends/) - Explore what the world is searching
+- [Google translate](https://translate.google.com/)
+
+
+## [Design](categories/Design.md)
+It's sole aim is to make design easier, with some stock collections.
+
+### Draw & Notes
+- [Draw.io](https://www.draw.io/) - Online flowchart maker.
+- [Sketch toy](http://sketchtoy.com/) - Free online drawing application that lets you share step-by-step replays of your work.
+
+### Tools
+- [Flat UI colours](https://flatuicolors.com/) - color palettes
+
+### AI
+- [SynestheticAI](https://synesthetic.ai/) - inspiration
+
+### Idea
+- [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
+- [Dribble](https://dribbble.com/shots) - Discover the world’s top Designers & Creatives.
+
+
+## [Development](categories/Development.md) 
+A place for developers to stop.
+
+- [Gitbook](https://www.gitbook.com/) - Collaboration platform using Git as a backbone.
+- [Firebase](https://console.firebase.google.com/?pli=1) - Tools from Google for developing Apps.
+- [Namecheap](https://www.namecheap.com/) - Cheap Website Domains.
+- [Jupyter notebook](http://nbviewer.jupyter.org/) - RStudio Style Markdown Notebooks done in Python.
+- [Codility](https://codility.com/programmers/)
+- [Docker hub](https://hub.docker.com/) - Dev-test pipeline automation.
+- [Glot.io](https://glot.io/) - Open source pastebin with runnable snippets and API.
+- [Leetcode discuss](https://discuss.leetcode.com/category/5/interview-questions)
+- [Libraries.io](https://libraries.io/)
+- [Mozilla Thimble](https://thimble.mozilla.org/en-US/) - Online code editor.
+- [OverAPI](http://overapi.com/)
+- [Realm](https://realm.io/)
+- [Respresso](https://respresso.io/) - Let your whole team edit resource files (localizations, images, colors, etc.) with Respresso’s online editor to get them in a platform-specific format, automatically delivered to your source code.
+- [Stackshare tools](https://stackshare.io/trending/tools) - See which open source tools are trending across StackShare.
+- [Arbital](https://arbital.com/) - Hybrid blogging and wiki platform.
+- [Beta Observable](https://beta.observablehq.com/) - Discover insights faster and communicate more effectively with interactive notebooks for data analysis, visualization, and exploration.
+- [Digital ocean](https://www.digitalocean.com/)
+- [Project euler](https://projecteuler.net/archives)
+
+### Practice
+- [Advent of code](http://adventofcode.com/)
+
+### Little tools 
+- [Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code.
+- [Cdecl](https://cdecl.org/) - Translate C code to English.
+- [Wakatime](https://wakatime.com/dashboard) - Track time and amount you code in particular languages.
+- [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
+- [Asciinema](https://asciinema.org/~nikivi) - Free and open source way to record terminal sessions and share them on the web.
+- [HackMD](https://hackmd.io/) - Real time, Multi-platform Collaborative Markdown note editor.
+- [Overleaf](https://www.overleaf.com) - Online La-TeX editing.
+- [Href tools](https://hreftools.com/) - Online web tools to get work done faster.
+
+
+## [Tools](categories/Tools.md)
+Handy tools for everyone. Can be as little as multiplication of 2 matrix!
+
+
+## [Learn](categories/Learn.md) 
+Learn as you go cause you can't finish it.
+
+### Math
+- [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
+- [Desmos](https://www.desmos.com) - Online Graphing Utility.
+
+### Programming
+- [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
+- [Hackr](https://hackr.io/) - Find programming Courses & Tutorials.
+- [W3schools](https://www.w3schools.com/) - The standard for Web Development.
+- [Sci-hub](https://scihub.org/)
+- [Rocumentaries](https://rocumentaries.com/) - Curated links to documentaries.
+- [Gitxiv](http://www.gitxiv.com/) - Online space to share collaborative open computer science projects.
+- [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
+- [Learn anything](https://learn-anything.xyz) - Platform for knowledge discovery that helps you understand any topic through the most efficient paths, as voted by the community.
+- [Alcamy](https://alcamy.org/library) - Internet's catalog of knowledge.
+- [Arxiv Sanity Preserver](http://www.arxiv-sanity.com/)
+- [Class central](https://www.class-central.com/)
+- [Code academy](https://www.codecademy.com/learn/all) - Free online coding tutorials.
+- [Coursera](https://www.coursera.org/)
+- [Courseroot](https://courseroot.com/) - Search best online courses.
+- [Educative.io](https://www.educative.io/) - Online tutorials
+- [EdX](https://www.edx.org/)
+- [Encyclopedia Britannica](https://www.britannica.com/)
+- [Egghead](https://egghead.io/) - Group of working web development professionals and open source contributors that provide you with video courses.
+- [Explained visually](http://setosa.io/ev/) - Website dedicated to Explorable Explanations.
+- [Freecodecamp](https://www.freecodecamp.com/)
+- [Internet Curated](https://internetcurated.com/) - Collection of 150+ hand-picked curated resources & tools.
+- [Interview cake](https://www.interviewcake.com/) - Practice for programming interviews.
+- [Lecture search](https://www.findlectures.com/) - Find Online Lectures.
+- [Leetcode](https://leetcode.com) - Platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
+- [Library of Babel](http://libraryofbabel.info/)
+- [MDN](https://developer.mozilla.org/en-US/)
+- [Metacademy](https://www.metacademy.org/)
+- [MIT courses](https://ocw.mit.edu/courses/)
+- [Open culture](http://www.openculture.com/)
+- [Open yale courses](http://oyc.yale.edu/)
+- [Physics Travel Guide](https://physicstravelguide.com)
+- [Quizlet](https://quizlet.com/latest)
+- [Ray Wenderlich](https://www.raywenderlich.com/)
+- [Silicon valley dictionary](http://svdictionary.com/) - Online dictionary targeted at Coders, similar to UrbanDictionary
+- [TED](https://www.ted.com/) - Free Expert Academic Talks.
+- [Tutorials point](https://www.tutorialspoint.com/index.htm) - Online Tutorials at your own pace.
+- [Udacity](https://www.udacity.com/)
+- [Udemy](https://www.udemy.com/user/nikitavoloboev/)
+- [Where is SciHub](https://whereisscihub.herokuapp.com/go) - Go to correct link of SciHub (reserach paper search).
+- [Arxiv](https://arxiv.org/) - Open access to 1,364,248 e-prints in STEM fields.
+- [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.
+- [Chemdiary](https://chemdiary.com/users/sign_in) - Track your drug, research chemical and nootropic use.
+- [Exercism](http://exercism.io/) - Online execution of programming problems.
+
+## [News](categories/News.md) 
+It's just 4 thing, north, east, west and south and it is so much dynamic.
+
+
+## [Collections](categories/Collections.md) 
+It exists so that you don't need to collect again.
+## [Fun](categories/Fun.md)
+Let machine automate your fun.
+## [Wiki](categories/Wiki.md) 
+These kind of thing exists so that it can help you fall asleep.
+## [Finance](categories/Finance.md)
+Can money buy currency? Or vice versa?
+## [Others](Others.md) 
+And some leftovers, can you categorize them?
