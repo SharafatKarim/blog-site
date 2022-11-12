@@ -233,7 +233,7 @@ It exists so that you don't need to collect again.
 - [Windows 10 Ameliorated](https://ameliorated.info/) - Windows 10 minus the spyware plus added stability and security.
 
 ### Websites
-- [একনজরে বাংলাদেশের জনপ্রিয় ব্লগ সাইট সমূহের তালিকা দেখে নিন - Trickbd.com](https://trickbd.com/blogger/788786)
+- [বাংলাদেশের জনপ্রিয় ব্লগ সাইট সমূহ](https://trickbd.com/blogger/788786)
 
 ### Plugins
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
@@ -290,6 +290,8 @@ And some leftovers, can you categorize them?
 
 - [WebGL water](http://madebyevan.com/webgl-water/)
 
-{{< admonition tip "And, another thing" >}}
-*If you can't forget the name of a website then that one doesn't deserve to be your bookmark* 
+{{< admonition quote "And, another thing" >}}
+*If you can't forget the name of a website then that site doesn't deserve to be your bookmark* 
+
+And with that quote of mine I avoided social sites and other sites that you can't forget easily! For example, Facebook. Now my question is why can't we forget it? Let us know in the comment.
 {{< /admonition >}}
