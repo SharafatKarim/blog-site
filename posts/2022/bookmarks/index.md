@@ -289,3 +289,7 @@ These kind of thing exists so that it can help you fall asleep.
 And some leftovers, can you categorize them?
 
 - [WebGL water](http://madebyevan.com/webgl-water/)
+
+{{< admonition tip "And, another thing" >}}
+*If you can't forget the name of a website then that one doesn't deserve to be your bookmark* 
+{{< /admonition >}}
