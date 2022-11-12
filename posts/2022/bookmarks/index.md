@@ -263,18 +263,19 @@ It exists so that you don't need to collect again.
 ## Fun
 Let machine automate your fun.
 
+### Stats
 - [First PR](http://firstpr.me) - See the first GitHub Pull Request you made.
 - [Eventbrite](https://www.eventbrite.com/) - Discover event or create to connect with people.
 - [Trakt](https://trakt.tv/dashboard) - Track which TV shows and Movies you've watched.
 - [World Meters](http://www.worldometers.info/) - World Statistics updated in real time.
 
-### Games
+### Coding challengers
 - [Checkio](https://py.checkio.org/) - Games for coding.
 - [Code combat](https://codecombat.com/) - Programming Game designed for Students.
 - [Codewars](https://www.codewars.com/)
 - [Codingame](https://www.codingame.com/home)
 
-## Games
+### Games
 - [Itch.io](https://itch.io/) - Simple way to find and share indie games online for free.
 - [Brilliant](https://brilliant.org/) - Online math brain puzzles.
 
