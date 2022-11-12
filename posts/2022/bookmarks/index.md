@@ -162,6 +162,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 Learn as you go cause you can't finish it.
 
 ### Courses
+- [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & 
 - [200+ Free Tutorials at GCFGlobal](https://edu.gcfglobal.org/en/topics/) - Basic articles of computer and internet
 - [Home | Linux Journey](https://linuxjourney.com/) - Linux Journey
 - [শুরুর কথা - বাংলায় শেল ও শেলস্ক্রিপ্টিং শেখার কোর্স](https://sh.howtocode.dev/) - Bangla shell scripting
@@ -238,6 +239,8 @@ It's just 4 thing, north, east, west and south and it is so much dynamic.
 ## Collections 
 It exists so that you don't need to collect again.
 
+- [GitHub - 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome) 
+
 ### Software 
 - [Ekushey - Bangla keyboard](https://ekushey.org/)
 - [Find Open Source By Searching, Browsing and Combining](https://awesomeopensource.com/) 
@@ -276,6 +279,7 @@ It exists so that you don't need to collect again.
 ## Fun
 Let machine automate your fun.
 
+- [First PR](http://firstpr.me) - See the first GitHub Pull Request you made.
 - [Eventbrite](https://www.eventbrite.com/) - Discover event or create to connect with people.
 - [Trakt](https://trakt.tv/dashboard) - Track which TV shows and Movies you've watched.
 - [World Meters](http://www.worldometers.info/) - World Statistics updated in real time.
@@ -296,8 +300,6 @@ Let machine automate your fun.
 These kind of thing exists so that it can help you fall asleep.
 
 ### GitHub
-- [First PR](http://firstpr.me) - See the first GitHub Pull Request you made.
-- [Free interactive tutorials](https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md)
 - [Git awards](http://git-awards.com) - Find out how your GitHub profile measures up.
 - [Git logs](http://www.gitlogs.com/) - Discover trending repos on GitHub.
 - [Github info](http://githut.info/) - Statistics about GitHub.
