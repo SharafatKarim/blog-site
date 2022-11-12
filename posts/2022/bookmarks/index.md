@@ -167,13 +167,14 @@ Learn as you go cause you can't finish it.
 - [শুরুর কথা - বাংলায় শেল ও শেলস্ক্রিপ্টিং শেখার কোর্স](https://sh.howtocode.dev/) - Bangla shell scripting
 - [Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) - GitHub
 - [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
+- [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
 
 ### Math
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
 
 ### Programming
-- [Learn today, build a brighter tomorrow. | Code.org](https://code.org/) - Learn today, build a brighter tomorrow
+- [Code's organization | Code.org](https://code.org/) - Learn today, build a brighter tomorrow
 - [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
 - [Hackr](https://hackr.io/) - Find programming Courses & Tutorials.
 - [W3schools](https://www.w3schools.com/) - The standard for Web Development.
@@ -293,7 +294,8 @@ Let machine automate your fun.
 
 ## Wiki 
 These kind of thing exists so that it can help you fall asleep.
-### GitHub related
+
+### GitHub
 - [First PR](http://firstpr.me) - See the first GitHub Pull Request you made.
 - [Free interactive tutorials](https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md)
 - [Git awards](http://git-awards.com) - Find out how your GitHub profile measures up.
