@@ -81,7 +81,6 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 | kate             | text editor                                   |
 | gitg             | gnome based GUI tool of git                   |
 | jupyter-notebook | HTML notebook application for Project Jupyter |
-| ipython          | An enhanced Interactive Python shell.         |
 | bluegriffon      | WYSIWYG html & css                            |
 
 ## Education
@@ -172,12 +171,20 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | ventoy      | multi bootable USB drive creator                |
 | obsidian    | note talking app with markdown and 600+ plugins |
 | krdc        | rdc and vnc client - kde                        |
+| krfb        | desktop sharing - kde                           | 
 
 ## Cross-Platform
 | Application | Description                 |
 |:----------- |:--------------------------- |
 | wine        | windows compatibility layer |
 | q4wine      | wine GUI                    |
+
+## Command-Line
+| Application | Description              |
+| ----------- | ------------------------ |
+| hugo        | static site generator    |
+| ipython     | interactive python shell |
+| yt-dlp      | a better youtube-dl      | 
 
 ## Schedule
 - [ ] Team fortress 2 (game)
