@@ -114,6 +114,7 @@ It's sole aim is to make design easier, with some stock collections.
 - [Site Unreachable](https://photooxy.com/) - Simple photo effects and strokes
 - [ClipDrop](https://clipdrop.co/remove-background) - background remove
 - [Background remover](https://www.photoroom.com/background-remover/)
+- [Palette - Colorize Photos](https://palette.fm/) 
 - [Morflax studio - The Easiest 3D design platform](https://studio.morflax.com/) - 3D
 - [Fotoramio: Photo Editor Online](https://fotoram.io/) 
 
@@ -122,6 +123,7 @@ It's sole aim is to make design easier, with some stock collections.
 
 ### AI
 - [SynestheticAI](https://synesthetic.ai/) - inspiration
+- [Brandmark - make your logo in minutes](https://app.brandmark.io/v3/) 
 
 ### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
@@ -129,6 +131,7 @@ It's sole aim is to make design easier, with some stock collections.
 - [Make Background](https://makebackground.io/#gallery) - Live, Customized Backgrounds / Wallpapers / Videos
 - [ColorMix Generator](https://colormix.mdbgo.io/#generator) - color scheme 
 - [Textcraft](https://textcraft.net/) - minecraft style logo
+- [RITM Generator - Antlii](https://antlii.work/RITM-Generator) 
 
 ### Idea
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
@@ -149,6 +152,9 @@ A place for developers to stop.
 - [Hacker rank](https://www.hackerrank.com/) - Practice codes
 - [Project euler](https://projecteuler.net/archives)
 
+### Deployment
+- [WebOps SaaS Platform for High Impact Websites | Pantheon](https://pantheon.io/) 
+
 ### Share
 - [Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code.
 - [Asciinema](https://asciinema.org/~nikivi) - Free and open source way to record terminal sessions and share them on the web.
@@ -156,6 +162,7 @@ A place for developers to stop.
 ### Tweak tools 
 - [Wakatime](https://wakatime.com/dashboard) - Track time and amount you code in particular languages.
 - [HackMD](https://hackmd.io/) - Real time, Multi-platform Collaborative Markdown note editor.
+- [Favicon Generator for perfect icons on all browsers](https://realfavicongenerator.net/) 
 
 ## Reference
 - [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
@@ -228,6 +235,7 @@ Learn as you go cause you can't finish it.
 
 ### Math
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
+- [Omni Calculator](https://www.omnicalculator.com/) 
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
 
 ### Programming
