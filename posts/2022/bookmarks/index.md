@@ -122,6 +122,7 @@ It's sole aim is to make design easier, with some stock collections.
 
 ### Motion
 - [Motionity - The web-based motion graphics editor for everyone](https://www.motionity.app/)
+- [Panzoid](https://panzoid.com/) 
 
 ### AI
 - [SynestheticAI](https://synesthetic.ai/) - inspiration
@@ -157,6 +158,7 @@ A place for developers to stop.
 
 ### Deployment
 - [WebOps SaaS Platform for High Impact Websites | Pantheon](https://pantheon.io/) 
+- [Free Hosting, Paid Hosting, Reseller Services & VPS Servers : Byet Internet](https://byet.host/) 
 
 ### Share
 - [Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code.
@@ -237,6 +239,7 @@ Learn as you go cause you can't finish it.
 - [Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) - GitHub
 - [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
 - [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
+- [Site Unreachable](https://muktopaath.gov.bd/)
 
 ### Math
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
@@ -317,6 +320,9 @@ It exists so that you don't need to collect again.
 - [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software#games) - List from GitHub
 - [Windows 10 Ameliorated](https://ameliorated.info/) - Windows 10 minus the spyware plus added stability and security.
 
+### Templates
+- [TemplateLab - Best Business & Legal Templates](https://templatelab.com/) 
+
 ### Websites
 - [বাংলাদেশের জনপ্রিয় ব্লগ সাইট সমূহ](https://trickbd.com/blogger/788786)
 
@@ -342,6 +348,10 @@ It exists so that you don't need to collect again.
 - [Tube replay](http://www.tubereplay.com/) - Watch a [YouTube](https://www.youtube.com) video on a loop without pressing replay.
 - [Vimeo](https://vimeo.com/) - Free online high quality video sharing.
 - [YouTube](https://www.youtube.com/) - Free Online Video Sharing.
+
+### Fonts
+- [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/)
+- [Bunny Fonts | Explore Faster & GDPR friendly Fonts](https://fonts.bunny.net/)
 
 ## Fun
 Let machine automate your fun.
