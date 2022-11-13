@@ -189,6 +189,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 ### File share
 - [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
 - [WebWormhole](https://webwormhole.io/) - secure file transfer
+- [Streamable](https://streamable.com/) - Video sharing.
 
 ### File tweak
 - [Audioalter](https://audioalter.com/) - Audio toolkit
@@ -221,6 +222,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 - [Just a moment...](https://fauxid.com/) - Fake ID
 - [ZXing Decoder Online](https://zxing.org/w/decode.jspx) - Decoder of bar-code | WiFi pass
 - [Instant.io](https://instant.io/) - Torrent Tracker.
+- [Tube replay](http://www.tubereplay.com/) - Watch a [YouTube](https://www.youtube.com) video on a loop without pressing replay.
 
 ### AI
 - [CrowdAI](https://www.crowdai.org/) - Connects data science experts and enthusiasts with open data to solve specific problems, through challenges.
@@ -336,18 +338,11 @@ It exists so that you don't need to collect again.
 ### Photo
 - [Ill gander](https://illgander.com/)
 - [Imgur](https://imgur.com/)
-- [pexels](https://www.pexels.com/) - The best free stock photos & videos shared by talented creators.
-- [Pixabay](https://pixabay.com/) - Shared images and photos (many without Copyright).
-- [Unsplash](https://unsplash.com/) - A large collection of free photos.
+- [pexels](https://www.pexels.com/) 
+- [Pixabay](https://pixabay.com/) 
+- [Unsplash](https://unsplash.com/) 
 
 ### Video
-- [Documentary addict](https://documentaryaddict.com/) - Watch free documentaries.
-- [Letterboxd](https://letterboxd.com)
-- [Streamable](https://streamable.com/) - Video sharing.
-- [Thought maybe](https://thoughtmaybe.com/?ref=producthunt) - Online library of films.
-- [Tube replay](http://www.tubereplay.com/) - Watch a [YouTube](https://www.youtube.com) video on a loop without pressing replay.
-- [Vimeo](https://vimeo.com/) - Free online high quality video sharing.
-- [YouTube](https://www.youtube.com/) - Free Online Video Sharing.
 
 ### Music
 - [chosic](https://www.chosic.com/free-music/all/)
