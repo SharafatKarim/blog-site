@@ -243,8 +243,9 @@ Learn as you go cause you can't finish it.
 - [শুরুর কথা - বাংলায় শেল ও শেলস্ক্রিপ্টিং শেখার কোর্স](https://sh.howtocode.dev/) - Bangla shell scripting
 - [Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) - GitHub
 - [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
+- [W3schools](https://www.w3schools.com/) - The standard for Web Development.
 
-## Skill based (long)
+### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
 - [Brilliant](https://brilliant.org/) - Online math and CS courses.
 - [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
@@ -254,11 +255,10 @@ Learn as you go cause you can't finish it.
 - [Omni Calculator](https://www.omnicalculator.com/) 
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
 
-### Programming
+### Extras
 - [Code's organization | Code.org](https://code.org/) - Learn today, build a brighter tomorrow
 - [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
 - [Hackr](https://hackr.io/) - Find programming Courses & Tutorials.
-- [W3schools](https://www.w3schools.com/) - The standard for Web Development.
 - [Sci-hub](https://scihub.org/)
 - [Rocumentaries](https://rocumentaries.com/) - Curated links to documentaries.
 - [Gitxiv](http://www.gitxiv.com/) - Online space to share collaborative open computer science projects.
@@ -295,9 +295,11 @@ Learn as you go cause you can't finish it.
 - [Udemy](https://www.udemy.com/user/nikitavoloboev/)
 - [Where is SciHub](https://whereisscihub.herokuapp.com/go) - Go to correct link of SciHub (reserach paper search).
 - [Arxiv](https://arxiv.org/) - Open access to 1,364,248 e-prints in STEM fields.
-- [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.
 - [Chemdiary](https://chemdiary.com/users/sign_in) - Track your drug, research chemical and nootropic use.
 - [Exercism](http://exercism.io/) - Online execution of programming problems.
+
+### Quotes
+- [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.
 
 ## News 
 It's just 4 thing, north, east, west and south and it is so much dynamic.
