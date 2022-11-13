@@ -145,7 +145,8 @@ It's sole aim is to make design easier, with some stock collections.
 ## Development 
 A place for developers to stop.
 
-### web-apps
+### Build
+- [kodular](https://creator.kodular.io/) - app builder free
 - [Thunkable: Best no code app builder | No code app creation](https://thunkable.com/#/) - android app builder
 - [readme.so](https://readme.so/bn) - easy GitHub read me file generate
 
@@ -156,7 +157,7 @@ A place for developers to stop.
 - [Hacker rank](https://www.hackerrank.com/) - Practice codes
 - [Project euler](https://projecteuler.net/archives)
 
-### Deployment
+### Deploy
 - [WebOps SaaS Platform for High Impact Websites | Pantheon](https://pantheon.io/) 
 - [Free Hosting, Paid Hosting, Reseller Services & VPS Servers : Byet Internet](https://byet.host/) 
 
@@ -244,12 +245,14 @@ Learn as you go cause you can't finish it.
 - [Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) - GitHub
 - [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
 - [W3schools](https://www.w3schools.com/) - The standard for Web Development.
+- [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
 - [Brilliant](https://brilliant.org/) - Online math and CS courses.
 - [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
 - [Hackr](https://hackr.io/) - Find programming Courses & Tutorials.
+- [Code's organization | Code.org](https://code.org/) - Learn today, build a brighter tomorrow
 
 ### Math
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
@@ -257,8 +260,6 @@ Learn as you go cause you can't finish it.
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
 
 ### Extras
-- [Code's organization | Code.org](https://code.org/) - Learn today, build a brighter tomorrow
-- [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
 - [Rocumentaries](https://rocumentaries.com/) - Curated links to documentaries.
 - [Gitxiv](http://www.gitxiv.com/) - Online space to share collaborative open computer science projects.
 - [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
