@@ -160,6 +160,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 ### File tweak
 - [Audioalter](https://audioalter.com/) - Audio toolkit
+- [YouCompress](https://www.youcompress.com/) - File compress
 
 ### Downloader
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
@@ -170,8 +171,14 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 - [Trakt](https://trakt.tv/dashboard) - Track which TV shows and Movies you've watched.
 - [Know it all](https://know-it-all.io/) - Web list that helps you track what you know and what you don't about web development.
 
+### DNS
+- [CONTROL D - Control Your Internet](https://controld.com/?noRedirect=true) - simple DNS
+- [AdGuard DNS ](https://adguard-dns.io/) - ad blocking DNS server
+
 ### Little tweaks
 - [10 min mail](https://10minutemail.com/10MinuteMail/index.html?dswid=-4717) - Have a temporary email for 10 minutes.
+- [Temp Mail - Disposable Temporary Email](https://temp-mail.org/en/) 
+- [Just a moment...](https://fauxid.com/) - Fake ID
 - [ZXing Decoder Online](https://zxing.org/w/decode.jspx) - Decoder of bar-code | WiFi pass
 - [Instant.io](https://instant.io/) - Torrent Tracker.
 
