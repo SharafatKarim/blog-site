@@ -119,6 +119,7 @@ It's sole aim is to make design easier, with some stock collections.
 
 ### Generators
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
+- [ZorexID](https://zorexid.ml/) - Fake ID to recover accounts
 
 ### Idea
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
@@ -155,6 +156,10 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 - [Telegraph](http://telegra.ph/) - snippet share.
 - [QR Code Generator with Logo | Create Free Custom QR Codes Online](https://www.qrcodechimp.com/) - QR
 - [Fast fingers](https://10fastfingers.com/typing-test/english) - Online typing test.
+- [Find all Working BDIX Servers | Gamitisa](https://gamitisa.com/tools/bdix-tester/) - BDIX tester
+
+### File tweak
+- [Audioalter](https://audioalter.com/) - Audio toolkit
 
 ### Downloader
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
