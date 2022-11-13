@@ -245,14 +245,22 @@ Learn as you go cause you can't finish it.
 - [Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) - GitHub
 - [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
 - [W3schools](https://www.w3schools.com/) - The standard for Web Development.
-- [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
+- [Freecodecamp](https://www.freecodecamp.com/)
 - [Brilliant](https://brilliant.org/) - Online math and CS courses.
 - [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
 - [Hackr](https://hackr.io/) - Find programming Courses & Tutorials.
 - [Code's organization | Code.org](https://code.org/) - Learn today, build a brighter tomorrow
+- [Code academy](https://www.codecademy.com/learn/all) - Free online coding tutorials.
+- [Coursera](https://www.coursera.org/)
+- [Educative.io](https://www.educative.io/) - Online tutorials
+- [EdX](https://www.edx.org/)
+
+### Visual
+- [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
+- [Explained visually](http://setosa.io/ev/) - Website dedicated to Explorable Explanations.
 
 ### Math
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
@@ -260,17 +268,6 @@ Learn as you go cause you can't finish it.
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
 
 ### Extras
-- [Code academy](https://www.codecademy.com/learn/all) - Free online coding tutorials.
-- [Coursera](https://www.coursera.org/)
-- [Courseroot](https://courseroot.com/) - Search best online courses.
-- [Educative.io](https://www.educative.io/) - Online tutorials
-- [EdX](https://www.edx.org/)
-- [Encyclopedia Britannica](https://www.britannica.com/)
-- [Egghead](https://egghead.io/) - Group of working web development professionals and open source contributors that provide you with video courses.
-- [Explained visually](http://setosa.io/ev/) - Website dedicated to Explorable Explanations.
-- [Freecodecamp](https://www.freecodecamp.com/)
-- [Internet Curated](https://internetcurated.com/) - Collection of 150+ hand-picked curated resources & tools.
-- [Interview cake](https://www.interviewcake.com/) - Practice for programming interviews.
 - [Lecture search](https://www.findlectures.com/) - Find Online Lectures.
 - [Leetcode](https://leetcode.com) - Platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
 - [Library of Babel](http://libraryofbabel.info/)
