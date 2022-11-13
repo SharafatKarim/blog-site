@@ -249,6 +249,7 @@ Learn as you go cause you can't finish it.
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
 - [Brilliant](https://brilliant.org/) - Online math and CS courses.
 - [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
+- [Hackr](https://hackr.io/) - Find programming Courses & Tutorials.
 
 ### Math
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
@@ -258,8 +259,6 @@ Learn as you go cause you can't finish it.
 ### Extras
 - [Code's organization | Code.org](https://code.org/) - Learn today, build a brighter tomorrow
 - [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
-- [Hackr](https://hackr.io/) - Find programming Courses & Tutorials.
-- [Sci-hub](https://scihub.org/)
 - [Rocumentaries](https://rocumentaries.com/) - Curated links to documentaries.
 - [Gitxiv](http://www.gitxiv.com/) - Online space to share collaborative open computer science projects.
 - [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
