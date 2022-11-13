@@ -104,6 +104,7 @@ It's sole aim is to make design easier, with some stock collections.
 
 ### Draw & Notes
 - [Draw.io](https://www.draw.io/) - Online flowchart maker.
+- [tldraw](https://www.tldraw.com/)
 - [Ok! So... Draw online](https://okso.app/) 
 - [Sketch toy](http://sketchtoy.com/) - Free online drawing application that lets you share step-by-step replays of your work.
 
@@ -113,6 +114,8 @@ It's sole aim is to make design easier, with some stock collections.
 ### Create & Edit
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
 - [Site Unreachable](https://photooxy.com/) - Simple photo effects and strokes
+- [ClipDrop](https://clipdrop.co/remove-background) - background remove
+- [Background remover](https://www.photoroom.com/background-remover/)
 
 ### AI
 - [SynestheticAI](https://synesthetic.ai/) - inspiration
@@ -120,7 +123,8 @@ It's sole aim is to make design easier, with some stock collections.
 ### Generators
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
 - [ZorexID](https://zorexid.ml/) - Fake ID to recover accounts
-- [Make Backgrou](https://makebackground.io/#gallery) - Live, Customized Backgrounds / Wallpapers / Videos
+- [Make Background](https://makebackground.io/#gallery) - Live, Customized Backgrounds / Wallpapers / Videos
+- [ColorMix Generator](https://colormix.mdbgo.io/#generator) - color scheme 
 
 ### Idea
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
@@ -153,6 +157,9 @@ A place for developers to stop.
 ## Tools
 Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
+### Local server
+- [Sync Thing](https://localhost:8384/#)
+
 ### Productivity
 - [Telegraph](http://telegra.ph/) - snippet share.
 - [QR Code Generator with Logo | Create Free Custom QR Codes Online](https://www.qrcodechimp.com/) - QR
@@ -165,6 +172,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 ### File tweak
 - [Audioalter](https://audioalter.com/) - Audio toolkit
 - [YouCompress](https://www.youcompress.com/) - File compress
+- [Optimize images online](https://www.optimizeimages.com/tool) - image optimization
 
 ### Downloader
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
