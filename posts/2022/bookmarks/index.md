@@ -117,6 +117,9 @@ It's sole aim is to make design easier, with some stock collections.
 ### AI
 - [SynestheticAI](https://synesthetic.ai/) - inspiration
 
+### Generators
+- [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
+
 ### Idea
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
 - [Dribble](https://dribbble.com/shots) - Discover the world’s top Designers & Creatives.
@@ -153,6 +156,9 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 - [QR Code Generator with Logo | Create Free Custom QR Codes Online](https://www.qrcodechimp.com/) - QR
 - [Fast fingers](https://10fastfingers.com/typing-test/english) - Online typing test.
 
+### Downloader
+- [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
+
 ### Track contents
 - [Grouvee](https://www.grouvee.com/) - Track your video game collection.
 - [Goodreads](https://www.goodreads.com/) - Track which books you've read.
@@ -161,7 +167,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 ### Little tweaks
 - [10 min mail](https://10minutemail.com/10MinuteMail/index.html?dswid=-4717) - Have a temporary email for 10 minutes.
-- [ZXing Decoder Online](https://zxing.org/w/decode.jspx) - Decoder of bar-code
+- [ZXing Decoder Online](https://zxing.org/w/decode.jspx) - Decoder of bar-code | WiFi pass
 - [Instant.io](https://instant.io/) - Torrent Tracker.
 
 ### AI
