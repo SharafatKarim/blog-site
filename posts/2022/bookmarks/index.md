@@ -310,6 +310,7 @@ Let machine automate your fun.
 - [Codingame](https://www.codingame.com/home)
 
 ### Cloud gaming
+- [Online Games on Poki](https://poki.com/) - online gaming
 - [CloudCat](https://m.cloudcat.ai/home/playing) - Game auto-play bot
 
 ### Games
