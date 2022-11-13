@@ -233,16 +233,21 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 ## Learn 
 Learn as you go cause you can't finish it.
 
-### Skill based
-- [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
+### General
+- [মুক্তপথ - সরকারী](https://muktopaath.gov.bd/)
+- [Learn anything](https://learn-anything.xyz) - Platform for knowledge discovery that helps you understand any topic through the most efficient paths, as voted by the community.
+
+### Skill based (short)
 - [200+ Free Tutorials at GCFGlobal](https://edu.gcfglobal.org/en/topics/) - Basic articles of computer and internet
 - [Home | Linux Journey](https://linuxjourney.com/) - Linux Journey
 - [শুরুর কথা - বাংলায় শেল ও শেলস্ক্রিপ্টিং শেখার কোর্স](https://sh.howtocode.dev/) - Bangla shell scripting
 - [Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) - GitHub
 - [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
-- [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
-- [মুক্তপথ - সরকারী](https://muktopaath.gov.bd/)
+
+## Skill based (long)
+- [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
 - [Brilliant](https://brilliant.org/) - Online math and CS courses.
+- [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
 
 ### Math
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
@@ -258,7 +263,6 @@ Learn as you go cause you can't finish it.
 - [Rocumentaries](https://rocumentaries.com/) - Curated links to documentaries.
 - [Gitxiv](http://www.gitxiv.com/) - Online space to share collaborative open computer science projects.
 - [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
-- [Learn anything](https://learn-anything.xyz) - Platform for knowledge discovery that helps you understand any topic through the most efficient paths, as voted by the community.
 - [Alcamy](https://alcamy.org/library) - Internet's catalog of knowledge.
 - [Arxiv Sanity Preserver](http://www.arxiv-sanity.com/)
 - [Class central](https://www.class-central.com/)
