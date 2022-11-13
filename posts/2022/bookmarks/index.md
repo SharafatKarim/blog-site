@@ -233,7 +233,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 ## Learn 
 Learn as you go cause you can't finish it.
 
-### Courses
+### Skill based
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
 - [200+ Free Tutorials at GCFGlobal](https://edu.gcfglobal.org/en/topics/) - Basic articles of computer and internet
 - [Home | Linux Journey](https://linuxjourney.com/) - Linux Journey
@@ -241,7 +241,8 @@ Learn as you go cause you can't finish it.
 - [Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) - GitHub
 - [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
 - [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
-- [Site Unreachable](https://muktopaath.gov.bd/)
+- [মুক্তপথ - সরকারী](https://muktopaath.gov.bd/)
+- [Brilliant](https://brilliant.org/) - Online math and CS courses.
 
 ### Math
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
@@ -391,10 +392,10 @@ Let machine automate your fun.
 ### Cloud gaming
 - [Online Games on Poki](https://poki.com/) - online gaming
 - [CloudCat](https://m.cloudcat.ai/home/playing) - Game auto-play bot
+- [Kirka.io](https://kirka.io/) 
 
 ### Games
 - [Itch.io](https://itch.io/) - Simple way to find and share indie games online for free.
-- [Brilliant](https://brilliant.org/) - Online math brain puzzles.
 
 ### Animation
 - [Matrix multiplication](http://matrixmultiplication.xyz/)
