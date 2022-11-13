@@ -158,6 +158,9 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 - [Fast fingers](https://10fastfingers.com/typing-test/english) - Online typing test.
 - [Find all Working BDIX Servers | Gamitisa](https://gamitisa.com/tools/bdix-tester/) - BDIX tester
 
+### File share
+- [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
+
 ### File tweak
 - [Audioalter](https://audioalter.com/) - Audio toolkit
 - [YouCompress](https://www.youcompress.com/) - File compress
@@ -174,6 +177,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 ### DNS
 - [CONTROL D - Control Your Internet](https://controld.com/?noRedirect=true) - simple DNS
 - [AdGuard DNS ](https://adguard-dns.io/) - ad blocking DNS server
+- [NextDNS - The new firewall for the modern Internet](https://nextdns.io/) - more advances DNS
 
 ### Little tweaks
 - [10 min mail](https://10minutemail.com/10MinuteMail/index.html?dswid=-4717) - Have a temporary email for 10 minutes.
