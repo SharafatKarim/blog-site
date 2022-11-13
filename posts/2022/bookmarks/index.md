@@ -120,6 +120,7 @@ It's sole aim is to make design easier, with some stock collections.
 ### Generators
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
 - [ZorexID](https://zorexid.ml/) - Fake ID to recover accounts
+- [Make Backgrou](https://makebackground.io/#gallery) - Live, Customized Backgrounds / Wallpapers / Videos
 
 ### Idea
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
