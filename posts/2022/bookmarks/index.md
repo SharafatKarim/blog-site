@@ -341,8 +341,25 @@ It exists so that you don't need to collect again.
 - [pexels](https://www.pexels.com/) 
 - [Pixabay](https://pixabay.com/) 
 - [Unsplash](https://unsplash.com/) 
+- [Free Icons, Clipart Illustrations, Photos, and Music](https://icons8.com/)
+- [Openclipart - Clipping Culture](https://openclipart.org/)
+- [Site Unreachable](https://wallhaven.cc/)
+- [Wallpaperflare - Beautiful HD wallpapers free download](https://www.wallpaperflare.com/)
+- [unDraw - Open source illustrations for any idea](https://undraw.co/) 
+- [Home — Food Pictures • Foodiesfeed • Free Food PhotosFood Pictures • Foodiesfeed • Free Food Photos](https://www.foodiesfeed.com/) 
+- [Free Stock Photos, Images, and Vectors](https://www.stockvault.net/)
+- [Moveast](https://moveast.me/)
+- [stokpic | Unlimited Royalty Free stock photos and images For Commercial use](https://stokpic.com/)
+- [Free Stock Photos - SplitShire](https://www.splitshire.com/)
+- [Free Stock Photos and Images - StockSnap.io](https://stocksnap.io/)
+- [Free Public Domain Images - SnappyGoat.com](https://snappygoat.com/) 
+- [GitHub Octodex](https://octodex.github.com/) 
+- [Download 1000's of free SVG brand logos | VectorWiki](https://vectorwiki.com/) 
+- [PNGWing - Exclusive png design images](https://www.pngwing.com/) 
+- [Storyset | Customize, animate and download illustration for free](https://storyset.com/) 
 
 ### Video
+- [Browse Our Marketplace | Motion Array](https://motionarray.com/browse/)
 
 ### Music
 - [chosic](https://www.chosic.com/free-music/all/)
