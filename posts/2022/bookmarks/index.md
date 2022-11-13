@@ -260,12 +260,6 @@ Learn as you go cause you can't finish it.
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
 
 ### Extras
-- [Rocumentaries](https://rocumentaries.com/) - Curated links to documentaries.
-- [Gitxiv](http://www.gitxiv.com/) - Online space to share collaborative open computer science projects.
-- [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
-- [Alcamy](https://alcamy.org/library) - Internet's catalog of knowledge.
-- [Arxiv Sanity Preserver](http://www.arxiv-sanity.com/)
-- [Class central](https://www.class-central.com/)
 - [Code academy](https://www.codecademy.com/learn/all) - Free online coding tutorials.
 - [Coursera](https://www.coursera.org/)
 - [Courseroot](https://courseroot.com/) - Search best online courses.
@@ -317,6 +311,7 @@ It's just 4 thing, north, east, west and south and it is so much dynamic.
 - [Git logs](http://www.gitlogs.com/) - Discover trending repos on GitHub.
 - [Github info](http://githut.info/) - Statistics about GitHub.
 - [myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা](https://www.mygov.bd/) - Bangladesh govt. dashboard
+- [Alcamy](https://alcamy.org/library) - Internet's catalog of knowledge.
 
 
 ## Collections 
@@ -389,6 +384,9 @@ Let machine automate your fun.
 - [Eventbrite](https://www.eventbrite.com/) - Discover event or create to connect with people.
 - [World Meters](http://www.worldometers.info/) - World Statistics updated in real time.
 
+### Watch
+- [Rocumentaries](https://rocumentaries.com/) - Curated links to the very best documentaries
+
 ### Coding challengers
 - [Checkio](https://py.checkio.org/) - Games for coding.
 - [Code combat](https://codecombat.com/) - Programming Game designed for Students.
@@ -408,7 +406,9 @@ Let machine automate your fun.
 
 ## Wiki 
 These kind of thing exists so that it can help you fall asleep.
+
 - [List community](https://list.community/) - Easy way to browse curated lists and docs.
+- [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
 
 ## Others 
 And some leftovers, can you categorize them?
