@@ -103,10 +103,8 @@ A place where a huge data database is waiting for you along with some tools.
 It's sole aim is to make design easier, with some stock collections.
 
 ### Draw & Notes
-- [Draw.io](https://www.draw.io/) - Online flowchart maker.
-- [tldraw](https://www.tldraw.com/)
-- [Ok! So... Draw online](https://okso.app/) 
-- [Sketch toy](http://sketchtoy.com/) - Free online drawing application that lets you share step-by-step replays of your work.
+- [tldraw](https://www.tldraw.com/) - drawing tool
+- 
 
 ### Reference to draw
 - [Flat UI colours](https://flatuicolors.com/) - color palettes
