@@ -144,6 +144,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 ### Productivity
 - [Telegraph](http://telegra.ph/) - snippet share.
+- [QR Code Generator with Logo | Create Free Custom QR Codes Online](https://www.qrcodechimp.com/) - QR
 - [Fast fingers](https://10fastfingers.com/typing-test/english) - Online typing test.
 
 ### Track contents
@@ -154,6 +155,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 ### Little tweaks
 - [10 min mail](https://10minutemail.com/10MinuteMail/index.html?dswid=-4717) - Have a temporary email for 10 minutes.
+- [ZXing Decoder Online](https://zxing.org/w/decode.jspx) - Decoder of bar code
 - [Instant.io](https://instant.io/) - Torrent Tracker.
 
 ### AI
@@ -281,6 +283,9 @@ It exists so that you don't need to collect again.
 ## Fun
 Let machine automate your fun.
 
+### Generator
+- [Sweary](https://sweary.com/) - Insult generator
+
 ### Stats
 - [First PR](http://firstpr.me) - See the first GitHub Pull Request you made.
 - [Eventbrite](https://www.eventbrite.com/) - Discover event or create to connect with people.
@@ -293,7 +298,7 @@ Let machine automate your fun.
 - [Codingame](https://www.codingame.com/home)
 
 ### Cloud gaming
-- [CloudCat](https://m.cloudcat.ai/home/playing) - Game autoplay bot
+- [CloudCat](https://m.cloudcat.ai/home/playing) - Game auto-play bot
 
 ### Games
 - [Itch.io](https://itch.io/) - Simple way to find and share indie games online for free.
