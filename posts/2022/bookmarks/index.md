@@ -114,6 +114,7 @@ It's sole aim is to make design easier, with some stock collections.
 - [Site Unreachable](https://photooxy.com/) - Simple photo effects and strokes
 - [ClipDrop](https://clipdrop.co/remove-background) - background remove
 - [Background remover](https://www.photoroom.com/background-remover/)
+- [Morflax studio - The Easiest 3D design platform](https://studio.morflax.com/) - 3D
 
 ### AI
 - [SynestheticAI](https://synesthetic.ai/) - inspiration
@@ -123,6 +124,7 @@ It's sole aim is to make design easier, with some stock collections.
 - [ZorexID](https://zorexid.ml/) - Fake ID to recover accounts
 - [Make Background](https://makebackground.io/#gallery) - Live, Customized Backgrounds / Wallpapers / Videos
 - [ColorMix Generator](https://colormix.mdbgo.io/#generator) - color scheme 
+- [Textcraft](https://textcraft.net/) - minecraft style logo
 
 ### Idea
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
@@ -135,6 +137,9 @@ A place for developers to stop.
 
 ### web-apps
 - [Thunkable: Best no code app builder | No code app creation](https://thunkable.com/#/) - android app builder
+
+### Debug
+- [GDB online Debugger | Compiler - Code, Compile, Run, Debug online C, C++](https://www.onlinegdb.com/) 
 
 ### Practice
 - [Hacker rank](https://www.hackerrank.com/) - Practice codes
@@ -166,6 +171,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 ### File share
 - [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
+- [WebWormhole](https://webwormhole.io/) - secure file transfer
 
 ### File tweak
 - [Audioalter](https://audioalter.com/) - Audio toolkit
