@@ -349,9 +349,14 @@ It exists so that you don't need to collect again.
 - [Vimeo](https://vimeo.com/) - Free online high quality video sharing.
 - [YouTube](https://www.youtube.com/) - Free Online Video Sharing.
 
+### Music
+- [chosic](https://www.chosic.com/free-music/all/)
+- [Freesound - Freesound](https://freesound.org/)
+
 ### Fonts
 - [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/)
 - [Bunny Fonts | Explore Faster & GDPR friendly Fonts](https://fonts.bunny.net/)
+- [Download free fonts — Fontstorage.com](https://fontstorage.com/) 
 
 ## Fun
 Let machine automate your fun.
@@ -381,7 +386,6 @@ Let machine automate your fun.
 
 ### Animation
 - [Matrix multiplication](http://matrixmultiplication.xyz/)
-
 
 ## Wiki 
 These kind of thing exists so that it can help you fall asleep.
