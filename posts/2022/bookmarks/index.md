@@ -115,11 +115,15 @@ It's sole aim is to make design easier, with some stock collections.
 - [ClipDrop](https://clipdrop.co/remove-background) - background remove
 - [Background remover](https://www.photoroom.com/background-remover/)
 - [Morflax studio - The Easiest 3D design platform](https://studio.morflax.com/) - 3D
+- [Fotoramio: Photo Editor Online](https://fotoram.io/) 
+
+### Motion
+- [Motionity - The web-based motion graphics editor for everyone](https://www.motionity.app/)
 
 ### AI
 - [SynestheticAI](https://synesthetic.ai/) - inspiration
 
-### Generators
+### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
 - [ZorexID](https://zorexid.ml/) - Fake ID to recover accounts
 - [Make Background](https://makebackground.io/#gallery) - Live, Customized Backgrounds / Wallpapers / Videos
@@ -168,6 +172,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 - [QR Code Generator with Logo | Create Free Custom QR Codes Online](https://www.qrcodechimp.com/) - QR
 - [Fast fingers](https://10fastfingers.com/typing-test/english) - Online typing test.
 - [Find all Working BDIX Servers | Gamitisa](https://gamitisa.com/tools/bdix-tester/) - BDIX tester
+- [Rapidtags | YouTube Tag Generator and Optimizer](https://rapidtags.io/generator) 
 
 ### File share
 - [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
@@ -177,6 +182,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 - [Audioalter](https://audioalter.com/) - Audio toolkit
 - [YouCompress](https://www.youcompress.com/) - File compress
 - [Optimize images online](https://www.optimizeimages.com/tool) - image optimization
+- [Free PDF, Video, Image & Other Online Tools - TinyWow](https://tinywow.com/) 
 
 ### Downloader
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
@@ -186,6 +192,9 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 - [Goodreads](https://www.goodreads.com/) - Track which books you've read.
 - [Trakt](https://trakt.tv/dashboard) - Track which TV shows and Movies you've watched.
 - [Know it all](https://know-it-all.io/) - Web list that helps you track what you know and what you don't about web development.
+
+### Checkups
+- [Cover Your Tracks](https://coveryourtracks.eff.org/)
 
 ### DNS
 - [CONTROL D - Control Your Internet](https://controld.com/?noRedirect=true) - simple DNS
@@ -326,6 +335,7 @@ Let machine automate your fun.
 
 ### Generator
 - [Sweary](https://sweary.com/) - Insult generator
+- [Username Generator](https://usernamegenerator.com/) 
 
 ### Stats
 - [First PR](http://firstpr.me) - See the first GitHub Pull Request you made.
