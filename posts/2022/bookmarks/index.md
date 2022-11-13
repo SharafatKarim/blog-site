@@ -79,6 +79,7 @@ A place where a huge data database is waiting for you along with some tools.
 - [Pastebin](https://pastebin.com/) - Store any text online for easy sharing.
 
 ### Search
+- [Open Search](https://sharafatkarim.github.io/open-directory-search/) - Custom search by [Afnan Sami](https://www.afnansami.com/)
 - [SearXNG and searx instances](https://searx.space/) - Advance search manager.
 - [Bangs](https://duckduckgo.com/bang?) - Duck duck go bang (advanced search)
 - [Duckduckgo](https://duckduckgo.com/) - Private Web Searching
@@ -117,6 +118,7 @@ It's sole aim is to make design easier, with some stock collections.
 - [Palette - Colorize Photos](https://palette.fm/) 
 - [Morflax studio - The Easiest 3D design platform](https://studio.morflax.com/) - 3D
 - [Fotoramio: Photo Editor Online](https://fotoram.io/) 
+- [Free Profile Picture Maker - Create an awesome profile pic from any photo](https://pfpmaker.com/) 
 
 ### Motion
 - [Motionity - The web-based motion graphics editor for everyone](https://www.motionity.app/)
@@ -144,6 +146,7 @@ A place for developers to stop.
 
 ### web-apps
 - [Thunkable: Best no code app builder | No code app creation](https://thunkable.com/#/) - android app builder
+- [readme.so](https://readme.so/bn) - easy GitHub read me file generate
 
 ### Debug
 - [GDB online Debugger | Compiler - Code, Compile, Run, Debug online C, C++](https://www.onlinegdb.com/) 
@@ -193,6 +196,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 ### Downloader
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
+- [DownGit](https://downgit.github.io/#/home) - Git repository downlod
 
 ### Track contents
 - [Grouvee](https://www.grouvee.com/) - Track your video game collection.
@@ -201,7 +205,8 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 - [Know it all](https://know-it-all.io/) - Web list that helps you track what you know and what you don't about web development.
 
 ### Checkups
-- [Cover Your Tracks](https://coveryourtracks.eff.org/)
+- [Cover Your Tracks](https://coveryourtracks.eff.org/) - privacy checkup of browser
+- [Compare your Page Speed](https://pagespeed.compare/) - multiple web-page compare
 
 ### DNS
 - [CONTROL D - Control Your Internet](https://controld.com/?noRedirect=true) - simple DNS
