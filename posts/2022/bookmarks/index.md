@@ -107,9 +107,12 @@ It's sole aim is to make design easier, with some stock collections.
 - [Ok! So... Draw online](https://okso.app/) 
 - [Sketch toy](http://sketchtoy.com/) - Free online drawing application that lets you share step-by-step replays of your work.
 
-### Tools
-- [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
+### Reference to draw
 - [Flat UI colours](https://flatuicolors.com/) - color palettes
+
+### Create & Edit
+- [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
+- [Site Unreachable](https://photooxy.com/) - Simple photo effects and strokes
 
 ### AI
 - [SynestheticAI](https://synesthetic.ai/) - inspiration
@@ -122,6 +125,9 @@ It's sole aim is to make design easier, with some stock collections.
 
 ## Development 
 A place for developers to stop.
+
+### web-apps
+- [Thunkable: Best no code app builder | No code app creation](https://thunkable.com/#/) - android app builder
 
 ### Practice
 - [Hacker rank](https://www.hackerrank.com/) - Practice codes
@@ -155,7 +161,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 ### Little tweaks
 - [10 min mail](https://10minutemail.com/10MinuteMail/index.html?dswid=-4717) - Have a temporary email for 10 minutes.
-- [ZXing Decoder Online](https://zxing.org/w/decode.jspx) - Decoder of bar code
+- [ZXing Decoder Online](https://zxing.org/w/decode.jspx) - Decoder of bar-code
 - [Instant.io](https://instant.io/) - Torrent Tracker.
 
 ### AI
