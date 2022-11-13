@@ -292,6 +292,9 @@ Let machine automate your fun.
 - [Codewars](https://www.codewars.com/)
 - [Codingame](https://www.codingame.com/home)
 
+### Cloud gaming
+- [CloudCat](https://m.cloudcat.ai/home/playing) - Game autoplay bot
+
 ### Games
 - [Itch.io](https://itch.io/) - Simple way to find and share indie games online for free.
 - [Brilliant](https://brilliant.org/) - Online math brain puzzles.
