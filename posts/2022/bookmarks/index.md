@@ -127,6 +127,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### AI
 - [SynestheticAI](https://synesthetic.ai/) - inspiration
 - [Brandmark - make your logo in minutes](https://app.brandmark.io/v3/) 
+- [Bigjpg - AI Super-Resolution lossless image enlarging / upscaling tool using Deep Convolutional Neural Networks](https://bigjpg.com/)
 
 ### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
@@ -135,6 +136,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [ColorMix Generator](https://colormix.mdbgo.io/#generator) - color scheme 
 - [Textcraft](https://textcraft.net/) - minecraft style logo
 - [RITM Generator - Antlii](https://antlii.work/RITM-Generator) 
+- [Animated Backgrounds](https://animatedbackgrounds.me/)
 
 ### Idea
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
@@ -249,7 +251,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
 - [Freecodecamp](https://www.freecodecamp.com/)
-- [Fetching Title#kx8m](https://www.geeksforgeeks.org/) 
+- [GeeksforGeeks | A computer science portal for geeks](https://www.geeksforgeeks.org/) 
 - [Brilliant](https://brilliant.org/) - Online math and CS courses.
 - [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
 - [Hackr](https://hackr.io/) - Find programming Courses & Tutorials.
