@@ -119,9 +119,11 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Cleanup.pictures - Remove objects, people, text and defects from any picture for free](https://cleanup.pictures/) 
 - [Palette - Colorize Photos](https://palette.fm/) 
 - [Online Background Remover 100% Free | PicWish](https://picwish.com/)
+- [Remove People from Photos, Remove Objects from Photos Free, HD - SnapEdit.App](https://snapedit.app/) 
 - [Morflax studio - The Easiest 3D design platform](https://studio.morflax.com/) - 3D
 - [Fotoramio: Photo Editor Online](https://fotoram.io/) 
 - [Free Profile Picture Maker - Create an awesome profile pic from any photo](https://pfpmaker.com/) 
+- [Squoosh](https://squoosh.app/)
 
 ### Motion
 - [Motionity - The web-based motion graphics editor for everyone](https://www.motionity.app/)
@@ -215,6 +217,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [YouCompress](https://www.youcompress.com/) - File compress
 - [Optimize images online](https://www.optimizeimages.com/tool) - image optimization
 - [Free PDF, Video, Image & Other Online Tools - TinyWow](https://tinywow.com/) 
+- [Smallpdf.com - A Free Solution to all your PDF Problems](https://smallpdf.com/)
 - [File Converter - FreeConvert.com](https://www.freeconvert.com/)
 
 ### Downloader
@@ -338,10 +341,11 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software#games) - List from GitHub
 - [Best 704K+ Open Source Software Projects - Open Source Agenda](https://www.opensourceagenda.com/) 
 - [Windows 10 Ameliorated](https://ameliorated.info/) - Windows 10 minus the spyware plus added stability and security.
+- [TechBench by WZT (v4.1.1)](https://tb.rg-adguard.net/public.php)
 
 ### Templates
 - [TemplateLab - Best Business & Legal Templates](https://templatelab.com/) 
-- [Fetching Title#470n](https://slidesgo.com/)
+- [Free Google Slides themes and Powerpoint templates | Slidesgo](https://slidesgo.com/)
 
 ### Websites
 - [বাংলাদেশের জনপ্রিয় ব্লগ সাইট সমূহ](https://trickbd.com/blogger/788786)
