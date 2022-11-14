@@ -292,6 +292,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
 - [Omni Calculator](https://www.omnicalculator.com/) 
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
+- [Wolfram|Alpha: Computational Intelligence](https://www.wolframalpha.com/)
 
 ### Paper
 - [Where is SciHub](https://whereisscihub.herokuapp.com/go) - Go to correct link of SciHub (reserach paper search).
