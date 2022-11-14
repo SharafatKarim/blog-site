@@ -2,18 +2,18 @@
 title: "Bookmarks Collection"
 date: 2022-11-12T18:02:49+06:00
 lastmod: 2022-11-12T18:02:49+06:00
-draft: true
+draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 description: ""
 license: ""
 images: []
 
-tags: []
-categories: []
+tags: ["browser","notes","internet","collection"]
+categories: ["collection"]
 summary: ""
 
-featuredImage: ""
+featuredImage: "featured-image.jpg"
 featuredImagePreview: ""
 
 hiddenFromHomePage: false

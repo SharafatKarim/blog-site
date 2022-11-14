@@ -9,8 +9,8 @@ description: "Some of the useful desktop browser extentions for daily driving."
 license: ""
 images: []
 
-tags: ["notes", "browser", "internet"]
-categories: ["notes"]
+tags: ["notes", "browser", "internet", "collection"]
+categories: ["collection"]
 summary: "Some of the useful desktop browser extentions for daily driving."
 
 featuredImage: "featured.jpg"
