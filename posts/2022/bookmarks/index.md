@@ -115,6 +115,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Site Unreachable](https://photooxy.com/) - Simple photo effects and strokes
 - [ClipDrop](https://clipdrop.co/remove-background) - background remove
 - [Background remover](https://www.photoroom.com/background-remover/)
+- [Cleanup.pictures - Remove objects, people, text and defects from any picture for free](https://cleanup.pictures/) 
 - [Palette - Colorize Photos](https://palette.fm/) 
 - [Morflax studio - The Easiest 3D design platform](https://studio.morflax.com/) - 3D
 - [Fotoramio: Photo Editor Online](https://fotoram.io/) 
@@ -123,11 +124,13 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Motion
 - [Motionity - The web-based motion graphics editor for everyone](https://www.motionity.app/)
 - [Panzoid](https://panzoid.com/) 
+- [All your video needs in one place | Clipchamp](https://clipchamp.com/en/) 
 
 ### AI
 - [SynestheticAI](https://synesthetic.ai/) - inspiration
 - [Brandmark - make your logo in minutes](https://app.brandmark.io/v3/) 
 - [Bigjpg - AI Super-Resolution lossless image enlarging / upscaling tool using Deep Convolutional Neural Networks](https://bigjpg.com/)
+- [ARC官网-腾讯](https://arc.tencent.com/en/ai-demos/faceRestoration)
 
 ### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
@@ -171,6 +174,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Wakatime](https://wakatime.com/dashboard) - Track time and amount you code in particular languages.
 - [HackMD](https://hackmd.io/) - Real time, Multi-platform Collaborative Markdown note editor.
 - [Favicon Generator for perfect icons on all browsers](https://realfavicongenerator.net/) 
+- [Code Beautify and Code Formatter For Developers - to Beautify, Validate, Minify, JSON, XML, JavaScript, CSS, HTML, Excel and more](https://codebeautify.org/) 
 
 ### Reference
 - [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
