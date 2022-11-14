@@ -118,6 +118,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Background remover](https://www.photoroom.com/background-remover/)
 - [Cleanup.pictures - Remove objects, people, text and defects from any picture for free](https://cleanup.pictures/) 
 - [Palette - Colorize Photos](https://palette.fm/) 
+- [Online Background Remover 100% Free | PicWish](https://picwish.com/)
 - [Morflax studio - The Easiest 3D design platform](https://studio.morflax.com/) - 3D
 - [Fotoramio: Photo Editor Online](https://fotoram.io/) 
 - [Free Profile Picture Maker - Create an awesome profile pic from any photo](https://pfpmaker.com/) 
@@ -202,9 +203,12 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### File share
 - [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
 - [WebWormhole](https://webwormhole.io/) - secure file transfer
+- [Send Anywhere - File transfer](https://send-anywhere.com/)
 - [Streamable](https://streamable.com/) - Video sharing.
 - [Filebin](https://filebin.net/)
 - [Gofile - Free file sharing and storage platform](https://gofile.io/welcome)
+- [Free file sharing service ~ pixeldrain](https://pixeldrain.com/)
+- [Postimages — free image hosting / image upload](https://postimages.org/) 
 
 ### File tweak
 - [Audioalter](https://audioalter.com/) - Audio toolkit
@@ -226,6 +230,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Checkups
 - [Cover Your Tracks](https://coveryourtracks.eff.org/) - privacy checkup of browser
 - [Compare your Page Speed](https://pagespeed.compare/) - multiple web-page compare
+- [Plagiarism Checker Free | Accurate with Percentage](https://plagiarismdetector.net/) 
 
 ### DNS
 - [CONTROL D - Control Your Internet](https://controld.com/?noRedirect=true) - simple DNS
@@ -298,6 +303,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### English
 - [Free English Online Exercises and Activities for all levels](https://www.esleschool.com/)
 - [Ludwig • Find your English sentence](https://ludwig.guru/)
+- [Sentence dictionary online - Good sentence examples for every word!](https://sentencedict.com/) 
+- [Sentence Stack - a powerful Linguistic Search Engine backed by 300+ million sentence examples](https://sentencestack.com/)
 
 ### Quotes
 - [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.
@@ -334,13 +341,14 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Templates
 - [TemplateLab - Best Business & Legal Templates](https://templatelab.com/) 
+- [Fetching Title#470n](https://slidesgo.com/)
 
 ### Websites
 - [বাংলাদেশের জনপ্রিয় ব্লগ সাইট সমূহ](https://trickbd.com/blogger/788786)
 
 ### Books
 - [PDF Archive - Host, share, publish and archive your PDF documents](https://www.pdf-archive.com/)
-
+- [LibZen](https://www.google.com/search?q=libgen&newwindow=1)
 
 ### Plugins
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
