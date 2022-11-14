@@ -64,7 +64,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 <!--more-->
 {{< admonition tip "BTW," >}}
 Special thanks to [Afnan Sami](https://www.afnansami.com/) . I don't think this post would be possible without his help. There's a recent project from him to store and access bookmarks more efficiently,
-- [Unique sites that works!](https://ustw.netlify.app/)
+- [Unique sites that works!](https://ustw.vercel.app/)
 
 You can also contribute in this project! [Here's the repository](https://github.com/theafnansami/USTW). We'll sincerely appreciate it!
 {{< /admonition >}}
@@ -249,6 +249,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
 - [Freecodecamp](https://www.freecodecamp.com/)
+- [Fetching Title#kx8m](https://www.geeksforgeeks.org/) 
 - [Brilliant](https://brilliant.org/) - Online math and CS courses.
 - [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
 - [Hackr](https://hackr.io/) - Find programming Courses & Tutorials.
