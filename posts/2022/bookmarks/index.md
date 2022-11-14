@@ -309,6 +309,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Ludwig • Find your English sentence](https://ludwig.guru/)
 - [Sentence dictionary online - Good sentence examples for every word!](https://sentencedict.com/) 
 - [Sentence Stack - a powerful Linguistic Search Engine backed by 300+ million sentence examples](https://sentencestack.com/)
+- [Write & Improve with Cambridge](https://writeandimprove.com/)
 
 ### Quotes
 - [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.
