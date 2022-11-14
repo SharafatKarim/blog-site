@@ -126,6 +126,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Motionity - The web-based motion graphics editor for everyone](https://www.motionity.app/)
 - [Free Online Graphic Designer | Collage Maker | Photo Editor - FotoJet](https://www.fotojet.com/)
 - [Panzoid](https://panzoid.com/) 
+- [Jitter • The simplest motion design tool on the web.](https://jitter.video/) 
 - [All your video needs in one place | Clipchamp](https://clipchamp.com/en/) 
 
 ### AI
@@ -133,6 +134,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Brandmark - make your logo in minutes](https://app.brandmark.io/v3/) 
 - [Bigjpg - AI Super-Resolution lossless image enlarging / upscaling tool using Deep Convolutional Neural Networks](https://bigjpg.com/)
 - [ARC官网-腾讯](https://arc.tencent.com/en/ai-demos/faceRestoration)
+- [Hotpot.ai - Hotpot.ai](https://hotpot.ai/)
 
 ### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
@@ -140,6 +142,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Make Background](https://makebackground.io/#gallery) - Live, Customized Backgrounds / Wallpapers / Videos
 - [ColorMix Generator](https://colormix.mdbgo.io/#generator) - color scheme 
 - [Textcraft](https://textcraft.net/) - minecraft style logo
+- [Intro Maker | Intro Video Templates for YouTube](https://intromaker.com/)
 - [RITM Generator - Antlii](https://antlii.work/RITM-Generator) 
 - [Animated Backgrounds](https://animatedbackgrounds.me/)
 
@@ -291,7 +294,10 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [TED](https://www.ted.com/) - Free Expert Academic Talks.
 - [Arxiv](https://arxiv.org/) - Open access to 1,364,248 e-prints in STEM fields.
 - [Chemdiary](https://chemdiary.com/users/sign_in) - Track your drug, research chemical and nootropic use.
+
+### English
 - [Free English Online Exercises and Activities for all levels](https://www.esleschool.com/)
+- [Ludwig • Find your English sentence](https://ludwig.guru/)
 
 ### Quotes
 - [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.
@@ -323,6 +329,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Ekushey - Bangla keyboard](https://ekushey.org/)
 - [Find Open Source By Searching, Browsing and Combining](https://awesomeopensource.com/) 
 - [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software#games) - List from GitHub
+- [Best 704K+ Open Source Software Projects - Open Source Agenda](https://www.opensourceagenda.com/) 
 - [Windows 10 Ameliorated](https://ameliorated.info/) - Windows 10 minus the spyware plus added stability and security.
 
 ### Templates
@@ -330,6 +337,10 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Websites
 - [বাংলাদেশের জনপ্রিয় ব্লগ সাইট সমূহ](https://trickbd.com/blogger/788786)
+
+### Books
+- [PDF Archive - Host, share, publish and archive your PDF documents](https://www.pdf-archive.com/)
+
 
 ### Plugins
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
