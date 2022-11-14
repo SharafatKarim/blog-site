@@ -437,6 +437,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
 - [MDN](https://developer.mozilla.org/en-US/)
 - [Free for developers](https://free-for.dev/#/)
+- [tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr) 
 
 ## Others 
 > And some leftovers, can you categorize them?
