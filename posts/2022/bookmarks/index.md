@@ -124,6 +124,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Fotoramio: Photo Editor Online](https://fotoram.io/) 
 - [Free Profile Picture Maker - Create an awesome profile pic from any photo](https://pfpmaker.com/) 
 - [Squoosh](https://squoosh.app/)
+- [PowerGlitch - Glitch anything on the web](https://7ph.github.io/powerglitch/#/playground) 
 
 ### Motion
 - [Motionity - The web-based motion graphics editor for everyone](https://www.motionity.app/)
