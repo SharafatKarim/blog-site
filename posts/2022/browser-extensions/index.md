@@ -235,7 +235,10 @@ If you want to explore more, here's a short suggestion,
 19. 🔽 [Easy Youtube Video Downloader Express](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/)
 20. ℹ️ [Google Lighthouse](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/)
 21. 🧊 [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) 
-22. 
+22. 🕹 [Violentmonkey](https://violentmonkey.github.io/) 
+23. 🚮 [ClearURLs)](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) 
+24. 🧗🏻[Universal Bypassed](https://addons.mozilla.org/en-US/firefox/addon/universal-bypassed/) 
+25. 🛠 [Buster: Captcha Solver for Humans](https://addons.mozilla.org/en-US/firefox/addon/buster-captcha-solver/) 
 
 And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/en-US/firefox/). (Especially the recommended part)
 
