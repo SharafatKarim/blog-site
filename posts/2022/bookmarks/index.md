@@ -258,6 +258,7 @@ Learn as you go cause you can't finish it.
 - [Educative.io](https://www.educative.io/) - Online tutorials
 - [EdX](https://www.edx.org/)
 - [Leetcode](https://leetcode.com) - Platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
+- [Exercism](http://exercism.io/) - Online execution of programming problems.
 
 ### Visual
 - [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
@@ -271,13 +272,12 @@ Learn as you go cause you can't finish it.
 ### Paper
 - [Where is SciHub](https://whereisscihub.herokuapp.com/go) - Go to correct link of SciHub (reserach paper search).
 
-### Extras
+### Study
 - [MIT courses](https://ocw.mit.edu/courses/)
 - [Quizlet](https://quizlet.com/latest)
 - [TED](https://www.ted.com/) - Free Expert Academic Talks.
 - [Arxiv](https://arxiv.org/) - Open access to 1,364,248 e-prints in STEM fields.
 - [Chemdiary](https://chemdiary.com/users/sign_in) - Track your drug, research chemical and nootropic use.
-- [Exercism](http://exercism.io/) - Online execution of programming problems.
 
 ### Quotes
 - [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.

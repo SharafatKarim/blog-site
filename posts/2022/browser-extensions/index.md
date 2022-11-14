@@ -1,4 +1,4 @@
-### userscript---
+---
 title: "Useful Browser Extensions"
 date: 2022-11-06T09:08:10+06:00
 lastmod: 2022-11-06T09:08:10+06:00
@@ -57,7 +57,6 @@ library:
 seo:
   images: []
   # ...
-
 license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
