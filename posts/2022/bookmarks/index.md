@@ -269,11 +269,7 @@ Learn as you go cause you can't finish it.
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
 
 ### Extras
-- [MDN](https://developer.mozilla.org/en-US/)
 - [MIT courses](https://ocw.mit.edu/courses/)
-- [Open culture](http://www.openculture.com/)
-- [Open yale courses](http://oyc.yale.edu/)
-- [Physics Travel Guide](https://physicstravelguide.com)
 - [Quizlet](https://quizlet.com/latest)
 - [Ray Wenderlich](https://www.raywenderlich.com/)
 - [Silicon valley dictionary](http://svdictionary.com/) - Online dictionary targeted at Coders, similar to Urban Dictionary
@@ -403,6 +399,7 @@ These kind of thing exists so that it can help you fall asleep.
 
 - [List community](https://list.community/) - Easy way to browse curated lists and docs.
 - [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
+- [MDN](https://developer.mozilla.org/en-US/)
 
 ## Others 
 And some leftovers, can you categorize them?
