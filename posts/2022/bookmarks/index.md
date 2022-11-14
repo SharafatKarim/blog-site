@@ -109,6 +109,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Reference to draw
 - [Flat UI colours](https://flatuicolors.com/) - color palettes
+- [Happy Hues - Curated colors in context.](https://www.happyhues.co/)
 
 ### Create & Edit
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
@@ -123,6 +124,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Motion
 - [Motionity - The web-based motion graphics editor for everyone](https://www.motionity.app/)
+- [Free Online Graphic Designer | Collage Maker | Photo Editor - FotoJet](https://www.fotojet.com/)
 - [Panzoid](https://panzoid.com/) 
 - [All your video needs in one place | Clipchamp](https://clipchamp.com/en/) 
 
@@ -192,17 +194,21 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Fast fingers](https://10fastfingers.com/typing-test/english) - Online typing test.
 - [Find all Working BDIX Servers | Gamitisa](https://gamitisa.com/tools/bdix-tester/) - BDIX tester
 - [Rapidtags | YouTube Tag Generator and Optimizer](https://rapidtags.io/generator) 
+- [Tools « den4b.com](https://www.den4b.com/tools)
 
 ### File share
 - [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
 - [WebWormhole](https://webwormhole.io/) - secure file transfer
 - [Streamable](https://streamable.com/) - Video sharing.
+- [Filebin](https://filebin.net/)
+- [Gofile - Free file sharing and storage platform](https://gofile.io/welcome)
 
 ### File tweak
 - [Audioalter](https://audioalter.com/) - Audio toolkit
 - [YouCompress](https://www.youcompress.com/) - File compress
 - [Optimize images online](https://www.optimizeimages.com/tool) - image optimization
 - [Free PDF, Video, Image & Other Online Tools - TinyWow](https://tinywow.com/) 
+- [File Converter - FreeConvert.com](https://www.freeconvert.com/)
 
 ### Downloader
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
@@ -285,6 +291,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [TED](https://www.ted.com/) - Free Expert Academic Talks.
 - [Arxiv](https://arxiv.org/) - Open access to 1,364,248 e-prints in STEM fields.
 - [Chemdiary](https://chemdiary.com/users/sign_in) - Track your drug, research chemical and nootropic use.
+- [Free English Online Exercises and Activities for all levels](https://www.esleschool.com/)
 
 ### Quotes
 - [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.
@@ -404,6 +411,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [List community](https://list.community/) - Easy way to browse curated lists and docs.
 - [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
 - [MDN](https://developer.mozilla.org/en-US/)
+- [Free for developers](https://free-for.dev/#/)
 
 ## Others 
 > And some leftovers, can you categorize them?
