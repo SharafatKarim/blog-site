@@ -71,7 +71,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 
 ## Cloud 
-A place where a huge data database is waiting for you along with some tools.
+> A place where a huge data database is waiting for you along with some tools.
 
 ### Storage
 - [Google Drive](https://drive.google.com/drive/my-drive) - Cloud storage and cloud editing for files.
@@ -101,7 +101,7 @@ A place where a huge data database is waiting for you along with some tools.
 
 
 ## Design
-It's sole aim is to make design easier, with some stock collections.
+> It's sole aim is to make design easier, with some stock collections.
 
 ### Draw & Notes
 - [tldraw](https://www.tldraw.com/) - drawing tool
@@ -143,7 +143,7 @@ It's sole aim is to make design easier, with some stock collections.
 
 
 ## Development 
-A place for developers to stop.
+> A place for developers to stop.
 
 ### Build
 - [kodular](https://creator.kodular.io/) - app builder free
@@ -170,12 +170,12 @@ A place for developers to stop.
 - [HackMD](https://hackmd.io/) - Real time, Multi-platform Collaborative Markdown note editor.
 - [Favicon Generator for perfect icons on all browsers](https://realfavicongenerator.net/) 
 
-## Reference
+### Reference
 - [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
 
 
 ## Tools
-Handy tools for everyone. Can be as little as multiplication of 2 matrix!
+> Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 ### Local server
 - [Sync Thing](https://localhost:8384/#)
@@ -232,7 +232,7 @@ Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 
 ## Learn 
-Learn as you go cause you can't finish it.
+> Learn as you go cause you can't finish it.
 
 ### General
 - [মুক্তপথ - সরকারী](https://muktopaath.gov.bd/)
@@ -283,7 +283,7 @@ Learn as you go cause you can't finish it.
 - [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.
 
 ## News 
-It's just 4 thing, north, east, west and south and it is so much dynamic.
+> It's just 4 thing, north, east, west and south and it is so much dynamic.
 
 ### Articles
 - [Trickbd.com - Know for sharing](https://trickbd.com/)
@@ -302,7 +302,7 @@ It's just 4 thing, north, east, west and south and it is so much dynamic.
 
 
 ## Collections 
-It exists so that you don't need to collect again.
+> It exists so that you don't need to collect again.
 - [GitHub - 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome) 
 
 ### Software 
@@ -360,7 +360,7 @@ It exists so that you don't need to collect again.
 - [Download free fonts — Fontstorage.com](https://fontstorage.com/) 
 
 ## Fun
-Let machine automate your fun.
+> Let machine automate your fun.
 
 ### Generator
 - [Sweary](https://sweary.com/) - Insult generator
@@ -392,14 +392,14 @@ Let machine automate your fun.
 - [Matrix multiplication](http://matrixmultiplication.xyz/)
 
 ## Wiki 
-These kind of thing exists so that it can help you fall asleep.
+> These kind of thing exists so that it can help you fall asleep.
 
 - [List community](https://list.community/) - Easy way to browse curated lists and docs.
 - [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
 - [MDN](https://developer.mozilla.org/en-US/)
 
 ## Others 
-And some leftovers, can you categorize them?
+> And some leftovers, can you categorize them?
 
 - [WebGL water](http://madebyevan.com/webgl-water/)
 
