@@ -268,16 +268,13 @@ Learn as you go cause you can't finish it.
 - [Omni Calculator](https://www.omnicalculator.com/) 
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
 
+### Paper
+- [Where is SciHub](https://whereisscihub.herokuapp.com/go) - Go to correct link of SciHub (reserach paper search).
+
 ### Extras
 - [MIT courses](https://ocw.mit.edu/courses/)
 - [Quizlet](https://quizlet.com/latest)
-- [Ray Wenderlich](https://www.raywenderlich.com/)
-- [Silicon valley dictionary](http://svdictionary.com/) - Online dictionary targeted at Coders, similar to Urban Dictionary
 - [TED](https://www.ted.com/) - Free Expert Academic Talks.
-- [Tutorials point](https://www.tutorialspoint.com/index.htm) - Online Tutorials at your own pace.
-- [Udacity](https://www.udacity.com/)
-- [Udemy](https://www.udemy.com/user/nikitavoloboev/)
-- [Where is SciHub](https://whereisscihub.herokuapp.com/go) - Go to correct link of SciHub (reserach paper search).
 - [Arxiv](https://arxiv.org/) - Open access to 1,364,248 e-prints in STEM fields.
 - [Chemdiary](https://chemdiary.com/users/sign_in) - Track your drug, research chemical and nootropic use.
 - [Exercism](http://exercism.io/) - Online execution of programming problems.
