@@ -257,6 +257,7 @@ Learn as you go cause you can't finish it.
 - [Coursera](https://www.coursera.org/)
 - [Educative.io](https://www.educative.io/) - Online tutorials
 - [EdX](https://www.edx.org/)
+- [Leetcode](https://leetcode.com) - Platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
 
 ### Visual
 - [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
@@ -268,11 +269,7 @@ Learn as you go cause you can't finish it.
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
 
 ### Extras
-- [Lecture search](https://www.findlectures.com/) - Find Online Lectures.
-- [Leetcode](https://leetcode.com) - Platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
-- [Library of Babel](http://libraryofbabel.info/)
 - [MDN](https://developer.mozilla.org/en-US/)
-- [Metacademy](https://www.metacademy.org/)
 - [MIT courses](https://ocw.mit.edu/courses/)
 - [Open culture](http://www.openculture.com/)
 - [Open yale courses](http://oyc.yale.edu/)
