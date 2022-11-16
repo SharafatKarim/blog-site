@@ -65,4 +65,4 @@ comment:
 ---
 
 - 🫠 Contributions
-<img align="center" src="https://raw.githubusercontent.com/SharafatKarim/SharafatKarim/output/github-contribution-grid-snake-dark.svg" alt="snake representing GitHub contributions">
+<img style="width:100%;" src="https://raw.githubusercontent.com/SharafatKarim/SharafatKarim/output/github-contribution-grid-snake.svg" alt="snake representing GitHub contributions">
