@@ -63,7 +63,7 @@ comment:
   <img src="https://github-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=apprentice&locale=en&hide_border=false&custom_title=STATS&username=SharafatKarim" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&langs_count=5&theme=apprentice&disable_animations=false&hide_border=false&custom_title=LANGUAGES&username=SharafatKarim" height="150" alt="languages graph"  />
 </div>
-
+![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=SharafatKarim&theme=github&bg_color=00000000)
 ---
 
 - 🫠 Contributions
