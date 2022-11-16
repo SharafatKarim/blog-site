@@ -59,8 +59,9 @@ comment:
 ---
 
 - 🔮 GitHub STATS
-![](https://raw.githubusercontent.com/SharafatKarim/SharafatKarim/main/github-metrics.svg)
+
 ![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=SharafatKarim&theme=github&bg_color=00000000)
+
 ---
 
 - 🫠 Contributions
