@@ -265,7 +265,6 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Skill based (short)
 - [200+ Free Tutorials at GCFGlobal](https://edu.gcfglobal.org/en/topics/) - Basic articles of computer and internet
 - [Home | Linux Journey](https://linuxjourney.com/) - Linux Journey
-- [শুরুর কথা - বাংলায় শেল ও শেলস্ক্রিপ্টিং শেখার কোর্স](https://sh.howtocode.dev/) - Bangla shell scripting
 - [Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) - GitHub
 - [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
 - [W3schools](https://www.w3schools.com/) - The standard for Web Development.
@@ -274,6 +273,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
 - [Freecodecamp](https://www.freecodecamp.com/)
 - [GeeksforGeeks | A computer science portal for geeks](https://www.geeksforgeeks.org/) 
+- [সবার জন্য প্রোগ্রামিং :: বাংলায় প্রোগ্রামিং ও সফটওয়্যার ডেভেলপমেন্ট শেখার ওপেনসোর্স কোর্স](https://www.howtocode.dev/)
 - [Brilliant](https://brilliant.org/) - Online math and CS courses.
 - [Class Central](https://www.classcentral.com/) - Find the best courses, wherever they exist
 - [Hackr](https://hackr.io/) - Find programming Courses & Tutorials.
