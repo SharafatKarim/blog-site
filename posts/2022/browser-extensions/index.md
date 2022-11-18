@@ -249,5 +249,5 @@ IF your'e a Firefox user, try those themes made specifically for kde plasma!
 ## Acknowledgements
 
 Special thanks to,
-- [Alive @user](t.me/RankCoder) - founder of [Linux Bangla](https://t.me/linux_bangla) community.
+- [Alive @user](https://t.me/RankCoder) - founder of [Linux Bangla](https://t.me/linux_bangla) community.
 - [Shahid Parvez](http://mrsnailo.github.io) - Linux lover - Tech enthusiast - my teacher.
