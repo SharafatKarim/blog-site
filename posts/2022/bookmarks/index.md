@@ -162,6 +162,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Build
 - [kodular](https://creator.kodular.io/) - app builder free
 - [Thunkable: Best no code app builder | No code app creation](https://thunkable.com/#/) - android app builder
+- [Neverinstall | Your browser is the new operating system](https://neverinstall.com/) - build in the cloud
 - [readme.so](https://readme.so/bn) - easy GitHub read me file generate
 
 ### Debug
@@ -234,6 +235,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Checkups
 - [Cover Your Tracks](https://coveryourtracks.eff.org/) - privacy checkup of browser
 - [Compare your Page Speed](https://pagespeed.compare/) - multiple web-page compare
+- [PageSpeed Insights](https://pagespeed.web.dev/) - Google's page speed insight
 - [Plagiarism Checker Free | Accurate with Percentage](https://plagiarismdetector.net/) 
 
 ### DNS
