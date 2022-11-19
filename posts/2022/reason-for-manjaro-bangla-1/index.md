@@ -82,7 +82,7 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
  তাই পরিশেষে Manjaro ভালো লাগার সবচেয়ে বড় কারন হলো এর সফটওয়ার store (pamac)। আপনার যদি কখনো snap বা flatpak দরকার হয়, আপনি store থেকেই install করতে পারবেন। তবে snap avoid করার পরামর্শ রইলো কারণ এটা boot time কমিয়ে দেয়। যারা advanced user তাদেরকে বলবো Manjaro minimal টা try করার জন্য। এটা অনেক lightweight এবং boot time কম।<img src="https://2img.net/i/fa/i/smiles/icon_cool.gif" alt="Cool" longdesc="6">
 
 {{< admonition abstract "BTW" true >}}
- এটা আমার সম্পূর্ণ নিজের perspective। আর আমি এটাও বলছি না, Manjaro best। installation, বা ব্যবহার সম্পর্কিত পরামর্শ বা আলোচনা করার জন্য আমাদের [telegram group](t.me/LinuxUniverse) join করার অনুরোধ রইল!
+ এটা আমার সম্পূর্ণ নিজের perspective। আর আমি এটাও বলছি না, Manjaro best। installation, বা ব্যবহার সম্পর্কিত পরামর্শ বা আলোচনা করার জন্য আমাদের [telegram group](https://t.me/LinuxUniverse) join করার অনুরোধ রইল!
 {{< /admonition >}}
 
 ## সমস্যাসমূহ

@@ -248,14 +248,14 @@ Table without alignment (without using `:`, just `---`) will center align the fi
 ## Links and ancors
 ``` markdown
 <https://t.me/SharafatKarim>
-[My telegram](t.me/SharafatKarim)
-[My telegram account](t.me/SharafatKarim "My telegram profile")
+[My telegram](https://t.me/SharafatKarim)
+[My telegram account](https://t.me/SharafatKarim "My telegram profile")
 ```
 <https://t.me/SharafatKarim>
 
-[My telegram](t.me/SharafatKarim)
+[My telegram](https://t.me/SharafatKarim)
 
-[My telegram account](t.me/SharafatKarim "My telegram profile") (Hover over it - desktop PC)
+[My telegram account](https://t.me/SharafatKarim "My telegram profile") (Hover over it - desktop PC)
 
 ## Table of contents
 ``` markdown

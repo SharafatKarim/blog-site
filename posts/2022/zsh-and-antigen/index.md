@@ -351,7 +351,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 # Tell Antigen that you're done.
 antigen apply
 ```
-If you've any questions or queries or any doubt, feel free to contact me or maybe [our telegram group](t.me/LinuxUniverse) 😅. And if you don't like ZSH there is also [fish](https://fishshell.com/). Maybe I'll write another one for fish, who knows? 😆
+If you've any questions or queries or any doubt, feel free to contact me or maybe [our telegram group](https://t.me/LinuxUniverse) 😅. And if you don't like ZSH there is also [fish](https://fishshell.com/). Maybe I'll write another one for fish, who knows? 😆
 
 Thanks for reading this far.
 
