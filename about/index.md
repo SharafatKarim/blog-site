@@ -46,7 +46,7 @@ comment:
 
 <p><img width="28%" align="right" alt="Github Header" src="https://openclipart.org/download/231263/cherry-blossom-spinner.svg"/></p>
 
-- 🏖️ Favourite things
+- 🏖️ Favorite things
   - person = Muhammad ibn Abdullah (ﷺ)
   - color = rgb(29-53, 191-233, 164-182)
   - subject = something that is easy for me 😇
