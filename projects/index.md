@@ -18,6 +18,7 @@ comment:
 - [Chaotic AUR installer script](https://github.com/SharafatKarim/chaotic-AUR-installer)
 - [Manjaro Bangla Fix](https://github.com/SharafatKarim/Manjaro-Bangla-Font-Fix)
 - [Qogir dotfiles (theme for kde plasma)](https://github.com/SharafatKarim/qogir-dotfiles-2022)
+- [Sharafat's Notes](https://sharafat.vercel.app/) 
 
 ## 2020-2021
 - [Linux Headlines](https://github.com/SharafatKarim/LinuxHeadlines)
