@@ -125,17 +125,18 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 | team viewer | remote desktop accessing   |
 
 ## Multimedia
-| Application            | Description                             |
-|:---------------------- |:--------------------------------------- |
-| ikona                  | Icon viewer                             |
-| vlc                    | media player                            |
-| handbrake              | video trans-coder                       |
-| obs studio             | screen record and stream                |
-| simple screen recorder | screen recorder                         |
-| picard                 | audio tagging tool (MusicBrainz Picard) |
-| audacity               | audio edit                              |
-| kid3-qt                | audio tag editor                        |
-| sound converter        | GTK audio batch converter               |
+| Application            | Description                                                                                                                    |
+|:---------------------- |:------------------------------------------------------------------------------------------------------------------------------ |
+| ikona                  | Icon viewer                                                                                                                    |
+| vlc                    | media player                                                                                                                   |
+| handbrake              | video trans-coder                                                                                                              |
+| obs studio             | screen record and stream                                                                                                       |
+| simple screen recorder | screen recorder                                                                                                                |
+| picard                 | audio tagging tool (MusicBrainz Picard)                                                                                        |
+| audacity               | audio edit                                                                                                                     |
+| kid3-qt                | audio tag editor                                                                                                               |
+| sound converter        | GTK audio batch converter                                                                                                      |
+| digikam                | Photo management program with advanced feature like [photo gallery to HTML](https://sharafatkarim.github.io/wallpapers-2022/)! |
 
 {{< admonition tip "BTW," >}}
 You can find a list of useful Multimedia related application in "Ubuntu Studio",
@@ -181,11 +182,12 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | q4wine      | wine GUI                    |
 
 ## Command-Line
-| Application | Description              |
-| ----------- | ------------------------ |
-| hugo        | static site generator    |
-| ipython     | interactive python shell |
-| yt-dlp      | a better youtube-dl      | 
+| Application | Description                                                                         |
+| ----------- | ----------------------------------------------------------------------------------- |
+| hugo        | static site generator                                                               |
+| ipython     | interactive python shell                                                            |
+| yt-dlp      | a better youtube-dl                                                                 |
+| imagemagick | easy image [conversation](https://sharafat.vercel.app/batch-conversation-with-loop) |
 
 ## Schedule
 - [ ] Team fortress 2 (game)
