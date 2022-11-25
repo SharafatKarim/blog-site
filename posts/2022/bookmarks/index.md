@@ -355,6 +355,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Websites
 - [বাংলাদেশের জনপ্রিয় ব্লগ সাইট সমূহ](https://trickbd.com/blogger/788786)
+- [Undesign | Collection of free design tools and resources for makers, developers and designers](https://undesign.learn.uno/) 
+- [GitHub - Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - 100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc.
 
 ### Books
 - [PDF Archive - Host, share, publish and archive your PDF documents](https://www.pdf-archive.com/)
