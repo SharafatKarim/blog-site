@@ -84,9 +84,10 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 | bluegriffon      | WYSIWYG html & css                            |
 
 ## Education
-| Application | Description                |
-|:----------- |:-------------------------- |
-| xaos        | Interactive fractal zoomer |
+| Application | Description                                                                     |
+|:----------- |:------------------------------------------------------------------------------- |
+| xaos        | Interactive fractal zoomer                                                      |
+| geogebra    | Dynamic mathematics software with interactive graphics, algebra and spreadsheet |
 
 ## Games
 | Application   | Description                             |
