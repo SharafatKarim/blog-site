@@ -197,6 +197,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 - [ ] [NoiseTorch](https://github.com/noisetorch/NoiseTorch) (Noise Supression Application for PulseAudio or Pipewire)
 - [ ] [stretchly](https://hovancik.net/stretchly/) (The break time reminder app)
 - [ ] [Upscayl](https://github.com/upscayl/upscayl) (Upscale images with AI- GPU required)
+- [ ] [Celestia](https://celestia.space/) (## real-time 3D visualization of space)
 
 {{< admonition quote "Besides," true >}}
 If you want to add more application in this list or,
