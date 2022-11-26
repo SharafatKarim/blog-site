@@ -62,7 +62,7 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 Gone camping! :(fas fa-campground): Be back soon.
 
-That is so funny! :(far fa-grin-tears):
+That is so funny! :(fas fa-coding):
 
 
 A proper way to do some extended checkups and troubleshooting for LibreOffice. So that while using you don't have to worry much about any missing feature like spelling correction not working, or similar. So then, let's extend our possibilities!
