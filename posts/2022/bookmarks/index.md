@@ -69,7 +69,6 @@ Special thanks to [Afnan Sami](https://www.afnansami.com/) . I don't think this 
 You can also contribute in this project! [Here's the repository](https://github.com/theafnansami/USTW). We'll sincerely appreciate it!
 {{< /admonition >}}
 
-
 ## Cloud 
 > A place where a huge data database is waiting for you along with some tools.
 
@@ -421,7 +420,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Ability
 - [ZType – Typing Game - Type to Shoot](https://zty.pe/)
-- [Can't Unsee](https://cantunsee.space/) - Test your des
+- [Can't Unsee](https://cantunsee.space/) - Test your designing ability 
 
 ### Stats
 - [First PR](http://firstpr.me) - See the first GitHub Pull Request you made.
