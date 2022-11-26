@@ -176,6 +176,9 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [WebOps SaaS Platform for High Impact Websites | Pantheon](https://pantheon.io/) 
 - [Free Hosting, Paid Hosting, Reseller Services & VPS Servers : Byet Internet](https://byet.host/) 
 
+### Domain
+- [Namechk - Username and Domain Name Checker - Search All Domain Names and User Names to see if they're available](https://namechk.com/) 
+
 ### Share
 - [Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code.
 - [Asciinema](https://asciinema.org/~nikivi) - Free and open source way to record terminal sessions and share them on the web.
@@ -185,6 +188,9 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [HackMD](https://hackmd.io/) - Real time, Multi-platform Collaborative Markdown note editor.
 - [Favicon Generator for perfect icons on all browsers](https://realfavicongenerator.net/) 
 - [Code Beautify and Code Formatter For Developers - to Beautify, Validate, Minify, JSON, XML, JavaScript, CSS, HTML, Excel and more](https://codebeautify.org/) 
+
+### Web
+- [Free Bootstrap Themes and Website Templates | BootstrapMade](https://bootstrapmade.com/)
 
 ### Reference
 - [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
@@ -270,7 +276,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) - GitHub
 - [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
 - [W3schools](https://www.w3schools.com/) - The standard for Web Development.
-- [Ahrefs - SEO Tools & Resources To Grow Your Search Traffic](https://ahrefs.com/)
+- [Ahrefs - SEO Tools & Resources To Grow Your Search Traffic](https://ahrefs.com/) 
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
@@ -315,6 +321,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Sentence dictionary online - Good sentence examples for every word!](https://sentencedict.com/) 
 - [Sentence Stack - a powerful Linguistic Search Engine backed by 300+ million sentence examples](https://sentencestack.com/)
 - [Write & Improve with Cambridge](https://writeandimprove.com/)
+- [TLDR This - Article Summarizer & Online Text Summarizing Tool](https://tldrthis.com/)
 
 ### Quotes
 - [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.
@@ -411,6 +418,10 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Generator
 - [Sweary](https://sweary.com/) - Insult generator
 - [Username Generator](https://usernamegenerator.com/) 
+
+### Ability
+- [ZType – Typing Game - Type to Shoot](https://zty.pe/)
+- [Can't Unsee](https://cantunsee.space/) - Test your des
 
 ### Stats
 - [First PR](http://firstpr.me) - See the first GitHub Pull Request you made.
