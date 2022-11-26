@@ -69,7 +69,7 @@ This is a simple personal collection. There might be more better extensions that
 # Most useful ones
 These may help you every single day!
 
-##  Bitwarden
+##  BitWarden
 
 A free and open source password manager. Used to store all of your passwords and notes. Well, it also have features that can be extended with premium membership, but free plan is good enough for personal daily driving cases.
 

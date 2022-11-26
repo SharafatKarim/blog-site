@@ -59,12 +59,6 @@ seo:
   # ...
 license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
-
-Gone camping! :(fas fa-campground): Be back soon.
-
-That is so funny! :(fas fa-coding):
-
-
 A proper way to do some extended checkups and troubleshooting for LibreOffice. So that while using you don't have to worry much about any missing feature like spelling correction not working, or similar. So then, let's extend our possibilities!
 
 {{< admonition warning "Requirements," >}}
@@ -123,7 +117,7 @@ sudo pacman -S --needed libmythes mythes-en
 Not available for your language? Check [Extensions](#extensions). And yeah! In this era, search engine exist to define something!
 
 ## Grammar checking
-For grammar checking most common way is to use [Language tool.](https://www.languagetool.org/) It's now available in LibreOffice ( version 7.4 or higher). Here's [how to tutorial!](https://languagetool.org/insights/post/product-libreoffice/?pk_campaign=addon2-changelog-11-2022-libreoffice#how-to-enable-languagetool-on-libreoffice)
+For grammar checking most common way is to use [Language tool.](https://www.languagetool.org/) It's now officially available in LibreOffice ( :(fas fa-code-branch): version 7.4 or higher). Here's [how to tutorial!](https://languagetool.org/insights/post/product-libreoffice/?pk_campaign=addon2-changelog-11-2022-libreoffice#how-to-enable-languagetool-on-libreoffice)
 
 For older releases, try the following method,
 - download it's extension [from here](https://extensions.libreoffice.org/en/extensions/show/languagetool) (*.oxt file). Latest version is recommended. File size is around 160 MB.
