@@ -118,7 +118,9 @@ sudo pacman -S --needed libmythes mythes-en
 Not available for your language? Check [Extensions](#extensions). And yeah! In this era, search engine exist to define something!
 
 ## Grammar checking
-For grammar checking most common way is to use [Language tool.](https://www.languagetool.org/) It's quite popular. To use it,
+For grammar checking most common way is to use [Language tool.](https://www.languagetool.org/) It's now available in LibreOffice (version 7.4 or higher). Here's [how to tutorial!](https://languagetool.org/insights/post/product-libreoffice/?pk_campaign=addon2-changelog-11-2022-libreoffice#how-to-enable-languagetool-on-libreoffice)
+
+For older releases, try the following method,
 - download it's extension [from here](https://extensions.libreoffice.org/en/extensions/show/languagetool) (*.oxt file). Latest version is recommended. File size is around 160 MB.
 - manually install it in LibreOffice through Tools > Extension. (ctrl + alt + e)
 ![](https://res.cloudinary.com/dte603aka/image/upload/v1667876796/blog/2022/Screenshot_20221108_090549-1_isfwdu.png)
