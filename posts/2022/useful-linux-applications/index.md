@@ -89,6 +89,7 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 |:----------- |:------------------------------------------------------------------------------- |
 | xaos        | Interactive fractal zoomer                                                      |
 | geogebra    | Dynamic mathematics software with interactive graphics, algebra and spreadsheet |
+| kig         | Interactive geometry                                                            |
 
 ## Games
 | Application   | Description                             |
@@ -211,6 +212,7 @@ Here's a list of explicitly installed installed on my system,
 `update November 2022`
 
 {{< admonition example "List of applications" false >}}
+> If you want to create a list like this one, try check this page!
 - akm 2.11-1
 - alsa-firmware 1.2.4-2
 - alsa-utils 1.2.8-1
