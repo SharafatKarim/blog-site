@@ -190,6 +190,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | ipython     | interactive python shell                                                            |
 | yt-dlp      | a better youtube-dl                                                                 |
 | imagemagick | easy image [conversation](https://sharafat.vercel.app/batch-conversation-with-loop) |
+| telebit     | port forwarding tool                                                                |
 
 ## Schedule
 - [ ] Team fortress 2 (game)
