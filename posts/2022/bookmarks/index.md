@@ -106,7 +106,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [tldraw](https://www.tldraw.com/) - drawing tool
 - [editor.md](http://editor.md.ipandao.com/en.html) - markdown online editor
 
-### R
+### Colors
 - [Flat UI colours](https://flatuicolors.com/) - color palettes
 - [Happy Hues - Curated colors in context.](https://www.happyhues.co/)
 - [P. C. M. 0.25](https://colormixer.web.app/02007115ff623007ff9bc91b64440301ffff7c5f55610300/Sunset) - color mixer
@@ -116,6 +116,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Palettte App](https://palettte.app/) 
 - [Colorable](https://colorable.jxnblk.com/) 
 - [Coolors - The super fast color palettes generator!](https://coolors.co/) 
+- [Material Design Color Palette Generator - Material Palette](https://www.materialpalette.com/)
+- [Colors & Fonts](https://www.colorsandfonts.com/)
 
 ### Create & Edit
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
@@ -158,6 +160,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Intro Maker | Intro Video Templates for YouTube](https://intromaker.com/)
 - [RITM Generator - Antlii](https://antlii.work/RITM-Generator) 
 - [Animated Backgrounds](https://animatedbackgrounds.me/)
+- [AppLaunchpad - (1000) Best Free Mockup Generator](https://theapplaunchpad.com/mockup-generator/) - mockups
+- [Artboard Studio: Design and Animate Like Never Before](https://artboard.studio/) 
 
 ### Idea
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
@@ -165,6 +169,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Flickr - explore](https://www.flickr.com/explore) - explore images
 - [Checklist Design - A collection of the best design practices.](https://www.checklist.design/)
 - [App & Web Design Made Easy | Powered By AI | Uizard](https://uizard.io/)
+- [Daily UI Design Challenge, Inspiration, and Resources](https://www.dailyui.co/) 
+- [The Best Landing Page Examples For Design Inspiration - SaaS Landing Page](https://saaslandingpage.com/) 
 
 ### Web design
 - [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) 
@@ -175,6 +181,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Multicolor CSS Gradients, JPG Downloads, 100% Free! | Gradienta](https://gradienta.io/) 
 - [Design Systems Repo | A Collection of Design System Resources](https://designsystemsrepo.com/design-systems-recent/) 
 - [CSSPeeper - Smart CSS viewer tailored for Designers](https://csspeeper.com/)
+- [Stylify Me - Online Style Guide Generator](http://stylifyme.com/)
 
 ### Icon & CSS
 - [Font Awesome](https://fontawesome.com/) 
@@ -413,6 +420,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [বাংলাদেশের জনপ্রিয় ব্লগ সাইট সমূহ](https://trickbd.com/blogger/788786)
 - [Undesign | Collection of free design tools and resources for makers, developers and designers](https://undesign.learn.uno/) 
 - [GitHub - Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - 100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc.
+- [DesignValley | The Ultimate Design Tool](https://designvalley.club/) 
 
 ### Books
 - [PDF Archive - Host, share, publish and archive your PDF documents](https://www.pdf-archive.com/)
@@ -477,6 +485,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Be fonts](https://befonts.com/) 
 - [Free Fonts! Legit Free & Quality » Font Squirrel](https://www.fontsquirrel.com/) 
 - [Type Scale - A Visual Calculator](https://type-scale.com/) 
+- [Fontpair - Free, beautiful fonts and font pairings curated just for you](https://www.fontpair.co/) 
 
 ## Fun
 > Let machine automate your fun.
