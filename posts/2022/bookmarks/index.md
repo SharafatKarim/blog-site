@@ -1,7 +1,7 @@
 ---
 title: "Bookmarks Collection"
 date: 2022-11-12T18:02:49+06:00
-lastmod: 2022-11-12T18:02:49+06:00
+lastmod: 2022-11-30T18:02:49+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
