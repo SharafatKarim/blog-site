@@ -112,7 +112,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Create & Edit
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
-- [Site Unreachable](https://photooxy.com/) - Simple photo effects and strokes
+- [Photooxy](https://photooxy.com/) - Simple photo effects and strokes
 - [ClipDrop](https://clipdrop.co/remove-background) - background remove
 - [Background remover](https://www.photoroom.com/background-remover/)
 - [Cleanup.pictures - Remove objects, people, text and defects from any picture for free](https://cleanup.pictures/) 
@@ -125,6 +125,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Squoosh](https://squoosh.app/)
 - [PowerGlitch - Glitch anything on the web](https://7ph.github.io/powerglitch/#/playground) 
 - [Duotone by ShapeFactory | Create Beautiful Free Duotones](https://duotone.shapefactory.co/?f=10c5f8&t=6736dd) 
+- [Fetching Title#9ekt](https://getavataaars.com/) 
 
 ### Motion
 - [Motionity - The web-based motion graphics editor for everyone](https://www.motionity.app/)
@@ -406,7 +407,10 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Illustration
 - [PNGWing - Exclusive png design images](https://www.pngwing.com/) 
 - [Storyset | Customize, animate and download illustration for free](https://storyset.com/) 
-- [Fetching Title#zzd0](https://www.openpeeps.com/) 
+- [Open Doodles - Free sketchy illustrations](https://opendoodles.com/)
+- [Open Peeps, Hand-Drawn Illustration Library](https://www.openpeeps.com/) 
+- [Catalog • Craftwork](https://craftwork.design/catalog/?_sft_download_category=freebies) 
+- [Control](https://control.rocks/) 
 - [GitHub Octodex](https://octodex.github.com/) 
 - [Beautiful Notion-style illustrations - Notioly](https://notioly.com/)
 
