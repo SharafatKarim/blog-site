@@ -1,7 +1,7 @@
 ---
 title: "Useful Linux Applications"
 date: 2022-10-29T08:34:36+06:00
-lastmod: 2022-10-29T08:34:36+06:00
+lastmod: 2022-11-30T08:34:36+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
@@ -191,6 +191,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | yt-dlp      | a better youtube-dl                                                                 |
 | imagemagick | easy image [conversation](https://sharafat.vercel.app/batch-conversation-with-loop) |
 | telebit     | port forwarding tool                                                                |
+| hdsentinel  | A freeware, closed source, SMART analysis tool                                      | 
 
 ## Schedule
 - [ ] Team fortress 2 (game)
