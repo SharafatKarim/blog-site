@@ -109,6 +109,12 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Reference to draw
 - [Flat UI colours](https://flatuicolors.com/) - color palettes
 - [Happy Hues - Curated colors in context.](https://www.happyhues.co/)
+- [P. C. M. 0.25](https://colormixer.web.app/02007115ff623007ff9bc91b64440301ffff7c5f55610300/Sunset) - color mixer
+- [Colorsinspo - All in one resource for finding everything about colors | Colorsinspo](https://colorsinspo.com/)
+- [Color Hex - ColorHexa.com](https://www.colorhexa.com/index.php) 
+- [ColorSpace - Color Palettes Generator and Color Gradient Tool](https://mycolor.space/) 
+- [Palettte App](https://palettte.app/) 
+- [Fetching Title#xa7q](https://colorable.jxnblk.com/) 
 
 ### Create & Edit
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
@@ -125,7 +131,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Squoosh](https://squoosh.app/)
 - [PowerGlitch - Glitch anything on the web](https://7ph.github.io/powerglitch/#/playground) 
 - [Duotone by ShapeFactory | Create Beautiful Free Duotones](https://duotone.shapefactory.co/?f=10c5f8&t=6736dd) 
-- [Fetching Title#9ekt](https://getavataaars.com/) 
+- [Avataaars Generator - A free online avatar generator for anyone to make their beautiful personal avatar easily!](https://getavataaars.com/) 
 
 ### Motion
 - [Motionity - The web-based motion graphics editor for everyone](https://www.motionity.app/)
@@ -182,6 +188,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Share
 - [Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code.
+- [Faux Code Generator](http://knutsynstad.com/fauxcode/)- GitHub gist to SVG 
 - [Asciinema](https://asciinema.org/~nikivi) - Free and open source way to record terminal sessions and share them on the web.
 
 ### Tweak tools 
@@ -233,6 +240,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
 - [DownGit](https://downgit.github.io/#/home) - Git repository downlod
 
+### Web developments
+- [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) 
 
 ### Site Generators
 - [The world’s fastest framework for building websites | Hugo](https://gohugo.io/)
