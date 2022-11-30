@@ -406,6 +406,9 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Video
 - [Browse Our Marketplace | Motion Array](https://motionarray.com/browse/)
+- [Coverr - Free Stock Video Footage, Royalty Free Videos for Download](https://coverr.co/) 
+- [Mixkit - Awesome free assets for your next video project](https://mixkit.co/)
+- 
 
 ### Music
 - [chosic](https://www.chosic.com/free-music/all/)
