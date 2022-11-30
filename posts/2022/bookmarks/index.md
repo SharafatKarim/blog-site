@@ -118,6 +118,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Coolors - The super fast color palettes generator!](https://coolors.co/) 
 - [Material Design Color Palette Generator - Material Palette](https://www.materialpalette.com/)
 - [Colors & Fonts](https://www.colorsandfonts.com/)
+- [calcolor.co | Calculate colors. Share palettes.](https://calcolor.co/) 
 
 ### Create & Edit
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
@@ -171,6 +172,10 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [App & Web Design Made Easy | Powered By AI | Uizard](https://uizard.io/)
 - [Daily UI Design Challenge, Inspiration, and Resources](https://www.dailyui.co/) 
 - [The Best Landing Page Examples For Design Inspiration - SaaS Landing Page](https://saaslandingpage.com/) 
+- [Design Systems Repo | A Collection of Design System Resources](https://designsystemsrepo.com/design-systems) 
+- [https://collectui.com](https://collectui.com/) 
+- [Free Design Resources – Daily Freebies for Creatives](https://freedesignresources.net/)
+- [UI Design Resources, UI Kits, Wireframes, Icons and More - UI8](https://ui8.net/) 
 
 ### Web design
 - [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) 
@@ -182,6 +187,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Design Systems Repo | A Collection of Design System Resources](https://designsystemsrepo.com/design-systems-recent/) 
 - [CSSPeeper - Smart CSS viewer tailored for Designers](https://csspeeper.com/)
 - [Stylify Me - Online Style Guide Generator](http://stylifyme.com/)
+- [Wireframer | Flawless SVG text for your wireframes](https://wireframer.art/) 
 
 ### Icon & CSS
 - [Font Awesome](https://fontawesome.com/) 
@@ -196,6 +202,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Feather – Simply beautiful open source icons](https://feathericons.com/)
 - [Icon organizer & icon library](https://nucleoapp.com/) 
 - [Line Awesome — Free Beautiful Icon Font](https://icons8.com/line-awesome) 
+- [Endless Icons | Free Icon Library](https://endlessicons.com/) 
 
 ### Pattern & Shapes
 - [pattern.css - Background Patterns in CSS](https://bansal.io/pattern-css#triangles)
