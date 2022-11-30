@@ -124,6 +124,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Free Profile Picture Maker - Create an awesome profile pic from any photo](https://pfpmaker.com/) 
 - [Squoosh](https://squoosh.app/)
 - [PowerGlitch - Glitch anything on the web](https://7ph.github.io/powerglitch/#/playground) 
+- [Duotone by ShapeFactory | Create Beautiful Free Duotones](https://duotone.shapefactory.co/?f=10c5f8&t=6736dd) 
 
 ### Motion
 - [Motionity - The web-based motion graphics editor for everyone](https://www.motionity.app/)
@@ -389,7 +390,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Unsplash](https://unsplash.com/) 
 - [Free Icons, Clipart Illustrations, Photos, and Music](https://icons8.com/)
 - [Openclipart - Clipping Culture](https://openclipart.org/)
-- [Site Unreachable](https://wallhaven.cc/)
+- [Wall Heaven](https://wallhaven.cc/)
 - [Wallpaperflare - Beautiful HD wallpapers free download](https://www.wallpaperflare.com/)
 - [unDraw - Open source illustrations for any idea](https://undraw.co/) 
 - [Home — Food Pictures • Foodiesfeed • Free Food PhotosFood Pictures • Foodiesfeed • Free Food Photos](https://www.foodiesfeed.com/) 
@@ -399,10 +400,15 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Free Stock Photos - SplitShire](https://www.splitshire.com/)
 - [Free Stock Photos and Images - StockSnap.io](https://stocksnap.io/)
 - [Free Public Domain Images - SnappyGoat.com](https://snappygoat.com/) 
-- [GitHub Octodex](https://octodex.github.com/) 
 - [Download 1000's of free SVG brand logos | VectorWiki](https://vectorwiki.com/) 
+- [Generated Photos | Unique, worry-free model photos](https://generated.photos/)
+
+### Illustration
 - [PNGWing - Exclusive png design images](https://www.pngwing.com/) 
 - [Storyset | Customize, animate and download illustration for free](https://storyset.com/) 
+- [Fetching Title#zzd0](https://www.openpeeps.com/) 
+- [GitHub Octodex](https://octodex.github.com/) 
+- [Beautiful Notion-style illustrations - Notioly](https://notioly.com/)
 
 ### Video
 - [Browse Our Marketplace | Motion Array](https://motionarray.com/browse/)
