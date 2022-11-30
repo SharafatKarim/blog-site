@@ -231,6 +231,11 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
 - [DownGit](https://downgit.github.io/#/home) - Git repository downlod
 
+
+### Site Generators
+- [The world’s fastest framework for building websites | Hugo](https://gohugo.io/)
+- [Build optimized websites quickly, focus on your content | Docusaurus](https://docusaurus.io/) 
+
 ### Track contents
 - [Grouvee](https://www.grouvee.com/) - Track your video game collection.
 - [Goodreads](https://www.goodreads.com/) - Track which books you've read.
@@ -435,6 +440,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Code combat](https://codecombat.com/) - Programming Game designed for Students.
 - [Codewars](https://www.codewars.com/)
 - [Codingame](https://www.codingame.com/home)
+- [Login | LightOJ](https://lightoj.com/home) 
+- [দ্বিমিক অনলাইন জাজ | Dimik OJ](https://dimikoj.com/) 
 
 ### Cloud gaming
 - [Online Games on Poki](https://poki.com/) - online gaming
@@ -455,6 +462,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [MDN](https://developer.mozilla.org/en-US/)
 - [Free for developers](https://free-for.dev/#/)
 - [tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr) 
+- [Numba: A High Performance Python Compiler](https://numba.pydata.org/) 
 
 ## Others 
 > And some leftovers, can you categorize them?
