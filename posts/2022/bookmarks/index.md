@@ -161,6 +161,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
 - [Dribble](https://dribbble.com/shots) - Discover the world’s top Designers & Creatives.
 - [Flickr - explore](https://www.flickr.com/explore) - explore images
+- [Checklist Design - A collection of the best design practices.](https://www.checklist.design/)
 
 ### Web design
 - [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) 
@@ -168,6 +169,9 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [CSS Section Separator Generator | wweb.dev](https://wweb.dev/resources/css-separator-generator/)
 - [Animista - CSS Animations on Demand](https://animista.net/) 
 - [Block Reveal Effects | Overview | Codrops](https://tympanus.net/Development/BlockRevealers/index.html) 
+- [Multicolor CSS Gradients, JPG Downloads, 100% Free! | Gradienta](https://gradienta.io/) 
+- [Design Systems Repo | A Collection of Design System Resources](https://designsystemsrepo.com/design-systems-recent/) 
+- [CSSPeeper - Smart CSS viewer tailored for Designers](https://csspeeper.com/)
 
 ### Icon & CSS
 - [Font Awesome](https://fontawesome.com/) 
@@ -178,6 +182,9 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Ikonate – fully customisable & accessible vector icons](https://ikonate.com/) 
 - [Eva Icons - beautifully crafted Open Source UI icons for common actions and items.](https://akveo.github.io/eva-icons/#/)
 - [Animated Icons – 3700+ High Quality Animated Icons](https://icons8.com/animated-icons) 
+- [Tabler Icons - 1400+ Open source free SVG icons](https://tablericons.com/) 
+- [Feather – Simply beautiful open source icons](https://feathericons.com/)
+- [Icon organizer & icon library](https://nucleoapp.com/) 
 
 ### Pattern & Shapes
 - [pattern.css - Background Patterns in CSS](https://bansal.io/pattern-css#triangles)
