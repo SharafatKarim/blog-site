@@ -162,6 +162,31 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Dribble](https://dribbble.com/shots) - Discover the world’s top Designers & Creatives.
 - [Flickr - explore](https://www.flickr.com/explore) - explore images
 
+### Web design
+- [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) 
+- [Smooth Shadow](https://shadows.brumm.af/) 
+- [CSS Section Separator Generator | wweb.dev](https://wweb.dev/resources/css-separator-generator/)
+- [Animista - CSS Animations on Demand](https://animista.net/) 
+- [Block Reveal Effects | Overview | Codrops](https://tympanus.net/Development/BlockRevealers/index.html) 
+
+### Icon & CSS
+- [Font Awesome](https://fontawesome.com/) 
+- [Free icons by first-class designers | Iconstore](https://iconstore.co/) 
+- [700+ CSS Icons, Customizable, Retina Ready & API](https://css.gg/)
+- [Icon transition generator](https://nucleoapp.com/tool/icon-transition)
+- [Free Icons — Tilda Publishing](https://tilda.cc/free-icons/)
+- [Ikonate – fully customisable & accessible vector icons](https://ikonate.com/) 
+- [Eva Icons - beautifully crafted Open Source UI icons for common actions and items.](https://akveo.github.io/eva-icons/#/)
+- [Animated Icons – 3700+ High Quality Animated Icons](https://icons8.com/animated-icons) 
+
+### Pattern & Shapes
+- [pattern.css - Background Patterns in CSS](https://bansal.io/pattern-css#triangles)
+- [Get Waves – Create SVG waves for your next design](https://getwaves.io/)
+- [Blobmaker - Make organic SVG shapes for your next design](https://www.blobmaker.app/)
+- [Rad Lines by @msurguy](https://msurguy.github.io/rad-lines/) 
+- [Paaatterns! for Free](https://products.ls.graphics/paaatterns/) 
+- [scribbbles](https://www.scribbbles.design/) 
+
 
 ## Development 
 > A place for developers to stop.
@@ -197,13 +222,6 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Favicon Generator for perfect icons on all browsers](https://realfavicongenerator.net/) 
 - [Code Beautify and Code Formatter For Developers - to Beautify, Validate, Minify, JSON, XML, JavaScript, CSS, HTML, Excel and more](https://codebeautify.org/) 
 
-### Web design
-- [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) 
-- [Smooth Shadow](https://shadows.brumm.af/) 
-- [CSS Section Separator Generator | wweb.dev](https://wweb.dev/resources/css-separator-generator/)
-- [Animista - CSS Animations on Demand](https://animista.net/) 
-- [Block Reveal Effects | Overview | Codrops](https://tympanus.net/Development/BlockRevealers/index.html) 
-
 ### Web development
 - [Draggable JS – JavaScript drag and drop library](https://shopify.github.io/draggable/) 
 - [Free Bootstrap Themes and Website Templates | BootstrapMade](https://bootstrapmade.com/)
@@ -211,20 +229,6 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Site Generators
 - [The world’s fastest framework for building websites | Hugo](https://gohugo.io/)
 - [Build optimized websites quickly, focus on your content | Docusaurus](https://docusaurus.io/) 
-
-### Icon & CSS
-- [Font Awesome](https://fontawesome.com/) 
-- [Free icons by first-class designers | Iconstore](https://iconstore.co/) 
-- [700+ CSS Icons, Customizable, Retina Ready & API](https://css.gg/)
-- [Icon transition generator](https://nucleoapp.com/tool/icon-transition)
-- [Free Icons — Tilda Publishing](https://tilda.cc/free-icons/)
-- [Ikonate – fully customisable & accessible vector icons](https://ikonate.com/) 
-- [Eva Icons - beautifully crafted Open Source UI icons for common actions and items.](https://akveo.github.io/eva-icons/#/)
-- [Animated Icons – 3700+ High Quality Animated Icons](https://icons8.com/animated-icons) 
-
-### Pattern & Shapes
-- [pattern.css - Background Patterns in CSS](https://bansal.io/pattern-css#triangles)
-- 
 
 ### Reference
 - [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
@@ -430,6 +434,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Free Public Domain Images - SnappyGoat.com](https://snappygoat.com/) 
 - [Download 1000's of free SVG brand logos | VectorWiki](https://vectorwiki.com/) 
 - [Generated Photos | Unique, worry-free model photos](https://generated.photos/)
+- [Free Commercial Stock Photos & Royalty Free Images | PikWizard](https://pikwizard.com/) 
 
 ### Illustration
 - [PNGWing - Exclusive png design images](https://www.pngwing.com/) 
