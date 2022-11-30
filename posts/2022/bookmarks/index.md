@@ -114,7 +114,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Color Hex - ColorHexa.com](https://www.colorhexa.com/index.php) 
 - [ColorSpace - Color Palettes Generator and Color Gradient Tool](https://mycolor.space/) 
 - [Palettte App](https://palettte.app/) 
-- [Fetching Title#xa7q](https://colorable.jxnblk.com/) 
+- [Colorable](https://colorable.jxnblk.com/) 
 
 ### Create & Edit
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
@@ -240,8 +240,15 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
 - [DownGit](https://downgit.github.io/#/home) - Git repository downlod
 
-### Web developments
+### Web design
 - [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) 
+- [Smooth Shadow](https://shadows.brumm.af/) 
+- [CSS Section Separator Generator | wweb.dev](https://wweb.dev/resources/css-separator-generator/)
+- [Animista - CSS Animations on Demand](https://animista.net/) 
+- [Block Reveal Effects | Overview | Codrops](https://tympanus.net/Development/BlockRevealers/index.html) 
+
+### Web development
+- [Draggable JS – JavaScript drag and drop library](https://shopify.github.io/draggable/) 
 
 ### Site Generators
 - [The world’s fastest framework for building websites | Hugo](https://gohugo.io/)
@@ -435,8 +442,14 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Fonts
 - [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/)
+- [Fontjoy - Generate font pairings in one click](https://fontjoy.com/)
 - [Bunny Fonts | Explore Faster & GDPR friendly Fonts](https://fonts.bunny.net/)
 - [Download free fonts — Fontstorage.com](https://fontstorage.com/) 
+- [Free fonts - Freebiesbug](https://freebiesbug.com/free-fonts/)
+- [FontsArena — Free fonts, free alternatives, done-for-you-research articles. Ads-free open startup.](https://fontsarena.com/)
+- [Be fonts](https://befonts.com/) 
+- [Free Fonts! Legit Free & Quality » Font Squirrel](https://www.fontsquirrel.com/) 
+- [Type Scale - A Visual Calculator](https://type-scale.com/) 
 
 ## Fun
 > Let machine automate your fun.
