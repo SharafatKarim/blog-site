@@ -106,7 +106,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [tldraw](https://www.tldraw.com/) - drawing tool
 - [editor.md](http://editor.md.ipandao.com/en.html) - markdown online editor
 
-### Reference to draw
+### R
 - [Flat UI colours](https://flatuicolors.com/) - color palettes
 - [Happy Hues - Curated colors in context.](https://www.happyhues.co/)
 - [P. C. M. 0.25](https://colormixer.web.app/02007115ff623007ff9bc91b64440301ffff7c5f55610300/Sunset) - color mixer
@@ -115,6 +115,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [ColorSpace - Color Palettes Generator and Color Gradient Tool](https://mycolor.space/) 
 - [Palettte App](https://palettte.app/) 
 - [Colorable](https://colorable.jxnblk.com/) 
+- [Coolors - The super fast color palettes generator!](https://coolors.co/) 
 
 ### Create & Edit
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
@@ -146,6 +147,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Bigjpg - AI Super-Resolution lossless image enlarging / upscaling tool using Deep Convolutional Neural Networks](https://bigjpg.com/)
 - [ARC官网-腾讯](https://arc.tencent.com/en/ai-demos/faceRestoration)
 - [Hotpot.ai - Hotpot.ai](https://hotpot.ai/)
+- [AI Image Upscaler – Enlarge Images & Photos Online](https://icons8.com/upscaler) 
 
 ### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
@@ -162,6 +164,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Dribble](https://dribbble.com/shots) - Discover the world’s top Designers & Creatives.
 - [Flickr - explore](https://www.flickr.com/explore) - explore images
 - [Checklist Design - A collection of the best design practices.](https://www.checklist.design/)
+- [App & Web Design Made Easy | Powered By AI | Uizard](https://uizard.io/)
 
 ### Web design
 - [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) 
@@ -185,6 +188,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Tabler Icons - 1400+ Open source free SVG icons](https://tablericons.com/) 
 - [Feather – Simply beautiful open source icons](https://feathericons.com/)
 - [Icon organizer & icon library](https://nucleoapp.com/) 
+- [Line Awesome — Free Beautiful Icon Font](https://icons8.com/line-awesome) 
 
 ### Pattern & Shapes
 - [pattern.css - Background Patterns in CSS](https://bansal.io/pattern-css#triangles)
@@ -452,6 +456,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Control](https://control.rocks/) 
 - [GitHub Octodex](https://octodex.github.com/) 
 - [Beautiful Notion-style illustrations - Notioly](https://notioly.com/)
+- [Glaze | Illustrations](https://www.glazestock.com/) 
 
 ### Video
 - [Browse Our Marketplace | Motion Array](https://motionarray.com/browse/)
