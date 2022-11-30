@@ -197,12 +197,37 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Favicon Generator for perfect icons on all browsers](https://realfavicongenerator.net/) 
 - [Code Beautify and Code Formatter For Developers - to Beautify, Validate, Minify, JSON, XML, JavaScript, CSS, HTML, Excel and more](https://codebeautify.org/) 
 
-### Web
+### Web design
+- [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) 
+- [Smooth Shadow](https://shadows.brumm.af/) 
+- [CSS Section Separator Generator | wweb.dev](https://wweb.dev/resources/css-separator-generator/)
+- [Animista - CSS Animations on Demand](https://animista.net/) 
+- [Block Reveal Effects | Overview | Codrops](https://tympanus.net/Development/BlockRevealers/index.html) 
+
+### Web development
+- [Draggable JS – JavaScript drag and drop library](https://shopify.github.io/draggable/) 
 - [Free Bootstrap Themes and Website Templates | BootstrapMade](https://bootstrapmade.com/)
+
+### Site Generators
+- [The world’s fastest framework for building websites | Hugo](https://gohugo.io/)
+- [Build optimized websites quickly, focus on your content | Docusaurus](https://docusaurus.io/) 
+
+### Icon & CSS
+- [Font Awesome](https://fontawesome.com/) 
+- [Free icons by first-class designers | Iconstore](https://iconstore.co/) 
+- [700+ CSS Icons, Customizable, Retina Ready & API](https://css.gg/)
+- [Icon transition generator](https://nucleoapp.com/tool/icon-transition)
+- [Free Icons — Tilda Publishing](https://tilda.cc/free-icons/)
+- [Ikonate – fully customisable & accessible vector icons](https://ikonate.com/) 
+- [Eva Icons - beautifully crafted Open Source UI icons for common actions and items.](https://akveo.github.io/eva-icons/#/)
+- [Animated Icons – 3700+ High Quality Animated Icons](https://icons8.com/animated-icons) 
+
+### Pattern & Shapes
+- [pattern.css - Background Patterns in CSS](https://bansal.io/pattern-css#triangles)
+- 
 
 ### Reference
 - [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
-
 
 ## Tools
 > Handy tools for everyone. Can be as little as multiplication of 2 matrix!
@@ -239,20 +264,6 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Downloader
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
 - [DownGit](https://downgit.github.io/#/home) - Git repository downlod
-
-### Web design
-- [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) 
-- [Smooth Shadow](https://shadows.brumm.af/) 
-- [CSS Section Separator Generator | wweb.dev](https://wweb.dev/resources/css-separator-generator/)
-- [Animista - CSS Animations on Demand](https://animista.net/) 
-- [Block Reveal Effects | Overview | Codrops](https://tympanus.net/Development/BlockRevealers/index.html) 
-
-### Web development
-- [Draggable JS – JavaScript drag and drop library](https://shopify.github.io/draggable/) 
-
-### Site Generators
-- [The world’s fastest framework for building websites | Hugo](https://gohugo.io/)
-- [Build optimized websites quickly, focus on your content | Docusaurus](https://docusaurus.io/) 
 
 ### Track contents
 - [Grouvee](https://www.grouvee.com/) - Track your video game collection.
@@ -434,7 +445,6 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Browse Our Marketplace | Motion Array](https://motionarray.com/browse/)
 - [Coverr - Free Stock Video Footage, Royalty Free Videos for Download](https://coverr.co/) 
 - [Mixkit - Awesome free assets for your next video project](https://mixkit.co/)
-- 
 
 ### Music
 - [chosic](https://www.chosic.com/free-music/all/)
