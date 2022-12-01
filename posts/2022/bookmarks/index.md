@@ -98,6 +98,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Google translate](https://translate.google.com/) - Translate the way you see your world.
 - [Google Keep](https://keep.google.com/) - Google keep (Notes and tasks)
 
+### Web Apps
+- [Deta Space](https://deta.space/) - Your own space
 
 ## Design
 > It's sole aim is to make design easier, with some stock collections.
