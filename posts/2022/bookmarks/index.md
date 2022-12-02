@@ -100,6 +100,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Web Apps
 - [Deta Space](https://deta.space/) - Your own space
+- [Photopea | Online Photo Editor](https://www.photopea.com/) - bitmap
+- [Graphite](https://editor.graphite.rs/) - SVG 
 
 ## Design
 > It's sole aim is to make design easier, with some stock collections.
