@@ -124,8 +124,17 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Colors & Fonts](https://www.colorsandfonts.com/)
 - [calcolor.co | Calculate colors. Share palettes.](https://calcolor.co/) 
 
-### Create & Edit
+### Logo creation
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
+- [Free Logo Maker - Create a Logo in Seconds - Shopify](https://www.shopify.com/tools/logo-maker) 
+- [Free Logo Maker | Create Your Logo Online with Ucraft](https://www.ucraft.com/free-logo-maker) 
+- [Logo Design and Name Generator](https://flamingtext.com/) 
+- [Free Logo Maker, Create Custom Logo Designs Online – DesignEvo](https://www.designevo.com/) 
+- [Make Mockups, Logos, Videos and Designs in Seconds](https://placeit.net/) 
+- [Graphic Design Software & Logo Tool | DesignMantic: The Design Shop](https://www.designmantic.com/) 
+- 
+
+### Create & Edit
 - [Photooxy](https://photooxy.com/) - Simple photo effects and strokes
 - [ClipDrop](https://clipdrop.co/remove-background) - background remove
 - [Background remover](https://www.photoroom.com/background-remover/)
