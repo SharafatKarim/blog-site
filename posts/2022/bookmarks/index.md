@@ -132,7 +132,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Free Logo Maker, Create Custom Logo Designs Online – DesignEvo](https://www.designevo.com/) 
 - [Make Mockups, Logos, Videos and Designs in Seconds](https://placeit.net/) 
 - [Graphic Design Software & Logo Tool | DesignMantic: The Design Shop](https://www.designmantic.com/) 
-- 
+- [Logo Maker | Make a Free Logo Online | LogoMaker.com](https://www.logomaker.com/) 
 
 ### Create & Edit
 - [Photooxy](https://photooxy.com/) - Simple photo effects and strokes
