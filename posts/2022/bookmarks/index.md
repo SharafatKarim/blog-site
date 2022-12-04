@@ -343,6 +343,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
 - [W3schools](https://www.w3schools.com/) - The standard for Web Development.
 - [Ahrefs - SEO Tools & Resources To Grow Your Search Traffic](https://ahrefs.com/) 
+- [শাফায়েতের ব্লগ | প্রোগ্রামিং এবং অ্যালগরিদম টিউটোরিয়াল](https://www.shafaetsplanet.com/) 
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
