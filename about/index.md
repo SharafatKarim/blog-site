@@ -60,16 +60,7 @@ comment:
 
 - 🔮 GitHub STATS
 
-![](https://raw.githubusercontent.com/SharafatKarim/SharafatKarim/main/github-metrics.svg)
-
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SharafatKarim&theme=github_dark)
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SharafatKarim&theme=github_dark) ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SharafatKarim&theme=github_dark)
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SharafatKarim&theme=github_dark) ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SharafatKarim&theme=github_dark)
-
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=SharafatKarim&theme=github&bg_color=00000000)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=SharafatKarim&theme=github&bg_color=00000000)](github-activity-graph)
 
 ---
 
