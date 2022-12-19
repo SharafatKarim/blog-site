@@ -75,10 +75,12 @@ You might be familiar with [computer storage formats](https://en.wikipedia.org/w
 ### Snapshots
 As Arch Linux is a rolling model, often called bleeding edge, system will be updated a lot and a lot of things can break or repair on each update.
 
-With btrfs you can take snapshots within seconds and it'll use less resource due to it's copy-on-write principal. And you can also recover to a previous snap within a few seconds (just a simple restart),
+With btrfs you can take snapshots within seconds and it'll use less resource due to it's copy-on-write principal. And what's more you can also recover to a previous snap within a few seconds (just a simple restart),
 
-### Boot from snap
-And the most interesting thing 
+### Boot from snapshots
+And the most interesting thing is that you can add your btrfs snapshot entry to GRUB bootloader. You can use pacman hook to trigger snapshot backup before any system update and an another script to add those backup as GRUB entry.
+
+So if something goes wrong, you can go to previous condition right from your bootloader!
 
 ### Compression
-BTRFS can compress your data as you write to save storage and it'll be helpful on the long road.
+BTRFS can compress your data as you write to save storage and it'll be helpful on the long road. Also there are some cons. [Read more here](https://itsfoss.com/btrfs/).
