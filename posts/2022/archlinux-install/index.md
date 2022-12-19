@@ -201,7 +201,32 @@ ping 1.1.1.1
 | mmcli   | mobile broadband      |
 | ping    | check/ verify network | 
 
-### Remote installation 
+### Remote installation (SSH)
+If you want to let your friend install Arch on your PC, he can easily do it securely if both if your'e under the same local network,
+
+Start SSH
+```bash
+systemctl start sshd.service
+```
+Set a password for root,
+```bash
+passwd
+```
+Find the IP Address
+
+```bash
+ip address
+```
+
+From your other computer, connect via SSH (You'll be prompted for the root password you just set)
+
+```bash
+ssh "root@<IP-OF-THE-FIRST-PC>
+```
+
+### Remote Installation (Internet)
+But if 
+
 ## Partitioning
 
 You can list you drives along with partitions using `lsblk` or `fdisk -l`. You may find something like, sda, sdb, etc. Here sda and sdb are two different drive/ disk. You'll also notice their partitions (if they exist). If you need to change a partition table or create or remove or resize partitions there are several tools. I'll recommend to use `cfdisk`. And to check disks and partitions size, try `df -H`.
