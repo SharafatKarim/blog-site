@@ -307,13 +307,16 @@ We need to mount our created partitions into our linux hierarchy. **First** we n
 We create **subvolumes** to better organize our data and to **exclude** them from btrfs snapshots.
 
 -   @ – This is the main root subvolume /.
--   @home – This is the home directory. This consists of most of your data including Desktop and Downloads.
 -   @log – Contains logs, temp. files, caches, games, etc.
 -   @pkg – Contains all the pacman packages
+-   @var - Contains logs, temp. files, caches, games, etc.
+-   @opt - Contains third party products
 -   @tmp – Contains certain temporory files and caches
--   @snapshots – Directory to store snapshots.
 
-{{< admonition question "F.A.Q.'s" false >}}
+{{< admonition question "F.A.Q.'s" true >}}
+If I don't use separate home partiton?
+-   @home – Then you have to create this subvolume!
+{{< /admonition >}}
 
 su = subvolume  
 cr = create  
