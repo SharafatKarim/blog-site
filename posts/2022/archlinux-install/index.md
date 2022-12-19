@@ -150,4 +150,12 @@ If your intention is blindly copy paste commands from this guide or Arch wiki wi
 ## Pre-Installation
 
 ### ISO
-You can grab it from [official download page](https://archlinux.org/download/) 
+You can grab it from [official download page](https://archlinux.org/download/). To achieve better download speed you can try a local mirror. Scroll down a bit in the [download](https://archlinux.org/download/) page. 
+
+{{< admonition example >}}
+For example, my country is Bangladesh and I've a mirror available. I can achieve better broadband speed from this mirror!
+- [XeonBD mirror](http://mirror.xeonbd.com/archlinux/iso/2022.12.01/)
+
+It's always recommended to select the latest version. File name is like,
+- *archlinux-2022.12.01-x86_64.iso*
+{{< /admonition >}}
