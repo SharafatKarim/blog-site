@@ -166,7 +166,7 @@ We can use emojis without any issues, right? We also have [***emojify***](https:
 It's built in by default, just pick up from it's website,
 - [Font Awesome icon search](https://fontawesome.com/v5/search) 
 
-{{< admonition danger "And," false >}}
+{{< admonition danger "And," true >}}
 don't forget to use version *5.15.4* 
 {{< /admonition >}}
 
