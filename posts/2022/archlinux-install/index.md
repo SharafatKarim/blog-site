@@ -318,10 +318,6 @@ If I don't use separate home partiton?
 -   @home – Then you have to create this subvolume!
 {{< /admonition >}}
 
-su = subvolume  
-cr = create  
-li = list
-
 Let us unmount /mnt and remount all subvolumes.
 
 cd /
@@ -370,6 +366,25 @@ Mounting the boot partition in /boot folder
 mkdir -p /mnt/boot/**efi**
 
 mount /dev/sda1 /mnt/boot/**efi**
+
+{{< admonition info "What? How?" >}}
+
+Btrfs command,
+| Flag | Meaning   |
+| ---- | --------- |
+| su   | subvolume |
+| cr   | create    |
+| li   | list      | 
+
+Btrfs options,
+| Option   | Meaning                                                                                          |
+| -------- | ------------------------------------------------------------------------------------------------ |
+| noatime  | No access time. Improves system performace by not writing time when the file was accessed        |
+| commit   | Periodic interval (in sec) in which data is synchronized to permanent storage.                   |
+| compress | Choosing the algorithm for compress. I have set zstd as it has good compression level and speed. |
+| subvol   | Choosing the subvol to mount.                                                                    | 
+
+{{< /admonition >}}
 
 {{< admonition info "Acknowledgements" >}}
 This btrfs section is combination of,
