@@ -449,6 +449,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Plugins
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
+- [FirefoxCSS Store](https://firefoxcss-store.github.io/) 
 
 ### Cheat sheets
 - [বাংলা ডেভেলপার চিটশিট | ডেভ সংকেত](https://devsonket.com/) - Bangla cheat-sheet's collection
@@ -495,6 +496,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Music
 - [chosic](https://www.chosic.com/free-music/all/)
 - [Freesound - Freesound](https://freesound.org/)
+- [NCS (NoCopyrightSounds) - Free Music for Creators](https://ncs.io/) 
 
 ### Fonts
 - [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/)
@@ -526,6 +528,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Watch
 - [Rocumentaries](https://rocumentaries.com/) - Curated links to the very best documentaries
+- [Trending - Piped](https://piped.video/) 
 
 ### Coding challengers
 - [Checkio](https://py.checkio.org/) - Games for coding.
@@ -534,6 +537,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Codingame](https://www.codingame.com/home)
 - [Login | LightOJ](https://lightoj.com/home) 
 - [দ্বিমিক অনলাইন জাজ | Dimik OJ](https://dimikoj.com/) 
+- [StopStalk](https://www.stopstalk.com/dashboard) 
 
 ### Cloud gaming
 - [Online Games on Poki](https://poki.com/) - online gaming
