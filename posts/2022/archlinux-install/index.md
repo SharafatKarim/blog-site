@@ -241,4 +241,6 @@ Most of the modern system supports UEFI (even BIOS can have it! Please check you
 
 I'll be using 4 partition. A separate home partition. It'll allow me to keep the home partition even if I reinstall or change distro.
 
-> **Fun fact:** Once I downloaded the same file in firefox in 3 differnent Linux distro
+> **Fun fact** 
+> 
+> Once I downloaded the same file (using firefox) in 3 differnent Linux distro (like, 10% here, 70% there and rest in another distro). It was possible because of same home partition. But things may go ugly if you install a distro with different desktop manager, such as, plasma or gnome or, a distro with different package (like firefox 89 and firefox 108) 
