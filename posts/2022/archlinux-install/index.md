@@ -131,6 +131,10 @@ So if something goes wrong, you can go to previous condition right from your boo
 BTRFS can compress your data as you write to save storage and it'll be helpful on the long road. Also there are some cons. [Read more here](https://itsfoss.com/btrfs/).
 
 {{< admonition tip >}}
-A **tip** banner
+If you want to learn more about BTRFS then maybe a search through the web or, our favourite arch wiki is here,
+- [Btrfs - ArchWiki](https://wiki.archlinux.org/title/Btrfs) 
 {{< /admonition >}}
----
+
+## Prerequisite
+
+To install Arch Linux, indeed the best way to learn is Arch Wiki. But , for newbies, the official guide will be little tough to understand especially if you want to install on a btrfs file system or maybe a different kernel. This is why I won't be explaining everything in details.
