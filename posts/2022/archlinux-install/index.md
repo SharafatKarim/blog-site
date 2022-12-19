@@ -71,7 +71,7 @@ In this guide I'll be installing Arch Linux with BTRFS. And in a separate articl
 
 If you don't have much idea about different distros, maybe you can read this [article](https://wiki.archlinux.org/title/Arch_compared_to_other_distributions). Also you'll find a lot of guys in YouTube for this purpose (to explain you why you need arch). If you've much free time to tinker with your system and you are in need of a full time job with no salary, welcome to the arena! I'll highly recommend you to try Arch Linux. 
 
-{{< admonition question "F.A.Q.'s'" false >}}
+{{< admonition question "F.A.Q.'s" false >}}
 From [ArchWiki](https://wiki.archlinux.org/title/Frequently_asked_questions)
 -   [1 General](https://wiki.archlinux.org/title/Frequently_asked_questions#General)
     -   [1.1 What is Arch Linux?](https://wiki.archlinux.org/title/Frequently_asked_questions#What_is_Arch_Linux?)
@@ -137,12 +137,17 @@ If you want to learn more about BTRFS then maybe a search through the web or, ou
 
 ## Prerequisite
 
-To install Arch Linux, indeed the best way to learn is Arch Wiki. But , for newbies, the official guide will be little tough to understand especially if you want to install on a btrfs file system or maybe a different kernel. This is why I won't be explaining everything in details and my guide is specifically for **intermediate users**.
+To install Arch Linux, indeed the best way to learn is Arch Wiki. But, the official guide will be little tough to understand to follow especially if you want to install on a btrfs file system or maybe a different kernel. This is why I won't be explaining everything in details and my guide is specifically for **intermediate users**.
 
 {{< admonition danger >}}
 
 If your intention is blindly copy paste commands from this guide or Arch wiki without understanding anything things may not work the way you want. So I highly recommend you to install any other distro. You can try,
-- [Manjaro Linux] - complete newbies to learn things around and recommended for stability. 
-- [EndeavourOS] - it's more like graphical arch installer and highly recommended!
+- [Manjaro Linux](https://manjaro.org/) - complete newbies to learn things around and recommended for stability. 
+- [EndeavourOS](https://endeavouros.com/) - it's more like graphical arch installer and highly recommended!
 
 {{< /admonition >}}
+
+## Pre-Installation
+
+### ISO
+You can grab it from [official download page](https://archlinux.org/download/) 
