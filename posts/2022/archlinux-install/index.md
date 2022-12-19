@@ -275,15 +275,15 @@ Why swap partiton?
 
 {{< /admonition >}}
 
-### Formatting partitions
+## Formatting partitions
 First of all, if you are coming from an another distro and want to keep the **same home** partition along with users, then **avoid formatting** home partition. 
 
-And you don't need to format `/boot/efi` either! In fact it can **destroy** other boot-loaders if you're trying to dual boot.
-
-For home partiton,
+For home partition (`/home`),
 ```bash
 mkfs.ext4 /dev/sda3
 ```
+
+And you don't need to format `/boot/efi` either! In fact it can **destroy** other boot-loaders if you're trying to dual boot.
 
 For `/boot/efi`,
 ```bash
@@ -298,3 +298,23 @@ mkfs.btrfs /dev/sda2
  ```bash
  mkswap /dev/sda4
 ```
+
+## Mounting partitions
+
+#### BTRFS root
+We need to mount our created partitions into our linux hierarchy. **First** we need to mount sda3 (root) into /mnt.
+
+We create **subvolumes** to better organize our data and to **exclude** them from btrfs snapshots.
+
+-   @ – This is the main root subvolume /.
+-   @home – This is the home directory. This consists of most of your data including Desktop and Downloads.
+-   @log – Contains logs, temp. files, caches, games, etc.
+-   @pkg – Contains all the pacman packages
+-   @tmp – Contains certain temporory files and caches
+-   @snapshots – Directory to store snapshots.
+
+{{< admonition question "F.A.Q.'s" false >}}
+
+su = subvolume  
+cr = create  
+li = list
