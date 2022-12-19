@@ -321,3 +321,58 @@ If I don't use separate home partiton?
 su = subvolume  
 cr = create  
 li = list
+
+Let us unmount /mnt and remount all subvolumes.
+
+cd /
+
+umount /mnt
+
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@ /dev/sda3 /mnt
+
+mkdir  /mnt/home
+
+mkdir  /mnt/root
+
+mkdir  /mnt/srv
+
+mkdir -p /mnt/var/log
+
+mkdir -p /mnt/var/cache/
+
+mkdir /mnt/tmp
+
+Or a one-liner
+
+mkdir -p /mnt/{home,root,srv,var/log,var/cache,tmp}
+
+Type this command to check your work.
+
+lsblk
+
+Then we mount the subvolumes.
+
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@home /dev/sda3 /mnt/home
+
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@root /dev/sda3 /mnt/root
+
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@srv /dev/sda3 /mnt/srv
+
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@log /dev/sda3 /mnt/var/log
+
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@cache /dev/sda3 /mnt/var/cache
+
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@tmp /dev/sda3 /mnt/tmp
+
+Now we continue with the “normal procedure”.  
+Mounting the boot partition in /boot folder
+
+mkdir -p /mnt/boot/**efi**
+
+mount /dev/sda1 /mnt/boot/**efi**
+
+{{< admonition info "Acknowledgements" >}}
+This btrfs section is combination of,
+- [Installing Arch Linux with a BTRFS filesystem | ArcoLinuxD](https://www.arcolinuxd.com/installing-arch-linux-with-a-btrfs-filesystem/)
+- [Arch Linux with BTRFS Installation (Base) | Tech it Out](https://www.nishantnadkarni.tech/posts/arch_installation/#step-6-partitioning-your-drive)
+{{< /admonition >}}
