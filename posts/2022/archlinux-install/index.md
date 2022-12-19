@@ -274,3 +274,11 @@ Why swap partiton?
 - Well, if you dual boot linux, won't it be more easy to share the same space instead of using  two separate swapfile?
 
 {{< /admonition >}}
+
+### Formatting partitions
+First of all, if you are coming from an another distro and want to keep the same home partition along with users, then avoid formatting home partition. And you don't need to format `/boot/efi` either!
+
+For home partiton,
+```bash
+mkfs.ext4 /dev/sda3
+```
