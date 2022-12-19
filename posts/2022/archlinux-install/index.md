@@ -201,6 +201,7 @@ ping 1.1.1.1
 | mmcli   | mobile broadband      |
 | ping    | check/ verify network | 
 
+### Remote installation 
 ## Partitioning
 
 You can list you drives along with partitions using `lsblk` or `fdisk -l`. You may find something like, sda, sdb, etc. Here sda and sdb are two different drive/ disk. You'll also notice their partitions (if they exist). If you need to change a partition table or create or remove or resize partitions there are several tools. I'll recommend to use `cfdisk`. And to check disks and partitions size, try `df -H`.
@@ -301,7 +302,7 @@ mkfs.btrfs /dev/sda2
 
 ## Mounting partitions
 
-#### BTRFS root
+#### btrfs root
 We need to mount our created partitions into our linux hierarchy. **First** we need to mount sda3 (root) into /mnt.
 
 We create **subvolumes** to better organize our data and to **exclude** them from btrfs snapshots.
@@ -318,13 +319,14 @@ If I don't use separate home partiton?
 -   @home – Then you have to create this subvolume!
 {{< /admonition >}}
 
-Let us unmount /mnt and remount all subvolumes.
+```bash
+# Let us unmount /mnt and remount all subvolumes.
 
 cd /
 
 umount /mnt
 
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@ /dev/sda3 /mnt
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@ /dev/sda2 /mnt
 
 mkdir  /mnt/home
 
@@ -338,34 +340,35 @@ mkdir -p /mnt/var/cache/
 
 mkdir /mnt/tmp
 
-Or a one-liner
+# Or a one-liner
 
 mkdir -p /mnt/{home,root,srv,var/log,var/cache,tmp}
 
-Type this command to check your work.
+# Type this command to check your work.
 
 lsblk
 
-Then we mount the subvolumes.
+# Then we mount the subvolumes.
 
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@home /dev/sda3 /mnt/home
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@home /dev/sda2 /mnt/home
 
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@root /dev/sda3 /mnt/root
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@root /dev/sda2 /mnt/root
 
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@srv /dev/sda3 /mnt/srv
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@srv /dev/sda2 /mnt/srv
 
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@log /dev/sda3 /mnt/var/log
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@log /dev/sda2 /mnt/var/log
 
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@cache /dev/sda3 /mnt/var/cache
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@cache /dev/sda2 /mnt/var/cache
 
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@tmp /dev/sda3 /mnt/tmp
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@tmp /dev/sda2 /mnt/tmp
 
-Now we continue with the “normal procedure”.  
-Mounting the boot partition in /boot folder
+# Now we continue with the “normal procedure”.  
+# Mounting the boot partition in /boot folder
 
 mkdir -p /mnt/boot/**efi**
 
 mount /dev/sda1 /mnt/boot/**efi**
+```
 
 {{< admonition info "What? How?" >}}
 
