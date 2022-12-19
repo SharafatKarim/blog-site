@@ -102,6 +102,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Deta Space](https://deta.space/) - Your own space
 - [Photopea | Online Photo Editor](https://www.photopea.com/) - bitmap
 - [Graphite](https://editor.graphite.rs/) - SVG 
+- [Polotno Studio](https://studio.polotno.com/) - Make graphical designs
 
 ## Design
 > It's sole aim is to make design easier, with some stock collections.
@@ -123,6 +124,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Material Design Color Palette Generator - Material Palette](https://www.materialpalette.com/)
 - [Colors & Fonts](https://www.colorsandfonts.com/)
 - [calcolor.co | Calculate colors. Share palettes.](https://calcolor.co/) 
+- [ArtyClick Colors](https://colors.artyclick.com/) 
 
 ### Logo creation
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
@@ -201,6 +203,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [CSSPeeper - Smart CSS viewer tailored for Designers](https://csspeeper.com/)
 - [Stylify Me - Online Style Guide Generator](http://stylifyme.com/)
 - [Wireframer | Flawless SVG text for your wireframes](https://wireframer.art/) 
+- [Lorem Picsum](https://picsum.photos/) 
 
 ### Icon & CSS
 - [Font Awesome](https://fontawesome.com/) 
@@ -245,6 +248,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Deploy
 - [WebOps SaaS Platform for High Impact Websites | Pantheon](https://pantheon.io/) 
 - [Free Hosting, Paid Hosting, Reseller Services & VPS Servers : Byet Internet](https://byet.host/) 
+- [StackBlitz | Instant Dev Environments | Click. Code. Done.](https://stackblitz.com/) 
 
 ### Domain
 - [Namechk - Username and Domain Name Checker - Search All Domain Names and User Names to see if they're available](https://namechk.com/) 
@@ -306,6 +310,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Downloader
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
 - [DownGit](https://downgit.github.io/#/home) - Git repository downlod
+- [Free URL Un-Shortener](https://unshorten.me/) Unshorten URLS like goo.gl, bit.ly 
 
 ### Track contents
 - [Grouvee](https://www.grouvee.com/) - Track your video game collection.
@@ -398,6 +403,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Sentence Stack - a powerful Linguistic Search Engine backed by 300+ million sentence examples](https://sentencestack.com/)
 - [Write & Improve with Cambridge](https://writeandimprove.com/)
 - [TLDR This - Article Summarizer & Online Text Summarizing Tool](https://tldrthis.com/)
+- [Fetching Title#uj2o](https://www.free4talk.com/) 
 
 ### Quotes
 - [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.
@@ -528,7 +534,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Watch
 - [Rocumentaries](https://rocumentaries.com/) - Curated links to the very best documentaries
-- [Trending - Piped](https://piped.video/) 
+- [Piped | YouTube lightweight](https://piped.video/) 
 
 ### Coding challengers
 - [Checkio](https://py.checkio.org/) - Games for coding.
