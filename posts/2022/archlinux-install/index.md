@@ -137,4 +137,12 @@ If you want to learn more about BTRFS then maybe a search through the web or, ou
 
 ## Prerequisite
 
-To install Arch Linux, indeed the best way to learn is Arch Wiki. But , for newbies, the official guide will be little tough to understand especially if you want to install on a btrfs file system or maybe a different kernel. This is why I won't be explaining everything in details.
+To install Arch Linux, indeed the best way to learn is Arch Wiki. But , for newbies, the official guide will be little tough to understand especially if you want to install on a btrfs file system or maybe a different kernel. This is why I won't be explaining everything in details and my guide is specifically for **intermediate users**.
+
+{{< admonition danger >}}
+
+If your intention is blindly copy paste commands from this guide or Arch wiki without understanding anything things may not work the way you want. So I highly recommend you to install any other distro. You can try,
+- [Manjaro Linux] - complete newbies to learn things around and recommended for stability. 
+- [EndeavourOS] - it's more like graphical arch installer and highly recommended!
+
+{{< /admonition >}}
