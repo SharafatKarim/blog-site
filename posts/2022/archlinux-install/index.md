@@ -422,13 +422,6 @@ mount -o defaults,noatime,compress=zstd,commit=120,subvol=@log /dev/sda2 /mnt/va
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@cache /dev/sda2 /mnt/var/cache
 
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@tmp /dev/sda2 /mnt/tmp
-
-# Now we continue with the “normal procedure”.  
-# Mounting the boot partition in /boot folder
-
-mkdir -p /mnt/boot/**efi**
-
-mount /dev/sda1 /mnt/boot/**efi**
 ```
 
 {{< admonition info "What? How?" >}}
@@ -455,3 +448,20 @@ This btrfs section is combination of,
 - [Installing Arch Linux with a BTRFS filesystem | ArcoLinuxD](https://www.arcolinuxd.com/installing-arch-linux-with-a-btrfs-filesystem/)
 - [Arch Linux with BTRFS Installation (Base) | Tech it Out](https://www.nishantnadkarni.tech/posts/arch_installation/#step-6-partitioning-your-drive)
 {{< /admonition >}}
+
+Now we continue with the “normal procedure”.  
+
+### EFI and home partition
+Create a `mnt/boot/efi` directory,
+```
+mkdir -p /mnt/boot/efi
+```
+And then mount,
+```
+mount /dev/sda1 /mnt/boot/fi
+```
+
+And also one directory for `/home`,
+```bash
+mount --mkdir /dev/sda3 /mnt/home
+```
