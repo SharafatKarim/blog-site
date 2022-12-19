@@ -257,14 +257,20 @@ I'll be using 4 partition. A separate home partition. It'll allow me to keep the
 > We have an extra partition, right? We'll think about it later! So whatever we do won't effect this one. Think it as a data partiton.
 
 {{< admonition question "F.A.Q.'s" true >}}
+
 Why I arranged in this way?
-- Well, it really doesn't matter. You can arrange in whatever way you want.
+- Well, it really doesn't matter. You can arrange in whatever way you want. I put swap at the end because in future it can allow me to resize home and swap!
+
 Why swap?
-- [Read here]()
+- [Read here](https://wiki.archlinux.org/title/Swap) 
+
 Why swap is twice the size of RAM?
-- It'll help you if you hibernate your system. Most probably, you may never need to use more than 8 GiB for swap!
+- It'll help you if you hibernate your system. Most probably, you may never need to use more than 8 GiB for swap! If you don't need hibernate then equal the size of RAM is more than enough.
+
 I have a large amount of RAM, can I avoid swap?
 - Sure! In fact you should. Besides even if you've 1 GB ram you can avoid swap. Swap can be also created later as a swapfile!
+
 Why swap partiton?
 - Well, if you dual boot linux, won't it be more easy to share the same space instead of using  two separate swapfile?
+
 {{< /admonition >}}
