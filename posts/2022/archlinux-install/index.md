@@ -383,6 +383,26 @@ If I don't use separate home partiton?
 {{< /admonition >}}
 
 ```bash
+mount /dev/sda2 /mnt
+
+btrfs su cr /mnt/@
+
+btrfs su cr /mnt/@root
+
+btrfs su cr /mnt/@srv
+
+btrfs su cr /mnt/@log
+
+btrfs su cr /mnt/@cache
+
+btrfs su cr /mnt/@tmp
+
+btrfs su li /mnt
+
+# Now we see all the subvolumes we created.
+# | su   | subvolume |
+# | cr   | create    |
+# | li   | list      | 
 # Let us unmount /mnt and remount all subvolumes.
 
 cd /
@@ -403,7 +423,7 @@ mkdir /mnt/tmp
 
 # Or a one-liner
 
-mkdir -p /mnt/{home,root,srv,var/log,var/cache,tmp}
+mkdir -p /mnt/{root,srv,var/log,var/cache,tmp}
 
 # Type this command to check your work.
 
@@ -424,16 +444,8 @@ mount -o defaults,noatime,compress=zstd,commit=120,subvol=@cache /dev/sda2 /mnt/
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@tmp /dev/sda2 /mnt/tmp
 ```
 
-{{< admonition info "What? How?" >}}
+{{< admonition info "Btrfs options meaning," >}}
 
-Btrfs command,
-| Flag | Meaning   |
-| ---- | --------- |
-| su   | subvolume |
-| cr   | create    |
-| li   | list      | 
-
-Btrfs options,
 | Option   | Meaning                                                                                          |
 | -------- | ------------------------------------------------------------------------------------------------ |
 | noatime  | No access time. Improves system performace by not writing time when the file was accessed        |
@@ -444,7 +456,7 @@ Btrfs options,
 {{< /admonition >}}
 
 {{< admonition info "Acknowledgements" >}}
-This btrfs section is combination of,
+You can also look at these guides if things go wrong,
 - [Installing Arch Linux with a BTRFS filesystem | ArcoLinuxD](https://www.arcolinuxd.com/installing-arch-linux-with-a-btrfs-filesystem/)
 - [Arch Linux with BTRFS Installation (Base) | Tech it Out](https://www.nishantnadkarni.tech/posts/arch_installation/#step-6-partitioning-your-drive)
 {{< /admonition >}}
@@ -453,11 +465,11 @@ Now we continue with the “normal procedure”.
 
 ### EFI and home partition
 Create a `mnt/boot/efi` directory,
-```
+```bash
 mkdir -p /mnt/boot/efi
 ```
 And then mount,
-```
+```bash
 mount /dev/sda1 /mnt/boot/fi
 ```
 
