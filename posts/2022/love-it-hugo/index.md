@@ -158,10 +158,10 @@ You know what? Above admonition part is directly copy pasted from Extended short
 {{< /admonition >}}
 
 ### More Icons
-We can use emojis without any issues, right? What if we extend the possibilities?
+We can use emojis without any issues, right? We also have [***emojify***](https://hugoloveit.com/emoji-support/) What if we extend the possibilities?
 
 > The answer is we can actually!
->> By using ***FontAwesome*** icons 
+>> By using ***FontAwesome*** icons :(fas fa-yin-yang):
 
 It's built in by default, just pick up from it's website,
 - [Font Awesome icon search](https://fontawesome.com/v5/search) 
