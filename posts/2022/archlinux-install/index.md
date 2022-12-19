@@ -175,4 +175,13 @@ Extended guide in Arch Wiki,
 -   [Boot the live environment](https://wiki.archlinux.org/title/Installation_guide#Boot_the_live_environment)
 
 ## Preparation
-As for preparation, we'll make sure we have an acti
+As for preparation, we'll make sure we have an active internet connection and set our keyboard's layout and time zone (optional).
+
+### Internet
+If you're using **Ethernet cable**, internet connection should work out of the box. As for WiFi users, connect using [iwctl](https://wiki.archlinux.org/title/Iwctl "Iwctl"). And for broadband users, try with the [mmcli](https://wiki.archlinux.org/title/Mmcli "Mmcli") utility.
+
+{{< admonition bug "Troubleshooting" false >}}
+For wireless and WWAN, make sure the card is not blocked with [rfkill](https://wiki.archlinux.org/title/Rfkill)
+{{< /admonition >}}
+
+Now, test
