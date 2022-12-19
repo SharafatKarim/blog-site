@@ -175,7 +175,9 @@ Extended guide in Arch Wiki,
 -   [Boot the live environment](https://wiki.archlinux.org/title/Installation_guide#Boot_the_live_environment)
 
 ## Preparation
-As for preparation, we'll make sure we have an active internet connection and set our keyboard's layout and time zone (optional).
+
+As for preparation, we'll make sure we have an active internet connection and set our keyboard's layout and time zone **[optional]**. I'll install minimal KDE plasma desktop and I can manage my time zone and keyboard's layout later using GUI. If you're using a differnet layout than English, you may want to check,
+- 
 
 ### Internet
 If you're using **Ethernet cable**, internet connection should work out of the box. As for WiFi users, connect using [iwctl](https://wiki.archlinux.org/title/Iwctl "Iwctl"). And for broadband users, try with the [mmcli](https://wiki.archlinux.org/title/Mmcli "Mmcli") utility.
@@ -184,4 +186,8 @@ If you're using **Ethernet cable**, internet connection should work out of the b
 For wireless and WWAN, make sure the card is not blocked with [rfkill](https://wiki.archlinux.org/title/Rfkill)
 {{< /admonition >}}
 
-Now, test
+Now, test you connection with ping,
+```bash
+ping 1.1.1.1
+```
+> Ctrl + c to stop the process
