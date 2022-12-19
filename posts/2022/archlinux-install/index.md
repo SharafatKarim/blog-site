@@ -375,6 +375,7 @@ We create **subvolumes** to better organize our data and to **exclude** them fro
 -   @var - Contains logs, temp. files, caches, games, etc.
 -   @opt - Contains third party products
 -   @tmp – Contains certain temporory files and caches
+-   @srv - This directory contains site-specific data that is served by this system.
 
 {{< admonition question "F.A.Q.'s" true >}}
 If I don't use separate home partiton?
@@ -389,8 +390,6 @@ cd /
 umount /mnt
 
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@ /dev/sda2 /mnt
-
-mkdir  /mnt/home
 
 mkdir  /mnt/root
 
