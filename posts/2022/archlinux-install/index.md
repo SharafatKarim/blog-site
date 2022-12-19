@@ -276,9 +276,25 @@ Why swap partiton?
 {{< /admonition >}}
 
 ### Formatting partitions
-First of all, if you are coming from an another distro and want to keep the same home partition along with users, then avoid formatting home partition. And you don't need to format `/boot/efi` either!
+First of all, if you are coming from an another distro and want to keep the **same home** partition along with users, then **avoid formatting** home partition. 
+
+And you don't need to format `/boot/efi` either! In fact it can **destroy** other boot-loaders if you're trying to dual boot.
 
 For home partiton,
 ```bash
 mkfs.ext4 /dev/sda3
+```
+
+For `/boot/efi`,
+```bash
+mkfs.fat -F 32 /dev/sda1
+```
+ 
+ For root partition (`/`),
+ ```bash
+mkfs.btrfs /dev/sda2
+```
+ And finally, if you've created `swap` then initialize it by,
+ ```bash
+ mkswap /dev/sda4
 ```
