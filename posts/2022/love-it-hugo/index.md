@@ -166,6 +166,19 @@ We can use emojis without any issues, right? We also have [***emojify***](https:
 It's built in by default, just pick up from it's website,
 - [Font Awesome icon search](https://fontawesome.com/v5/search) 
 
+```markdown
+Gone camping! {?:}(fas fa-campground fa-fw): Be back soon.
+
+That is so funny! {?:}(far fa-grin-tears):
+```
+
+The rendered output looks like this:
+
+Gone camping! :(fas fa-campground fa-fw): Be back soon.
+
+That is so funny! :(far fa-grin-tears):
+
+
 {{< admonition danger "And," true >}}
 don't forget to use version *5.15.4* 
 {{< /admonition >}}
@@ -207,6 +220,10 @@ Got any more question?
 - Feel free to text me ✨
 
 ## Extra
+
+{{< admonition info >}}
+Examples of this webpage is directly taken from **Love It**'s page!
+{{< /admonition >}}
 
 Let me share a trick! In this website, you'll see headings starting with a vertical line or `#`, You can basically right click on them and copy a link which will work as a hyperlink to that specific Heading!
 
