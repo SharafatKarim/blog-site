@@ -455,8 +455,11 @@ mount -o defaults,noatime,compress=zstd,commit=120,subvol=@tmp /dev/sda2 /mnt/tm
 
 {{< /admonition >}}
 
-{{< admonition info "Acknowledgements" >}}
+{{< admonition info "Other guides" false >}}
 You can also look at these guides if things go wrong,
+YouTube,
+{{< youtube Kc-ngqE84tQ  >}}
+or, blog posts,
 - [Installing Arch Linux with a BTRFS filesystem | ArcoLinuxD](https://www.arcolinuxd.com/installing-arch-linux-with-a-btrfs-filesystem/)
 - [Arch Linux with BTRFS Installation (Base) | Tech it Out](https://www.nishantnadkarni.tech/posts/arch_installation/#step-6-partitioning-your-drive)
 {{< /admonition >}}
