@@ -239,8 +239,16 @@ Also YouTube has quite a few full tutorials available!
 Most of the modern system supports UEFI (even BIOS can have it! Please check your BIOS first) and so I'll continue my guide in UEFI only. You can go with the layout from Arch Wiki,
 - [Partitioning - UEFI - ArchWiki](https://wiki.archlinux.org/title/Partitioning#UEFI/GPT_layout_example)
 
+### Our layout
 I'll be using 4 partition. A separate home partition. It'll allow me to keep the home partition even if I reinstall or change distro.
 
 > **Fun fact** 
 > 
 > Once I downloaded the same file (using firefox) in 3 differnent Linux distro (like, 10% here, 70% there and rest in another distro). It was possible because of same home partition. But things may go ugly if you install a distro with different desktop manager, such as, plasma or gnome or, a distro with different package (like firefox 89 and firefox 108) 
+
+**Layout,**
+| Mount point | partition | suggested size   | partiton type       |
+| ----------- | --------- | ---------------- | ------------------- |
+| sda1        | sda1      | At least 300 MiB | EFI system partiton |
+| /           | sda2      | More than 10 GiB | Linux x86-64        |
+| /home       | sda3      | More than 3 GiB  |                     |
