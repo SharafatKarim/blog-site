@@ -177,7 +177,8 @@ Extended guide in Arch Wiki,
 ## Preparation
 
 As for preparation, we'll make sure we have an active internet connection and set our keyboard's layout and time zone **[optional]**. I'll install minimal KDE plasma desktop and I can manage my time zone and keyboard's layout later using GUI. If you're using a differnet layout than English, you may want to check,
-- 
+- [Set the console keyboard layout](https://wiki.archlinux.org/title/Installation_guide#Set_the_console_keyboard_layout)
+- [Update the system clock](https://wiki.archlinux.org/title/Installation_guide#Update_the_system_clock) 
 
 ### Internet
 If you're using **Ethernet cable**, internet connection should work out of the box. As for WiFi users, connect using [iwctl](https://wiki.archlinux.org/title/Iwctl "Iwctl"). And for broadband users, try with the [mmcli](https://wiki.archlinux.org/title/Mmcli "Mmcli") utility.
@@ -190,4 +191,9 @@ Now, test you connection with ping,
 ```bash
 ping 1.1.1.1
 ```
-> Ctrl + c to stop the process
+
+> Tip: **Ctrl + c** to stop a process
+
+## Partitioning
+
+You can list you drives along with partitions using `lsblk`. You may find something like, sda, sdb, etc. Here sda and sdb are two different drive/ disk. You'll also notice their partitions (if they exist). If you need to change a partiti
