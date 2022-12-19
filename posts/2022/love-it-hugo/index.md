@@ -164,7 +164,11 @@ We can use emojis without any issues, right? What if we extend the possibilities
 >> By using ***FontAwesome*** icons 
 
 It's built in by default, just pick up from it's website,
-- 
+- [Font Awesome icon search](https://fontawesome.com/v5/search)
+
+{{< admonition tip "This is a tip" false >}}
+A **tip** banner
+{{< /admonition >}}
 
 ## Links and references
 
