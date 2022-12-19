@@ -215,3 +215,22 @@ You can list you drives along with partitions using `lsblk` or `fdisk -l`. You m
 | parted   | third party to manage partitions (Gparted CLI) | 
 
 ### Layouts
+
+It's recommended to get a basic concepts of disk partitions at first. Try the following post for understanding,
+- [Partitioning - ArchWiki](https://wiki.archlinux.org/title/Partitioning) 
+
+#### Checking UEFI/ BIOS
+To verify the boot mode, list the [efivars](https://wiki.archlinux.org/title/Efivars "Efivars") directory:
+
+```bash
+ls /sys/firmware/efi/efivars
+```
+
+If the command shows the directory without error, then the system is booted in UEFI mode. If the directory does not exist, the system may be booted in [BIOS](https://en.wikipedia.org/wiki/BIOS "wikipedia:BIOS") (or [CSM](https://en.wikipedia.org/wiki/Compatibility_Support_Module "wikipedia:Compatibility Support Module")) mode. If the system did not boot in the mode you desired, refer to your motherboard's manual.
+
+#### BIOS with MBR
+Check this link for an example layout,
+- [Partitioning - ArchWiki](https://wiki.archlinux.org/title/Partitioning#BIOS/MBR_layout_example)
+
+#### UEFI
+I'l
