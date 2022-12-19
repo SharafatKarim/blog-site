@@ -161,4 +161,9 @@ It's always recommended to select the latest version. File name is like,
 {{< /admonition >}}
 
 ### Installation medium
-You can use USB drive, optical disk or network (PXE) for installation. Now USB drives are more better choice and I'll recommend you to try [ventoy](https://www.ventoy.net/en/index.html) available for almost every desktop platform. Take a backup of your drives data first and then launch ventoy. You can install ventoy on a drive, and later just copy the ISO to your drive. Specialty of ventoy is that you can put multiple ISO to make a multi-boot bootable USB and what's more, you can also store data on that USB. 
+You can use a [USB flash drive](https://wiki.archlinux.org/title/USB_flash_installation_medium "USB flash installation medium") or, an [optical disc](https://wiki.archlinux.org/title/Optical_disc_drive#Burning "Optical disc drive") or a network with [PXE](https://wiki.archlinux.org/title/PXE "PXE") for installation. Now USB drives are more better choice and I'll recommend you to try [ventoy](https://www.ventoy.net/en/index.html) available for almost every desktop platform. Take a backup of your drives data first and then launch **ventoy**. You can install **ventoy** on a drive, and later just copy the ISO to your drive. Specialty of **ventoy** is that you can put multiple ISO to make a multi-boot bootable USB and what's more, you can also store data (anything) on that USB. 
+
+### Booting into live ISO
+First, go to bios/ uefi setting. Different motherboard has different keybindings. You can search through web to learn more. Finally you have to point your first boot to the bootable USB or disk.
+
+View in A
