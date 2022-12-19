@@ -157,6 +157,14 @@ A **tip** banner
 You know what? Above admonition part is directly copy pasted from Extended shortcodes part of Love It's documentation 😅
 {{< /admonition >}}
 
+### More Icons
+We can use emojis without any issues, right? What if we extend the possibilities?
+
+> The answer is we can actually!
+>> By using ***FontAwesome*** icons 
+
+It's built in by default, just pick up from it's website,
+- 
 
 ## Links and references
 
