@@ -62,10 +62,8 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 # Introduction
 
-In this guide I'll be installing Arch linux with btrfs. If you're reading this I can assume you are already familiar with [archwiki](https://wiki.archlinux.org/) - a great place to learn about Arch linux!
+In this guide I'll be installing Arch Linux with BTRFS. And in a separate article I'll show you the way to a minimal KDE plasma desktop along with some extended possibilities. If you're reading this I can assume you are already familiar with [archwiki](https://wiki.archlinux.org/) - a great place to learn about Arch Linux!
 
 ## Why Arch?
 
-If you don't have much idea about different distros, maybe you can read this [article](https://wiki.archlinux.org/title/Arch_compared_to_other_distributions). Also you'll find a lot of guys in YouTube for this purpose.
-
-To summerise everything
+If you don't have much idea about different distros, maybe you can read this [article](https://wiki.archlinux.org/title/Arch_compared_to_other_distributions). Also you'll find a lot of guys in YouTube for this purpose. If y
