@@ -238,3 +238,7 @@ Also YouTube has quite a few full tutorials available!
 #### UEFI
 Most of the modern system supports UEFI (even BIOS can have it! Please check your BIOS first) and so I'll continue my guide in UEFI only. You can go with the layout from Arch Wiki,
 - [Partitioning - UEFI - ArchWiki](https://wiki.archlinux.org/title/Partitioning#UEFI/GPT_layout_example)
+
+I'll be using 4 partition. A separate home partition. It'll allow me to keep the home partition even if I reinstall or change distro.
+
+> **Fun fact:** Once I downloaded the same file in firefox in 3 differnent Linux distro
