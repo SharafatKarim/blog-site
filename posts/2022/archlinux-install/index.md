@@ -181,7 +181,7 @@ As for preparation, we'll make sure we have an active internet connection and se
 - [Update the system clock](https://wiki.archlinux.org/title/Installation_guide#Update_the_system_clock) 
 
 ### Internet
-If you're using **Ethernet cable**, internet connection should work out of the box. As for WiFi users, connect using [iwctl](https://wiki.archlinux.org/title/Iwctl "Iwctl"). And for broadband users, try with the [mmcli](https://wiki.archlinux.org/title/Mmcli "Mmcli") utility.
+If you're using **Ethernet cable**, internet connection should work out of the box. As for WiFi users, connect using [iwctl](https://wiki.archlinux.org/title/Iwctl "Iwctl"). And for mobile broadband users, try with the [mmcli](https://wiki.archlinux.org/title/Mmcli "Mmcli") utility.
 
 {{< admonition bug "Troubleshooting" false >}}
 For wireless and WWAN, make sure the card is not blocked with [rfkill](https://wiki.archlinux.org/title/Rfkill)
@@ -194,13 +194,24 @@ ping 1.1.1.1
 
 > Tip: **Ctrl + c** to stop a process
 
+**Summery**,
+| utility | achievement           |
+| ------- | --------------------- |
+| iwctl   | WiFi                  |
+| mmcli   | mobile broadband      |
+| ping    | check/ verify network | 
+
 ## Partitioning
 
 You can list you drives along with partitions using `lsblk` or `fdisk -l`. You may find something like, sda, sdb, etc. Here sda and sdb are two different drive/ disk. You'll also notice their partitions (if they exist). If you need to change a partition table or create or remove or resize partitions there are several tools. I'll recommend to use `cfdisk`. And to check disks and partitions size, try `df -H`.
 
-Summery,
-| command  | achievement                                |
-| -------- | ------------------------------------------ |
-| lsblk    | list drives along with existing partitions |
-| fdisk -l | same as above with more information        |
-| df -H    | list partitions size                                           |
+**Summery**,
+| command  | achievement                                    |
+| -------- | ---------------------------------------------- |
+| lsblk    | list drives along with existing partitions     |
+| fdisk -l | same as above with more information            |
+| df -H    | list partitions size                           |
+| cfdisk   | manage partitons                               |
+| parted   | third party to manage partitions (Gparted CLI) | 
+
+### Layouts
