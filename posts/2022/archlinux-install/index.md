@@ -66,4 +66,8 @@ In this guide I'll be installing Arch Linux with BTRFS. And in a separate articl
 
 ## Why Arch?
 
-If you don't have much idea about different distros, maybe you can read this [article](https://wiki.archlinux.org/title/Arch_compared_to_other_distributions). Also you'll find a lot of guys in YouTube for this purpose. If y
+If you don't have much idea about different distros, maybe you can read this [article](https://wiki.archlinux.org/title/Arch_compared_to_other_distributions). Also you'll find a lot of guys in YouTube for this purpose (to explain you why you need arch). If you've much free time to tinker with your system and you are in need of a full time job with no salary, welcome to the arena! I'll highly recommend you to try Arch Linux. 
+
+## Why BTRFS?
+
+You might be familiar with [computer storage formats]()
