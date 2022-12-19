@@ -233,6 +233,16 @@ pacman -Sy tmate
 ```
 And, run, `tmate` and give your friend the access key!
 
+
+> If you get any error, first sync with, 
+> `pacman -Sy` 
+> 
+> and then install archlinux-keyring with, 
+> `pacman -S archlinux-keyring`
+> 
+> later you can update archinstall,
+> `pacman -S tmate`
+
 ## ArchInstall
 Since [2021-04-01](https://archlinux.org/news/installation-medium-with-installer/), Arch has a guided installer [again](https://wiki.archlinux.org/title/Arch_Linux#Arch_Install_Scripts). See [archinstall](https://wiki.archlinux.org/title/Archinstall "Archinstall") for details. You can easily install Arch with the help of this script and avoid the rest of this post but if you want to extend your possibilities and configure everything with your own hand then I'll recommend the manual way.
 
@@ -250,6 +260,9 @@ archinstall
 > 
 > and then install archlinux-keyring with, 
 > `pacman -S archlinux-keyring`
+> 
+> later you can update archinstall,
+> `pacman -S archinstall`
 
 ## Partitioning
 
