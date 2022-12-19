@@ -225,7 +225,16 @@ ssh "root@<IP-OF-THE-FIRST-PC>
 ```
 
 ### Remote Installation (Internet)
-But if 
+But if your friend is on the other part of the planet or not on the same network, you can use internet protocol for this.
+
+First, sync your packages and install `tmate`,
+```bash
+pacman -Sy tmate
+```
+And, run, `tmate` and give your friend the access key!
+
+## ArchInstall
+Since [2021-04-01](https://archlinux.org/news/installation-medium-with-installer/), Arch has an installer again. See [archinstall](https://wiki.archlinux.org/title/Archinstall "Archinstall") for details. You can easily install Arch with the help of this script and avoid the rest of this post but if you want to extend your possibilit
 
 ## Partitioning
 
