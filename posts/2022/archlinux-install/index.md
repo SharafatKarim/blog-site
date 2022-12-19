@@ -230,7 +230,11 @@ If the command shows the directory without error, then the system is booted in U
 
 #### BIOS with MBR
 Check this link for an example layout,
-- [Partitioning - ArchWiki](https://wiki.archlinux.org/title/Partitioning#BIOS/MBR_layout_example)
+- [Partitioning - Legacy BIOS - ArchWiki](https://wiki.archlinux.org/title/Partitioning#BIOS/MBR_layout_example)
+For installation instruction on BIOS, please check this article,
+- [Arch Linux Installation Process for a Legacy/BIOS/MBR System #arch-linux · GitHub](https://gist.github.com/jaymutuku/cb8d0f9734a99c19c2503d8439f79e71)
+Also YouTube has quite a few full tutorials available!
 
 #### UEFI
-I'l
+Most of the modern system supports UEFI (even BIOS can ) and so I'll continue my guide in UEFI only. You can go with the layout from Arch Wiki,
+- [Partitioning - UEFI - ArchWiki](https://wiki.archlinux.org/title/Partitioning#UEFI/GPT_layout_example)
