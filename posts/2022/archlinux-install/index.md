@@ -1,0 +1,71 @@
+---
+title: "Archlinux Install"
+date: 2022-12-19T15:25:33+06:00
+lastmod: 2022-12-19T15:25:33+06:00
+draft: true
+author: "Sharafat Karim"
+authorLink: "https://sharafat.pages.dev/about/"
+description: ""
+license: ""
+images: []
+
+tags: []
+categories: []
+summary: ""
+
+featuredImage: ""
+featuredImagePreview: ""
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
+twemoji: false
+lightgallery: true
+ruby: true
+fraction: true
+fontawesome: true
+linkToMarkdown: true
+rssFullText: false
+
+toc:
+  enable: true
+  auto: true
+code:
+  copy: true
+  maxShownLines: 50
+math:
+  enable: false
+  # ...
+mapbox:
+  # ...
+share:
+  enable: true
+  # ...
+comment:
+  enable: true
+  # ...
+library:
+  css:
+    # someCSS = "some.css"
+    # located in "assets/"
+    # Or
+    # someCSS = "https://cdn.example.com/some.css"
+  js:
+    # someJS = "some.js"
+    # located in "assets/"
+    # Or
+    # someJS = "https://cdn.example.com/some.js"
+seo:
+  images: []
+  # ...
+license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+---
+
+# Introduction
+
+In this guide I'll be installing Arch linux with btrfs. If you're reading this I can assume you are already familiar with [archwiki](https://wiki.archlinux.org/) - a great place to learn about Arch linux!
+
+## Why Arch?
+
+If you don't have much idea about different distros, maybe you can read this [article](https://wiki.archlinux.org/title/Arch_compared_to_other_distributions). Also you'll find a lot of guys in YouTube for this purpose.
+
+To summerise everything
