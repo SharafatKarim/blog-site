@@ -196,4 +196,11 @@ ping 1.1.1.1
 
 ## Partitioning
 
-You can list you drives along with partitions using `lsblk`. You may find something like, sda, sdb, etc. Here sda and sdb are two different drive/ disk. You'll also notice their partitions (if they exist). If you need to change a partiti
+You can list you drives along with partitions using `lsblk` or `fdisk -l`. You may find something like, sda, sdb, etc. Here sda and sdb are two different drive/ disk. You'll also notice their partitions (if they exist). If you need to change a partition table or create or remove or resize partitions there are several tools. I'll recommend to use `cfdisk`. And to check disks and partitions size, try `df -H`.
+
+Summery,
+| command  | achievement                                |
+| -------- | ------------------------------------------ |
+| lsblk    | list drives along with existing partitions |
+| fdisk -l | same as above with more information        |
+| df -H    | list partitions size                                           |
