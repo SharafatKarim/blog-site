@@ -70,6 +70,15 @@ If you don't have much idea about different distros, maybe you can read this [ar
 
 ## Why BTRFS?
 
-You might be familiar with [computer storage formats](https://en.wikipedia.org/wiki/Journaling_file_system) like ntfs, fat32 or exfat. BTRFS (better F S ) is just like that with copy-on-write principal. As Arch Linux is a rolling model, often called bleeding edge, system will be updated a lot and a lot of things can break or repair on each update.
+You might be familiar with [computer storage formats](https://en.wikipedia.org/wiki/Journaling_file_system) like ntfs, fat32 or exfat. BTRFS (better F S ) is just like that with copy-on-write principal. 
 
-Let me give you an example, 
+### Snapshots
+As Arch Linux is a rolling model, often called bleeding edge, system will be updated a lot and a lot of things can break or repair on each update.
+
+With btrfs you can take snapshots within seconds and it'll use less resource due to it's copy-on-write principal. And you can also recover to a previous snap within a few seconds (just a simple restart),
+
+### Boot from snap
+And the most interesting thing 
+
+### Compression
+BTRFS can compress your data as you write to save storage and it'll be helpful on the long road.
