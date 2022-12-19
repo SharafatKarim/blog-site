@@ -159,3 +159,6 @@ For example, my country is Bangladesh and I've a mirror available. I can achieve
 It's always recommended to select the latest version. File name is like,
 - *archlinux-2022.12.01-x86_64.iso*
 {{< /admonition >}}
+
+### Installation medium
+You can use USB drive, optical disk or network (PXE) for installation. Now USB drives are more better choice and I'll recommend you to try [ventoy](https://www.ventoy.net/en/index.html) available for almost every desktop platform. Take a backup of your drives data first and then launch ventoy. You can install ventoy on a drive, and later just copy the ISO to your drive. Specialty of ventoy is that you can put multiple ISO to make a multi-boot bootable USB and what's more, you can also store data on that USB. 
