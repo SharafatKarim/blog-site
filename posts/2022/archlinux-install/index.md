@@ -68,6 +68,8 @@ In this guide I'll be installing Arch Linux with BTRFS. And in a separate articl
 
 If you don't have much idea about different distros, maybe you can read this [article](https://wiki.archlinux.org/title/Arch_compared_to_other_distributions). Also you'll find a lot of guys in YouTube for this purpose (to explain you why you need arch). If you've much free time to tinker with your system and you are in need of a full time job with no salary, welcome to the arena! I'll highly recommend you to try Arch Linux. 
 
+{{< admonition question "F.A.Q.'s'" false >}}
+From [ArchWiki](https://wiki.archlinux.org/title/Frequently_asked_questions)
 -   [1 General](https://wiki.archlinux.org/title/Frequently_asked_questions#General)
     -   [1.1 What is Arch Linux?](https://wiki.archlinux.org/title/Frequently_asked_questions#What_is_Arch_Linux?)
     -   [1.2 Why would I not want to use Arch?](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_would_I_not_want_to_use_Arch?)
@@ -106,6 +108,7 @@ If you don't have much idea about different distros, maybe you can read this [ar
 -   [5 64-bit](https://wiki.archlinux.org/title/Frequently_asked_questions#64-bit)
     -   [5.1 How do I determine if my processor is x86_64 compatible?](https://wiki.archlinux.org/title/Frequently_asked_questions#How_do_I_determine_if_my_processor_is_x86_64_compatible?)
     -   [5.2 Why 64-bit?](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_64-bit?)
+{{< /admonition >}}
 
 ## Why BTRFS?
 
