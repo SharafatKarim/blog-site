@@ -62,6 +62,9 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 ## Introduction
 
+If you don't know about Arch Linux, and willing to learn, then check this post,
+- [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux)
+
 In this guide I'll be installing Arch Linux with BTRFS. And in a separate article I'll show you the way to a minimal KDE plasma desktop along with some extended possibilities. If you're reading this I can assume you are already familiar with [archwiki](https://wiki.archlinux.org/) - a great place to learn about Arch Linux!
 
 ## Why Arch?
@@ -127,4 +130,7 @@ So if something goes wrong, you can go to previous condition right from your boo
 ### Compression
 BTRFS can compress your data as you write to save storage and it'll be helpful on the long road. Also there are some cons. [Read more here](https://itsfoss.com/btrfs/).
 
+{{< admonition tip >}}
+A **tip** banner
+{{< /admonition >}}
 ---
