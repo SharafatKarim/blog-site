@@ -142,10 +142,10 @@ To install Arch Linux, indeed the best way to learn is Arch Wiki. But, the offic
 {{< admonition danger >}}
 
 If your intention is blindly copy paste commands from this guide or Arch wiki without understanding anything, things may not work the way you want. So I highly recommend you to install any other distro. You can try,
-- [Manjaro Linux](https://manjaro.org/) - complete newbies to learn things around and recommended for stability. 
+- [Manjaro Linux](https://manjaro.org/) - for complete newbies to learn things around and recommended for stability. 
 - [EndeavourOS](https://endeavouros.com/) - it's more like graphical arch installer and highly recommended!
 
-And keep this thing in mind,
+And keep these things in mind,
 1. Avoid blindly following online tutorials and instructions. 
 2. Avoid installing unnecessary packages. 
 3. Avoid assuming that commands will work without understanding what they do. 
@@ -164,7 +164,7 @@ And keep this thing in mind,
 ### ISO
 You can grab it from [official download page](https://archlinux.org/download/). To achieve better download speed you can try a local mirror. Scroll down a bit in the [download](https://archlinux.org/download/) page. 
 
-{{< admonition example >}}
+{{< admonition example "Example" false >}}
 For example, my country is Bangladesh and I've a mirror available. I can achieve better broadband speed from this mirror!
 - [XeonBD mirror](http://mirror.xeonbd.com/archlinux/iso/2022.12.01/)
 
@@ -384,7 +384,7 @@ mkfs.btrfs /dev/sda2
 We need to mount our created partitions into our linux hierarchy. **First** we need to mount sda3 (root) into /mnt.
 
 {{< admonition tip >}}
-If your root partition is **exfat** then simply try,
+If your root partition is **exfat** then simply try, `mount /dev/_root_partition_ /mnt` and avoid this section.
 {{< /admonition >}}
 
 We create **subvolumes** to better organize our data and to **exclude** them from btrfs snapshots.
