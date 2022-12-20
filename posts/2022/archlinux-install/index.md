@@ -557,3 +557,26 @@ pacstrap  /mnt linux-zen linux-zen-headers
 ## System configuration
 
 ### fstab
+When you start your system it'll help Arch to determine mount points which [we set manually](#mounting-partitions). To generate it, use,
+```bash
+genfstab -U /mnt >> /mnt/etc/fstab
+```
+
+### chroot
+Now change root into our system!
+```bash
+arch-chroot /mnt
+```
+
+### network
+Install a network manager with,
+```bash
+pacman -S networkmanager
+```
+
+and then, enable it with,
+```bash
+systemctl enable NetworkManager.service
+```
+
+
