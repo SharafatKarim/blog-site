@@ -466,7 +466,7 @@ or, blog posts,
 
 Now we continue with the “normal procedure”.  
 
-### EFI and home partition
+### EFI 
 Create a `mnt/boot/efi` directory,
 ```bash
 mkdir -p /mnt/boot/efi
@@ -476,7 +476,16 @@ And then mount,
 mount /dev/sda1 /mnt/boot/fi
 ```
 
+### Home
 And also one directory for `/home`,
 ```bash
 mount --mkdir /dev/sda3 /mnt/home
 ```
+
+### Swap On
+And if you've created a swap partition, enable it using,
+```bash
+swapon /dev/sda4
+```
+
+> Now we also have a data partition with ntfs file system and we can mount it to `/mnt/any-name`, but I'll do it later 
