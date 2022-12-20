@@ -597,6 +597,8 @@ To set `root password` try,
 passwd
 ```
 
+> We'll need this password later, so try not to forget it!
+
 ### network
 
 #### network manager
@@ -663,6 +665,7 @@ Now you can do some additional configuration if you want, like setting up timezo
 -   [Initramfs](https://wiki.archlinux.org/title/Installation_guide#Initramfs) **[OPTIONAL]**
 
 ## Wrapping up
+
 ### Reboot
 After configuring from inside of `arch-chroot` you can leave `arch-chroot` by using,
 ```bash
@@ -682,62 +685,12 @@ Why that GRUB and black and white terminal?
 ### Forgot root password?
 - Boot into live ISO
 - Mount the root partiton
-- 
+- Use the `passwd` command to set the new password (you will not be prompted for an old one).
+- Unmount and reboot
 
-- [...](#)
-- [...](#-1)
-- [...](#-2)
-- [...](#-3)
-- [...](#-4)
-  * [license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'](#license----a-rel--license-external-nofollow-noopener-noreffer--href--https---creativecommonsorg-licenses-by-nc-40---target---blank--cc-by-nc-40--a--)
-  * [Introduction](#introduction)
-  * [Why Arch?](#why-arch-)
-  * [Why BTRFS?](#why-btrfs-)
-    + [Snapshots](#snapshots)
-    + [Boot from snapshots](#boot-from-snapshots)
-    + [Compression](#compression)
-  * [Prerequisite](#prerequisite)
-  * [Pre-Installation](#pre-installation)
-    + [ISO](#iso)
-    + [Installation medium](#installation-medium)
-    + [Booting into live ISO](#booting-into-live-iso)
-  * [Preparation](#preparation)
-    + [Internet](#internet)
-    + [Remote installation (SSH)](#remote-installation--ssh-)
-    + [Remote Installation (Internet)](#remote-installation--internet-)
-  * [ArchInstall](#archinstall)
-  * [Partitioning](#partitioning)
-    + [Layouts](#layouts)
-      - [Checking UEFI/ BIOS](#checking-uefi--bios)
-      - [BIOS with MBR](#bios-with-mbr)
-      - [UEFI](#uefi)
-    + [Our layout](#our-layout)
-  * [Formatting partitions](#formatting-partitions)
-  * [Mounting partitions](#mounting-partitions)
-      - [btrfs root](#btrfs-root)
-    + [EFI](#efi)
-    + [Home](#home)
-    + [Swap On](#swap-on)
-  * [Selecting mirror](#selecting-mirror)
-    + [Reflector](#reflector)
-    + [Manually](#manually)
-  * [archlinux-keyring](#archlinux-keyring)
-  * [Essential packages](#essential-packages)
-  * [System configuration](#system-configuration)
-    + [fstab](#fstab)
-    + [entering chroot](#entering-chroot)
-  * [chroot](#chroot)
-    + [root password](#root-password)
-    + [network](#network)
-      - [network manager](#network-manager)
-      - [host-name](#host-name)
-      - [hosts](#hosts)
-    + [Microcode](#microcode)
-    + [Bootloader](#bootloader)
-    + [Additional steps](#additional-steps)
-  * [Wrapping up](#wrapping-up)
-    + [Reboot](#reboot)
-    + [What to expect?](#what-to-expect-)
-    + [Forgot root password?](#forgot-root-password-)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+### References
+- [Installation guide - ArchWiki](https://wiki.archlinux.org/title/Installation_guide#Configure_the_system)
+- [How to Install Arch Linux in 2022 | It'sFOSS](https://itsfoss.com/install-arch-linux/) 
+- [Arch Linux Installation Guide For Developers | LunaTrace](https://www.lunasec.io/docs/blog/arch-linux-installation-guide/#enabling-ssh)
+- [Installing Arch Linux with a BTRFS filesystem | ArcoLinuxD](https://www.arcolinuxd.com/installing-arch-linux-with-a-btrfs-filesystem/)
+- [Arch Linux with BTRFS Installation (Base) | Tech it Out](https://www.nishantnadkarni.tech/posts/arch_installation/#step-6-partitioning-your-drive) 
