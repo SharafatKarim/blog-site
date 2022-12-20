@@ -579,4 +579,25 @@ and then, enable it with,
 systemctl enable NetworkManager.service
 ```
 
+### network configuration
 
+#### host-name
+use a text-editor to set a host name,
+```bash
+nano /etc/hostname
+```
+In the text file, put any name and save it!
+
+#### hosts
+To allow resolving the local host-name, edit,
+```bash
+nano /etc/hosts
+```
+and append these lines,
+```bash
+127.0.0.1        localhost
+::1              localhost
+127.0.1.1        _myhostname_
+```
+
+> replace **_myhostname_** with your actual host-name, you set before!
