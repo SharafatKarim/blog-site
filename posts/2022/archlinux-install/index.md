@@ -562,13 +562,24 @@ When you start your system it'll help Arch to determine mount points which [we s
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
 
-### chroot
+### entering chroot
 Now change root into our system!
 ```bash
 arch-chroot /mnt
 ```
 
+## chroot
+This section covers some suggested tasks that you may want to after [entering chroot](#entering-chroot).
+
+### root password
+To set `root password` try,
+```bash
+passwd
+```
+
 ### network
+
+#### network manager
 Install a network manager with,
 ```bash
 pacman -S networkmanager
@@ -578,8 +589,6 @@ and then, enable it with,
 ```bash
 systemctl enable NetworkManager.service
 ```
-
-### network configuration
 
 #### host-name
 use a text-editor to set a host name,
@@ -601,3 +610,6 @@ and append these lines,
 ```
 
 > replace **_myhostname_** with your actual host-name, you set before!
+
+### Bootloader
+This step 
