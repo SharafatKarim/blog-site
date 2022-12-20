@@ -507,14 +507,22 @@ pacman -S reflector
 then, you can use reflector to generate a mirrolist. Here's an example,
 
 > My country is Bangladesh so I can display my available local mirrors in this way,
+> 
 > ```bash
 > reflector -c BD
 > ```
 > 
 > and, I can save this list to my mirrorlist in this way,
+> 
 > ```bash
 > reflector -c BD --save /etc/pacman.d/mirrorlist
 > ```
 
 ### Manually
-We can use a text editor to edit the **mirrorlist** and set
+We can use a text editor to edit the **mirrorlist** and set our desired mirrors also. To do that, you can use nano or vim text editor or install any CLI-based text editor if you need. And there's an online arch mirror list generator,
+- [Arch Linux - Pacman Mirrorlist Generator](https://archlinux.org/mirrorlist/)
+
+Simply edit the `mirrorlist` file, like,
+```bash
+nano /etc/pacman.d/mirrorlist
+```
