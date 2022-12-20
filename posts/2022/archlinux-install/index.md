@@ -1,4 +1,4 @@
----
+/home/sharafat/Music/islamic-mp3---
 title: "Archlinux minimal Install with btrfs"
 date: 2022-12-19T15:25:33+06:00
 lastmod: 2022-12-19T15:25:33+06:00

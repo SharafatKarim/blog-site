@@ -139,6 +139,7 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 | kid3-qt                | audio tag editor                                                                                                               |
 | sound converter        | GTK audio batch converter                                                                                                      |
 | digikam                | Photo management program with advanced feature like [photo gallery to HTML](https://sharafatkarim.github.io/wallpapers-2022/)! |
+| curlew                 | Batch audio or video converter                                                                                                 | 
 
 {{< admonition tip "BTW," >}}
 You can find a list of useful Multimedia related application in "Ubuntu Studio",
