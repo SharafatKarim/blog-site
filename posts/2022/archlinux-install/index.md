@@ -276,7 +276,9 @@ archinstall
 > later you can update archinstall,
 > `pacman -S archinstall`
 
-
+{{< admonition tip >}}
+If you're going for `archinstall`, then I would highly recommend you to install  [EndeavourOS](https://endeavouros.com/). And if you want to install arch to show up, then while installing **endeavouros** select the online method and from the package choice list deselect endevouros corresponding packages and cofigs! Then it'll install pure arch! Besides you'll find arch GUI installers in the sourceforge.
+{{< /admonition >}}
 
 ## Partitioning
 
