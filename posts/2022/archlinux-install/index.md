@@ -488,4 +488,15 @@ And if you've created a swap partition, enable it using,
 swapon /dev/sda4
 ```
 
-> Now we also have a data partition with ntfs file system and we can mount it to `/mnt/any-name`, but I'll do it later 
+> Now we also have a data partition with ntfs file system and we can mount it to `/mnt/any-name`, but I'll do it later. (GUI available)
+
+## Selecting mirror
+By default in the live boot, arch will generate 20 mirrors in your **mirrorlist** file, sorted by download speed. But you can achieve better internet speed by using your local mirror or by using reflector. To do that, first let's make sure our package list is with sync with server by,
+```bash
+pacman -Sy
+```
+
+then, let's install reflector,
+```bash
+
+```
