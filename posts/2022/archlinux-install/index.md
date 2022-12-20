@@ -657,3 +657,15 @@ Now you can do some additional configuration if you want, like setting up timezo
 -   [Time zone](https://wiki.archlinux.org/title/Installation_guide#Time_zone)
 -   [Localization](https://wiki.archlinux.org/title/Installation_guide#Localization)
 -   [Initramfs](https://wiki.archlinux.org/title/Installation_guide#Initramfs) **[OPTIONAL]**
+
+## Wrapping up
+After configuring from inside of `arch-chroot` you can leave `arch-chroot` by using,
+```bash
+exit
+```
+And, believe it or not, we've successfully installed Arch. Now feel free to reboot with,
+```bash
+reboot
+```
+
+If you reboot/ restart then you will first notice a GRUB bootloader which will wait 5 seconds for you, or you can just select your kernel and hit enter. Later you'll be greeted with a CLI login prompt where you can login as! No need to worry, we'll both hide that GRUB 5 seconds and black and white login prompt in the next part.
