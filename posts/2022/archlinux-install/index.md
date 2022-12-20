@@ -611,5 +611,25 @@ and append these lines,
 
 > replace **_myhostname_** with your actual host-name, you set before!
 
+### Microcode
+To acquire updated microcode, depending on the processor, [install](https://wiki.archlinux.org/title/Install "Install") one of the following packages:
+
+-   [amd-ucode](https://archlinux.org/packages/?name=amd-ucode) for AMD processors,
+-   [intel-ucode](https://archlinux.org/packages/?name=intel-ucode) for Intel processors.
+
+for `intel`, my command will be,
+```bash
+pacman -S intel-ucode
+```
+
 ### Bootloader
-This step 
+This step is different for UEFI and non-UEFI systems. For EFI, inside the `arch-chroot`, 
+install `grub` and `efibootmgr`,
+```bash
+pacman -S grub efibootmgr
+```
+
+and then install grub like,
+```bash
+grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
+```
