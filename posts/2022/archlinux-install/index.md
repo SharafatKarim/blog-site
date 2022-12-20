@@ -67,6 +67,10 @@ If you don't know about Arch Linux, and willing to learn, then check this post,
 
 In this guide I'll be installing Arch Linux with BTRFS. And in a separate article I'll show you the way to a minimal KDE plasma desktop along with some extended possibilities. If you're reading this I can assume you are already familiar with [archwiki](https://wiki.archlinux.org/) - a great place to learn about Arch Linux!
 
+{{< admonition tip >}}
+This post will be long and may be hard to navigate without TOS (table of contents). So please use table of contents. On desktop it's placed on the right side and mobile device users can access it from the very top of the post.
+{{< /admonition >}}
+
 ## Why Arch?
 
 If you don't have much idea about different distros, maybe you can read this [article](https://wiki.archlinux.org/title/Arch_compared_to_other_distributions). Also you'll find a lot of guys in YouTube for this purpose (to explain you why you need arch). If you've much free time to tinker with your system and you are in need of a full time job with no salary, welcome to the arena! I'll highly recommend you to try Arch Linux. 
@@ -213,7 +217,7 @@ ping 1.1.1.1
 | mmcli   | mobile broadband      |
 | ping    | check/ verify network | 
 
-### Remote installation (SSH)
+### Remote Installation (SSH)
 If you want to let your friend install Arch on your PC, he can easily do it securely if both if your'e under the same local network,
 
 Start SSH
