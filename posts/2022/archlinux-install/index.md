@@ -528,4 +528,18 @@ nano /etc/pacman.d/mirrorlist
 ```
 
 ## archlinux-keyring
-Without installing this package, you may face `Failed to commit transaction (invalid or corrupted package)` or similar. To avoid, first, 
+Without installing this package, you may face `Failed to commit transaction (invalid or corrupted package)` or similar. To avoid, first sync with, 
+```bash
+pacman -Sy
+```
+
+and then install **archlinux-keyring** with, 
+```bash
+pacman -S archlinux-keyring
+```
+
+## Essential packages
+Use the [pacstrap(8)](https://man.archlinux.org/man/pacstrap.8) script to install the [base](https://archlinux.org/packages/?name=base) package and firmware for common hardware:
+```bash
+pacstrap -K /mnt base linux linux-firmware
+```
