@@ -491,12 +491,30 @@ swapon /dev/sda4
 > Now we also have a data partition with ntfs file system and we can mount it to `/mnt/any-name`, but I'll do it later. (GUI available)
 
 ## Selecting mirror
-By default in the live boot, arch will generate 20 mirrors in your **mirrorlist** file, sorted by download speed. But you can achieve better internet speed by using your local mirror or by using reflector. To do that, first let's make sure our package list is with sync with server by,
+By default in the live boot, arch will generate 20 mirrors in your **mirrorlist** file, sorted by download speed. But you can achieve better internet speed by using your local mirror or by using reflector.
+
+### Reflector
+With reflector you can easily set a mirror. To do that, first let's make sure our package list is with sync with server by,
 ```bash
 pacman -Sy
 ```
 
 then, let's install reflector,
 ```bash
-
+pacman -S reflector
 ```
+
+then, you can use reflector to generate a mirrolist. Here's an example,
+
+> My country is Bangladesh so I can display my available local mirrors in this way,
+> ```bash
+> reflector -c BD
+> ```
+> 
+> and, I can save this list to my mirrorlist in this way,
+> ```bash
+> reflector -c BD --save /etc/pacman.d/mirrorlist
+> ```
+
+### Manually
+We can use a text editor to edit the **mirrorlist** and set
