@@ -145,6 +145,18 @@ If your intention is blindly copy paste commands from this guide or Arch wiki wi
 - [Manjaro Linux](https://manjaro.org/) - complete newbies to learn things around and recommended for stability. 
 - [EndeavourOS](https://endeavouros.com/) - it's more like graphical arch installer and highly recommended!
 
+And keep this thing in mind,
+1. Avoid blindly following online tutorials and instructions. 
+2. Avoid installing unnecessary packages. 
+3. Avoid assuming that commands will work without understanding what they do. 
+4. Avoid partitioning without understanding the implications. 
+5. Avoid using the root user for regular activities. 
+6. Avoid using AUR packages without understanding the risks. 
+7. Avoid using unsupported or experimental software. 
+8. Avoid using the default kernel if it doesn’t provide the features you need. 
+9. Avoid assuming that the installation will be successful without testing. 
+10. Avoid reinstalling the system without backing up your data first.
+
 {{< /admonition >}}
 
 ## Pre-Installation
@@ -263,6 +275,8 @@ archinstall
 > 
 > later you can update archinstall,
 > `pacman -S archinstall`
+
+
 
 ## Partitioning
 
@@ -637,4 +651,7 @@ grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
 ```
 
 ### Additional steps
-Now you can do some additional configuration if you want, like setting up timezone, localization, etc. I will be installing KDE plasma and I can do all of those from plasma's setting so I'll avoid those. But if you want you can do it.
+Now you can do some additional configuration if you want, like setting up timezone, localization, etc. I will be installing KDE plasma and I can do all of those from plasma's setting so I'll avoid those. But if you want you can do it. Here are some references,
+-   [Time zone](https://wiki.archlinux.org/title/Installation_guide#Time_zone)
+-   [Localization](https://wiki.archlinux.org/title/Installation_guide#Localization)
+-   [Initramfs](https://wiki.archlinux.org/title/Installation_guide#Initramfs) **[OPTIONAL]**
