@@ -1,17 +1,17 @@
 ---
-title: "Archlinux Install"
+title: "Archlinux Install with btrfs"
 date: 2022-12-19T15:25:33+06:00
 lastmod: 2022-12-19T15:25:33+06:00
 draft: true
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
-description: ""
+description: "A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support!"
 license: ""
 images: []
 
 tags: []
 categories: []
-summary: ""
+summary: "A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support!"
 
 featuredImage: ""
 featuredImagePreview: ""
@@ -668,4 +668,7 @@ And, believe it or not, we've successfully installed Arch. Now feel free to rebo
 reboot
 ```
 
-If you reboot/ restart then you will first notice a GRUB bootloader which will wait 5 seconds for you, or you can just select your kernel and hit enter. Later you'll be greeted with a CLI login prompt where you can login as! No need to worry, we'll both hide that GRUB 5 seconds and black and white login prompt in the next part.
+If you reboot/ restart then you will first notice a GRUB bootloader which will wait 5 seconds for you, or you can just select your kernel and hit enter. Later you'll be greeted with a CLI login prompt where you can login as `root` (username = 'root')! Remember the password [from this part](#root-password)? Use it to login.
+
+Why that GRUB and black and white terminal?
+- No need to worry, we'll both hide that GRUB 5 seconds and black and white login prompt in the next part.
