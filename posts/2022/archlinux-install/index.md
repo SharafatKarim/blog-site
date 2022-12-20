@@ -141,7 +141,7 @@ To install Arch Linux, indeed the best way to learn is Arch Wiki. But, the offic
 
 {{< admonition danger >}}
 
-If your intention is blindly copy paste commands from this guide or Arch wiki without understanding anything things may not work the way you want. So I highly recommend you to install any other distro. You can try,
+If your intention is blindly copy paste commands from this guide or Arch wiki without understanding anything, things may not work the way you want. So I highly recommend you to install any other distro. You can try,
 - [Manjaro Linux](https://manjaro.org/) - complete newbies to learn things around and recommended for stability. 
 - [EndeavourOS](https://endeavouros.com/) - it's more like graphical arch installer and highly recommended!
 
@@ -526,3 +526,6 @@ Simply edit the `mirrorlist` file, like,
 ```bash
 nano /etc/pacman.d/mirrorlist
 ```
+
+## archlinux-keyring
+Without installing this package, you may face `Failed to commit transaction (invalid or corrupted package)` or similar. To avoid, first, 
