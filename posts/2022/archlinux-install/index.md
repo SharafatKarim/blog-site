@@ -539,7 +539,18 @@ pacman -S archlinux-keyring
 ```
 
 ## Essential packages
-Use the [pacstrap(8)](https://man.archlinux.org/man/pacstrap.8) script to install the [base](https://archlinux.org/packages/?name=base) package and firmware for common hardware:
+Use the [pacstrap(8)](https://man.archlinux.org/man/pacstrap.8) script to install the [base](https://archlinux.org/packages/?name=base) package and firmware for common hardware,
 ```bash
 pacstrap -K /mnt base linux linux-firmware
 ```
+
+And, then you can also install the `linux` kernel like, but I'll be installing `linux-zen` kernel. It's your choice. For installing `linux-zen` my command will be,
+```bash
+pacstrap  /mnt linux-zen linux-zen-headers
+```
+
+> For `vanilla-linux` kernel, try,
+> ```bash
+> pacstrap  /mnt linux-zen linux-zen-headers
+> ```
+
