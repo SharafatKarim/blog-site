@@ -13,7 +13,7 @@ tags: ['linux', 'os', 'tutorial', 'arch', 'kde', 'btrfs', 'plasma']
 categories: ['tutorial']
 summary: "A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support! (part one)"
 
-featuredImage: "archinstall.png"
+featuredImage: "featured.jpg"
 featuredImagePreview: ""
 
 hiddenFromHomePage: false
