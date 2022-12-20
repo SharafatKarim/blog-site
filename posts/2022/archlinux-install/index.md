@@ -1,5 +1,5 @@
 ---
-title: "Archlinux Install with btrfs"
+title: "Archlinux minimal Install with btrfs"
 date: 2022-12-19T15:25:33+06:00
 lastmod: 2022-12-19T15:25:33+06:00
 draft: true
@@ -9,9 +9,9 @@ description: "A complete guide to install Arch Linux with btrfs, linux zen kerne
 license: ""
 images: []
 
-tags: []
-categories: []
-summary: "A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support!"
+tags: ['linux', 'os', 'tutorial', 'arch', 'kde', 'btrfs', 'plasma']
+categories: ['tutorial']
+summary: "A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support! (part one)"
 
 featuredImage: ""
 featuredImagePreview: ""
@@ -382,6 +382,10 @@ mkfs.btrfs /dev/sda2
 
 #### btrfs root
 We need to mount our created partitions into our linux hierarchy. **First** we need to mount sda3 (root) into /mnt.
+
+{{< admonition tip >}}
+If your root partition is **exfat** then simply try,
+{{< /admonition >}}
 
 We create **subvolumes** to better organize our data and to **exclude** them from btrfs snapshots.
 
