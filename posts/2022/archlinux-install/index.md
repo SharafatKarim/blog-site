@@ -551,6 +551,9 @@ pacstrap  /mnt linux-zen linux-zen-headers
 
 > For `vanilla-linux` kernel, try,
 > ```bash
-> pacstrap  /mnt linux-zen linux-zen-headers
+> pacstrap  /mnt linux
 > ```
 
+## System configuration
+
+### fstab
