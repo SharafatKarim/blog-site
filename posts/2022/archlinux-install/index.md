@@ -622,6 +622,8 @@ for `intel`, my command will be,
 pacman -S intel-ucode
 ```
 
+> Do this before the [next step](#bootloader) to make sure it's starting with bootloader.
+
 ### Bootloader
 This step is different for UEFI and non-UEFI systems. For EFI, inside the `arch-chroot`, 
 install `grub` and `efibootmgr`,
@@ -633,3 +635,6 @@ and then install grub like,
 ```bash
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
 ```
+
+### Additional steps
+Now you can do some additional configuration if you want, like setting up timezone, localization, etc. I will be installing KDE plasma and I can do all of those from plasma's setting so I'll avoid those. But if you want you can do it.
