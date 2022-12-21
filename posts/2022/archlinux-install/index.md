@@ -654,7 +654,7 @@ and append these lines,
 > replace **_myhostname_** with your actual host-name, you set before!
 
 ### Microcode
-To acquire updated microcode, depending on the processor, [install](https://wiki.archlinux.org/title/Install "Install") one of the following packages:
+To acquire updated microcode, depending on the processor, [install](https://wiki.archlinux.org/title/Install "Install") one of the following packages,
 
 -   [amd-ucode](https://archlinux.org/packages/?name=amd-ucode) for AMD processors,
 -   [intel-ucode](https://archlinux.org/packages/?name=intel-ucode) for Intel processors.
@@ -696,15 +696,19 @@ Later, generate your config by running,
 locale-gen
 ```
 
-And, add it to the config file, (remember I told you to note that down? You have to us)
+And, add it to the config file, (remember I told you to note that down? You have to use the first part),
 ```bash
-echo LANG=en_US.UTF-8
+nano /etc/locale.conf
+```
+
+Here's a sample (I'm using US English)
+```bash
+LANG=en_US.UTF-8
 ```
 
 ### Additional steps
-Now you can do some additional configuration if you want, like setting up timezone, localization, etc. I will be installing KDE plasma and I can do all of those from plasma's setting so I'll avoid those. But if you want you can do it. Here are some references,
+Now you can do some additional configuration if you want, like setting up timezone, initial services etc. I will be installing KDE plasma and I can do all of those from plasma's setting so I'll avoid those. But if you want you can do it. Here are some references,
 -   [Time zone](https://wiki.archlinux.org/title/Installation_guide#Time_zone)
--   [Localization](https://wiki.archlinux.org/title/Installation_guide#Localization)
 -   [Initramfs](https://wiki.archlinux.org/title/Installation_guide#Initramfs) **[OPTIONAL]**
 
 ## Wrapping up
