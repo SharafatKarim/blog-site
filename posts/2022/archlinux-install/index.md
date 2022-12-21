@@ -424,22 +424,34 @@ btrfs su cr /mnt/@log
 btrfs su cr /mnt/@cache
 
 btrfs su cr /mnt/@tmp
+```
 
+Now we see all the sub-volumes we created by using,
+```bash
 btrfs su li /mnt
 ```
- Now we see all the subvolumes we created.
- | su   | subvolume |
- | cr   | create    |
- | li   | list      | 
- Let us unmount /mnt and remount all subvolumes.
+
+| Command | Meaning   |
+| ------- | --------- |
+| su      | subvolume |
+| cr      | create    |
+| li      | list      |
+
+Let us unmount `/mnt` and remount all sub volumes.
 
 ```bash
 cd /
 
 umount /mnt
+```
 
+Then, mount root with,
+```bash
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@ /dev/sda2 /mnt
+```
 
+And create directory for other subvolumes,
+```bash
 mkdir  /mnt/root
 
 mkdir  /mnt/srv
@@ -449,7 +461,9 @@ mkdir -p /mnt/var/log
 mkdir -p /mnt/var/cache/
 
 mkdir /mnt/tmp
+```
 
+```bash
 # Or a one-liner
 
 mkdir -p /mnt/{root,srv,var/log,var/cache,tmp}
