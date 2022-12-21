@@ -463,17 +463,18 @@ mkdir -p /mnt/var/cache/
 mkdir /mnt/tmp
 ```
 
+>Or, you can do with a one line,
+>```bash
+   mkdir -p /mnt/{root,srv,var/log,var/cache,tmp}
+>```
+
+Then, you can check your work with,
 ```bash
-# Or a one-liner
-
-mkdir -p /mnt/{root,srv,var/log,var/cache,tmp}
-
-# Type this command to check your work.
-
 lsblk
+```
 
-# Then we mount the subvolumes.
-
+Then we mount the sub volumes.
+```bash
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@root /dev/sda2 /mnt/root
 
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@tmp /dev/sda2 /mnt/tmp
@@ -483,7 +484,6 @@ mount -o defaults,noatime,compress=zstd,commit=120,subvol=@srv /dev/sda2 /mnt/sr
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@log /dev/sda2 /mnt/var/log
 
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@cache /dev/sda2 /mnt/var/cache
-
 ```
 
 {{< admonition info "Btrfs options meaning," >}}
@@ -676,6 +676,11 @@ pacman -S grub efibootmgr
 and then install grub like,
 ```bash
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
+```
+
+Then generate config with,
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### Additional steps
