@@ -1,4 +1,4 @@
-/home/sharafat/Music/islamic-mp3---
+---
 title: "Archlinux minimal Install with btrfs"
 date: 2022-12-19T15:25:33+06:00
 lastmod: 2022-12-19T15:25:33+06:00
@@ -406,9 +406,13 @@ If I don't use separate home partiton?
 -   @home – Then you have to create this subvolume!
 {{< /admonition >}}
 
+Let's mount first,
 ```bash
 mount /dev/sda2 /mnt
+```
 
+Then, create required subvolumes,
+```bash
 btrfs su cr /mnt/@
 
 btrfs su cr /mnt/@root
@@ -422,13 +426,14 @@ btrfs su cr /mnt/@cache
 btrfs su cr /mnt/@tmp
 
 btrfs su li /mnt
+```
+ Now we see all the subvolumes we created.
+ | su   | subvolume |
+ | cr   | create    |
+ | li   | list      | 
+ Let us unmount /mnt and remount all subvolumes.
 
-# Now we see all the subvolumes we created.
-# | su   | subvolume |
-# | cr   | create    |
-# | li   | list      | 
-# Let us unmount /mnt and remount all subvolumes.
-
+```bash
 cd /
 
 umount /mnt
@@ -455,9 +460,9 @@ lsblk
 
 # Then we mount the subvolumes.
 
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@home /dev/sda2 /mnt/home
-
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@root /dev/sda2 /mnt/root
+
+mount -o defaults,noatime,compress=zstd,commit=120,subvol=@tmp /dev/sda2 /mnt/tmp
 
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@srv /dev/sda2 /mnt/srv
 
@@ -465,7 +470,6 @@ mount -o defaults,noatime,compress=zstd,commit=120,subvol=@log /dev/sda2 /mnt/va
 
 mount -o defaults,noatime,compress=zstd,commit=120,subvol=@cache /dev/sda2 /mnt/var/cache
 
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@tmp /dev/sda2 /mnt/tmp
 ```
 
 {{< admonition info "Btrfs options meaning," >}}
@@ -487,8 +491,6 @@ or, blog posts,
 - [Installing Arch Linux with a BTRFS filesystem | ArcoLinuxD](https://www.arcolinuxd.com/installing-arch-linux-with-a-btrfs-filesystem/)
 - [Arch Linux with BTRFS Installation (Base) | Tech it Out](https://www.nishantnadkarni.tech/posts/arch_installation/#step-6-partitioning-your-drive)
 {{< /admonition >}}
-
-Now we continue with the “normal procedure”.  
 
 ### EFI 
 Create a `mnt/boot/efi` directory,
@@ -565,12 +567,12 @@ pacman -S archlinux-keyring
 ## Essential packages
 Use the [pacstrap(8)](https://man.archlinux.org/man/pacstrap.8) script to install the [base](https://archlinux.org/packages/?name=base) package and firmware for common hardware,
 ```bash
-pacstrap -K /mnt base linux linux-firmware
+pacstrap -K /mnt base base-devel linux-firmware
 ```
 
 And, then you can also install the `linux` kernel like, but I'll be installing `linux-zen` kernel. It's your choice. For installing `linux-zen` my command will be,
 ```bash
-pacstrap  /mnt linux-zen linux-zen-headers
+pacstrap  /mnt linux-zen
 ```
 
 > For `vanilla-linux` kernel, try,
