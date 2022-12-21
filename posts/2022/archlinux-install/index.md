@@ -689,9 +689,17 @@ edit your `locale.gen` file, like,
 nano /etc/locale.gen
 ```
 
-Then search for your desired locale and un-comment it (remove the `#` from the beginning of a line). In `nano` text editor you can use `ctrl + w` to search. Then press, `ctrl + o` to save, followed by an `enter` and then `ctrl + x` to exit.
+Then search for your desired locale, write it down (take note) ,and un-comment it (remove the `#` from the beginning of a line). In `nano` text editor you can use `ctrl + w` to search. Then press, `ctrl + o` to save, followed by an `enter` and then `ctrl + x` to exit.
 
-Later, generate your config with, 
+Later, generate your config by running,
+```bash
+locale-gen
+```
+
+And, add it to the config file, (remember I told you to note that down? You have to us)
+```bash
+echo LANG=en_US.UTF-8
+```
 
 ### Additional steps
 Now you can do some additional configuration if you want, like setting up timezone, localization, etc. I will be installing KDE plasma and I can do all of those from plasma's setting so I'll avoid those. But if you want you can do it. Here are some references,
