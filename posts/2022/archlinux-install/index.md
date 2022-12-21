@@ -513,7 +513,7 @@ mkdir -p /mnt/boot/efi
 ```
 And then mount,
 ```bash
-mount /dev/sda1 /mnt/boot/fi
+mount /dev/sda1 /mnt/boot/efi
 ```
 
 ### Home
@@ -707,9 +707,14 @@ If you reboot/ restart then you will first notice a GRUB bootloader which will w
 Why that GRUB and black and white terminal?
 - No need to worry, we'll both hide that GRUB 5 seconds and black and white login prompt in the next part.
 
+Stucked in GRUB?
+- `arch-chroot` into your root and make sure, a kernel with base is installed and run `grub-mkconfig` again.
+- Unmount and reboot
+
 ### Forgot root password?
 - Boot into live ISO
 - Mount the root partiton
+- `arch-chroot` into root
 - Use the `passwd` command to set the new password (you will not be prompted for an old one).
 - Unmount and reboot
 
