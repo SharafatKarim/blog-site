@@ -167,14 +167,10 @@ systemctl start sddm
 
 Now you'll be greeted with a default login window. Feel free to login with your created user.
 
-## Package Management
-### Pacman
-Arch linux use `pacman` to mange it's packages. It's really good and fast. You can learn about it with more details in the archwiki.
-- [pacman - ArchWiki](https://wiki.archlinux.org/title/Pacman)
-- [pacman/Tips and tricks - ArchWiki](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks) 
+## Packages
 
-And for quick reference, you can check my handy reference,
-- [Pacman package manager](https://sharafat.vercel.app/pacman-package-manager) 
+### Officail packages
+Arch has a great collection of free and open source software. And they are quite strict about their collection. You can browse through them from
 
 ### AUR
 AUR means **Arch User Repository**. It contains more packages than the official one and undoubtedly one of the main reason for a lot of people to actually use Arch Linux. Learn more about it from here,
@@ -188,7 +184,19 @@ To install an AUR package git clone it and then build it with `makepkg` or direc
 If you've used AUR then you may know how time consuming certain builds can be. Some AUR packages even take several hours for example browsers. That's where third party repository comes in. One of the popular one is `chaotic-AUR`. They build packages automatically and put the binary in a hosting service so that you don't have to build manually.
 
 ### Chaotic AUR
-Once you install `chaotic-AUR` 
+Once you install `chaotic-AUR` you can just use your pacman to install from chaotic AUR. To setup `chaotic AUR` you can go to it's [official website](https://aur.chaotic.cx/) and follow along. Or run this script, it'll do the job for you(made by me). Just open terminal and run,
+```bash
+wget -q -O chaotic-AUR-installer.bash https://raw.githubusercontent.com/SharafatKarim/chaotic-AUR-installer/main/install.bash && sudo bash chaotic-AUR-installer.bash && rm chaotic-AUR-installer.bash
+```
+
+## Package management
+### Pacman
+Arch linux use `pacman` to mange it's packages. It's really good and fast. You can learn about it with more details in the archwiki.
+- [pacman - ArchWiki](https://wiki.archlinux.org/title/Pacman)
+- [pacman/Tips and tricks - ArchWiki](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks) 
+
+And for quick reference, you can check my handy reference,
+- [Pacman package manager](https://sharafat.vercel.app/pacman-package-manager) 
 
 ## Extra partitions
 Besides we'll mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. 
