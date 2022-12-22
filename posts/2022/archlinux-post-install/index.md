@@ -65,7 +65,13 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 This is the continuation of the Arch Linux installation's part one. In the part one, we've installed Arch with as less afford as possible. 
 
 ### Minimal Plasma
-Now in this post, I'll be installing minimal KDE plasma desktop environment without any bloat or any extra packages! So that if you need further packages or services like bluetooth or printer support, you can do it later. And of course
+Now in this post, I'll be installing minimal KDE plasma desktop environment without any bloat or any extra packages! So that if you need further packages or services like bluetooth or printer support, you can do it later. And of course, instead of plasma, you can try anything else like, gnome, xfce or maybe a window manager!
 
 ### SDDM
 For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like.
+
+### Plasma essentials
+Besides a browser, for convenience we'll install our favorite file manager and terminal utilities. Besides we'll mount our extra **disk partitions** as well. And if you're going for plasma we'll also try some plasma integrations like, network manager support and kde plasmoids.
+
+### Third party repository and AUR
+We'll also see an interesting project, named 'chaotic AUR' along with AUR helpers (both CLI and GUI). Because you may want to intall timeshift.
