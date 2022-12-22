@@ -278,5 +278,10 @@ By default your shell is `bash`. And you can enhance your possibilities with an 
 And if you need a template for `bashrc` or `zshrc` then, I've it for you,
 - [bashrc template](https://sharafat.vercel.app/bashrc)
 
+## GRUB
+### GRUB timeout
+### Info screen after grub
+When you system starts first comes grub, and then? Something like, stating linux-zen-...., right? And do you remember when you were installing arch, while booting you say some green and white combination type progress like interface. You can actually toggle them. You have to remove a kernel parameter, called `quiet`.
+
 ## Extra partitions
-Besides we'll have to mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. 
+Besides we'll have to mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. So install `ntfs-3g`. And now you can mount ntfs partitions with `sudo mount` but it's not an idea solution. To make changes permanently you've to edit `fstab`.
