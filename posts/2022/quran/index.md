@@ -1,5 +1,5 @@
 ---
-title: "Al-Quran"
+title: "Al-Quran audio library"
 date: 2022-11-22T10:37:25+06:00
 lastmod: 2022-12-22T10:37:25+06:00
 draft: false
@@ -13,7 +13,7 @@ tags: ['islam', 'collection', 'study', 'internet']
 categories: ['collection']
 summary: "Al-Quran mp3 library with download and live stream support."
 
-featuredImage: "quran.jpg"
+featuredImage: "featured.jpg"
 featuredImagePreview: ""
 
 hiddenFromHomePage: false
