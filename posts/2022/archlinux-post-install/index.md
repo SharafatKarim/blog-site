@@ -272,7 +272,11 @@ yay -S pamac-aur
 ```
 
 ## Shell
-By
+By default your shell is `bash`. And you can enhance your possibilities with an another shell like `zsh` or `fish`. You can also do a lot with your `.bashrc` file. If you're looking for a nice beautiful `zsh` shell with useful plugins like, auto coloring, auto completion then I've a separate tutorial for you.
+- [Zsh and antigen](/zsh-and-antigen/)
+
+And if you need a template for `bashrc` or `zshrc` then, I've it for you,
+- [bashrc template](https://sharafat.vercel.app/bashrc)
 
 ## Extra partitions
-Besides we'll mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. 
+Besides we'll have to mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. 
