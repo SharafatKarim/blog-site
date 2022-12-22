@@ -68,10 +68,34 @@ This is the continuation of the Arch Linux installation's part one. In the part 
 If you've followed my part one, you are probably in a black background with white bash prompt. Feel free to login with your username, 'root' and your root's password.
 
 ## User Management
-To learn deeply about user management's I would recommend you to read the arch wiki. For now, I'll create a user with root privileges so that I don't have to stay in root. Later after installing KDE plasma desktop, I can mange users in the system setting, 
+To learn deeply about user management's I would recommend you to read the arch wiki. For now, I'll create a user with root privileges so that I don't have to stay in root. Later after installing KDE plasma desktop, I can mange users in the system setting, so, for now let's create a user.
+```bash
+useradd -m -G wheel arch
+```
+
+>Here, `-m` to create a home directory. And if it exists then it won't be overwritten. And the `-G` flag is to set a group. Here `wheel` group users can actually run `sudo` commands. And finally `arch` is my username.
+
+Now, let's set a password for our new user, `arch`,
+```bash
+passwd arch
+```
+
+Now we've to give access to wheel group users to actually able to run `sudo` commands, to do so, edit a file with the following command,
+```bash
+EDITOR=nano visudo 
+```
+
+> Here, nano is the text editors name. Feel free to use your favorite text editor.
+
+Then, 
 
 ## Minimal Plasma
 Now in this post, I'll be installing minimal KDE plasma desktop environment without any bloat or any extra packages! So that if you need further packages or services like bluetooth or printer support, you can do it later. And of course, instead of plasma, you can try anything else like, gnome, xfce or maybe a window manager!
+
+To install minimal plasma, try,
+```bash
+pacman -S plasma-desktop
+```
 
 ## SDDM
 For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like.
