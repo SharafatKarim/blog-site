@@ -75,7 +75,17 @@ ping 1.1.1.1
 
 > Tip: **Ctrl + c** to stop a process
 
-And it should work out of the box for Ethernet. This pr
+And it should work out of the box for Ethernet. This process is as same as installation of Arch Linux (part one). If you encounter any problem, check `NetworkManager` 's status with,
+```bash
+systemctl status NetworkManager
+```
+
+If it's disabled, you can enable and start with, `systemctl enable` and `systemctl start` command or just rebooting your system.
+
+### Boot time
+Try, `systemd-analyze` to print your boot time. If your boot time is less than 15 seconds, you can check Arch wiki for performance guideline. 
+
+> With an old HDD, my boot time was around 11 seconds.
 
 ## User Management
 To learn deeply about user management's I would recommend you to read the arch wiki. For now, I'll create a user with root privileges so that I don't have to stay in root. Later after installing KDE plasma desktop, I can mange users in the system setting, so, for now let's create a user.
