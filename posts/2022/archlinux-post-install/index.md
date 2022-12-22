@@ -60,3 +60,12 @@ seo:
 license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
+## Introduction
+
+This is the continuation of the Arch Linux installation's part one. In the part one, we've installed Arch with as less afford as possible. 
+
+### Minimal Plasma
+Now in this post, I'll be installing minimal KDE plasma desktop environment without any bloat or any extra packages! So that if you need further packages or services like bluetooth or printer support, you can do it later. And of course
+
+### SDDM
+For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like.
