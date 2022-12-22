@@ -176,7 +176,15 @@ Arch linux use `pacman` to mange it's packages. It's really good and fast. You c
 And for quick reference, you can check my handy reference,
 - [Pacman package manager](https://sharafat.vercel.app/pacman-package-manager) 
 
-## Third party repository and AUR
+### AUR
+AUR means **Arch User Repository**. It contains more packages than the official one and undoubtedly one of the main reason for a lot of people to actually use Arch Linux. Learn more about it from here,
+- [Arch User Repository - ArchWiki](https://wiki.archlinux.org/title/Arch_User_Repository)
+
+Installing a AUR packages are rather simple! You can also use AUR helpers which do the job in the background so that you don't have to make your hands dirty. Now `yay` and `paru` AUR helpers are quite popular.
+
+To install an AUR package git clone it and then build it with 
+
+### chaotic AUR
 We'll also see an interesting project, named 'chaotic AUR' along with AUR helpers (both CLI and GUI). Because you may want to intall timeshift.
 
 ### Chaotic AUR
