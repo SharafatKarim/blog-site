@@ -313,7 +313,13 @@ Besides we'll have to mount our extra **disk partitions** as well and for that p
 
 ## Performance
 ## nohang
-A low ram handler.  
+A low ram handler. First install `nohang` from AUR or chaotic AUR. It can prevent OOM(Out of Memory). Learn more [here](https://github.com/hakavlad/nohang).
+Start and enable `nohang.service` or `nohang-desktop.service` after installing,
+```bash
+sudo systemctl enable --now nohang-desktop.service
+```
+
+> `nohang-desktop` provides notification when you're almost out of memory.
 
 ## Plasma Specials
 
