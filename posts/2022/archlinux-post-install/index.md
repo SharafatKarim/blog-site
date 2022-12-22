@@ -283,5 +283,11 @@ And if you need a template for `bashrc` or `zshrc` then, I've it for you,
 ### Info screen after grub
 When you system starts first comes grub, and then? Something like, stating linux-zen-...., right? And do you remember when you were installing arch, while booting you say some green and white combination type progress like interface. You can actually toggle them. You have to remove a kernel parameter, called `quiet`.
 
+To edit kernel parameters, edit `/boot/grub/grub.cfg`.
+And regenerate the `grub.cfg` with,
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 ## Extra partitions
 Besides we'll have to mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. So install `ntfs-3g`. And now you can mount ntfs partitions with `sudo mount` but it's not an idea solution. To make changes permanently you've to edit `fstab`.
