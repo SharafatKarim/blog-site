@@ -182,13 +182,13 @@ AUR means **Arch User Repository**. It contains more packages than the official 
 
 Installing a AUR packages are rather simple! You can also use AUR helpers which do the job in the background so that you don't have to make your hands dirty. Now `yay` and `paru` AUR helpers are quite popular.
 
-To install an AUR package git clone it and then build it with 
+To install an AUR package git clone it and then build it with `makepkg` or directly build and install with `makepkg -si`. 
 
-### chaotic AUR
-We'll also see an interesting project, named 'chaotic AUR' along with AUR helpers (both CLI and GUI). Because you may want to intall timeshift.
+### Third party repo
+If you've used AUR then you may know how time consuming certain builds can be. Some AUR packages even take several hours for example browsers. That's where third party repository comes in. One of the popular one is `chaotic-AUR`. They build packages automatically and put the binary in a hosting service so that you don't have to build manually.
 
 ### Chaotic AUR
-
+Once you install `chaotic-AUR` 
 
 ## Extra partitions
 Besides we'll mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. 
