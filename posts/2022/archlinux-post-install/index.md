@@ -235,10 +235,12 @@ nano /etc/pacman.d/mirrorlist
 ```
 
 ### Colored pacman
-And another thing, you can actually make pacman's output colored! To do so, just edit the `/etc/pacman.conf` file and un-comment the line (removing `#` from a line),
+And another thing, you can actually make pacman's output colored! To do so, just edit the `/etc/pacman.conf` file and un-comment the line `Color` (removing `#` from a line),
 ```bash
-## Uncomment to allow members of group wheel to execute any command  
-%wheel ALL=(ALL:ALL) ALL
+# Misc options
+#UseSyslog
+Color ## 33'th line (default)  
+#NoProgressBar
 ```
 
 ### Yay
@@ -257,6 +259,10 @@ cd yay-bin
 makepkg -si
 ```
 
+{{< admonition "tip" >}}
+If your pacman is colored then so will be your yay or paru AUR helper
+{{< /admonition >}}
+
 ### Pamac
 Pamac is a graphical installer for pacman with AUR support. And it can help you to install dependency packages much more easily. With sorting you can also list you orphaned packages or other packages into different categories. So if you wish to use pamac, you can install it from chaotic AUR, or from AUR.
 
@@ -264,6 +270,9 @@ If you've yay installed, then you can use it now in this way,
 ```bash
 yay -S pamac-aur
 ```
+
+## Shell
+By
 
 ## Extra partitions
 Besides we'll mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. 
