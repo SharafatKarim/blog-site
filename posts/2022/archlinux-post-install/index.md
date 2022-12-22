@@ -167,8 +167,20 @@ systemctl start sddm
 
 Now you'll be greeted with a default login window. Feel free to login with your created user.
 
+## Package Management
+### Pacman
+Arch linux use `pacman` to mange it's packages. It's really good and fast. You can learn about it with more details in the archwiki.
+- [pacman - ArchWiki](https://wiki.archlinux.org/title/Pacman)
+- [pacman/Tips and tricks - ArchWiki](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks) 
+
+And for quick reference, you can check my handy reference,
+- [Pacman package manager](https://sharafat.vercel.app/pacman-package-manager) 
+
 ## Third party repository and AUR
 We'll also see an interesting project, named 'chaotic AUR' along with AUR helpers (both CLI and GUI). Because you may want to intall timeshift.
+
+### Chaotic AUR
+
 
 ## Extra partitions
 Besides we'll mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. 
