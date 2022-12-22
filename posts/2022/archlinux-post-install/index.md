@@ -278,12 +278,31 @@ By default your shell is `bash`. And you can enhance your possibilities with an 
 And if you need a template for `bashrc` or `zshrc` then, I've it for you,
 - [bashrc template](https://sharafat.vercel.app/bashrc)
 
+## Timeshift
+Now you may want to take snapshots, right? Let's install `timeshift`. If you're installing from AUR then perhaps the binary version?
+
+### timeshift-autosnap
+`timeshift-autosnap` package will trigger timeshift to take a snap everytime when pacman upgrades your system. Just install it! Available in both chaotic AUR or AUR.
+
+To configure it, use `/etc/timeshift-autosnap.conf`. But default configuration should be enough! You can test it with,
+```bash
+sudo timeshift-autosnap
+```
+
 ## GRUB
+
+### grub-btrfs
+It'll add btrfs snapshots in your GRUB boot options. To use, install `grub-btrfs`. And regenerate the `grub.cfg` with,
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+
 ### GRUB timeout
 ### Info screen after grub
 When you system starts first comes grub, and then? Something like, stating linux-zen-...., right? And do you remember when you were installing arch, while booting you say some green and white combination type progress like interface. You can actually toggle them. You have to remove a kernel parameter, called `quiet`.
 
-To edit kernel parameters, edit `/boot/grub/grub.cfg`.
+To edit kernel parameters, edit `/etc/default/grub`.
 And regenerate the `grub.cfg` with,
 ```bash
 grub-mkconfig -o /boot/grub/grub.cfg
@@ -291,3 +310,12 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 ## Extra partitions
 Besides we'll have to mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. So install `ntfs-3g`. And now you can mount ntfs partitions with `sudo mount` but it's not an idea solution. To make changes permanently you've to edit `fstab`.
+
+## Plasma Specials
+
+### Spell check
+
+### Fonts
+To enhance performance for terminal and other places you might want to Install `noto-sans` optional dependency, especially for `emoji-picker`.
+
+If you face problem in default terminal and othere monospace fonts, try installing `ttf-dejavu` and `ttf-liberation`.
