@@ -65,7 +65,17 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 This is the continuation of the Arch Linux installation's part one. In the part one, we've installed Arch with as less afford as possible. In this part we'll install from desktop environment to our GRUB setup with BTRFS snapshots integration and a lot of possibilities!
 
 ## Prerequisite
-If you've followed my part one, you are probably in a black background with white bash prompt. Feel free to login with your username, 'root' and your root's password.
+If you've followed my part one, you are probably in a black background with white bash prompt. Feel free to login with your username, 'root' and your root's password. Now let's check our system a bit,
+
+### Intenet
+Check your internet connection with ping,
+```bash
+ping 1.1.1.1
+```
+
+> Tip: **Ctrl + c** to stop a process
+
+And it should work out of the box for Ethernet. This pr
 
 ## User Management
 To learn deeply about user management's I would recommend you to read the arch wiki. For now, I'll create a user with root privileges so that I don't have to stay in root. Later after installing KDE plasma desktop, I can mange users in the system setting, so, for now let's create a user.
