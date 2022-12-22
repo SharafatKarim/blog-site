@@ -199,5 +199,21 @@ Arch linux use `pacman` to mange it's packages. It's really good and fast. You c
 And for quick reference, you can check my handy reference,
 - [Pacman package manager](https://sharafat.vercel.app/pacman-package-manager) 
 
+### Yay
+Yay is mainly an AUR helper, that can install AUR packages automatically. And you can install it from `chaotic-aur` or `aur`. If you're downloading from `aur`, then perhaps you can go with `yay-bin` which is a binary of yay. So you don't have to wait for it to finish installation.
+
+If you've installed `chaotic-aur`, then install yay with,
+```bash
+sudo pacman -S yay
+```
+
+Or, if you wish to install from AUR, 
+```bash
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+```
+
 ## Extra partitions
 Besides we'll mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. 
