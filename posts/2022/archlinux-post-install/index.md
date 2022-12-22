@@ -311,6 +311,10 @@ grub-mkconfig -o /boot/grub/grub.cfg
 ## Extra partitions
 Besides we'll have to mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. So install `ntfs-3g`. And now you can mount ntfs partitions with `sudo mount` but it's not an idea solution. To make changes permanently you've to edit `fstab`.
 
+## Performance
+## nohang
+A low ram handler.  
+
 ## Plasma Specials
 
 ### Spell check
