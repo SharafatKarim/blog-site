@@ -312,7 +312,9 @@ grub-mkconfig -o /boot/grub/grub.cfg
 Besides we'll have to mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. So install `ntfs-3g`. And now you can mount ntfs partitions with `sudo mount` but it's not an idea solution. To make changes permanently you've to edit `fstab`.
 
 ### swap partition
-
+Our swap partition should work out of the box if you've followed my part one of this arch install post. To verify, run, `swapon` or, `free -h`.
+If you need swap file or, maybe an another swap partition or you didn't follow my guide, check this guide from manjaro. It's good to follow,
+- [Swap - Manjaro](https://wiki.manjaro.org/index.php/Swap) 
 
 ## Performance
 ## nohang

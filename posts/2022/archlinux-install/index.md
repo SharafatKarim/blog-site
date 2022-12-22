@@ -377,6 +377,7 @@ mkfs.fat -F 32 /dev/sda1
  ```bash
 mkfs.btrfs /dev/sda2
 ```
+ 
  And finally, if you've created `swap` then initialize it by,
  ```bash
  mkswap /dev/sda4
