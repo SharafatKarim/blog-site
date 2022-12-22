@@ -319,7 +319,14 @@ If you need swap file or, maybe an another swap partition or you didn't follow m
 Also check out the `systemd-swap`, it's even better choice, I think instead of tradition swap, if you want.
 
 ### Other partitions
-If you want you can easily set other partitions to mount by default with the help of `## gnome-disk-utility` and it's recommend to avoid errors. You can also edit `fstab` manually.
+If you want you can easily set other partitions to mount by default with the help of  `partitionmanager` or `gnome-disk-utility` and it's recommend to avoid errors. You can also edit `fstab` manually.
+
+#### KDE partition manager
+It's recommended to use `/mnt` directory. If you want you can create a sub directory inside first with,
+```bash
+sudo mkdir /mnt/data
+```
+Later launch kde partition manager, select your partition. From the right click menu, select `Edit mount point` and select the path `/mnt/data`. Finally click ok and 
 
 #### Gnome Disk Utility
 
