@@ -199,7 +199,47 @@ Arch linux use `pacman` to mange it's packages. It's really good and fast. You c
 And for quick reference, you can check my handy reference,
 - [Pacman package manager](https://sharafat.vercel.app/pacman-package-manager) 
 
-And for conf
+And for configuration, you can set mirror just like you did in the arch installation process (part one),
+#### Reflector
+With reflector you can easily set a mirror. To do that, first let's make sure our package list is with sync with server by,
+```bash
+pacman -Sy
+```
+
+then, let's install reflector,
+```bash
+pacman -S reflector
+```
+
+then, you can use reflector to generate a mirrolist. Here's an example,
+
+> My country is Bangladesh so I can display my available local mirrors in this way,
+> 
+> ```bash
+> reflector -c BD
+> ```
+> 
+> and, I can save this list to my mirrorlist in this way,
+> 
+> ```bash
+> reflector -c BD --save /etc/pacman.d/mirrorlist
+> ```
+
+#### Manually mirror setup
+We can use a text editor to edit the **mirrorlist** and set our desired mirrors also. To do that, you can use nano or vim text editor or install any CLI-based text editor if you need. And there's an online arch mirror list generator,
+- [Arch Linux - Pacman Mirrorlist Generator](https://archlinux.org/mirrorlist/)
+
+Simply edit the `mirrorlist` file, like,
+```bash
+nano /etc/pacman.d/mirrorlist
+```
+
+### Colored pacman
+And another thing, you can actually make pacman's output colored! To do so, just edit the `/etc/pacman.conf` file and un-comment the line (removing `#` from a line),
+```bash
+## Uncomment to allow members of group wheel to execute any command  
+%wheel ALL=(ALL:ALL) ALL
+```
 
 ### Yay
 Yay is mainly an AUR helper, that can install AUR packages automatically. And you can install it from `chaotic-aur` or `aur`. If you're downloading from `aur`, then perhaps you can go with `yay-bin` which is a binary of yay. So you don't have to wait for it to finish installation.
