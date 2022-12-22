@@ -85,7 +85,7 @@ If it's disabled, you can enable and start with, `systemctl enable` and `systemc
 ### Boot time
 Try, `systemd-analyze` to print your boot time. If your boot time is less than 15 seconds, you can check Arch wiki for performance guideline. 
 
-> With an old HDD, my boot time was around 11 seconds.
+>With an old HDD, my boot time was around 11 seconds.
 
 ## User Management
 To learn deeply about user management's I would recommend you to read the arch wiki. For now, I'll create a user with root privileges so that I don't have to stay in root. Later after installing KDE plasma desktop, I can mange users in the system setting, so, for now let's create a user.
