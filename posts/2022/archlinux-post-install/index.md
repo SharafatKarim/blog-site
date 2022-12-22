@@ -314,6 +314,7 @@ Besides we'll have to mount our extra **disk partitions** as well and for that p
 ## Plasma Specials
 
 ### Spell check
+Make sure `sonnet` is installed with `hunspell` or anything similar.
 
 ### Fonts
 To enhance performance for terminal and other places you might want to Install `noto-sans` optional dependency, especially for `emoji-picker`.
