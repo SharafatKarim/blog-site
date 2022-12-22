@@ -318,6 +318,12 @@ If you need swap file or, maybe an another swap partition or you didn't follow m
 
 Also check out the `systemd-swap`, it's even better choice, I think instead of tradition swap, if you want.
 
+### Other partitions
+If you want you can easily set other partitions to mount by default with the help of `## gnome-disk-utility` and it's recommend to avoid errors. You can also edit `fstab` manually.
+
+#### Gnome Disk Utility
+
+
 ## Performance
 ## nohang
 A low ram handler. First install `nohang` from AUR or chaotic AUR. It can prevent OOM(Out of Memory). Learn more [here](https://github.com/hakavlad/nohang).
