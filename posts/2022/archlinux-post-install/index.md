@@ -87,7 +87,13 @@ EDITOR=nano visudo
 
 > Here, nano is the text editors name. Feel free to use your favorite text editor.
 
-Then, 
+Then, I'll un-comment the line (removing `#` from a line),
+```bash
+## Uncomment to allow members of group wheel to execute any command  
+%wheel ALL=(ALL:ALL) ALL
+```
+
+> In `nano` text editor you can use `ctrl + w` to search. Then press, `ctrl + o` to save, followed by an `enter` and then `ctrl + x` to exit.
 
 ## Minimal Plasma
 Now in this post, I'll be installing minimal KDE plasma desktop environment without any bloat or any extra packages! So that if you need further packages or services like bluetooth or printer support, you can do it later. And of course, instead of plasma, you can try anything else like, gnome, xfce or maybe a window manager!
@@ -97,8 +103,17 @@ To install minimal plasma, try,
 pacman -S plasma-desktop
 ```
 
+Now, it'll give you several choices. You can go with the default values. For font you can choose, `noto-sans` and as a back-end for media thumbnail in the file manager, you can try `vlc` as it's recommended by upstream developers.
+
 ## SDDM
-For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like.
+For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like. To install SDDM, try,
+```bash
+pacman -S sddm
+```
+
+And the enable it's service with,
+```
+```
 
 ## Plasma essentials
 Besides a browser, for convenience we'll install our favorite file manager and terminal utilities. Besides we'll mount our extra **disk partitions** as well. And if you're going for plasma we'll also try some plasma integrations like, network manager support and kde plasmoids.
