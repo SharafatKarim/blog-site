@@ -62,16 +62,22 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 ## Introduction
 
-This is the continuation of the Arch Linux installation's part one. In the part one, we've installed Arch with as less afford as possible. 
+This is the continuation of the Arch Linux installation's part one. In the part one, we've installed Arch with as less afford as possible. In this part we'll install from desktop environment to our GRUB setup with BTRFS snapshots integration and a lot of possibilities!
 
-### Minimal Plasma
+## Prerequisite
+If you've followed my part one, you are probably in a black background with white bash prompt. Feel free to login with your username, 'root' and your root's password.
+
+## User Management
+To learn deeply about user management's I would recommend you to read the arch wiki. For now, I'll create a user with root privileges so that I don't have to stay in root. Later after installing KDE plasma desktop, I can mange users in the system setting, 
+
+## Minimal Plasma
 Now in this post, I'll be installing minimal KDE plasma desktop environment without any bloat or any extra packages! So that if you need further packages or services like bluetooth or printer support, you can do it later. And of course, instead of plasma, you can try anything else like, gnome, xfce or maybe a window manager!
 
-### SDDM
+## SDDM
 For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like.
 
-### Plasma essentials
+## Plasma essentials
 Besides a browser, for convenience we'll install our favorite file manager and terminal utilities. Besides we'll mount our extra **disk partitions** as well. And if you're going for plasma we'll also try some plasma integrations like, network manager support and kde plasmoids.
 
-### Third party repository and AUR
+## Third party repository and AUR
 We'll also see an interesting project, named 'chaotic AUR' along with AUR helpers (both CLI and GUI). Because you may want to intall timeshift.
