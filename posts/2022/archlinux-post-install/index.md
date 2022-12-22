@@ -316,6 +316,8 @@ Our swap partition should work out of the box if you've followed my part one of 
 If you need swap file or, maybe an another swap partition or you didn't follow my guide, check this guide from manjaro. It's good to follow,
 - [Swap - Manjaro](https://wiki.manjaro.org/index.php/Swap) 
 
+Also check out the `systemd-swap`, it's even better choice, I think instead of tradition swap, if you want.
+
 ## Performance
 ## nohang
 A low ram handler. First install `nohang` from AUR or chaotic AUR. It can prevent OOM(Out of Memory). Learn more [here](https://github.com/hakavlad/nohang).

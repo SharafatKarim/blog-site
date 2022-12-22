@@ -342,10 +342,10 @@ I'll be using 4 partition. A separate home partition. It'll allow me to keep the
 {{< admonition question "F.A.Q.'s" true >}}
 
 Why I arranged in this way?
-- Well, it really doesn't matter. You can arrange in whatever way you want. I put swap at the end because in future it can allow me to resize home and swap!
+- Well, it really doesn't matter. You can arrange in whatever way you want. I put swap at the end because in future it can allow me to resize home and swap! Some upstream suggest to put it at the beginning if you're using HDD as this part has little more read/ write rate.
 
 Why swap?
-- [Read here](https://wiki.archlinux.org/title/Swap) 
+- [Read here](https://wiki.archlinux.org/title/Swap) . You don't have to use swap partition if you want. In fact there is `systemd-swap` and `zram` concept. So feel free to avoid if you know what you're doing!
 
 Why swap is twice the size of RAM?
 - It'll help you if you hibernate your system. Most probably, you may never need to use more than 8 GiB for swap! If you don't need hibernate then equal the size of RAM is more than enough.
