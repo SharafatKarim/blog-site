@@ -326,10 +326,15 @@ It's recommended to use `/mnt` directory. If you want you can create a sub direc
 ```bash
 sudo mkdir /mnt/data
 ```
-Later launch kde partition manager, select your partition. From the right click menu, select `Edit mount point` and select the path `/mnt/data`. Finally click ok and 
+Later launch kde partition manager, select your partition. From the right click menu, select `Edit mount point` and select the path `/mnt/data`. Finally click ok and you can reboot your session to check changes.
 
 #### Gnome Disk Utility
+The same as kde partition manager but you don't have to create the directory manually.
 
+#### Editing fstab
+You can manually set by editing, `/etc/fstab` and create an entry. To find the **UUID** try,
+```
+```
 
 ## Performance
 ## nohang
