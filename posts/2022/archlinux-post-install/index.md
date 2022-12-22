@@ -111,23 +111,28 @@ Besides a browser, for convenience we'll install our favorite file manager and t
 
 Let's let it install and let me describe what they are,
 ```bash
-pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-config sddm-kcm plasma-systemmonitor
+pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-config plasma-systemmonitor
 ```
 
 And here's a short description,
-| Application name | Application's description                                                                                                                                       |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| firefox          | A FOSS browser, which is favorite to a lot of linux users and you can also customize it with CSS. But of course you can also use anything else that you prefer. |
-| plasma-nm        | Network manager integration with plasma. With this you can easily configure network with your plasma desktop.                                                   |
-| plasma-pa        |                                                                                                                                                                 |
-| dolphin          | A file manger for plasma. It's really recommended because of it's availability, user interface and a lot of features out of the box.                            |
-|                  |                                                                                                                                                                 |
+| Application name     | Application's description                                                                                                                                       |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| firefox              | A FOSS browser, which is favorite to a lot of linux users and you can also customize it with CSS. But of course you can also use anything else that you prefer. |
+| plasma-nm            | Network manager integration with plasma. With this you can easily configure network with your plasma desktop.                                                   |
+| plasma-pa            |                                                                                                                                                                 |
+| dolphin              | A file manger for plasma. It's really recommended because of it's availability, user interface and a lot of features out of the box.                            |
+| konsole              | A terminal app for plasma. It's highly configurable through GUI and easy to integrate with plasma.                                                              |
+| kdeplasma-addons     | **[OPTIONAL]** Extra addons like color picker and monitor.                                                                                                      |
+| kde-gtk-config       | It'll allow you to customize gtk apps through kde's setting and recommended to install                                                                          |
+| plasma-systemmonitor | **[OPTIONAL]** It's a nice looking system monitor that you may want to try.                                                                                                                                                                 |
 
 ## SDDM
 For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like. To install SDDM, try,
 ```bash
-pacman -S sddm
+pacman -S sddm sddm-kcm
 ```
+
+> `sddm-kcm` is only recommended when you're installing plasma. It'll integrate your sddm  with kde's setting. So you can customize your sddm right from kde plasma's setting.
 
 And the enable it's service with,
 ```bash
