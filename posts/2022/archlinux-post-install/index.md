@@ -105,6 +105,15 @@ pacman -S plasma-desktop
 
 Now, it'll give you several choices. You can go with the default values. For font you can choose, `noto-sans` and as a back-end for media thumbnail in the file manager, you can try `vlc` as it's recommended by upstream developers.
 
+
+## Plasma essentials
+Besides a browser, for convenience we'll install our favorite file manager and terminal utilities. And if you're going for plasma we'll also try some plasma integrations like, network manager support and kde plasmoids.
+
+Let's let it install and let me describe what they are,
+```bash
+pacman -S firefox plasma-nm plasma
+```
+
 ## SDDM
 For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like. To install SDDM, try,
 ```bash
@@ -112,11 +121,19 @@ pacman -S sddm
 ```
 
 And the enable it's service with,
-```
+```bash
+systemctl enable sddm
 ```
 
-## Plasma essentials
-Besides a browser, for convenience we'll install our favorite file manager and terminal utilities. Besides we'll mount our extra **disk partitions** as well. And if you're going for plasma we'll also try some plasma integrations like, network manager support and kde plasmoids.
+And finally, start it with,
+```bash
+systemctl start sddm
+```
+
+Now you'll be greeted with a default login window.
 
 ## Third party repository and AUR
 We'll also see an interesting project, named 'chaotic AUR' along with AUR helpers (both CLI and GUI). Because you may want to intall timeshift.
+
+## Extra partitions
+Besides we'll mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. 
