@@ -333,8 +333,11 @@ The same as kde partition manager but you don't have to create the directory man
 
 #### Editing fstab
 You can manually set by editing, `/etc/fstab` and create an entry. To find the **UUID** try,
+```bash
+lsblk -f
 ```
-```
+To learn more, try arch wiki,
+- [Fstab - Arch Wiki](https://wiki.archlinux.org/title/Fstab) 
 
 ## Performance
 ## nohang
