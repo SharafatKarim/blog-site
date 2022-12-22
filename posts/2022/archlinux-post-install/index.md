@@ -170,7 +170,8 @@ Now you'll be greeted with a default login window. Feel free to login with your 
 ## Packages
 
 ### Officail packages
-Arch has a great collection of free and open source software. And they are quite strict about their collection. You can browse through them from
+Arch has a great collection of free and open source software. And they are quite strict about their collection. You can browse through them from here,
+- [Official repositories - ArchWiki](https://wiki.archlinux.org/title/Official_repositories) 
 
 ### AUR
 AUR means **Arch User Repository**. It contains more packages than the official one and undoubtedly one of the main reason for a lot of people to actually use Arch Linux. Learn more about it from here,
