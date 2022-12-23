@@ -312,7 +312,105 @@ Then create the file `/etc/grub.d/31_hold_shift` with,
 sudo touch /etc/grub.d/31_hold_shift
 ```
 
-containing [[1]](https://gist.githubusercontent.com/anonymous/8eb2019db2e278ba99be/raw/257f15100fd46aeeb8e33a7629b209d0a14b9975/gistfile1.sh), make it [executable](https://wiki.archlinux.org/title/Executable "Executable"), and regenerate the grub configuration:
+Then, open the file with,
+```bash
+xdg-open /etc/grub.d/31_hold_shift
+```
+
+and paste following codes, [source](https://gist.githubusercontent.com/anonymous/8eb2019db2e278ba99be/raw/257f15100fd46aeeb8e33a7629b209d0a14b9975/gistfile1.sh)
+
+```bash
+#! /bin/sh
+set -e
+
+prefix="/usr"
+exec_prefix="${prefix}"
+datarootdir="${prefix}/share"
+
+export TEXTDOMAIN=grub
+export TEXTDOMAINDIR="${datarootdir}/locale"
+source "${datarootdir}/grub/grub-mkconfig_lib"
+
+found_other_os=
+
+make_timeout () {
+
+  if [ "x${GRUB_FORCE_HIDDEN_MENU}" = "xtrue" ] ; then 
+    if [ "x${1}" != "x" ] ; then
+      if [ "x${GRUB_HIDDEN_TIMEOUT_QUIET}" = "xtrue" ] ; then
+    verbose=
+      else
+    verbose=" --verbose"
+      fi
+
+      if [ "x${1}" = "x0" ] ; then
+    cat <<EOF
+if [ "x\${timeout}" != "x-1" ]; then
+  if keystatus; then
+    if keystatus --shift; then
+      set timeout=-1
+    else
+      set timeout=0
+    fi
+  else
+    if sleep$verbose --interruptible 3 ; then
+      set timeout=0
+    fi
+  fi
+fi
+EOF
+      else
+    cat << EOF
+if [ "x\${timeout}" != "x-1" ]; then
+  if sleep$verbose --interruptible ${GRUB_HIDDEN_TIMEOUT} ; then
+    set timeout=0
+  fi
+fi
+EOF
+      fi
+    fi
+  fi
+}
+
+adjust_timeout () {
+  if [ "x$GRUB_BUTTON_CMOS_ADDRESS" != "x" ]; then
+    cat <<EOF
+if cmostest $GRUB_BUTTON_CMOS_ADDRESS ; then
+EOF
+    make_timeout "${GRUB_HIDDEN_TIMEOUT_BUTTON}" "${GRUB_TIMEOUT_BUTTON}"
+    echo else
+    make_timeout "${GRUB_HIDDEN_TIMEOUT}" "${GRUB_TIMEOUT}"
+    echo fi
+  else
+    make_timeout "${GRUB_HIDDEN_TIMEOUT}" "${GRUB_TIMEOUT}"
+  fi
+}
+
+  adjust_timeout
+
+    cat <<EOF
+if [ "x\${timeout}" != "x-1" ]; then
+  if keystatus; then
+    if keystatus --shift; then
+      set timeout=-1
+    else
+      set timeout=0
+    fi
+  else
+    if sleep$verbose --interruptible 3 ; then
+      set timeout=0
+    fi
+  fi
+fi
+EOF
+```
+
+then make it [executable](https://wiki.archlinux.org/title/Executable "Executable"),
+```bash
+sudo chmod +x /etc/grub.d/31_hold_shift
+```
+
+And finally regenerate the grub configuration with,
 
 ```bash
 grub-mkconfig -o /boot/grub/grub.cfg
