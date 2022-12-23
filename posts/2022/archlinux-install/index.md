@@ -65,7 +65,7 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 If you don't know about Arch Linux, and willing to learn, then check this post,
 - [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux)
 
-In this guide I'll be installing Arch Linux with BTRFS. And in a separate article I'll show you the way to a minimal KDE plasma desktop along with some extended possibilities. If you're reading this I can assume you are already familiar with [archwiki](https://wiki.archlinux.org/) - a great place to learn about Arch Linux!
+In this guide I'll be installing Arch Linux with BTRFS. And [in a separate article](/archlinux-post-install/) I'll show you the way to a minimal KDE plasma desktop along with some extended possibilities. If you're reading this I can assume you are already familiar with [archwiki](https://wiki.archlinux.org/) - a great place to learn about Arch Linux!
 
 {{< admonition tip >}}
 This post will be long and may be hard to navigate without TOS (table of contents). So please use table of contents. On desktop it's placed on the right side and mobile device users can access it from the very top of the post.
@@ -129,7 +129,7 @@ With btrfs you can take snapshots within seconds and it'll use less resource due
 ### Boot from snapshots
 And the most interesting thing is that you can add your btrfs snapshot entry to GRUB bootloader. You can use pacman hook to trigger snapshot backup before any system update and an another script to add those backup as GRUB entry.
 
-So if something goes wrong, you can go to previous condition right from your bootloader! I'll show the way to achieve this on the next part (post installation).
+So if something goes wrong, you can go to previous condition right from your bootloader! I'll show the way to achieve this on the [next part](/archlinux-post-install/) (post installation).
 
 ### Compression
 BTRFS can compress your data as you write to save storage and it'll be helpful on the long road. Also there are some cons. [Read more here](https://itsfoss.com/btrfs/).
@@ -241,7 +241,7 @@ ssh "root@<IP-OF-THE-FIRST-PC>
 ```
 
 ### Remote Installation (Internet)
-But if your friend is on the other part of the planet or not on the same network, you can use internet protocol for this.
+But if your friend is on the [other part](/archlinux-post-install/) of the planet or not on the same network, you can use internet protocol for this.
 
 First, sync your packages and install `tmate`,
 ```bash
@@ -748,5 +748,6 @@ Stucked in GRUB?
 - [Installing Arch Linux with a BTRFS filesystem | ArcoLinuxD](https://www.arcolinuxd.com/installing-arch-linux-with-a-btrfs-filesystem/)
 - [Arch Linux with BTRFS Installation (Base) | Tech it Out](https://www.nishantnadkarni.tech/posts/arch_installation/#step-6-partitioning-your-drive) 
 
-## What's next?
-Now you can install any desktop environment or any window manager wih
+### What's next?
+Now you can install any desktop environment or any window manager with your favorite softwares! If you want I can pick you up right from where you're now with my next post,
+- [Arch Linux Post Install with minimal plasma and more](/archlinux-post-install/)
