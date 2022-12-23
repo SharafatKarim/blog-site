@@ -63,7 +63,7 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 ## Introduction
 
 This is the continuation of the Arch Linux installation's [part one](/archlinux-install/). In the [part one](/archlinux-install/), we've installed Arch with as less afford as possible. In this part we'll install from desktop environment to our GRUB setup with BTRFS snapshots integration and a lot of possibilities! In case you haven't checked [part one](/archlinux-install/) yet, it's recommended if you want to install to Arch from scratch,
-- [part one](/archlinux-install/)
+- [Arch minimal installation | part one](/archlinux-install/)
 
 ## Prerequisite
 If you've followed my [part one](/archlinux-install/), you are probably in a black background with white bash prompt. Feel free to login with your username, 'root' and your root's password. Now let's check our system a bit,
@@ -486,3 +486,9 @@ Make sure `sonnet` is installed with `hunspell` or anything similar.
 To enhance performance for terminal and other places you might want to Install `noto-sans` optional dependency, especially for `emoji-picker`.
 
 If you face problem in default terminal and othere monospace fonts, try installing `ttf-dejavu` and `ttf-liberation`.
+
+## References
+- [General recommendations - ArchWiki](https://wiki.archlinux.org/title/General_recommendations)
+- [KDE - ArchWiki](https://wiki.archlinux.org/title/KDE)
+- [GRUB/Tips and tricks - ArchWiki](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks)
+- [How to do a Minimal KDE Plasma Desktop Install in Arch Linux - Tuxinit](https://tuxinit.com/minimal-kde-plasma-install-arch-linux/) 

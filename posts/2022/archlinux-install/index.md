@@ -747,3 +747,6 @@ Stucked in GRUB?
 - [Arch Linux Installation Guide For Developers | LunaTrace](https://www.lunasec.io/docs/blog/arch-linux-installation-guide/#enabling-ssh)
 - [Installing Arch Linux with a BTRFS filesystem | ArcoLinuxD](https://www.arcolinuxd.com/installing-arch-linux-with-a-btrfs-filesystem/)
 - [Arch Linux with BTRFS Installation (Base) | Tech it Out](https://www.nishantnadkarni.tech/posts/arch_installation/#step-6-partitioning-your-drive) 
+
+## What's next?
+Now you can install any desktop environment or any window manager wih
