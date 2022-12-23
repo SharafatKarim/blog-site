@@ -466,7 +466,7 @@ mkdir /mnt/tmp
 
 >Or, you can do with a one line,
 >```bash
-   mkdir -p /mnt/{root,srv,var/log,var/cache,tmp}
+>  mkdir -p /mnt/{root,srv,var/log,var/cache,tmp}
 >```
 
 Then, you can check your work with,
