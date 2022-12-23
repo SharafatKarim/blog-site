@@ -299,7 +299,21 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 ### GRUB timeout
-Every time you start your system GRUB shows up and waits 5 seconds for you, right? You can actually remove it. And grub will be shown if and only if you hold `shift` key while starting. 
+Every time you start your system GRUB shows up and waits 5 seconds for you, right? You can actually remove it. And grub will be shown if and only if you hold `shift` key while starting. In order to achieve the fastest possible boot, instead of having GRUB wait for a timeout, it is possible for GRUB to hide the menu, unless the `Shift` key is held down during GRUB's start-up.
+
+In order to achieve this, you should add the following line to `/etc/default/grub`:
+
+```bash
+GRUB_FORCE_HIDDEN_MENU="true"
+```
+
+Then create the file `/etc/grub.d/31_hold_shift` containing [[1]](https://gist.githubusercontent.com/anonymous/8eb2019db2e278ba99be/raw/257f15100fd46aeeb8e33a7629b209d0a14b9975/gistfile1.sh), make it [executable](https://wiki.archlinux.org/title/Executable "Executable"), and regenerate the grub configuration:
+
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+**Note:** This setup uses keystatus to detect keypress event so it may not work on some machines.
 
 ### Info screen after grub
 When you system starts first comes grub, and then? Something like, stating linux-zen-...., right? And do you remember when you were installing arch, while booting you say some green and white combination type progress like interface. You can actually toggle them. You have to remove a kernel parameter, called `quiet`.
