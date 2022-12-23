@@ -459,7 +459,15 @@ To learn more, try arch wiki,
 - [Fstab - Arch Wiki](https://wiki.archlinux.org/title/Fstab) 
 
 ## Performance
-## nohang
+### zram and zwap
+With zram generator you can easily generate zram and you can definitely try if you've a bigger ram. With zram your swap won't be used and it's definitely a bad idea to enable both zram and zswap. And `zswap` is enabled by default for most cases so you don't need to modify anything. To make sure zram is enabled, you can try,
+```bash
+sudo dmesg | grep swap
+```
+
+You may see somehing like, `[    0.357361] zswap: loaded using pool lz4/z3fold` if your zwap is running.
+
+### nohang
 A low ram handler. First install `nohang` from AUR or chaotic AUR. It can prevent OOM(Out of Memory). Learn more [here](https://github.com/hakavlad/nohang).
 Start and enable `nohang.service` or `nohang-desktop.service` after installing,
 ```bash
