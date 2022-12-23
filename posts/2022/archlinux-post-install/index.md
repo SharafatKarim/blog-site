@@ -170,7 +170,7 @@ Now you'll be greeted with a default login window. Feel free to login with your 
 
 ## Packages
 
-### Officail packages
+### Official packages
 Arch has a great collection of free and open source software. And they are quite strict about their collection. You can browse through them from here,
 - [Official repositories - ArchWiki](https://wiki.archlinux.org/title/Official_repositories) 
 
@@ -186,7 +186,7 @@ To install an AUR package git clone it and then build it with `makepkg` or direc
 If you've used AUR then you may know how time consuming certain builds can be. Some AUR packages even take several hours for example browsers. That's where third party repository comes in. One of the popular one is `chaotic-AUR`. They build packages automatically and put the binary in a hosting service so that you don't have to build manually.
 
 ### Chaotic AUR
-Once you install `chaotic-AUR` you can just use your pacman to install from chaotic AUR. To setup `chaotic AUR` you can go to it's [official website](https://aur.chaotic.cx/) and follow along. Or run this script, it'll do the job for you(made by me). Just open terminal and run,
+Once you install `chaotic-AUR` you can just use your pacman to install from chaotic AUR. To setup `chaotic AUR` you can go to it's [official website](https://aur.chaotic.cx/) and follow along. Or, make sure `wget` is installed (`sudo pacman -S --needed wget`) and run this script, it'll do the job for you(made by me). Just open terminal and run,
 ```bash
 wget -q -O chaotic-AUR-installer.bash https://raw.githubusercontent.com/SharafatKarim/chaotic-AUR-installer/main/install.bash && sudo bash chaotic-AUR-installer.bash && rm chaotic-AUR-installer.bash
 ```
