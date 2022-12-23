@@ -62,10 +62,11 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 ## Introduction
 
-This is the continuation of the Arch Linux installation's part one. In the part one, we've installed Arch with as less afford as possible. In this part we'll install from desktop environment to our GRUB setup with BTRFS snapshots integration and a lot of possibilities!
+This is the continuation of the Arch Linux installation's [part one](/archlinux-install/). In the [part one](/archlinux-install/), we've installed Arch with as less afford as possible. In this part we'll install from desktop environment to our GRUB setup with BTRFS snapshots integration and a lot of possibilities! In case you haven't checked [part one](/archlinux-install/) yet, it's recommended if you want to install to Arch from scratch,
+- [part one](/archlinux-install/)
 
 ## Prerequisite
-If you've followed my part one, you are probably in a black background with white bash prompt. Feel free to login with your username, 'root' and your root's password. Now let's check our system a bit,
+If you've followed my [part one](/archlinux-install/), you are probably in a black background with white bash prompt. Feel free to login with your username, 'root' and your root's password. Now let's check our system a bit,
 
 ### Intenet
 Check your internet connection with ping,
@@ -75,7 +76,7 @@ ping 1.1.1.1
 
 > Tip: **Ctrl + c** to stop a process
 
-And it should work out of the box for Ethernet. This process is as same as installation of Arch Linux (part one). If you encounter any problem, check `NetworkManager` 's status with,
+And it should work out of the box for Ethernet. This process is as same as installation of Arch Linux ([part one](/archlinux-install/)). If you encounter any problem, check `NetworkManager` 's status with,
 ```bash
 systemctl status NetworkManager
 ```
@@ -199,7 +200,7 @@ Arch linux use `pacman` to mange it's packages. It's really good and fast. You c
 And for quick reference, you can check my handy reference,
 - [Pacman package manager](https://sharafat.vercel.app/pacman-package-manager) 
 
-And for configuration, you can set mirror just like you did in the arch installation process (part one),
+And for configuration, you can set mirror just like you did in the arch installation process ([part one](/archlinux-install/)),
 #### Reflector
 With reflector you can easily set a mirror. To do that, first let's make sure our package list is with sync with server by,
 ```bash
@@ -431,7 +432,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 Besides we'll have to mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. So install `ntfs-3g`. And now you can mount ntfs partitions with `sudo mount` but it's not an idea solution. To make changes permanently you've to edit `fstab`.
 
 ### swap partition
-Our swap partition should work out of the box if you've followed my part one of this arch install post. To verify, run, `swapon` or, `free -h`.
+Our swap partition should work out of the box if you've followed my [part one](/archlinux-install/) of this arch install post. To verify, run, `swapon` or, `free -h`.
 If you need swap file or, maybe an another swap partition or you didn't follow my guide, check this guide from manjaro. It's good to follow,
 - [Swap - Manjaro](https://wiki.manjaro.org/index.php/Swap) 
 
