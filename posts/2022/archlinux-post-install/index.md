@@ -299,6 +299,8 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 ### GRUB timeout
+Every time you start your system GRUB shows up and waits 5 seconds for you, right? You can actually remove it. And grub will be shown if y
+
 ### Info screen after grub
 When you system starts first comes grub, and then? Something like, stating linux-zen-...., right? And do you remember when you were installing arch, while booting you say some green and white combination type progress like interface. You can actually toggle them. You have to remove a kernel parameter, called `quiet`.
 
