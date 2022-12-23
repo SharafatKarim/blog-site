@@ -307,7 +307,12 @@ In order to achieve this, you should add the following line to `/etc/default/gru
 GRUB_FORCE_HIDDEN_MENU="true"
 ```
 
-Then create the file `/etc/grub.d/31_hold_shift` containing [[1]](https://gist.githubusercontent.com/anonymous/8eb2019db2e278ba99be/raw/257f15100fd46aeeb8e33a7629b209d0a14b9975/gistfile1.sh), make it [executable](https://wiki.archlinux.org/title/Executable "Executable"), and regenerate the grub configuration:
+Then create the file `/etc/grub.d/31_hold_shift` with,
+```bash
+sudo touch /etc/grub.d/31_hold_shift
+```
+
+containing [[1]](https://gist.githubusercontent.com/anonymous/8eb2019db2e278ba99be/raw/257f15100fd46aeeb8e33a7629b209d0a14b9975/gistfile1.sh), make it [executable](https://wiki.archlinux.org/title/Executable "Executable"), and regenerate the grub configuration:
 
 ```bash
 grub-mkconfig -o /boot/grub/grub.cfg
