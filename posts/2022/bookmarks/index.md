@@ -337,6 +337,11 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Instant.io](https://instant.io/) - Torrent Tracker.
 - [Tube replay](http://www.tubereplay.com/) - Watch a [YouTube](https://www.youtube.com) video on a loop without pressing replay.
 
+### Text generator
+- [Rytr - Best AI Writer, Content Generator & Writing Assistant](https://rytr.me/) 
+- [AI Social Bio](https://aisocialbio.com/) 
+- 
+
 ### AI
 - [CrowdAI](https://www.crowdai.org/) - Connects data science experts and enthusiasts with open data to solve specific problems, through challenges.
 - [DataQuest](https://www.dataquest.io/)
