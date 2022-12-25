@@ -235,9 +235,11 @@ If you want to explore more, here's a short suggestion,
 20. ℹ️ [Google Lighthouse](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/)
 21. 🧊 [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) 
 22. 🕹 [Violentmonkey](https://violentmonkey.github.io/) 
-23. 🚮 [ClearURLs)](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) 
-24. 🧗🏻[Universal Bypassed](https://addons.mozilla.org/en-US/firefox/addon/universal-bypassed/) 
+23. 🚮 [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) 
+24. 🧗🏻[User agent switcher](https://add0n.com/useragent-switcher.html)  
 25. 🛠 [Buster: Captcha Solver for Humans](https://addons.mozilla.org/en-US/firefox/addon/buster-captcha-solver/) 
+26. [vim-vixen: Accelerates your web browsing with Vim power!!](https://github.com/ueokande/vim-vixen) 
+27. [Notion Boost)](https://addons.mozilla.org/en-US/firefox/addon/notion-boost/)
 
 And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/en-US/firefox/). (Especially the recommended part)
 
