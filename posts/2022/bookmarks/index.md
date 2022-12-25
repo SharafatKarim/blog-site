@@ -283,6 +283,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Productivity
 - [Telegraph](http://telegra.ph/) - snippet share.
+- [Edit Images, Videos & Documents for Free | Quicktools by Picsart](https://tools.picsart.com/) 
 - [QR Code Generator with Logo | Create Free Custom QR Codes Online](https://www.qrcodechimp.com/) - QR
 - [Fast fingers](https://10fastfingers.com/typing-test/english) - Online typing test.
 - [Find all Working BDIX Servers | Gamitisa](https://gamitisa.com/tools/bdix-tester/) - BDIX tester
