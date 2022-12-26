@@ -641,11 +641,13 @@ nano /etc/hostname
 In the text file, put any name and save it!
 
 #### hosts
-To allow resolving the local host-name, edit,
+**[OPTIONAL]** I'll be editing my hosts later. Because with hosts you can even do ad-blocking, malicious site blocking or adult site blocking. I'll add it in the post installation part. For now you can safely avoid this part.
+
+But if you want to allow resolving the local host-name, edit,
 ```bash
 nano /etc/hosts
 ```
-and append these lines,
+and append these lines (recommended by Arch Wiki),
 ```bash
 127.0.0.1        localhost
 ::1              localhost

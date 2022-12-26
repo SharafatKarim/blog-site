@@ -477,6 +477,11 @@ sudo systemctl enable --now nohang-desktop.service
 
 > `nohang-desktop` provides notification when you're almost out of memory.
 
+## Configuration
+### Hosts
+You can edit host files to do more than just redirecting your `localhost`. Like, ad-blocking, adult sites blocking and even more! Here's a good collection of hosts and it's regularly updated,
+- 
+
 ## Plasma Specials
 
 ### Spell check
