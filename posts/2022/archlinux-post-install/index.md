@@ -478,11 +478,17 @@ sudo systemctl enable --now nohang-desktop.service
 > `nohang-desktop` provides notification when you're almost out of memory.
 
 ## Configuration
+
 ### Hosts
 You can edit host files to do more than just redirecting your `localhost`. Like, ad-blocking, adult sites blocking and even more! Here's a good collection of hosts and it's regularly updated,
 - [GitHub - StevenBlack/hosts: 🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.](https://github.com/StevenBlack/hosts) 
 
-In the repo you'll find a file named, `host`, or just [follow this link](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), and edit your `/etc/hosts` file and enter those texts. 
+In the repository you'll find a file named, `host`, or just [follow this link](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), and edit your `/etc/hosts` file and enter those texts. And then, just run,
+```bash
+sudo systemctl restart NetworkManager.service
+```
+
+> For convenience you can use kate text editor as it can edit system text files.
 
 ## Plasma Specials
 
