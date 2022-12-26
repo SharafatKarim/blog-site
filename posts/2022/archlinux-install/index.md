@@ -641,7 +641,7 @@ nano /etc/hostname
 In the text file, put any name and save it!
 
 #### hosts
-**[OPTIONAL]** I'll be editing my hosts later. Because with hosts you can even do ad-blocking, malicious site blocking or adult site blocking. I'll add it in the post installation part. For now you can safely avoid this part.
+**[OPTIONAL]** I'll be editing my hosts later. Because with hosts you can even do ad-blocking, malicious site blocking or adult site blocking. I'll add it in the [post installation part](/archlinux-post-install/). For now you can safely avoid this part.
 
 But if you want to allow resolving the local host-name, edit,
 ```bash
