@@ -75,6 +75,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Storage
 - [Google Drive](https://drive.google.com/drive/my-drive) - Cloud storage and cloud editing for files.
 - [Cloudinary](https://cloudinary.com/) - Share media faster through website
+- [storj](https://ap1.storj.io/new-project-dashboard) 
 - [Pastebin](https://pastebin.com/) - Store any text online for easy sharing.
 
 ### Search
@@ -237,6 +238,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Thunkable: Best no code app builder | No code app creation](https://thunkable.com/#/) - android app builder
 - [Neverinstall | Your browser is the new operating system](https://neverinstall.com/) - build in the cloud
 - [readme.so](https://readme.so/bn) - easy GitHub read me file generate
+- [Dashboard — Gitpod](https://gitpod.io/workspaces) 
 
 ### Debug
 - [GDB online Debugger | Compiler - Code, Compile, Run, Debug online C, C++](https://www.onlinegdb.com/) 
