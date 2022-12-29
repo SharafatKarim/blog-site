@@ -467,6 +467,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [FirefoxCSS Store](https://firefoxcss-store.github.io/) 
 
 ### Cheat sheets
+- [Devhints | TL;DR for developer documentation](https://devhints.io/) 
 - [বাংলা ডেভেলপার চিটশিট | ডেভ সংকেত](https://devsonket.com/) - Bangla cheat-sheet's collection
 - [Cheatography](https://cheatography.com/) - Cheat sheet | English
 
