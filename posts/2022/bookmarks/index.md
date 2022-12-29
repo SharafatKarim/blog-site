@@ -1,7 +1,7 @@
 ---
 title: "Bookmarks Collection"
 date: 2022-11-12T18:02:49+06:00
-lastmod: 2022-11-30T18:02:49+06:00
+lastmod: 2022-12-28T18:02:49+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
@@ -104,6 +104,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Photopea | Online Photo Editor](https://www.photopea.com/) - bitmap
 - [Graphite](https://editor.graphite.rs/) - SVG 
 - [Polotno Studio](https://studio.polotno.com/) - Make graphical designs
+- [miniPaint - image editor](http://viliusle.github.io/miniPaint/) 
 
 ## Design
 > It's sole aim is to make design easier, with some stock collections.

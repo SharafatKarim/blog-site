@@ -1,7 +1,7 @@
 ---
 title: "Archlinux Post Install with minimal plasma"
 date: 2022-12-20T18:38:11+06:00
-lastmod: 2022-12-20T18:38:11+06:00
+lastmod: 2022-12-29T18:38:11+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
@@ -489,6 +489,10 @@ sudo systemctl restart NetworkManager.service
 ```
 
 > For convenience you can use kate text editor as it can edit system text files.
+
+## Essential packages
+Now it's time to install your favorite packages, I guess. For the list of essential and well-refined packages for your system I've a list for you. Check,
+- [Linux essential packages collection](/useful-linux-applications)
 
 ## Plasma Specials
 
