@@ -497,7 +497,10 @@ Now it's time to install your favorite packages, I guess. For the list of essent
 ## Plasma Specials
 
 ### Spell check
-Make sure `sonnet` is installed with `hunspell` or anything similar.
+Make sure `sonnet` is installed with `hunspell` or anything similar. And also don't forget to install a language pack for `hunspell`. 
+
+> If you install LibreOffice it'll be done automatically and I've a guide for you, check,
+> - [LibreOffice extended installation guide](/libreoffice-extended)
 
 ### Fonts
 To enhance performance for terminal and other places you might want to Install `noto-sans` optional dependency, especially for `emoji-picker`.
