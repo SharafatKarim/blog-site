@@ -346,7 +346,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [ZXing Decoder Online](https://zxing.org/w/decode.jspx) - Decoder of bar-code | WiFi pass
 - [Instant.io](https://instant.io/) - Torrent Tracker.
 - [Tube replay](http://www.tubereplay.com/) - Watch a [YouTube](https://www.youtube.com) video on a loop without pressing replay.
-- 
+- [Email Alias | SimpleLogin](https://app.simplelogin.io/dashboard/) 
 
 ### Text generator
 - [Rytr - Best AI Writer, Content Generator & Writing Assistant](https://rytr.me/) 
