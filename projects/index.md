@@ -13,6 +13,9 @@ math:
 comment:
   enable: false
 ---
+## 2023
+- [ArchMate - Arch Linux configuration tool](https://github.com/SharafatKarim/archmate)
+
 ## 2022
 - [Neofetch customizer bash script](https://github.com/SharafatKarim/neofetch-customization)
 - [Chaotic AUR installer script](https://github.com/SharafatKarim/chaotic-AUR-installer)
