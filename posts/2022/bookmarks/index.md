@@ -77,8 +77,11 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Pastebin](https://pastebin.com/) - Store any text online for easy sharing.
 
 ### CDN
+- [Home | wsrv.nl](https://images.weserv.nl/) 
 - [Cloudinary](https://cloudinary.com/) - Share media faster through website
-- [storj](https://ap1.storj.io/new-project-dashboard) - media share | 250 GB
+- [storj](https://ap1.storj.io/new-project-dashboard) - media share | 150 GB
+- [Image & Video CDN | ImageKit.io](https://imagekit.io/) 
+- [File uploading, processing & delivery for web and mobile apps | Uploadcare](https://uploadcare.com/) 
 
 ### Search
 - [Open Search](https://sharafatkarim.github.io/open-directory-search/) - Custom search by [Afnan Sami](https://www.afnansami.com/)
@@ -276,6 +279,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Site Generators
 - [The world’s fastest framework for building websites | Hugo](https://gohugo.io/)
 - [Build optimized websites quickly, focus on your content | Docusaurus](https://docusaurus.io/) 
+- [Primo — build, edit, and publish static sites](https://primo.so/) 
 
 ### Reference
 - [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
@@ -342,11 +346,11 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [ZXing Decoder Online](https://zxing.org/w/decode.jspx) - Decoder of bar-code | WiFi pass
 - [Instant.io](https://instant.io/) - Torrent Tracker.
 - [Tube replay](http://www.tubereplay.com/) - Watch a [YouTube](https://www.youtube.com) video on a loop without pressing replay.
+- 
 
 ### Text generator
 - [Rytr - Best AI Writer, Content Generator & Writing Assistant](https://rytr.me/) 
 - [AI Social Bio](https://aisocialbio.com/) 
-- 
 
 ### AI
 - [CrowdAI](https://www.crowdai.org/) - Connects data science experts and enthusiasts with open data to solve specific problems, through challenges.
