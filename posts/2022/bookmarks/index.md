@@ -74,9 +74,11 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Storage
 - [Google Drive](https://drive.google.com/drive/my-drive) - Cloud storage and cloud editing for files.
-- [Cloudinary](https://cloudinary.com/) - Share media faster through website
-- [storj](https://ap1.storj.io/new-project-dashboard) 
 - [Pastebin](https://pastebin.com/) - Store any text online for easy sharing.
+
+### CDN
+- [Cloudinary](https://cloudinary.com/) - Share media faster through website
+- [storj](https://ap1.storj.io/new-project-dashboard) - media share | 250 GB
 
 ### Search
 - [Open Search](https://sharafatkarim.github.io/open-directory-search/) - Custom search by [Afnan Sami](https://www.afnansami.com/)
