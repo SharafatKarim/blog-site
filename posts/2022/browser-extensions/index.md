@@ -240,7 +240,7 @@ If you want to explore more, here's a short suggestion,
 25. 🛠 [Buster: Captcha Solver for Humans](https://addons.mozilla.org/en-US/firefox/addon/buster-captcha-solver/) 
 26. 🧊 [vim-vixen: Accelerates your web browsing with Vim power!!](https://github.com/ueokande/vim-vixen) 
 27. 🍧 [Notion Boost)](https://addons.mozilla.org/en-US/firefox/addon/notion-boost/)
-28. 🫥 [What is it? - NoScript: block scripts and own your browser!](https://noscript.net/) 
+28. 🫥 [NoScript: block scripts and own your browser!](https://noscript.net/) 
 
 And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/en-US/firefox/). (Especially the recommended part)
 
