@@ -66,7 +66,7 @@ This is the continuation of the Arch Linux installation's [part one](/archlinux-
 - [Arch minimal installation | part one](/archlinux-install/)
 
 ## Prerequisite
-If you've followed my [part one](/archlinux-install/), you are probably in a black background with white bash prompt. Feel free to login with your username, 'root' and your root's password. Now let's check our system a bit,
+If you've followed my [part one](/archlinux-install/), you are probably in a black background with white bash prompt. Feel free to login with your username, 'root' and your root account's password. Now let's check our system a bit,
 
 ### Intenet
 Check your internet connection with ping,
