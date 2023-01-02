@@ -490,6 +490,12 @@ sudo systemctl restart NetworkManager.service
 
 > For convenience you can use kate text editor as it can edit system text files.
 
+### Arch Mate
+To make things more easy, I've a python script for you. With the support of that script, you can automate chaotic AUR installation, pacman packages inspection, installing essential packages etc. Here's the repository,
+- [Arch Mate | A simple, lightweight, user-friendly tool for managing and configuring Arch Linux systems, written with python.](https://github.com/SharafatKarim/archmate) 
+
+> If you know python and want to contribute, feel free to send merge request or, contact with me!
+
 ## Essential packages
 Now it's time to install your favorite packages, I guess. For the list of essential and well-refined packages for your system I've a list for you. Check,
 - [Linux essential packages collection](/useful-linux-applications)
