@@ -577,6 +577,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Games
 - [Itch.io](https://itch.io/) - Simple way to find and share indie games online for free.
+- [Aternos | Free Minecraft Server](https://aternos.org/servers/) 
 
 ### Animation
 - [Matrix multiplication](http://matrixmultiplication.xyz/)
