@@ -243,8 +243,12 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [kodular](https://creator.kodular.io/) - app builder free
 - [Thunkable: Best no code app builder | No code app creation](https://thunkable.com/#/) - android app builder
 - [Neverinstall | Your browser is the new operating system](https://neverinstall.com/) - build in the cloud
-- [readme.so](https://readme.so/bn) - easy GitHub read me file generate
 - [Dashboard — Gitpod](https://gitpod.io/workspaces) 
+
+### Markdown
+- [readme.so](https://readme.so/bn) - easy GitHub read me file generate
+- [GitHub Profilator](https://profilator.deno.dev/) - GitHub user photo to markdown
+- [GitHub Socialify](https://socialify.git.ci/)- GitHub repository status badge
 
 ### Debug
 - [GDB online Debugger | Compiler - Code, Compile, Run, Debug online C, C++](https://www.onlinegdb.com/) 
