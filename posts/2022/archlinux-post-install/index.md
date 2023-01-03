@@ -498,7 +498,9 @@ To make things more easy, I've a python script for you. With the support of that
 
 ## Essential packages
 ### Plasma extras
-As for your convenience you can try some powerful applications from KDE plasma! First of all, you can try `plasma-firewall` alongside a back-end (`ufw` or `firewalld`). Then to manage archives, you can try `ark`. It's pretty much strong. But you may also have to install some optional dependencies as well to make it more strong. For example, to know what to install, head over to arch packages website,
+As for your convenience you can try some powerful applications from KDE plasma! First of all, you can try `plasma-firewall` alongside a back-end (`ufw` or `firewalld`). 
+
+Then to manage archives, you can try `ark`. It's pretty much strong. But you may also have to install some optional dependencies as well to make it more strong. For example, to know what to install, head over to arch packages website,
 - [Arch Linux - ark 22.12.0-1 (x86_64)](https://archlinux.org/packages/extra/x86_64/ark/) 
 
 You can install it with,
@@ -516,7 +518,7 @@ Now on the same page, scroll down a bit, you'll notice,
 -   [extra-cmake-modules](https://archlinux.org/packages/extra/any/extra-cmake-modules/ "View package details for extra-cmake-modules") (make)
 -   [kdoctools](https://archlinux.org/packages/extra/x86_64/kdoctools/ "View package details for kdoctools") (make)
 
-We can avoid, **make** cause we are not building this! We just want to enhance it with more formats support. We can install those normally with `pacman -S` but later if you uninstall `ark`, these optional dependencies will be little hard to find. So here's what we will do, we can install those as dependencies, with the following command,
+We can avoid, **(make)** cause we are not building this! We just want to enhance it with more formats support. We can install those normally with `pacman -S` but later if you uninstall `ark`, these optional dependencies will be little hard to find. So here's what we will do, we can install those as dependencies, with the following command,
 ```bash
 sudo pacman -S --asdeps --needed ari lrzip lzop p7zip unarchiver unrar
 ```
@@ -525,7 +527,9 @@ sudo pacman -S --asdeps --needed ari lrzip lzop p7zip unarchiver unrar
 > --asdeps    = as dependency.
 > -- needed  = it won't reinstall if already exists in system.
 
-In the same way, let's install `gwenview` with optional dependencies as our image viewer. And it can even support `PSD` with optional dependency! 
+In the same way, let's install `gwenview` with optional dependencies as our image viewer. And it can even support `PSD` with optional dependency! Here you can install `qt5-imageformats` and `kimageformats` as optional. 
+
+For text editing you can `kate`. You can use it simply or can enhance it with plugins. To enable LSP-server and markdown support, install it with full optional dependency!
 
 ### Recommendations
 Now it's time to install your favorite packages, I guess. For the list of essential and well-refined packages for your system I've a list for you. Check,
