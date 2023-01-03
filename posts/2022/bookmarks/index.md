@@ -304,6 +304,9 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Rapidtags | YouTube Tag Generator and Optimizer](https://rapidtags.io/generator) 
 - [Tools « den4b.com](https://www.den4b.com/tools)
 
+### Team
+- [Jitsi Meet](https://meet.jit.si/) 
+
 ### File share
 - [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
 - [WebWormhole](https://webwormhole.io/) - secure file transfer
