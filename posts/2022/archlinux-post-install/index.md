@@ -516,8 +516,16 @@ Now on the same page, scroll down a bit, you'll notice,
 -   [extra-cmake-modules](https://archlinux.org/packages/extra/any/extra-cmake-modules/ "View package details for extra-cmake-modules") (make)
 -   [kdoctools](https://archlinux.org/packages/extra/x86_64/kdoctools/ "View package details for kdoctools") (make)
 
-We can avoid, **make** cause we are not building this! We just want to enhance it with more formats support. We can install those normally with
+We can avoid, **make** cause we are not building this! We just want to enhance it with more formats support. We can install those normally with `pacman -S` but later if you uninstall `ark`, these optional dependencies will be little hard to find. So here's what we will do, we can install those as dependencies, with the following command,
+```bash
+sudo pacman -S --asdeps --needed ari lrzip lzop p7zip unarchiver unrar
+```
 
+> **FLAGS**
+> --asdeps    = as dependency.
+> -- needed  = it won't reinstall if already exists in system.
+
+In the same way, let's install `gwenview` with optional dependencies as our image viewer. And it can even support `PSD` with optional dependency! 
 
 ### Recommendations
 Now it's time to install your favorite packages, I guess. For the list of essential and well-refined packages for your system I've a list for you. Check,
