@@ -132,7 +132,7 @@ Besides a browser, for convenience we'll install our favorite file manager and t
 
 Let's let it install and let me describe what they are,
 ```bash
-pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-config plasma-systemmonitor spectacle
+pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-config plasma-systemmonitor powerdevil
 ```
 
 And here's a short description,
@@ -530,6 +530,8 @@ sudo pacman -S --asdeps --needed ari lrzip lzop p7zip unarchiver unrar
 In the same way, let's install `gwenview` with optional dependencies as our image viewer. And it can even support `PSD` with optional dependency! Here you can install `qt5-imageformats` and `kimageformats` as optional. 
 
 For text editing you can `kate`. You can use it simply or can enhance it with plugins. To enable LSP-server and markdown support, install it with full optional dependency!
+
+And finally for taking screenshots, we've `spectacle`. It has annotation support, and also it can integrate with your system perfectly if you're using KDE plasma! 
 
 ### Recommendations
 Now it's time to install your favorite packages, I guess. For the list of essential and well-refined packages for your system I've a list for you. Check,
