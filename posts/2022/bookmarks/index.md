@@ -305,7 +305,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Tools « den4b.com](https://www.den4b.com/tools)
 
 ### Team
-- [Jitsi Meet](https://meet.jit.si/) 
+- [Jitsi Meet](https://meet.jit.si/) - Meeting without even an account
 
 ### File share
 - [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
