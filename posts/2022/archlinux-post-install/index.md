@@ -132,7 +132,7 @@ Besides a browser, for convenience we'll install our favorite file manager and t
 
 Let's let it install and let me describe what they are,
 ```bash
-pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-config plasma-systemmonitor powerdevil
+pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-config
 ```
 
 And here's a short description,
@@ -145,8 +145,6 @@ And here's a short description,
 | konsole              | A terminal app for plasma. It's highly configurable through GUI and easy to integrate with plasma.                                                                 |
 | kdeplasma-addons     | **[OPTIONAL]** Extra addons like color picker and monitor.                                                                                                         |
 | kde-gtk-config       | It'll allow you to customize gtk apps through kde's setting and recommended to install                                                                             |
-| plasma-systemmonitor | **[OPTIONAL]** It's a nice looking system monitor that you may want to try. You can also avoid it if you're happy with `htop` or anything else                     |
-| spectacle            | **[OPTIONAL]** It's a screenshot taking utility from kde plasma and highly recommended as it has annotation a lot of automated abilities with plasma's integration | 
 
 ## SDDM
 For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like. To install SDDM, try,
@@ -497,11 +495,11 @@ To make things more easy, I've a python script for you. With the support of that
 > If you know python and want to contribute, feel free to send merge request or, contact with me!
 
 ## Essential packages
-### Plasma extras
-As for your convenience you can try some powerful applications from KDE plasma! First of all, you can try `plasma-firewall` alongside a back-end (`ufw` or `firewalld`). 
 
-Then to manage archives, you can try `ark`. It's pretty much strong. But you may also have to install some optional dependencies as well to make it more strong. For example, to know what to install, head over to arch packages website,
-- [Arch Linux - ark 22.12.0-1 (x86_64)](https://archlinux.org/packages/extra/x86_64/ark/) 
+### Plasma extras
+- As for your convenience you can try some powerful applications from KDE plasma! First of all, you can try `plasma-firewall` alongside a back-end (`ufw` or `firewalld`). 
+
+- Then to manage archives, you can try `ark`. It's pretty much strong. But you may also have to install some optional dependencies as well to make it more strong. For example, to know what to install, head over to arch packages website, [ark (x86_64)](https://archlinux.org/packages/extra/x86_64/ark/) 
 
 You can install it with,
 ```bash
@@ -527,11 +525,13 @@ sudo pacman -S --asdeps --needed ari lrzip lzop p7zip unarchiver unrar
 > --asdeps    = as dependency.
 > -- needed  = it won't reinstall if already exists in system.
 
-In the same way, let's install `gwenview` with optional dependencies as our image viewer. And it can even support `PSD` with optional dependency! Here you can install `qt5-imageformats` and `kimageformats` as optional. 
+- In the same way, let's install `gwenview` with optional dependencies as our image viewer. And it can even support `PSD` with optional dependency! Here you can install `qt5-imageformats` and `kimageformats` as optional. 
 
-For text editing you can `kate`. You can use it simply or can enhance it with plugins. To enable LSP-server and markdown support, install it with full optional dependency!
+- For text editing you can `kate`. You can use it simply or can enhance it with plugins. To enable LSP-server and markdown support, install it with full optional dependency.
 
-And finally for taking screenshots, we've `spectacle`. It has annotation support, and also it can integrate with your system perfectly if you're using KDE plasma! 
+- Now if you're thinking about power management, you can install `powerdevil`. With it you can mange your power settings right from your setting in plasma.
+
+- And finally for taking screenshots, we've `spectacle`. It has annotation support, and also it can integrate with your system perfectly if you're using KDE plasma! 
 
 ### Recommendations
 Now it's time to install your favorite packages, I guess. For the list of essential and well-refined packages for your system I've a list for you. Check,
