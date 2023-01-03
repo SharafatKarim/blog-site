@@ -1,7 +1,7 @@
 ---
 title: "Archlinux Post Install with minimal plasma"
 date: 2022-12-20T18:38:11+06:00
-lastmod: 2022-12-29T18:38:11+06:00
+lastmod: 2023-01-29T18:38:11+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
@@ -497,6 +497,11 @@ To make things more easy, I've a python script for you. With the support of that
 > If you know python and want to contribute, feel free to send merge request or, contact with me!
 
 ## Essential packages
+### Plasma extras
+As for your convenience you can try some powerful applications from KDE plasma! First of all, you can try `plasma-firewall` alongside a back-end (`ufw` or `firewalld`). Then to manage arch
+
+
+### Recommendations
 Now it's time to install your favorite packages, I guess. For the list of essential and well-refined packages for your system I've a list for you. Check,
 - [Linux essential packages collection](/useful-linux-applications)
 
