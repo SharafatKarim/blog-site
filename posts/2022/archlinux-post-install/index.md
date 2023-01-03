@@ -498,7 +498,25 @@ To make things more easy, I've a python script for you. With the support of that
 
 ## Essential packages
 ### Plasma extras
-As for your convenience you can try some powerful applications from KDE plasma! First of all, you can try `plasma-firewall` alongside a back-end (`ufw` or `firewalld`). Then to manage arch
+As for your convenience you can try some powerful applications from KDE plasma! First of all, you can try `plasma-firewall` alongside a back-end (`ufw` or `firewalld`). Then to manage archives, you can try `ark`. It's pretty much strong. But you may also have to install some optional dependencies as well to make it more strong. For example, to know what to install, head over to arch packages website,
+- [Arch Linux - ark 22.12.0-1 (x86_64)](https://archlinux.org/packages/extra/x86_64/ark/) 
+
+You can install it with,
+```bash
+sudo pacman -S ark
+```
+
+Now on the same page, scroll down a bit, you'll notice,
+-   [arj](https://archlinux.org/packages/community/x86_64/arj/ "View package details for arj") (optional) - ARJ format support
+-   [lrzip](https://archlinux.org/packages/community/x86_64/lrzip/ "View package details for lrzip") (optional) - LRZ format support
+-   [lzop](https://archlinux.org/packages/extra/x86_64/lzop/ "View package details for lzop") (optional) - LZO format support
+-   [p7zip](https://archlinux.org/packages/extra/x86_64/p7zip/ "View package details for p7zip") (optional) - 7Z format support
+-   [unarchiver](https://archlinux.org/packages/community/x86_64/unarchiver/ "View package details for unarchiver") (optional) - RAR format support
+-   [unrar](https://archlinux.org/packages/extra/x86_64/unrar/ "View package details for unrar") (optional) - RAR decompression support
+-   [extra-cmake-modules](https://archlinux.org/packages/extra/any/extra-cmake-modules/ "View package details for extra-cmake-modules") (make)
+-   [kdoctools](https://archlinux.org/packages/extra/x86_64/kdoctools/ "View package details for kdoctools") (make)
+
+We can avoid, **make** cause we are not building this! We just want to enhance it with more formats support. We can install those normally with
 
 
 ### Recommendations
