@@ -379,6 +379,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [শাফায়েতের ব্লগ | প্রোগ্রামিং এবং অ্যালগরিদম টিউটোরিয়াল](https://www.shafaetsplanet.com/) 
 - [React Tutorial](https://react-tutorial.app/)
 - [CSS-Tricks - Tips, Tricks, and Techniques on using Cascading Style Sheets.](https://css-tricks.com/) 
+- [Rapid API Learn](https://rapidapi.com/learn) 
+- [Learn Git Branching](https://learngitbranching.js.org/) 
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
