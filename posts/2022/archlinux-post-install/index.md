@@ -554,6 +554,11 @@ To enhance performance for terminal and other places you might want to Install `
 
 If you face problem in default terminal and othere monospace fonts, try installing `ttf-dejavu` and `ttf-liberation`.
 
+## Acknowledgements
+For helping me to collect more information and revising, special thanks to,
+- [Muhammed Naim](http://t.me/NaimsArchive) 
+- [Shahid Parvez](https://mrsnailo.github.io/)
+
 ## References
 - [General recommendations - ArchWiki](https://wiki.archlinux.org/title/General_recommendations)
 - [KDE - ArchWiki](https://wiki.archlinux.org/title/KDE)
