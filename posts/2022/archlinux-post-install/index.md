@@ -127,7 +127,7 @@ pacman -S plasma-desktop
 Now, it'll give you several choices. You can go with the default values. For font you can choose, `noto-sans` and as a back-end for media thumbnail in the file manager, you can try `vlc` as it's recommended by upstream developers.
 
 
-## Plasma essentials
+## Plasma Essential
 Besides a browser, for convenience we'll install our favorite file manager and terminal utilities. And if you're going for plasma we'll also try some plasma integrations like, network manager support and kde plasmoids.
 
 Let's let it install and let me describe what they are,
@@ -145,6 +145,8 @@ And here's a short description,
 | konsole              | A terminal app for plasma. It's highly configurable through GUI and easy to integrate with plasma.                                                                 |
 | kdeplasma-addons     | **[OPTIONAL]** Extra addons like color picker and monitor.                                                                                                         |
 | kde-gtk-config       | It'll allow you to customize gtk apps through kde's setting and recommended to install                                                                             |
+
+> More `plasma-essentials` are listed on, [plasma extras section](#plasma-extras). Because plasma application needs to be installed with optional dependencies for extended features!
 
 ## SDDM
 For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like. To install SDDM, try,
@@ -530,6 +532,8 @@ sudo pacman -S --asdeps --needed ari lrzip lzop p7zip unarchiver unrar
 - For text editing you can `kate`. You can use it simply or can enhance it with plugins. To enable LSP-server and markdown support, install it with full optional dependency.
 
 - Now if you're thinking about power management, you can install `powerdevil`. With it you can mange your power settings right from your setting in plasma.
+
+-  `plasma-systemmonitor` , a nice looking system monitor that you may want to try. You can also avoid it if you're happy with `htop` or anything else                     
 
 - And finally for taking screenshots, we've `spectacle`. It has annotation support, and also it can integrate with your system perfectly if you're using KDE plasma! 
 
