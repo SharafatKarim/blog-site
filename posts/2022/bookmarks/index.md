@@ -153,7 +153,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Remove People from Photos, Remove Objects from Photos Free, HD - SnapEdit.App](https://snapedit.app/) 
 - [Morflax studio - The Easiest 3D design platform](https://studio.morflax.com/) - 3D
 - [Fotoramio: Photo Editor Online](https://fotoram.io/) 
-- [Free Profile Picture Maker - Create an awesome profile pic from any photo](https://pfpmaker.com/) 
+- [Free Profile Picture Maker - Create an awesome profile pic from any photo](https://pfpmaker.com/)
+- [Idention generator | Profile picture](http://identicon.net/) 
 - [Squoosh](https://squoosh.app/)
 - [PowerGlitch - Glitch anything on the web](https://7ph.github.io/powerglitch/#/playground) 
 - [Duotone by ShapeFactory | Create Beautiful Free Duotones](https://duotone.shapefactory.co/?f=10c5f8&t=6736dd) 
