@@ -8,12 +8,17 @@ author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 license: ""
 images: []
+resources:
+- name: "featured-image"
+  src: "best-linux-distro.png"
+- name: "featured-image-preview"
+  src: "best-linux-distro-thumbnail.png"
 
 tags: ["linux", "manjaro"]
 categories: ["linux"]
 
-featuredImage: "best-linux-distro.png"
-featuredImagePreview: "best-linux-distro-thumbnail.png"
+featuredImage: "featured-image"
+featuredImagePreview: "featured-image-preview"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

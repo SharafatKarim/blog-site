@@ -8,13 +8,18 @@ authorLink: "https://sharafat.pages.dev/about/"
 description: "A guide to install and customize zsh along with different plugins with the help of antigen plugin manager."
 license: ""
 images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.jpg"
+- name: "featured-image-preview"
+  src: "featured-image-preview.jpg"
 
 tags: ["linux","zsh","tutorial"]
 categories: ["linux"]
 summary: "A guide to install and customize zsh along with different plugins with the help of antigen plugin manager."
 
-featuredImage: "featured-image.jpg"
-featuredImagePreview: "featured-image-preview.jpg"
+featuredImage: "featured-image"
+featuredImagePreview: "featured-image-preview"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

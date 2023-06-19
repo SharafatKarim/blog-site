@@ -8,13 +8,16 @@ authorLink: "https://sharafat.pages.dev/about/"
 description: "Some of the useful desktop browser extentions for daily driving."
 license: ""
 images: []
+resources:
+- name: "featured-image"
+  src: "featured.jpg"
 
 tags: ["notes", "browser", "internet", "collection"]
 categories: ["collection"]
 summary: "Some of the useful desktop browser extentions for daily driving."
 
-featuredImage: "featured.jpg"
-featuredImagePreview: "featured.jpg"
+featuredImage: "featured-image"
+featuredImagePreview: "featured-image"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

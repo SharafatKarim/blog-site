@@ -8,11 +8,14 @@ authorLink: "https://sharafat.pages.dev/about/"
 description: ""
 license: ""
 images: []
+resources:
+- name: "featured-image"
+  src: "font-glyph-1.jpg"
 
 tags: ["font", "computer", "basic"]
 categories: ["computer"]
 
-featuredImage: "font-glyph-1.jpg"
+featuredImage: "featured-image"
 featuredImagePreview: ""
 
 hiddenFromHomePage: false

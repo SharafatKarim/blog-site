@@ -8,11 +8,14 @@ author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 license: ""
 images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.jpg"
 
 tags: ["academy", "study", "pdf"]
 categories: ["academy"]
 
-featuredImage: "featured-image.jpg"
+featuredImage: "featured-image"
 featuredImagePreview: ""
 
 hiddenFromHomePage: false

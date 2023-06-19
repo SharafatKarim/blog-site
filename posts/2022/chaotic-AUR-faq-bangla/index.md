@@ -8,12 +8,15 @@ authorLink: "https://sharafat.pages.dev/about/"
 description: ""
 license: ""
 images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.jpg"
 
 tags: ["aur","archlinux"]
 categories: ["linux"]
 
-featuredImage: "featured-image.jpg"
-featuredImagePreview: "featured-image.jpg"
+featuredImage: "featured-image"
+featuredImagePreview: "featured-image"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

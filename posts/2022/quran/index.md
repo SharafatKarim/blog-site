@@ -8,12 +8,15 @@ authorLink: "https://sharafat.pages.dev/about/"
 description: "Al-Quran mp3 library with download and live stream support."
 license: ""
 images: []
+resources:
+- name: "featured-image"
+  src: "featured.jpg"
 
 tags: ['islam', 'collection', 'study', 'internet']
 categories: ['collection']
 summary: "Al-Quran mp3 library with download and live stream support."
 
-featuredImage: "featured.jpg"
+featuredImage: "featured-image"
 featuredImagePreview: ""
 
 hiddenFromHomePage: false

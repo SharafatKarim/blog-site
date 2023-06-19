@@ -8,13 +8,18 @@ authorLink: "https://sharafat.pages.dev/about/"
 description: "Yet an another list of useful Applications that you can try in Linux."
 license: ""
 images: []
+resources:
+- name: "featured-image"
+  src: "useful-linux-apps.jpg"
+- name: "featured-image-preview"
+  src: "featured-image.jpg"
 
 tags: ["linux","software","notes"]
 categories: ["linux"]
 summary: "Yet an another list of useful Applications that you can try in Linux."
 
-featuredImage: "useful-linux-apps.jpg"
-featuredImagePreview: "featured-image.jpg"
+featuredImage: "featured-image"
+featuredImagePreview: "featured-image-preview"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

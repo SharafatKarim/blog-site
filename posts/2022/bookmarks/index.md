@@ -8,12 +8,15 @@ authorLink: "https://sharafat.pages.dev/about/"
 description: ""
 license: ""
 images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.jpg"
 
 tags: ["browser","notes","internet","collection"]
 categories: ["collection"]
 summary: ""
 
-featuredImage: "featured-image.jpg"
+featuredImage: "featured-image"
 featuredImagePreview: ""
 
 hiddenFromHomePage: false

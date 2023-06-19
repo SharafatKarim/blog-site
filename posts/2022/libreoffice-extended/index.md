@@ -8,13 +8,16 @@ authorLink: "https://sharafat.pages.dev/about/"
 description: "A proper way to do some extended checkups and troubleshooting for LibrOffice."
 license: ""
 images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.jpg"
 
 tags: ["linux","software","office"]
 categories: ["software"]
 summary: "A proper way to do some extended checkups and troubleshooting for LibrOffice."
 
-featuredImage: "featured-image.jpg"
-featuredImagePreview: "featured-image.jpg"
+featuredImage: "featured-image"
+featuredImagePreview: "featured-image"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
