@@ -60,7 +60,8 @@ comment:
 
 - 🔮 GitHub STATS
 
-[![Github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=SharafatKarim&theme=github&bg_color=00000000)](github-activity-graph)
+Coming soon!
+
 
 ---
 
