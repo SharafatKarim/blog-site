@@ -2,7 +2,7 @@
 title: "Git Simple Cheatsheet"
 date: 2023-06-19T14:26:29+06:00
 lastmod: 2023-06-19T14:26:29+06:00
-draft: true
+draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 description: "Collection of some of the daily driving and most used git commands for easier reference and navigation."
