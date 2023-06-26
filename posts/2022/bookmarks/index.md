@@ -96,6 +96,10 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [product hunt](https://www.producthunt.com/) - Share and discover new products
 - [Phind: AI search engine](https://www.phind.com/) [AI]
 
+### Index search
+- [Google Index Search](https://lumpysoft.com/)
+- 
+
 ### Google 
 - [Google dashboard](https://myaccount.google.com/dashboard) - all in one place
 - [Google scholar](https://scholar.google.nl/) - Easy searching for Academic Articles
@@ -114,6 +118,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Graphite](https://editor.graphite.rs/) - SVG 
 - [Polotno Studio](https://studio.polotno.com/) - Make graphical designs
 - [miniPaint - image editor](http://viliusle.github.io/miniPaint/) 
+- [Disroot | Disroot](https://disroot.org/en) 
 
 ## Design
 > It's sole aim is to make design easier, with some stock collections.
@@ -138,6 +143,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [calcolor.co | Calculate colors. Share palettes.](https://calcolor.co/) 
 - [ArtyClick Colors](https://colors.artyclick.com/) 
 - [Huemint - AI color palette generator](https://huemint.com/) 
+- [Colormind - the AI powered color palette generator](http://colormind.io/)
 
 ### Logo creation
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
@@ -180,6 +186,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [ARC官网-腾讯](https://arc.tencent.com/en/ai-demos/faceRestoration)
 - [Hotpot.ai - Hotpot.ai](https://hotpot.ai/)
 - [AI Image Upscaler – Enlarge Images & Photos Online](https://icons8.com/upscaler) 
+- [Tome](https://tome.app/) 
 
 ### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
@@ -314,6 +321,12 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Find all Working BDIX Servers | Gamitisa](https://gamitisa.com/tools/bdix-tester/) - BDIX tester
 - [Rapidtags | YouTube Tag Generator and Optimizer](https://rapidtags.io/generator) 
 - [Tools « den4b.com](https://www.den4b.com/tools)
+- [IT Tools - Handy online tools for developers](https://it-tools.tech/) 
+
+### GitHub
+- [Cron expression generator by Cronhub](https://crontab.cronhub.io/) [GitHub action timer]
+- [Metrics](https://metrics.lecoq.io/embed)
+- [GPRM : GitHub Profile ReadMe Maker](https://gprm.itsvg.in/) 
 
 ### Team
 - [Jitsi Meet](https://meet.jit.si/) - Meeting without even an account
@@ -380,6 +393,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### GPT
 - [BAI Chat](https://chatbot.theb.ai/#/chat/1002) 
+- [Pi, your personal AI](https://heypi.com/talk) 
 
 
 ## Learn 
@@ -592,6 +606,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Watch
 - [Rocumentaries](https://rocumentaries.com/) - Curated links to the very best documentaries
 - [Piped | YouTube lightweight](https://piped.video/) 
+- [Invidious - An open source alternative front-end to YouTube](https://invidious.io/) 
 
 ### Coding challengers
 - [Checkio](https://py.checkio.org/) - Games for coding.
