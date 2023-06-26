@@ -515,6 +515,12 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [GitHub - Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) - 100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc.
 - [DesignValley | The Ultimate Design Tool](https://designvalley.club/) 
 
+### API - dev
+- [Free For Life](https://free-for.life/#/) 
+
+### Alternatives
+- [Welcome to the CHATONS website | CHATONS](https://www.chatons.org/en) 
+
 ### Books
 - [PDF Archive - Host, share, publish and archive your PDF documents](https://www.pdf-archive.com/)
 - [LibZen](https://www.google.com/search?q=libgen&newwindow=1)
