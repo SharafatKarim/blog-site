@@ -470,6 +470,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Github info](http://githut.info/) - Statistics about GitHub.
 - [myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা](https://www.mygov.bd/) - Bangladesh govt. dashboard
 - [Alcamy](https://alcamy.org/library) - Internet's catalog of knowledge.
+- [New Tab](https://now.hackertab.dev/#) 
 
 
 ## Collections 
@@ -625,6 +626,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Free for developers](https://free-for.dev/#/)
 - [tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr) 
 - [Numba: A High Performance Python Compiler](https://numba.pydata.org/) 
+- [List of games - Libregamewiki](https://libregamewiki.org/List_of_games)
 
 ## Others 
 > And some leftovers, can you categorize them?
