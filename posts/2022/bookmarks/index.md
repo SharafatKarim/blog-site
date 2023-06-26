@@ -342,6 +342,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Gofile - Free file sharing and storage platform](https://gofile.io/welcome)
 - [Free file sharing service ~ pixeldrain](https://pixeldrain.com/)
 - [Postimages — free image hosting / image upload](https://postimages.org/) 
+- [Best Free File Secure Sharing Services - FilePress](https://filepress.cfd/) 
 
 ### File tweak
 - [Audioalter](https://audioalter.com/) - Audio toolkit
@@ -433,6 +434,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [EdX](https://www.edx.org/)
 - [Leetcode](https://leetcode.com) - Platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
 - [Exercism](http://exercism.io/) - Online execution of programming problems.
+- [Programming & Engineering Questions & Answers - Sanfoundry](https://www.sanfoundry.com/) 
 
 ### Visual
 - [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
