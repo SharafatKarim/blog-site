@@ -99,7 +99,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Index search
 - [Google Index Search](https://lumpysoft.com/)
 - [FilePursuit- Discover Everything!, Search the web for files, videos, audios, eBooks and much more.](https://filepursuit.com/) 
-- 
+- [Open Directory Search Index Of /](https://www.eyeofjustice.com/od/) 
+- [de🔸digger find public files in Google Drive](https://www.dedigger.com/index.html#gsc.tab=0) 
 
 ### Google 
 - [Google dashboard](https://myaccount.google.com/dashboard) - all in one place
