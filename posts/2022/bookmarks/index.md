@@ -98,6 +98,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Index search
 - [Google Index Search](https://lumpysoft.com/)
+- [FilePursuit- Discover Everything!, Search the web for files, videos, audios, eBooks and much more.](https://filepursuit.com/) 
 - 
 
 ### Google 
