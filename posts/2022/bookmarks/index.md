@@ -531,7 +531,6 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Free Commercial Stock Photos & Royalty Free Images | PikWizard](https://pikwizard.com/) 
 
 ### Illustration
-- [PNGWing - Exclusive png design images](https://www.pngwing.com/) 
 - [Storyset | Customize, animate and download illustration for free](https://storyset.com/) 
 - [Open Doodles - Free sketchy illustrations](https://opendoodles.com/)
 - [Open Peeps, Hand-Drawn Illustration Library](https://www.openpeeps.com/) 
@@ -540,6 +539,15 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [GitHub Octodex](https://octodex.github.com/) 
 - [Beautiful Notion-style illustrations - Notioly](https://notioly.com/)
 - [Glaze | Illustrations](https://www.glazestock.com/) 
+
+### PNG
+- [PNGWing - Exclusive png design images](https://www.pngwing.com/) 
+- [Free Transparent PNG Images, Stickers & No Background Clipart - StickPNG](http://stickpng.com/)
+- [Find High-Quality Transparent PNG Images - PNG All](https://www.pngall.com/)
+- [Download Transparent Free PNG Images - PNG Mart](https://www.pngmart.com/)
+- [Free Transparent PNG Images, Unlimited Download - PNGkey](https://www.pngkey.com/)
+- [Bamboo PNG images free download | Pngimg.com](https://pngimg.com/images/nature/bamboo)
+- [CleanPNG - HD png images and illustrations. Free unlimited download. - CleanPNG / KissPNG](https://www.cleanpng.com/)
 
 ### Video
 - [Browse Our Marketplace | Motion Array](https://motionarray.com/browse/)
