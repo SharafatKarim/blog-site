@@ -94,6 +94,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Slant](https://www.slant.co/) - Ranking of products
 - [Versus](https://versus.com/en) - Compare almost everything
 - [product hunt](https://www.producthunt.com/) - Share and discover new products
+- [Phind: AI search engine](https://www.phind.com/) [AI]
 
 ### Google 
 - [Google dashboard](https://myaccount.google.com/dashboard) - all in one place
@@ -136,6 +137,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Colors & Fonts](https://www.colorsandfonts.com/)
 - [calcolor.co | Calculate colors. Share palettes.](https://calcolor.co/) 
 - [ArtyClick Colors](https://colors.artyclick.com/) 
+- [Huemint - AI color palette generator](https://huemint.com/) 
 
 ### Logo creation
 - [Canva](https://www.canva.com/) Free Design Tool: Presentations, Video, Social Media
@@ -190,6 +192,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Animated Backgrounds](https://animatedbackgrounds.me/)
 - [AppLaunchpad - (1000) Best Free Mockup Generator](https://theapplaunchpad.com/mockup-generator/) - mockups
 - [Artboard Studio: Design and Animate Like Never Before](https://artboard.studio/) 
+- [Shots - Create Amazing Mockups](https://shots.so/)
 
 ### Idea
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
@@ -203,6 +206,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [https://collectui.com](https://collectui.com/) 
 - [Free Design Resources – Daily Freebies for Creatives](https://freedesignresources.net/)
 - [UI Design Resources, UI Kits, Wireframes, Icons and More - UI8](https://ui8.net/) 
+- [Generate Memes with AI | Supermeme.ai](https://app.supermeme.ai/login) 
 
 ### Web design
 - [CSS Gradient — Generator, Maker, and Background](https://cssgradient.io/) 
@@ -372,6 +376,10 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [CrowdAI](https://www.crowdai.org/) - Connects data science experts and enthusiasts with open data to solve specific problems, through challenges.
 - [DataQuest](https://www.dataquest.io/)
 - [Kaggle](https://www.kaggle.com/) - Site devoted to Data Analysis through Machine learning.
+- [Replicate – Run open-source machine learning models with a cloud API](https://replicate.com/) 
+
+### GPT
+- [BAI Chat](https://chatbot.theb.ai/#/chat/1002) 
 
 
 ## Learn 
@@ -393,6 +401,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [CSS-Tricks - Tips, Tricks, and Techniques on using Cascading Style Sheets.](https://css-tricks.com/) 
 - [Rapid API Learn](https://rapidapi.com/learn) 
 - [Learn Git Branching](https://learngitbranching.js.org/) 
+- [Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/) 
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
@@ -536,6 +545,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Browse Our Marketplace | Motion Array](https://motionarray.com/browse/)
 - [Coverr - Free Stock Video Footage, Royalty Free Videos for Download](https://coverr.co/) 
 - [Mixkit - Awesome free assets for your next video project](https://mixkit.co/)
+- [Free Stock Video Footage HD 4K Download Royalty-Free Clips](https://www.videvo.net/) 
 
 ### Music
 - [chosic](https://www.chosic.com/free-music/all/)
@@ -587,13 +597,16 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Online Games on Poki](https://poki.com/) - online gaming
 - [CloudCat](https://m.cloudcat.ai/home/playing) - Game auto-play bot
 - [Kirka.io](https://kirka.io/) 
+- [Home | Browseit](https://browseit.com.bd/) 
+- [CrazyGames - Free Online Games on CrazyGames.com](https://www.crazygames.com/) 
 
-### Games
+### Games hub
 - [Itch.io](https://itch.io/) - Simple way to find and share indie games online for free.
 - [Aternos | Free Minecraft Server](https://aternos.org/servers/) 
 
 ### Animation
 - [Matrix multiplication](http://matrixmultiplication.xyz/)
+- [The Boolean Game](https://boolean.method.ac/) 
 
 ## Wiki 
 > These kind of thing exists so that it can help you fall asleep.
