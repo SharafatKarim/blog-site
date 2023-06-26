@@ -120,6 +120,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Draw & Notes
 - [tldraw](https://www.tldraw.com/) - drawing tool
 - [editor.md](http://editor.md.ipandao.com/en.html) - markdown online editor
+- [Flowchart Maker & Online Diagram Software](https://app.diagrams.net/) 
 
 ### Colors
 - [Flat UI colours](https://flatuicolors.com/) - color palettes
@@ -249,6 +250,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Neverinstall | Your browser is the new operating system](https://neverinstall.com/) - build in the cloud
 - [Dashboard — Gitpod](https://gitpod.io/workspaces) 
 - [Deno Deploy](https://dash.deno.com/projects) 
+- [Streamlit • A faster way to build and share data apps](https://streamlit.io/) 
 
 ### Markdown
 - [readme.so](https://readme.so/bn) - easy GitHub read me file generate
@@ -313,6 +315,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Jitsi Meet](https://meet.jit.si/) - Meeting without even an account
 
 ### File share
+- [xFile - Keep your Google Drive files safe with us](https://s5.xfile.pw/) 
 - [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
 - [WebWormhole](https://webwormhole.io/) - secure file transfer
 - [Send Anywhere - File transfer](https://send-anywhere.com/)
@@ -453,6 +456,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Information
 - [Developer Roadmaps](https://roadmap.sh/) - Roadmap
+- [CP Roadmap for beginers by CSE-CLUB, PSTU](https://cp-cseclub.netlify.app/) 
 - [Git logs](http://www.gitlogs.com/) - Discover trending repos on GitHub.
 - [Github info](http://githut.info/) - Statistics about GitHub.
 - [myGov - মাইগভ | এক ঠিকানায় সরকারি সেবা](https://www.mygov.bd/) - Bangladesh govt. dashboard
