@@ -390,6 +390,10 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Rytr - Best AI Writer, Content Generator & Writing Assistant](https://rytr.me/) 
 - [AI Social Bio](https://aisocialbio.com/) 
 
+### Speech and text
+- [Text to speech generator free online ( TTS Free ) - TTSFree.com](https://ttsfree.com/text-to-speech) 
+- [Dubverse | Login](https://webapp.dubverse.ai/) 
+
 ### AI
 - [CrowdAI](https://www.crowdai.org/) - Connects data science experts and enthusiasts with open data to solve specific problems, through challenges.
 - [DataQuest](https://www.dataquest.io/)
