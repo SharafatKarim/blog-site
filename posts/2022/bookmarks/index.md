@@ -202,6 +202,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [AppLaunchpad - (1000) Best Free Mockup Generator](https://theapplaunchpad.com/mockup-generator/) - mockups
 - [Artboard Studio: Design and Animate Like Never Before](https://artboard.studio/) 
 - [Shots - Create Amazing Mockups](https://shots.so/)
+- [Lexica](https://lexica.art/) - AI generation
 
 ### Idea
 - [ScreenLane](https://screenlane.com/screens/all/views/splash-screen/) - UI inspiration
