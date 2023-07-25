@@ -68,13 +68,13 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 ## Configuration
 
-1. Name
+1. Name,
 
  ```bash
  git config --global user.name "Your Name" 
  ```
 
-2. Email
+2. Email,
 
  ```bash
  git config --global user.email "email@example.com" 
@@ -113,7 +113,7 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 ## Working with GIT
 
-## Commit
+## Commit  
 
 1. Check status
 
