@@ -65,7 +65,7 @@ seo:
 license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
-# সংজ্ঞা
+## সংজ্ঞা
 
 গিটহাব কি যদি বলতে হয় তবে এভাবে বলা যায় Microsoft এর বানানো ক্লাউড হোস্টিং প্লাটফর্ম যা আমাদের গিট ব্যবহারের সুযোগ করে দেয় ক্লাউডের মাধ্যমে।
 
@@ -75,9 +75,8 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 > 
 > > আপনি সঠিক ধরেছেন, অনেকটাই গুগল ড্রাইভের মতো কেবল পার্থক্য হলো এটা কোড রাখার প্লাটফর্ম এবং গুগল ড্রাইভ ফাইল রাখার প্লাটফর্ম।
 
-# [](https://sharafat.hashnode.dev/github-bangla-intro#heading-4kav4keh4kao4keliocmlcmvcmncmuecmvucmrd8 "Permalink")
 
-# কেনো গিটহাব?
+## কেনো গিটহাব?
 
 > আমরা কোড রাখার জন্য তো আমরা আমাদের নিজেদের কম্পিউটারের লোকাল স্টোরেজ (যেমন: হার্ড ড্রাইভ) অথবা, গুগল ড্রাইভ ব্যবহার করতে পারি। তাই না? গুগল ড্রাইভের ফাইল একে অন্যের সাথে ভাগাভাগিও করে নিতে পারি। পাশাপাশি একই ফাইলে একাধিক মানুষ কাজ করতে পারি। তাই না? তাহলে গিটহাবের আবার কি প্রয়োজন?
 > 
@@ -96,9 +95,7 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 উপরোক্ত সমস্যাগুলো সমাধানের উদ্যেশ্যেই মূলত আজকের এই আলোচনা গিটহার নিয়ে। গিটহাব তাহলে কিভাবে এই সমস্যাগুলো সমাধান করবে?
 
-# [](https://sharafat.hashnode.dev/github-bangla-intro#heading-4kax4ka4kaf4ka54ka4kas4keh4kawiocmlecmvucmsocnjecmrcmqucmpucnjecmpcmpocmvw "Permalink")
-
-# গিটহাবের কার্যপদ্ধতি
+## গিটহাবের কার্যপদ্ধতি
 
 গিটহাবে আপনি চাইলে প্রজেক্ট তৈরি করতে পারবেন যা repository নামে পরিচিত। একে আমরা এভাবে ভাগ করতে পারি,
 
@@ -132,9 +129,8 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 আবার আমি আমার উদাহারণে ফেরত আসি। যেহেতু তামিম আমার প্রজেক্ট কপি করেছে তাই আমি যদি কোডে কোনোরূপ পরিবর্তন করি তামিম সেটা নিয়ে নিতে পারবে কিন্তু তামিম কিছু পরিবর্তন করলে সেটা তামিম যদি আমাকে না দেয় সেটা আমি নিতে পারবো না। অর্থাৎ একই প্রজেক্ট সবাই নিজের কাছে এই পদ্ধতিতে রেখে দিতে পারবে এবং সবাই নিজের নিজের প্রজেক্টের মালিক। তবে যে প্রজেক্ট তৈরি করবে সে কোনো পরিবর্তন করলে সবাই সেটা নিতেও পারবে **প্রত্যাখ্যান** ও করতে পারবে। আর সবাই নিজেদের মতো কাজ করে যে প্রজেক্ট শুরু করবে তার কাছে merge request পাঠাতে পারবে। আবার চাইলে সবাই নিজেরা নিজেদের মাঝে কাজ করতে পারবে। কারো কাছে কোনো জবাবদিহিতা নেই। এটাই হলো open source project এর সৌন্দর্য। সবাই মুক্তভাবে কাজ করতে পারবে।
 
-# [](https://sharafat.hashnode.dev/github-bangla-intro#heading-4kav4ka4kat4ka4kas4kehiocmtucmvcmlucmrocnhcmqd8 "Permalink")
 
-# কিভাবে শিখবেন?
+## কিভাবে শিখবেন?
 
 গিটহাব সম্পর্কে জানতে আগে গিট সম্পর্কে শিখতে হবে। গিট গিটহাবের প্রাণকেন্দ্র বললেও ভুল হবে না এক-প্রকার। গিট সম্পর্কে হয়তো অন্য কোনোদিন আলোচনা করবো। তবে তাদেরকে উদ্দেশ্য করে আপাতত কিছূ লিংক দিয়ে দেই,
 
@@ -150,9 +146,8 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 - [https://sharafat.vercel.app/git](https://sharafat.pages.dev/git/)
 
-## [](https://sharafat.hashnode.dev/github-bangla-intro#heading-special-thanks-to "Permalink")
 
-## Special thanks to
+## কৃতজ্ঞতা স্বীকার
 
 - Nayema (editing)
 - Mehedi Hasan (editing)
