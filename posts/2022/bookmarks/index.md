@@ -328,7 +328,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [IT Tools - Handy online tools for developers](https://it-tools.tech/) 
 
 ### GitHub
-- [Cron expression generator by Cronhub](https://crontab.cronhub.io/) [GitHub action timer]
+- [Crontab.guru - The cron schedule expression editor](https://crontab.guru/) [GitHub action timer]
 - [Metrics](https://metrics.lecoq.io/embed)
 - [GPRM : GitHub Profile ReadMe Maker](https://gprm.itsvg.in/) 
 
