@@ -87,7 +87,7 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 | gitg             | gnome based GUI tool of git                   |
 | jupyter-notebook | HTML notebook application for Project Jupyter |
 | bluegriffon      | WYSIWYG html & css                            |
-| publii           | Static site generator                         | 
+| publii           | Static site generator                         |
 
 ## Education
 | Application | Description                                                                     |
@@ -138,14 +138,15 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 | vlc                    | media player                                                                                                                   |
 | handbrake              | video trans-coder                                                                                                              |
 | obs studio             | screen record and stream                                                                                                       |
+| screenkey              | shows which key is pressed on the screen                                                                                       |
 | simple screen recorder | screen recorder                                                                                                                |
 | picard                 | audio tagging tool (MusicBrainz Picard)                                                                                        |
 | audacity               | audio edit                                                                                                                     |
 | kid3-qt                | audio tag editor                                                                                                               |
 | sound converter        | GTK audio batch converter                                                                                                      |
 | digikam                | Photo management program with advanced feature like [photo gallery to HTML](https://sharafatkarim.github.io/wallpapers-2022/)! |
-| curlew                 | Batch audio or video converter                                                                                                 | 
-| stremio 		 | A one-stop hub for video content aggregation											  | 
+| curlew                 | Batch audio or video converter                                                                                                 |
+| stremio                | A one-stop hub for video content aggregation                                                                                   |
 
 {{< admonition tip "BTW," >}}
 You can find a list of useful Multimedia related application in "Ubuntu Studio",
@@ -182,7 +183,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | ventoy      | multi bootable USB drive creator                |
 | obsidian    | note talking app with markdown and 600+ plugins |
 | krdc        | rdc and vnc client - kde                        |
-| krfb        | desktop sharing - kde                           | 
+| krfb        | desktop sharing - kde                           |
 
 ## Cross-Platform
 | Application | Description                 |
@@ -198,7 +199,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | yt-dlp      | a better youtube-dl                                                                 |
 | imagemagick | easy image [conversation](https://sharafat.vercel.app/batch-conversation-with-loop) |
 | telebit     | port forwarding tool                                                                |
-| hdsentinel  | A freeware, closed source, SMART analysis tool                                      | 
+| hdsentinel  | A freeware, closed source, SMART analysis tool                                      |
 
 ## Schedule
 - [ ] Team fortress 2 (game)
