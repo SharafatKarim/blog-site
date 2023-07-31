@@ -189,6 +189,9 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Hotpot.ai - Hotpot.ai](https://hotpot.ai/)
 - [AI Image Upscaler – Enlarge Images & Photos Online](https://icons8.com/upscaler) 
 - [Tome](https://tome.app/) 
+- [Create stunning visuals in seconds with AI.](https://clipdrop.co/)
+- [Animated Drawings](https://sketch.metademolab.com/) 
+- [Lexica](https://lexica.art/) 
 
 ### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
@@ -354,6 +357,9 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Free PDF, Video, Image & Other Online Tools - TinyWow](https://tinywow.com/) 
 - [Smallpdf.com - A Free Solution to all your PDF Problems](https://smallpdf.com/)
 - [File Converter - FreeConvert.com](https://www.freeconvert.com/)
+
+### SEO
+- [Site Unreachable](https://www.prepostseo.com/) 
 
 ### Downloader
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
@@ -626,6 +632,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Rocumentaries](https://rocumentaries.com/) - Curated links to the very best documentaries
 - [Piped | YouTube lightweight](https://piped.video/) 
 - [Invidious - An open source alternative front-end to YouTube](https://invidious.io/) 
+- [@DarkHatHacker75](https://youtube-views.ytpremium35.repl.co/) - Multi play YouTube
 
 ### Coding challengers
 - [Checkio](https://py.checkio.org/) - Games for coding.
