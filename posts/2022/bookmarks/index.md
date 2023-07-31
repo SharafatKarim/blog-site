@@ -399,6 +399,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [DataQuest](https://www.dataquest.io/)
 - [Kaggle](https://www.kaggle.com/) - Site devoted to Data Analysis through Machine learning.
 - [Replicate – Run open-source machine learning models with a cloud API](https://replicate.com/) 
+- [Scribble Diffusion](https://scribblediffusion.com/) 
 
 ### GPT
 - [BAI Chat](https://chatbot.theb.ai/#/chat/1002) 
@@ -425,6 +426,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Rapid API Learn](https://rapidapi.com/learn) 
 - [Learn Git Branching](https://learngitbranching.js.org/) 
 - [Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/) 
+- [Dashboard · USACO Guide](https://usaco.guide/dashboard/) 
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
