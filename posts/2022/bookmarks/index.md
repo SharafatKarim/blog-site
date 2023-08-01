@@ -1,7 +1,7 @@
 ---
 title: "Bookmarks Collection"
 date: 2022-11-12T18:02:49+06:00
-lastmod: 2022-12-28T18:02:49+06:00
+lastmod: 2023-07-31T18:02:49+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
@@ -391,6 +391,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Instant.io](https://instant.io/) - Torrent Tracker.
 - [Tube replay](http://www.tubereplay.com/) - Watch a [YouTube](https://www.youtube.com) video on a loop without pressing replay.
 - [Email Alias | SimpleLogin](https://app.simplelogin.io/dashboard/) 
+- [Zero Width Shortener](https://zws.im/) 
 
 ### Text generator
 - [Rytr - Best AI Writer, Content Generator & Writing Assistant](https://rytr.me/) 
