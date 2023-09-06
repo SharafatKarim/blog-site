@@ -192,7 +192,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Create stunning visuals in seconds with AI.](https://clipdrop.co/)
 - [Animated Drawings](https://sketch.metademolab.com/) 
 - [Lexica](https://lexica.art/)
-
+- [Fetching Title#c8td](https://vectorizer.ai/) 
 
 ### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
@@ -319,8 +319,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 > Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 ### Local server
-- [Sync Thing](https://localhost:8384/#)
-
+- [Sync Thing](https://localhost:8384
+- [Serveo: expose local servers to the internet using SSH](https://serveo.net/)
 ### Productivity
 - [Telegraph](http://telegra.ph/) - snippet share.
 - [Edit Images, Videos & Documents for Free | Quicktools by Picsart](https://tools.picsart.com/) 
