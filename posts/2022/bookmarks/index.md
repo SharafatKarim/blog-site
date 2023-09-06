@@ -192,7 +192,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Create stunning visuals in seconds with AI.](https://clipdrop.co/)
 - [Animated Drawings](https://sketch.metademolab.com/) 
 - [Lexica](https://lexica.art/)
-- [Fetching Title#c8td](https://vectorizer.ai/) 
+- [Trace Pixels To Vectors in Full Color, Fully Automatically, Using AI - Vectorizer.AI](https://vectorizer.ai/) 
 
 ### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
