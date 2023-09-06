@@ -319,7 +319,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 > Handy tools for everyone. Can be as little as multiplication of 2 matrix!
 
 ### Local server
-- [Sync Thing](https://localhost:8384
+- [Sync Thing](https://localhost:8384)
+- [Miniserve or file share:8080](http://127.0.0.1:8080/)
 - [Serveo: expose local servers to the internet using SSH](https://serveo.net/)
 ### Productivity
 - [Telegraph](http://telegra.ph/) - snippet share.
