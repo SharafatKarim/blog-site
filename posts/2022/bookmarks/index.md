@@ -191,7 +191,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Tome](https://tome.app/) 
 - [Create stunning visuals in seconds with AI.](https://clipdrop.co/)
 - [Animated Drawings](https://sketch.metademolab.com/) 
-- [Lexica](https://lexica.art/) 
+- [Lexica](https://lexica.art/)
+
 
 ### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
