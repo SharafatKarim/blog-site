@@ -394,6 +394,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Tube replay](http://www.tubereplay.com/) - Watch a [YouTube](https://www.youtube.com) video on a loop without pressing replay.
 - [Email Alias | SimpleLogin](https://app.simplelogin.io/dashboard/) 
 - [Zero Width Shortener](https://zws.im/) 
+- [snippet generator](https://snippet-generator.app/) | vscode user snippets
 
 ### Text generator
 - [Rytr - Best AI Writer, Content Generator & Writing Assistant](https://rytr.me/) 
