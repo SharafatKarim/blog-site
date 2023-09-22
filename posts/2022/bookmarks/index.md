@@ -180,6 +180,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Panzoid](https://panzoid.com/) 
 - [Jitter • The simplest motion design tool on the web.](https://jitter.video/) 
 - [All your video needs in one place | Clipchamp](https://clipchamp.com/en/) 
+- [PhotoMosh](https://photomosh.com/) - glitch effect
 
 ### AI
 - [SynestheticAI](https://synesthetic.ai/) - inspiration
