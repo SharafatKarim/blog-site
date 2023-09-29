@@ -572,7 +572,12 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### 3D
 - [Poly Haven](https://polyhaven.com/)
+- [3D Models Free Download - Open3dModel.com](https://open3dmodel.com/)
 - [ambientCG - CC0 Textures, HDRIs and Models](https://ambientcg.com/)
+- [Blender 3D Models - For The Users - By The Users : Blender 3D Models](https://www.blender-models.com/)
+- [BlenderKit | Download Free 3D models, textures and other Blender assets](https://www.blenderkit.com/)
+- [Fetching Title#xuqh](https://www.blendernation.com/)
+- [3D Models for Free - Free3D.com](https://free3d.com/)
 - [Free - Poliigon](https://www.poliigon.com/search/free)| 103 FREE
 
 ### Wallpaper
