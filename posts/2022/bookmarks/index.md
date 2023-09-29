@@ -575,6 +575,11 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [বাংলা ডেভেলপার চিটশিট | ডেভ সংকেত](https://devsonket.com/) - Bangla cheat-sheet's collection
 - [Cheatography](https://cheatography.com/) - Cheat sheet | English
 
+### Wallpaper
+- [Wallpaperflare - Beautiful HD wallpapers free download](https://www.wallpaperflare.com/)
+- [Wall Heaven](https://wallhaven.cc/)
+- [Minimalistic Wallpaper Collection](https://minimalistic-wallpaper.demolab.com/)
+
 ### Photo
 - [Ill gander](https://illgander.com/)
 - [Imgur](https://imgur.com/)
@@ -583,8 +588,6 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Unsplash](https://unsplash.com/) 
 - [Free Icons, Clipart Illustrations, Photos, and Music](https://icons8.com/)
 - [Openclipart - Clipping Culture](https://openclipart.org/)
-- [Wall Heaven](https://wallhaven.cc/)
-- [Wallpaperflare - Beautiful HD wallpapers free download](https://www.wallpaperflare.com/)
 - [unDraw - Open source illustrations for any idea](https://undraw.co/) 
 - [Home — Food Pictures • Foodiesfeed • Free Food PhotosFood Pictures • Foodiesfeed • Free Food Photos](https://www.foodiesfeed.com/) 
 - [Free Stock Photos, Images, and Vectors](https://www.stockvault.net/)
@@ -698,12 +701,15 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
 - [MDN](https://developer.mozilla.org/en-US/)
 - [Free for developers](https://free-for.dev/#/)
-- [tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr) 
 - [Numba: A High Performance Python Compiler](https://numba.pydata.org/) 
 - [List of games - Libregamewiki](https://libregamewiki.org/List_of_games)
 
+### CheatSheet
+- [tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr) 
+- [CheatSheets.zip - Quick Reference Cheat Sheet](https://cheatsheets.zip/)
 ### Reference
 - [SYMBL (◕‿◕) Symbols, Emojis, Characters, Scripts, Alphabets, Hieroglyphs and the entire Unicode](https://symbl.cc/en/)
+- [Google Cloud Developer Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)
 ## Others 
 > And some leftovers, can you categorize them?
 
