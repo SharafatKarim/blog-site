@@ -647,6 +647,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Fontpair - Free, beautiful fonts and font pairings curated just for you](https://www.fontpair.co/) 
 - [Free Fonts | 110,000+ Font Downloads | FontSpace](https://www.fontspace.com/) 
 - [1001 Free Fonts | Download Fonts](https://www.1001freefonts.com/) 
+- [Fancy > Curly fonts | dafont.com](https://www.dafont.com/theme.php?cat=105) 
+- [Fetching Title#aq42](https://www.fontget.com/) 
 
 ## Fun
 > Let machine automate your fun.
