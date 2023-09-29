@@ -465,12 +465,24 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
 - [Explained visually](http://setosa.io/ev/) - Website dedicated to Explorable Explanations.
 
-### Math
+### Calculation
 - [Symbolab](https://www.symbolab.com/) - Online calculator that can do Calculus.
 - [Omni Calculator](https://www.omnicalculator.com/) 
 - [GeoGebra - free math tools](https://www.geogebra.org/?lang=en) 
 - [Desmos](https://www.desmos.com) - Online Graphing Utility.
 - [Wolfram|Alpha: Computational Intelligence](https://www.wolframalpha.com/)
+
+### Simulation
+- [falstad.com | electrical circuit simulation](https://www.falstad.com/circuit/circuitjs.html) 
+- [PhET: Free online physics, chemistry, biology, earth science and math simulations](https://phet.colorado.edu/) 
+- [JavaLab - Science simulations](https://javalab.org/en/) 
+- [eduMedia – Interactive simulations and videos for Science and Math](https://www.edumedia-sciences.com/en/) 
+- [SIMULATIONS](https://www.csun.edu/science/software/simulations/simulations.html) 
+- [Tungsteno](https://www.tungsteno.io/) 
+
+### Science
+- [What's New at Science Notes - Periodic Tables and More - Science Notes and Projects](https://sciencenotes.org/) 
+- [Course Hero | Own the study hour](https://www.coursehero.com/) 
 
 ### Paper
 - [Where is SciHub](https://whereisscihub.herokuapp.com/go) - Go to correct link of SciHub (reserach paper search).
