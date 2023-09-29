@@ -643,6 +643,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Type Scale - A Visual Calculator](https://type-scale.com/) 
 - [Fontpair - Free, beautiful fonts and font pairings curated just for you](https://www.fontpair.co/) 
 - [Free Fonts | 110,000+ Font Downloads | FontSpace](https://www.fontspace.com/) 
+- [1001 Free Fonts | Download Fonts](https://www.1001freefonts.com/) 
 
 ## Fun
 > Let machine automate your fun.
