@@ -544,6 +544,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Windows 10 Ameliorated](https://ameliorated.info/) - Windows 10 minus the spyware plus added stability and security.
 - [TechBench by WZT (v4.1.1)](https://tb.rg-adguard.net/public.php)
 - [Uneed - The best tools on the internet](https://www.uneed.best/) 
+- [Packages for Linux and Unix](https://pkgs.org/) 
 
 ### Templates
 - [TemplateLab - Best Business & Legal Templates](https://templatelab.com/) 
@@ -663,6 +664,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Piped | YouTube lightweight](https://piped.video/) 
 - [Invidious - An open source alternative front-end to YouTube](https://invidious.io/) 
 - [@DarkHatHacker75](https://youtube-views.ytpremium35.repl.co/) - Multi play YouTube
+- [Stremio - Freedom to Stream](https://www.stremio.com/) 
 
 ### Coding challengers
 - [Checkio](https://py.checkio.org/) - Games for coding.
