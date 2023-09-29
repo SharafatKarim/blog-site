@@ -576,7 +576,10 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [ambientCG - CC0 Textures, HDRIs and Models](https://ambientcg.com/)
 - [Blender 3D Models - For The Users - By The Users : Blender 3D Models](https://www.blender-models.com/)
 - [BlenderKit | Download Free 3D models, textures and other Blender assets](https://www.blenderkit.com/)
-- [Fetching Title#xuqh](https://www.blendernation.com/)
+- [Blender addons](https://blender-addons.org/)
+- [Products - Blender Market](https://www.blendermarket.com/products?sort_price=asc)
+- [BlenderNation - Daily Blender Art, Tutorials, Development and Community News](https://www.blendernation.com/)
+- [Blend Swap | Home](https://www.blendswap.com/)
 - [3D Models for Free - Free3D.com](https://free3d.com/)
 - [Free - Poliigon](https://www.poliigon.com/search/free)| 103 FREE
 
