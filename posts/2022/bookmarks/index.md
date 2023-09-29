@@ -531,7 +531,10 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ## Collections 
 > It exists so that you don't need to collect again.
+
+### Multi Linked
 - [GitHub - 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome) 
+- [List community](https://list.community/) - Easy way to browse curated lists and docs
 
 ### Software 
 - [Ekushey - Bangla keyboard](https://ekushey.org/)
@@ -687,8 +690,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ## Wiki 
 > These kind of thing exists so that it can help you fall asleep.
-
-- [List community](https://list.community/) - Easy way to browse curated lists and docs.
+### Docs
 - [Scholarpedia](http://www.scholarpedia.org/article/Main_Page) - Peer-reviewed open-access encyclopedia, where knowledge is curated by communities of experts.
 - [MDN](https://developer.mozilla.org/en-US/)
 - [Free for developers](https://free-for.dev/#/)
@@ -696,9 +698,12 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Numba: A High Performance Python Compiler](https://numba.pydata.org/) 
 - [List of games - Libregamewiki](https://libregamewiki.org/List_of_games)
 
+### Reference
+- [SYMBL (◕‿◕) Symbols, Emojis, Characters, Scripts, Alphabets, Hieroglyphs and the entire Unicode](https://symbl.cc/en/)
 ## Others 
 > And some leftovers, can you categorize them?
 
+### Benchmarking
 - [WebGL water](http://madebyevan.com/webgl-water/)
 
 {{< admonition quote "And, another thing" >}}
