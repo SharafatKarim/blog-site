@@ -570,10 +570,10 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
 - [FirefoxCSS Store](https://firefoxcss-store.github.io/) 
 
-### Cheat sheets
-- [Devhints | TL;DR for developer documentation](https://devhints.io/) 
-- [বাংলা ডেভেলপার চিটশিট | ডেভ সংকেত](https://devsonket.com/) - Bangla cheat-sheet's collection
-- [Cheatography](https://cheatography.com/) - Cheat sheet | English
+### 3D
+- [Poly Haven](https://polyhaven.com/)
+- [ambientCG - CC0 Textures, HDRIs and Models](https://ambientcg.com/)
+- [Free - Poliigon](https://www.poliigon.com/search/free)| 103 FREE
 
 ### Wallpaper
 - [Wallpaperflare - Beautiful HD wallpapers free download](https://www.wallpaperflare.com/)
@@ -648,7 +648,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Free Fonts | 110,000+ Font Downloads | FontSpace](https://www.fontspace.com/) 
 - [1001 Free Fonts | Download Fonts](https://www.1001freefonts.com/) 
 - [Fancy > Curly fonts | dafont.com](https://www.dafont.com/theme.php?cat=105) 
-- [Fetching Title#aq42](https://www.fontget.com/) 
+- [Site Unreachable](https://www.fontget.com/) 
 
 ## Fun
 > Let machine automate your fun.
@@ -709,6 +709,9 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### CheatSheet
 - [tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr) 
 - [CheatSheets.zip - Quick Reference Cheat Sheet](https://cheatsheets.zip/)
+- [Devhints | TL;DR for developer documentation](https://devhints.io/) 
+- [বাংলা ডেভেলপার চিটশিট | ডেভ সংকেত](https://devsonket.com/) - Bangla cheat-sheet's collection
+- [Cheatography](https://cheatography.com/) - Cheat sheet | English
 ### Reference
 - [SYMBL (◕‿◕) Symbols, Emojis, Characters, Scripts, Alphabets, Hieroglyphs and the entire Unicode](https://symbl.cc/en/)
 - [Google Cloud Developer Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)
