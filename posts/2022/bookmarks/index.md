@@ -271,6 +271,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Deno Deploy](https://dash.deno.com/projects) 
 - [Streamlit • A faster way to build and share data apps](https://streamlit.io/) 
 - [CodePen: Online Code Editor and Front End Web Developer Community](https://codepen.io/trending) 
+- [VSCode web](https://github.dev/github/dev)
 
 ### Markdown
 - [readme.so](https://readme.so/bn) - easy GitHub read me file generate
@@ -438,6 +439,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Learn Git Branching](https://learngitbranching.js.org/) 
 - [Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/) 
 - [Dashboard · USACO Guide](https://usaco.guide/dashboard/) 
+- [TryHackMe | Cyber Security Training](https://tryhackme.com/) 
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
@@ -452,6 +454,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Coursera](https://www.coursera.org/)
 - [Educative.io](https://www.educative.io/) - Online tutorials
 - [EdX](https://www.edx.org/)
+- [Web development tutorials | w3resource](https://www.w3resource.com/index.php) 
 - [Leetcode](https://leetcode.com) - Platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
 - [Exercism](http://exercism.io/) - Online execution of programming problems.
 - [Programming & Engineering Questions & Answers - Sanfoundry](https://www.sanfoundry.com/) 
