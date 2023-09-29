@@ -369,6 +369,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
 - [DownGit](https://downgit.github.io/#/home) - Git repository downlod
 - [Free URL Un-Shortener](https://unshorten.me/) Unshorten URLS like goo.gl, bit.ly 
+- [cobalt](https://cobalt.tools/) - Media downloader (YouTube/...)
 
 ### Track contents
 - [Grouvee](https://www.grouvee.com/) - Track your video game collection.
@@ -502,6 +503,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Write & Improve with Cambridge](https://writeandimprove.com/)
 - [TLDR This - Article Summarizer & Online Text Summarizing Tool](https://tldrthis.com/)
 - [Practice Speaking English Online Free - Language Practice Community](https://www.free4talk.com/) 
+- [Oxford Learner's Dictionaries | Find definitions, translations, and grammar explanations at Oxford Learner's Dictionaries](https://www.oxfordlearnersdictionaries.com/) 
 
 ### Quotes
 - [Azquotes](http://www.azquotes.com/) - Thousands of quotes by thousands of people.
