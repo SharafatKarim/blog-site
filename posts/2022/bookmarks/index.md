@@ -642,6 +642,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Free Fonts! Legit Free & Quality » Font Squirrel](https://www.fontsquirrel.com/) 
 - [Type Scale - A Visual Calculator](https://type-scale.com/) 
 - [Fontpair - Free, beautiful fonts and font pairings curated just for you](https://www.fontpair.co/) 
+- [Free Fonts | 110,000+ Font Downloads | FontSpace](https://www.fontspace.com/) 
 
 ## Fun
 > Let machine automate your fun.
