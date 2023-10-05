@@ -565,6 +565,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Books
 - [PDF Archive - Host, share, publish and archive your PDF documents](https://www.pdf-archive.com/)
 - [LibZen](https://www.google.com/search?q=libgen&newwindow=1)
+- [Library Genesis](http://libgen.is/) 
 
 ### Plugins
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
