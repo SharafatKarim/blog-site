@@ -105,19 +105,20 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 | assault cube  | Mini battle royal type lightweight game |
 
 ## Graphics
-| Application               | Description                       |
-|:------------------------- |:--------------------------------- |
-| blender                   | 3D modeler                        |
-| gimp                      | image editor                      |
-| [g'mic](https://gmic.eu/) | digital image processing (plugin) |
-| inkscape                  | vector graphics                   |
-| krita                     | digital painting                  |
-| gwenview                  | image viewer                      |
-| natron                    | open source compositing software  |
-| enve                      | 2D animation software             |
-| kdenlive                  | video editor                      |
-| Astrofox                  | Audio visualization into video    |
-| glaxnimate                | Lightweight animation             |
+| Application                                   | Description                       |
+|:--------------------------------------------- |:--------------------------------- |
+| blender                                       | 3D modeler                        |
+| gimp                                          | image editor                      |
+| [g'mic](https://gmic.eu/)                     | digital image processing (plugin) |
+| inkscape                                      | vector graphics                   |
+| krita                                         | digital painting                  |
+| gwenview                                      | image viewer                      |
+| natron                                        | open source compositing software  |
+| enve                                          | 2D animation software             |
+| kdenlive                                      | video editor                      |
+| Astrofox                                      | Audio visualization into video    |
+| glaxnimate                                    | Lightweight animation             |
+| [Upscayl](https://github.com/upscayl/upscayl) | Image up-scaling using AI         |
 
 ## Internet
 | Application | Description                |
@@ -207,7 +208,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 - [ ] jahshaka (3D metaverse)
 - [ ] [trackma](https://github.com/z411/trackma) (media tracking)
 - [ ] [NoiseTorch](https://github.com/noisetorch/NoiseTorch) (Noise Supression Application for PulseAudio or Pipewire)
-- [ ] [stretchly](https://hovancik.net/stretchly/) (The break time reminder app)
+- [x] [stretchly](https://hovancik.net/stretchly/) (The break time reminder app)
 - [ ] [Upscayl](https://github.com/upscayl/upscayl) (Upscale images with AI- GPU required)
 - [ ] [Celestia](https://celestia.space/) (real-time 3D visualization of space)
 - [ ] logseq (obsidian alternative)
