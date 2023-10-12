@@ -192,7 +192,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Tome](https://tome.app/) 
 - [Create stunning visuals in seconds with AI.](https://clipdrop.co/)
 - [Animated Drawings](https://sketch.metademolab.com/) 
-- [Lexica](https://lexica.art/)
+- [Lexica](https://lexica.art/) 
+- [Mage 🧙 | Free, Fast, Unlimited Stable Diffusion](https://www.mage.space/)
 - [Trace Pixels To Vectors in Full Color, Fully Automatically, Using AI - Vectorizer.AI](https://vectorizer.ai/) 
 
 ### Render
