@@ -726,6 +726,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Reference
 - [SYMBL (◕‿◕) Symbols, Emojis, Characters, Scripts, Alphabets, Hieroglyphs and the entire Unicode](https://symbl.cc/en/)
 - [Google Cloud Developer Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)
+- [TryHackMe | Resources](https://tryhackme.com/r/resources/blog/free_path) | Free Tier
 ## Others 
 > And some leftovers, can you categorize them?
 
