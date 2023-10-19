@@ -431,6 +431,16 @@ And regenerate the `grub.cfg` with,
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
+### Detecting other OS
+Probing for other operating systems is disabled for security reasons. If still want to enable this functionality install os-prober and uncomment to detect and include other operating systems.
+```bash
+# Probing for other operating systems is disabled for security reasons. Read
+# documentation on GRUB_DISABLE_OS_PROBER, if still want to enable this
+# functionality install os-prober and uncomment to detect and include other
+# operating systems.
+GRUB_DISABLE_OS_PROBER=false
+```
+
 ## Extra partitions
 Besides we'll have to mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. So install `ntfs-3g`. And now you can mount ntfs partitions with `sudo mount` but it's not an idea solution. To make changes permanently you've to edit `fstab`.
 
