@@ -116,7 +116,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 
 ### Web Apps
 - [Deta Space](https://deta.space/) - Your own space
-- [Photopea | Online Photo Editor](https://www.photopea.com/) - bitmap
+- [Photopea | Online Photo Editor](https://www.photopea.com/) - Photoshop alternative
+- [Vectorpea | Online Vector Editor](https://www.vectorpea.com/) - Illustrator alternative
 - [Graphite](https://editor.graphite.rs/) - SVG 
 - [Polotno Studio](https://studio.polotno.com/) - Make graphical designs
 - [miniPaint - image editor](http://viliusle.github.io/miniPaint/) 
