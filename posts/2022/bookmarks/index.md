@@ -347,6 +347,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [xFile - Keep your Google Drive files safe with us](https://s5.xfile.pw/) 
 - [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
 - [WebWormhole](https://webwormhole.io/) - secure file transfer
+- [Share files privately, fast and without size limit using ToffeeShare](https://toffeeshare.com/)| E2E 
 - [Send Anywhere - File transfer](https://send-anywhere.com/)
 - [Streamable](https://streamable.com/) - Video sharing.
 - [Filebin](https://filebin.net/)
@@ -667,6 +668,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Generator
 - [Sweary](https://sweary.com/) - Insult generator
 - [Username Generator](https://usernamegenerator.com/) 
+- [Fake Detail Generator | Fake Person Identity](https://fakedetail.com/)- fake screenshot
 
 ### Ability
 - [ZType – Typing Game - Type to Shoot](https://zty.pe/)
