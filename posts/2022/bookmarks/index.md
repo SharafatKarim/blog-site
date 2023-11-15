@@ -538,6 +538,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Multi Linked
 - [GitHub - 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome) 
 - [List community](https://list.community/) - Easy way to browse curated lists and docs
+- [Easy With AI - Best AI Tools & Services](https://easywithai.com/) 
 
 ### Software 
 - [Ekushey - Bangla keyboard](https://ekushey.org/)
