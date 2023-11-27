@@ -195,6 +195,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Animated Drawings](https://sketch.metademolab.com/) 
 - [Lexica](https://lexica.art/) 
 - [Mage 🧙 | Free, Fast, Unlimited Stable Diffusion](https://www.mage.space/)
+- [Leonardo.Ai](https://app.leonardo.ai/)
 - [Trace Pixels To Vectors in Full Color, Fully Automatically, Using AI - Vectorizer.AI](https://vectorizer.ai/) 
 
 ### Render
