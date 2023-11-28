@@ -545,6 +545,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 ### Software 
 - [Ekushey - Bangla keyboard](https://ekushey.org/)
 - [Find Open Source By Searching, Browsing and Combining](https://awesomeopensource.com/) 
+- [Open Source Alternatives to Proprietary Software](https://www.opensourcealternative.to/)
 - [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software#games) - List from GitHub
 - [Best 704K+ Open Source Software Projects - Open Source Agenda](https://www.opensourceagenda.com/) 
 - [Windows 10 Ameliorated](https://ameliorated.info/) - Windows 10 minus the spyware plus added stability and security.
