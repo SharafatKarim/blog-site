@@ -1,24 +1,26 @@
 ---
-title: "Bookmarks Collection"
+title: Bookmarks Collection
 date: 2022-11-12T18:02:49+06:00
-lastmod: 2023-07-31T18:02:49+06:00
+lastmod: 2023-11-28T18:02:49+06:00
 draft: false
-author: "Sharafat Karim"
-authorLink: "https://sharafat.pages.dev/about/"
+author: Sharafat Karim
+authorLink: https://sharafat.pages.dev/about/
 description: ""
-license: ""
-images: []
+license: <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+images: 
 resources:
-- name: "featured-image"
-  src: "featured-image.jpg"
-
-tags: ["browser","notes","internet","collection"]
-categories: ["collection"]
+  - name: featured-image
+    src: featured-image.jpg
+tags:
+  - browser
+  - notes
+  - internet
+  - collection
+categories:
+  - collection
 summary: ""
-
-featuredImage: "featured-image"
+featuredImage: featured-image
 featuredImagePreview: ""
-
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: false
@@ -28,7 +30,6 @@ fraction: true
 fontawesome: true
 linkToMarkdown: true
 rssFullText: false
-
 toc:
   enable: true
   auto: true
@@ -37,30 +38,16 @@ code:
   maxShownLines: 50
 math:
   enable: false
-  # ...
-mapbox:
-  # ...
+mapbox: 
 share:
   enable: true
-  # ...
 comment:
   enable: true
-  # ...
 library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
+  css: 
+  js: 
 seo:
   images: []
-  # ...
-license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
 My personal bookmarks collection. Bookmarks of this list can be outdated as well as corrupted. Feel free to fork this project and create your own!
