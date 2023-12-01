@@ -88,7 +88,7 @@ Isn't it sometimes hard to read sites with 'white' background? Especially in nig
 - [Website](https://darkreader.org/)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 
-## Containers
+## Containers (firefox)
 ### Firefox Multi-Account Containers
 
 The Firefox Multi-Account Containers extension lets you carve out a separate box for each of your online lives – no more opening a different browser just to check your work email! Here is a quick video showing you how it works.
@@ -132,6 +132,8 @@ View archived and cached versions of web pages on 10+ search engines, such as th
 ### Auto Redirector
 - [Redirector](https://einaregilsson.com/redirector/)
 
+### Auto inactive tab suspend 
+- [Auto Tab Discard :: WebExtension.ORG](https://webextension.org/listing/tab-discard.html)
 ## Ads and annoyances
 ### I don't care about cookies
 
@@ -171,15 +173,21 @@ TinEye uses image identification technology, not keywords: when you upload an im
 
 ### Stylus
 Redesign the web with Stylus, a user styles manager. Stylus allows you to easily install themes and skins for many popular sites.
-
 - [Website](https://add0n.com/stylus.html)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 
+## Tab management
+
+### Session Management
+WebExtensions for restoring and saving window / tab states.
+- [Tab Session Manager](https://tab-session-manager.sienori.com/)
 ### Tree Style Tab
 Show tabs like a tree. You'll get it when you'll use, no big deal!
-
 - [Website](https://piro.sakura.ne.jp/xul/_treestyletab.html.en)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+
+### New Tab customization
+- [Tabliss · A beautiful New Tab page for Chrome, Firefox and Edge](https://tabliss.io/)
 
 ## Translation & Dictionary
 ### To Google Translate
@@ -219,16 +227,24 @@ Provides better integration with the KDE Plasma 5 desktop. Useful for Linux user
 Provides better integration with the KDE Plasma 5 desktop.)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/plasma-integration/)
 
-### ScrollAnywhere
-Drag scrollbar with your middle mouse button anywhere on the page. Supports also "grab and drag" style.
-
-- [Website](https://fastaddons.com/)
-- [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/scroll_anywhere/)
-
+### Competitive programming
+Browser extension which parses competitive programming problems and linking support with vscode.
+- [GitHub - jmerle/competitive-companion](https://github.com/jmerle/competitive-companion)
+- [GitHub - agrawal-d/cph-submit](https://github.com/agrawal-d/cph-submit) 
 
 {{< admonition tip >}}
 There might be more better translation extensions I don't know. You can do your own research and don't forget to share 🫠.
 {{< /admonition >}}
+
+### PWA (Firefox)
+Currently chromium based browsers has it as a built in feature. For firefox some ways to run progressive web apps (or similar) using Firefox.
+1) Separate profile + install desktop shortcut + linked to main firefox
+https://pwasforfirefox.filips.si/#about
+2) A separate build from Linux Mint
+https://github.com/linuxmint/webapp-manager
+3) Just need popup? 
+(navigation bar and distraction free window)
+https://github.com/ettoolong/PopupWindow
 
 ### Extras
 
@@ -268,8 +284,8 @@ If you want to explore more, here's a short suggestion,
 And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/en-US/firefox/). (Especially the recommended part)
 
 {{< admonition quote "And," >}}
-IF your'e a Firefox user, try those themes made specifically for kde plasma!
-- [Qogir Dark blue](https://addons.mozilla.org/en-US/firefox/addon/qogir-dark-for-firefox/)
+If your'e a Firefox user, you can also try those CSS themes,
+- [FirefoxCSS Store](https://firefoxcss-store.github.io/)
 {{< /admonition >}}
 
 ### Acknowledgements
