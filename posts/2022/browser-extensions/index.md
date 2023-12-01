@@ -138,6 +138,9 @@ View archived and cached versions of web pages on 10+ search engines, such as th
 ### Cookie-Editor
 A safe cookie editor for Chrome, Firefox, Safari, Edge and Opera
 - [Cookie-Editor](https://cookie-editor.com/)
+
+### Script blocker
+- [NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
 ## Ads and annoyances
 ### I don't care about cookies
 
@@ -156,6 +159,14 @@ uBlock Origin is not an "ad blocker", it's a wide-spectrum content blocker with 
 ### Facebook filtering
 Browser extension that removes ads and the user interaction tracking from content on Facebook.
 - [mgziminsky/FacebookTrackingRemoval](https://github.com/mgziminsky/FacebookTrackingRemoval)
+
+### YouTube filtering
+- [Unhook - Remove YouTube Recommended Videos and More](https://unhook.app/)
+- [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
+
+### URL clean
+Removes tracking elements from URLs.
+- [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 ## Browsing enhancer
 ### Grammar & Spell Checker — LanguageTool
 Check your texts for spelling and grammar problems everywhere on the web
@@ -179,12 +190,16 @@ TinEye uses image identification technology, not keywords: when you upload an im
 
 - [Website](https://tineye.com/)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/tineye-reverse-image-search/)
-
+### Captcha
+- [Buster: Captcha Solver for Humans](https://addons.mozilla.org/en-US/firefox/addon/buster-captcha-solver/) 
 ### Stylus
 Redesign the web with Stylus, a user styles manager. Stylus allows you to easily install themes and skins for many popular sites.
 - [Website](https://add0n.com/stylus.html)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 
+### Read aloud
+Reading texts.
+- [Read Aloud](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 ## Tab management
 
 ### Session Management
@@ -222,14 +237,29 @@ Get information instantly about websites' terms of service and privacy policies,
 - [Website](https://tosdr.org/)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/)
 
+### DuckDuckGo tracker blocker
+- [DuckDuckGo Privacy essenstials](https://duckduckgo.com/app)
 ### Indicator (Firefox)
 A country flag on the address bar.
 - [Flagfox](https://flagfox.wordpress.com/)
 ## Developer 
 
-### An open source userscript manager.
+### Userscript
+An open source userscript manager.
 - [Violentmonkey](https://violentmonkey.github.io/)
+### Stats
+- [Find out what websites are built with - Wappalyzer](https://www.wappalyzer.com/) 
+- [Font Finder :: WebExtension.ORG](https://webextension.org/listing/font-finder.html) 
 
+### Analyze
+Automated auditing, performance metrics, and best practices for the web.
+- [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) 
+
+### Vim like scrolling
+- [vim-vixen: Accelerates your web browsing with Vim power!!](https://github.com/ueokande/vim-vixen) 
+
+### Time tracking
+-  [WakaTime - Dashboards for developers](https://wakatime.com/) 
 # Also,
 check some of those. Maybe you will find something unexpected, 🎃 who knows ؟
 ### Plasma Integration
@@ -267,8 +297,8 @@ If you want to explore more, here's a short suggestion,
 1. 🔒 [Streamer Mode for Firefox](https://github.com/AidanSpeakss/streamer-mode-for-firefox)
 2. ⏱️ YouTube timestamp
 3. 🏞️ [Search by Image](https://github.com/dessant/search-by-image)
-4. 🎙️ [Read Aloud](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-5. 🗑️ [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+4. 🎙️ 
+5. 🗑️ 
 6. 🔥 [AdNauseam](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 7. ⌨️ Demodal
 8. 👉 Bypass Paywalls
@@ -277,22 +307,15 @@ If you want to explore more, here's a short suggestion,
 11. 🔐 [CanvasBlocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 12. 👻 PassBrow
 13. 📖 [xBrowserSync](https://www.xbrowsersync.org/)
-14. 😎 [Improve YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-addon/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
-15. 👻 [AnonAddy](https://github.com/anonaddy/browser-extension)
-16. ⚔️ Netcraft
+14. ⚔️ Netcraft
 17. 👻 Canvas Fingerprint Defender
 18. 🖥️ Age Restriction Bypass for YouTube
-19. 🔽 [Easy Youtube Video Downloader Express](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/)
-20. ℹ️ [Google Lighthouse](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/)
-21. 🧊 [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) 
-22. 🕹  [WakaTime - Dashboards for developers](https://wakatime.com/) 
-23. 🚮 [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) 
-24. 🧗🏻[User agent switcher](https://add0n.com/useragent-switcher.html)  
-25. 🛠 [Buster: Captcha Solver for Humans](https://addons.mozilla.org/en-US/firefox/addon/buster-captcha-solver/) 
-26. 🧊 [vim-vixen: Accelerates your web browsing with Vim power!!](https://github.com/ueokande/vim-vixen) 
+22. 🕹
+25. 🛠 
+26. 🧊 
 27. 🍧 [Notion Boost](https://addons.mozilla.org/en-US/firefox/addon/notion-boost/)
 28. 🫥 [NoScript: block scripts and own your browser!](https://noscript.net/) 
-29. 🫠 [Find out what websites are built with - Wappalyzer](https://www.wappalyzer.com/) 
+29. 🫠 [600% Sound Volume | Firefox](https://addons.mozilla.org/en-US/firefox/addon/600-sound-volume/) 
 
 And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/en-US/firefox/). (Especially the recommended part)
 
