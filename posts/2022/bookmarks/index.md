@@ -52,13 +52,6 @@ seo:
 
 My personal bookmarks collection. Bookmarks of this list can be outdated as well as corrupted. Feel free to fork this project and create your own!
 <!--more-->
-{{< admonition tip "BTW," >}}
-Special thanks to [Afnan Sami](https://www.afnansami.com/) . I don't think this post would be possible without his help. There's a recent project from him to store and access bookmarks more efficiently,
-- [Unique sites that works!](https://ustw.vercel.app/)
-
-You can also contribute in this project! [Here's the repository](https://github.com/theafnansami/USTW). We'll sincerely appreciate it!
-{{< /admonition >}}
-
 ## Cloud 
 > A place where a huge data database is waiting for you along with some tools.
 
@@ -736,4 +729,9 @@ You can also contribute in this project! [Here's the repository](https://github.
 *If you can't forget the name of a website then that site doesn't deserve to be your bookmark* 
 
 And with that quote of mine I avoided social sites and other sites that you can't forget easily! For example, Facebook. Now my question is why can't we forget it? Let us know in the comment.
+{{< /admonition >}}
+
+{{< admonition tip "And, finally" >}}
+Special thanks to all of friends specially [theafnansami (Afnan)](https://github.com/theafnansami/). I don't think this post would be possible without all of your help.
+You can also contribute in this project! [Here's the repository](https://github.com/SharafatKarim/blog-site/edit/main/posts/2022/bookmarks/index.md). Sincerely appreciate it!
 {{< /admonition >}}
