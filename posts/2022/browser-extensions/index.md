@@ -139,7 +139,8 @@ View archived and cached versions of web pages on 10+ search engines, such as th
 A safe cookie editor for Chrome, Firefox, Safari, Edge and Opera
 - [Cookie-Editor](https://cookie-editor.com/)
 
-### Script blocker
+### Script blocker 
+Note that, it may block all unknown scripts which can make the web a bit uneasy.
 - [NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript/)
 ## Ads and annoyances
 ### I don't care about cookies
@@ -295,27 +296,13 @@ If you want to explore more, here's a short suggestion,
 *I didn't include links to those, whose are little bit suspected!*
 
 1. 🔒 [Streamer Mode for Firefox](https://github.com/AidanSpeakss/streamer-mode-for-firefox)
-2. ⏱️ YouTube timestamp
 3. 🏞️ [Search by Image](https://github.com/dessant/search-by-image)
-4. 🎙️ 
-5. 🗑️ 
-6. 🔥 [AdNauseam](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-7. ⌨️ Demodal
-8. 👉 Bypass Paywalls
-9. ✅ Shepherd
-10. 🕶️ [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
-11. 🔐 [CanvasBlocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
-12. 👻 PassBrow
-13. 📖 [xBrowserSync](https://www.xbrowsersync.org/)
-14. ⚔️ Netcraft
-17. 👻 Canvas Fingerprint Defender
-18. 🖥️ Age Restriction Bypass for YouTube
-22. 🕹
-25. 🛠 
-26. 🧊 
-27. 🍧 [Notion Boost](https://addons.mozilla.org/en-US/firefox/addon/notion-boost/)
-28. 🫥 [NoScript: block scripts and own your browser!](https://noscript.net/) 
-29. 🫠 [600% Sound Volume | Firefox](https://addons.mozilla.org/en-US/firefox/addon/600-sound-volume/) 
+4. 🕶️ [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+5. 🔐 [CanvasBlocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+6. 📖 [xBrowserSync](https://www.xbrowsersync.org/)
+7. ⚔️ Netcraft
+8. 👻 Canvas Fingerprint Defender
+9. 🍧 [Notion Boost](https://addons.mozilla.org/en-US/firefox/addon/notion-boost/)
 
 And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/en-US/firefox/). (Especially the recommended part)
 
