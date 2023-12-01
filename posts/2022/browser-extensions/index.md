@@ -88,7 +88,7 @@ Isn't it sometimes hard to read sites with 'white' background? Especially in nig
 - [Website](https://darkreader.org/)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 
-## Containers (firefox)
+## Containers (Firefox)
 ### Firefox Multi-Account Containers
 
 The Firefox Multi-Account Containers extension lets you carve out a separate box for each of your online lives – no more opening a different browser just to check your work email! Here is a quick video showing you how it works.
@@ -134,6 +134,10 @@ View archived and cached versions of web pages on 10+ search engines, such as th
 
 ### Auto inactive tab suspend 
 - [Auto Tab Discard :: WebExtension.ORG](https://webextension.org/listing/tab-discard.html)
+
+### Cookie-Editor
+A safe cookie editor for Chrome, Firefox, Safari, Edge and Opera
+- [Cookie-Editor](https://cookie-editor.com/)
 ## Ads and annoyances
 ### I don't care about cookies
 
@@ -149,6 +153,9 @@ uBlock Origin is not an "ad blocker", it's a wide-spectrum content blocker with 
 - [Website](https://github.com/gorhill/uBlock#ublock-origin)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
+### Facebook filtering
+Browser extension that removes ads and the user interaction tracking from content on Facebook.
+- [mgziminsky/FacebookTrackingRemoval](https://github.com/mgziminsky/FacebookTrackingRemoval)
 ## Browsing enhancer
 ### Grammar & Spell Checker — LanguageTool
 Check your texts for spelling and grammar problems everywhere on the web
@@ -165,6 +172,8 @@ Built to get the most out of YouTube, this extension comes packed with all sorts
 - [Website](https://www.mrfdev.com/enhancer-for-youtube)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/)
 
+As an alternative, yet an another neat and clean enhancer
+- [code-charity/youtube](https://github.com/code-charity/youtube)
 ### TinEye Reverse Image Search
 TinEye uses image identification technology, not keywords: when you upload an image to TinEye, TinEye creates a unique and compact digital signature or 'fingerprint' for it, then compares this fingerprint to every other image in the TinEye index to find matches. TinEye does not typically find similar images; it finds exact matches including those that have been cropped, edited or resized.
 
@@ -213,6 +222,9 @@ Get information instantly about websites' terms of service and privacy policies,
 - [Website](https://tosdr.org/)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/)
 
+### Indicator (Firefox)
+A country flag on the address bar.
+- [Flagfox](https://flagfox.wordpress.com/)
 ## Developer 
 
 ### An open source userscript manager.
@@ -280,6 +292,7 @@ If you want to explore more, here's a short suggestion,
 26. 🧊 [vim-vixen: Accelerates your web browsing with Vim power!!](https://github.com/ueokande/vim-vixen) 
 27. 🍧 [Notion Boost](https://addons.mozilla.org/en-US/firefox/addon/notion-boost/)
 28. 🫥 [NoScript: block scripts and own your browser!](https://noscript.net/) 
+29. 🫠 [Find out what websites are built with - Wappalyzer](https://www.wappalyzer.com/) 
 
 And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/en-US/firefox/). (Especially the recommended part)
 
