@@ -298,6 +298,8 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Draggable JS – JavaScript drag and drop library](https://shopify.github.io/draggable/) 
 - [Free Bootstrap Themes and Website Templates | BootstrapMade](https://bootstrapmade.com/)
 - [CodePen: Online Code Editor and Front End Web Developer Community](https://codepen.io/) 
+- [Free HTML Templates for Websites on HTMLrev](https://htmlrev.com/) 
+- [Explore 3000+ Free UI Elements: CSS & Tailwind](https://uiverse.io/) 
 
 ### Site Generators
 - [The world’s fastest framework for building websites | Hugo](https://gohugo.io/)
@@ -453,6 +455,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Exercism](http://exercism.io/) - Online execution of programming problems.
 - [Programming & Engineering Questions & Answers - Sanfoundry](https://www.sanfoundry.com/) 
 - [MOOC.org | Massive Open Online Courses | An edX Site](https://www.mooc.org/) 
+- [Exercism](https://exercism.org/) 
 
 ### Visual
 - [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
