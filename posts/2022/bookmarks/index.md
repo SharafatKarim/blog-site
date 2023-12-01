@@ -325,6 +325,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Rapidtags | YouTube Tag Generator and Optimizer](https://rapidtags.io/generator) 
 - [Tools « den4b.com](https://www.den4b.com/tools)
 - [IT Tools - Handy online tools for developers](https://it-tools.tech/) 
+- [Resumake](https://resumake.io/) 
 
 ### GitHub
 - [Crontab.guru - The cron schedule expression editor](https://crontab.guru/) [GitHub action timer]
@@ -720,6 +721,7 @@ You can also contribute in this project! [Here's the repository](https://github.
 - [Devhints | TL;DR for developer documentation](https://devhints.io/) 
 - [বাংলা ডেভেলপার চিটশিট | ডেভ সংকেত](https://devsonket.com/) - Bangla cheat-sheet's collection
 - [Cheatography](https://cheatography.com/) - Cheat sheet | English
+- [Fetching Title#l2m8](https://quickref.me/) 
 ### Reference
 - [SYMBL (◕‿◕) Symbols, Emojis, Characters, Scripts, Alphabets, Hieroglyphs and the entire Unicode](https://symbl.cc/en/)
 - [Google Cloud Developer Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)
