@@ -165,7 +165,7 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
  git reset "file|folder"
  ```
 
->  📜 or, try  `git reset . ` to reset everything! And 
+>  📜 or, try  `git reset . ` to reset everything or, `git reset --hard`, which may fix errors regarding `git pull`!
 
  
 
