@@ -324,6 +324,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Crontab.guru - The cron schedule expression editor](https://crontab.guru/) [GitHub action timer]
 - [Metrics](https://metrics.lecoq.io/embed)
 - [GPRM : GitHub Profile ReadMe Maker](https://gprm.itsvg.in/) 
+- [#GitHubUnwrapped 2023 - Your coding year in review](https://githubunwrapped.com/) 
 
 ### Team
 - [Jitsi Meet](https://meet.jit.si/) - Meeting without even an account
