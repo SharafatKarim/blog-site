@@ -725,6 +725,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 
 ### Benchmarking
 - [WebGL water](http://madebyevan.com/webgl-water/)
+- [Kalidoface 3D - Face & Full Body Tracking](https://3d.kalidoface.com/) 
 
 {{< admonition quote "And, another thing" >}}
 *If you can't forget the name of a website then that site doesn't deserve to be your bookmark* 
