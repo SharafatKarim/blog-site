@@ -352,7 +352,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [File Converter - FreeConvert.com](https://www.freeconvert.com/)
 
 ### SEO
-- [Site Unreachable](https://www.prepostseo.com/) 
+- [Pre post SEO](https://www.prepostseo.com/) 
 
 ### Downloader
 - [Imgur Album Downloader](https://dschep.github.io/imgur-album-downloader/#/) - Imgur albums
@@ -650,7 +650,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Free Fonts | 110,000+ Font Downloads | FontSpace](https://www.fontspace.com/) 
 - [1001 Free Fonts | Download Fonts](https://www.1001freefonts.com/) 
 - [Fancy > Curly fonts | dafont.com](https://www.dafont.com/theme.php?cat=105) 
-- [Site Unreachable](https://www.fontget.com/) 
+- [Font Get](https://www.fontget.com/) 
 
 ## Fun
 > Let machine automate your fun.
@@ -715,7 +715,8 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Devhints | TL;DR for developer documentation](https://devhints.io/) 
 - [বাংলা ডেভেলপার চিটশিট | ডেভ সংকেত](https://devsonket.com/) - Bangla cheat-sheet's collection
 - [Cheatography](https://cheatography.com/) - Cheat sheet | English
-- [Site Unreachable](https://quickref.me/) 
+- [Quick Ref](https://quickref.me/) 
+- [Regex Learn - Regex Cheatsheet](https://regexlearn.com/cheatsheet) 
 ### Reference
 - [SYMBL (◕‿◕) Symbols, Emojis, Characters, Scripts, Alphabets, Hieroglyphs and the entire Unicode](https://symbl.cc/en/)
 - [Google Cloud Developer Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)
