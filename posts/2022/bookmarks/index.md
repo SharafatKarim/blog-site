@@ -174,10 +174,14 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Tome](https://tome.app/) 
 - [Create stunning visuals in seconds with AI.](https://clipdrop.co/)
 - [Animated Drawings](https://sketch.metademolab.com/) 
-- [Lexica](https://lexica.art/) 
+- [Trace Pixels To Vectors in Full Color, Fully Automatically, Using AI - Vectorizer.AI](https://vectorizer.ai/) 
+
+### AI generators
 - [Mage 🧙 | Free, Fast, Unlimited Stable Diffusion](https://www.mage.space/)
 - [Leonardo.Ai](https://app.leonardo.ai/)
-- [Trace Pixels To Vectors in Full Color, Fully Automatically, Using AI - Vectorizer.AI](https://vectorizer.ai/) 
+- [Lexica](https://lexica.art/) 
+- 
+- [LimeWire](https://limewire.com/) 
 
 ### Render
 - [Free Animated Graphics Maker | Creavite](https://auto.creavite.co/) - banner
