@@ -97,6 +97,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 ### Web Apps
 - [Deta Space](https://deta.space/) - Your own space
 - [Photopea | Online Photo Editor](https://www.photopea.com/) - Photoshop alternative
+- [Photo Editor Pixlr Free Advanced Photoshop & Image Editing Tool](https://pixlr.com/editor/) 
 - [Vectorpea | Online Vector Editor](https://www.vectorpea.com/) - Illustrator alternative
 - [Graphite](https://editor.graphite.rs/) - SVG 
 - [Polotno Studio](https://studio.polotno.com/) - Make graphical designs
