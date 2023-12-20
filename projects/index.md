@@ -14,7 +14,12 @@ comment:
   enable: false
 ---
 ## 2023
+- [WebsiteAsApp: Turn your websites into a native android app within a few minutes, with splash screen support and even more!](https://github.com/SharafatKarim/WebsiteAsApp) 
 - [ArchMate - Arch Linux configuration tool](https://github.com/SharafatKarim/archmate)
+- [AnonymousForwardingBot :: A telegram bot which forwards forwards all of it's messages to a specific group for ensuring privacy of your users.](https://github.com/SharafatKarim/AnonymousForwardingBot) 
+- [Ansi c balagurusamy  Excersise solutions for the book "Programming in ANSI C" by E. Balagurusamy (eight edition).](https://github.com/SharafatKarim/ansi-c-balagurusamy-exercise) 
+- [code-to-docx :: A simple python script to make a docx file from multiple files of codes.](https://github.com/SharafatKarim/code-to-docx) 
+- [quotes :: A open collection of Quotes. Feel free to contribute!](https://github.com/SharafatKarim/quotes) 
 
 ## 2022
 - [Neofetch customizer bash script](https://github.com/SharafatKarim/neofetch-customization)
