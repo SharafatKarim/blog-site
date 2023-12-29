@@ -150,6 +150,9 @@ If you load the current website for the first time, did you notice a dialogue bo
 - [Website](https://www.i-dont-care-about-cookies.eu/)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)
 
+was bought by avast, community fork is "I still don't ..."
+- [Website](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies)
+- [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/)
 ### uBlock Origin
 
 uBlock Origin is not an "ad blocker", it's a wide-spectrum content blocker with CPU and memory efficiency as a primary feature. This is what official website says, feel free to head over there!
