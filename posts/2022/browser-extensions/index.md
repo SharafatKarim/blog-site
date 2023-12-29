@@ -283,10 +283,12 @@ There might be more better translation extensions I don't know. You can do your 
 Currently chromium based browsers has it as a built in feature. For firefox some ways to run progressive web apps (or similar) using Firefox.
 1) Separate profile + install desktop shortcut + linked to main firefox
 - https://pwasforfirefox.filips.si/#about
-- [GitHub - filips123/PWAsForFirefox: A tool to install, manage and use Progressive Web Apps (PWAs) in Mozilla Firefox](https://github.com/filips123/PWAsForFirefox) 
-1) A separate build from Linux Mint
+- [PWAsForFirefox: A tool to install, manage and use Progressive Web Apps (PWAs)](https://github.com/filips123/PWAsForFirefox) 
+
+2) A separate build from Linux Mint
 - https://github.com/linuxmint/webapp-manager
-2) Just need popup? 
+
+3) Just need popup? 
 (navigation bar and distraction free window)
 - https://github.com/ettoolong/PopupWindow
 
