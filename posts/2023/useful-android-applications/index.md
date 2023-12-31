@@ -172,11 +172,16 @@ This list varies from person to person [OPTIONAL]
 | cam scanner                                      | Hard copy documents scanner                        |
 | [Daily You](https://github.com/Demizo/Daily_You) | Every day is worth remembering...                  | 
 
-## Fun
+## Simulation
 | Application                                                                   | Description                |
 |:----------------------------------------------------------------------------- |:-------------------------- |
 | [phyphox-android](https://github.com/phyphox/phyphox-android/)                | Physical Phone Experiments |
 | [Signal Generator](https://f-droid.org/en/packages/org.billthefarmer.siggen/) | Signal generator           | 
+
+## Fun
+| Application                                                        | Description                  |
+|:------------------------------------------------------------------ |:---------------------------- |
+| [EweSticker](https://github.com/fredhappyface/android.EweSticker/) | sticker keyboard application | 
 
 ## System
 | Application | Description  |
@@ -195,7 +200,8 @@ Some applications that you may use depending on your needs.
 | Cache cleaner                                                            | Clear caches                        |
 | Ampere                                                                   | Calculate charging electricity flow |
 | 1DM                                                                      | Download manager                    |
-| [QrAndBarcodeScanner](https://github.com/wewewe718/QrAndBarcodeScanner/) | QR scanner                          | 
+| [QrAndBarcodeScanner](https://github.com/wewewe718/QrAndBarcodeScanner/) | QR scanner                          |
+| [GitHub - pelya/screen-dimmer-pixel-filter: Android screen dimmer, which disables individual pixels, for AMOLED screens](https://github.com/pelya/screen-dimmer-pixel-filter/)                                                                         |                                     |
 
 ## Extra
 Some apps that I may add,
