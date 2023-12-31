@@ -70,12 +70,10 @@ can try in Android.
 
 {{< admonition note "Note" true >}}
 This list's formatting is "Applications name" and "short description".
-Applications name may vary among disto to distro and may have multiple sources along with documentations.
-This is why I'll recommend you to use a search engine.
+Play store or f-droid links are not provided by default and so I'll recommend you to use a search engine.
 
 This is my personal list that I've tried. If you need more detailed and vast list, try the following links:
-- [List of Applications (Arch Wiki)](https://wiki.archandroid.org/title/List_of_applications)
-- [Awesome-Android-Software from "Luong Vo"](https://luong-komorebi.github.io/Awesome-Android-Software/)
+- [Fetching Title#ahig](https://github.com/LinuxCafeFederation/awesome-android)
 {{< /admonition >}}
 
 ## Development
