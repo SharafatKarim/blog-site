@@ -1,26 +1,27 @@
 ---
-title: "Useful Linux Applications"
+title: Useful Linux Applications
 date: 2022-10-29T08:34:36+06:00
-lastmod: 2022-11-30T08:34:36+06:00
+lastmod: 2023-12-31T08:34:36+06:00
 draft: false
-author: "Sharafat Karim"
-authorLink: "https://sharafat.pages.dev/about/"
-description: "Yet an another list of useful Applications that you can try in Linux."
-license: ""
-images: []
+author: Sharafat Karim
+authorLink: https://sharafat.pages.dev/about/
+description: Yet an another list of useful Applications that you can try in Linux.
+license: <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+images: 
 resources:
-- name: "featured-image"
-  src: "useful-linux-apps.jpg"
-- name: "featured-image-preview"
-  src: "featured-image.jpg"
-
-tags: ["linux","software","notes"]
-categories: ["linux"]
-summary: "Yet an another list of useful Applications that you can try in Linux."
-
-featuredImage: "featured-image"
-featuredImagePreview: "featured-image-preview"
-
+  - name: featured-image
+    src: useful-linux-apps.jpg
+  - name: featured-image-preview
+    src: featured-image.jpg
+tags:
+  - linux
+  - software
+  - notes
+categories:
+  - linux
+summary: Yet an another list of useful Applications that you can try in Linux.
+featuredImage: featured-image
+featuredImagePreview: featured-image-preview
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: false
@@ -30,7 +31,6 @@ fraction: true
 fontawesome: true
 linkToMarkdown: true
 rssFullText: false
-
 toc:
   enable: true
   auto: true
@@ -39,30 +39,16 @@ code:
   maxShownLines: 50
 math:
   enable: false
-  # ...
-mapbox:
-  # ...
+mapbox: 
 share:
   enable: true
-  # ...
 comment:
   enable: true
-  # ...
 library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
+  css: 
+  js: 
 seo:
   images: []
-  # ...
-license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
 Yet an another list of useful Applications that you
@@ -224,7 +210,7 @@ Here's a list of explicitly installed installed on my system,
 
 {{< admonition example "List of applications" false >}}
 
-> If you want to create a list like this one, [try check this page!](https://sharafat.vercel.app/pacman-package-manager)
+> If you want to create a list like this one, [try to check this page!](https://sharafat.vercel.app/pacman-package-manager)
 
 ```
 	akm 2.13-1
