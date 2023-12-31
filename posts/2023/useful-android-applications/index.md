@@ -97,19 +97,24 @@ This list is nowhere near complete mostly collected by me and my friends. If you
 It's totally up-to you 🙃 and may vary from person to person. Some popular ones include, matrix, telegram, discord etc.
 
 ## Graphics
-| Application                                                                        | Description                   |
-|:---------------------------------------------------------------------------------- |:----------------------------- |
-| video transcoder                                                                   | Video encoding application    |
-| Snapseed                                                                           | Image edtor by Google         |
-| Sketchbook                                                                         | Drawing tool                  |
-| FFShare                                                                            | Compress media before sharing |
-| [Color Grab](https://play.google.com/store/apps/details?id=com.loomatix.colorgrab) | color detection               | 
+| Application                                                                                        | Description                     |
+|:-------------------------------------------------------------------------------------------------- |:------------------------------- |
+| video transcoder                                                                                   | Video encoding application      |
+| Snapseed                                                                                           | Image edtor by Google           |
+| Sketchbook                                                                                         | Drawing tool                    |
+| FFShare                                                                                            | Compress media before sharing   |
+| [Color Grab](https://play.google.com/store/apps/details?id=com.loomatix.colorgrab)                 | color detection                 |
+| [Music Audio editor](https://play.google.com/store/apps/details?id=com.tianxingjian.supersound)    | Audio editor                    |
+| [Video cutter & editor](https://play.google.com/store/apps/details?id=com.betteridea.video.editor) | Video crop, cut and some basics |
+| [T2S: Text to Voice/Read aloud](https://play.google.com/store/apps/details?id=hesoft.T2S)          | TTS generator                   | 
 
 ## Cloud
-| Application | Description        |
-|:----------- |:------------------ |
-| firefox     | browser [OPTIONAL] |
-| Bitwarden   | Password manager   | 
+| Application                                                              | Description                        |
+|:------------------------------------------------------------------------ |:---------------------------------- |
+| firefox                                                                  | firefox browser [OPTIONAL]         |
+| [Via Browser](https://play.google.com/store/apps/details?id=mark.via.gp) | via browser lightweight [OPTIONAL] | 
+| Bitwarden                                                                | Password manager                   |
+| [Telegraph X](https://play.google.com/store/apps/details?id=com.telex)   | Telegraph :: publishing tool       |
 
 ## Networking
 | Application | Description                |
@@ -149,10 +154,11 @@ It's totally up-to you 🙃 and may vary from person to person. Some popular one
 | Tap Tap     | A better Game store than play store | 
 
 ## Office
-| Application | Description  |
-|:----------- |:------------ |
-| onlyoffice  | office suite |
-| librera     | PDF viewer   |
+| Application                                                                                   | Description    |
+|:--------------------------------------------------------------------------------------------- |:-------------- |
+| onlyoffice                                                                                    | office suite   |
+| librera                                                                                       | PDF viewer     |
+| [Xodo PDF Reader & Editor](https://play.google.com/store/apps/details?id=com.xodo.pdf.reader) | PDF viewer [2] |
 
 ## Personalized
 This list varies from person to person [OPTIONAL]
