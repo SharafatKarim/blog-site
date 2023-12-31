@@ -185,11 +185,11 @@ This list varies from person to person [OPTIONAL]
 | [EweSticker](https://github.com/fredhappyface/android.EweSticker/) | sticker keyboard application | 
 
 ## System
-| Application                                                                 | Description  |
-|:--------------------------------------------------------------------------- |:------------ |
-| MiX                                                                         | file manager |
-| F-droid                                                                     | App store    |
-| [GitHub - pelya/screen-dimmer-pixel-filter: Android screen dimmer, which disables individual pixels, for AMOLED screens](https://github.com/pelya/screen-dimmer-pixel-filter/) |              |
+| Application                                                                        | Description                                    |
+|:---------------------------------------------------------------------------------- |:---------------------------------------------- |
+| MiX                                                                                | file manager                                   |
+| F-droid                                                                            | App store                                      |
+| [screen-dimmer-pixel-filter](https://github.com/pelya/screen-dimmer-pixel-filter/) | disables individual pixels, for AMOLED screens | 
 
 ## Utilities
 Some applications that you may use depending on your needs.
