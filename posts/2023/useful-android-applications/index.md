@@ -85,23 +85,25 @@ This list is nowhere near complete mostly collected by me and my friends. If you
 | GitHub      | GitHub access       | 
 
 ## Education
-| Application | Description            |
-|:----------- |:---------------------- |
-| 991EX       | Scientific calculator  |
-| Proto       | Circuit Simulation     |
-| Geogebra    | Graphing calculator    |
-| Formula     | Math or other formulas | 
+| Application                                                                              | Description             |
+|:---------------------------------------------------------------------------------------- |:----------------------- |
+| 991EX                                                                                    | Scientific calculator   |
+| Proto                                                                                    | Circuit Simulation      |
+| Geogebra                                                                                 | Graphing calculator     |
+| Formula                                                                                  | Math or other formulas  |
+| [Cryptography](https://play.google.com/store/apps/details?id=com.nitramite.cryptography) | Cryptography collection | 
 
 ## Communication
 It's totally up-to you 🙃 and may vary from person to person. Some popular ones include, matrix, telegram, discord etc.
 
 ## Graphics
-| Application      | Description                   |
-|:---------------- |:----------------------------- |
-| video transcoder | Video encoding application    |
-| Snapseed         | Image edtor by Google         |
-| Sketchbook       | Drawing tool                  |
-| FFShare          | Compress media before sharing | 
+| Application                                                                        | Description                   |
+|:---------------------------------------------------------------------------------- |:----------------------------- |
+| video transcoder                                                                   | Video encoding application    |
+| Snapseed                                                                           | Image edtor by Google         |
+| Sketchbook                                                                         | Drawing tool                  |
+| FFShare                                                                            | Compress media before sharing |
+| [Color Grab](https://play.google.com/store/apps/details?id=com.loomatix.colorgrab) | color detection               | 
 
 ## Cloud
 | Application | Description        |
