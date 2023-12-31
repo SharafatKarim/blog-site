@@ -136,6 +136,9 @@ It's totally up-to you 🙃 and may vary from person to person. Some popular one
 | YouTube revanced | YouTube's alternative                        | 
 
 ## Read
+| Application      | Description                                  |
+|:---------------- |:-------------------------------------------- |
+| stremio          | A one-stop hub for video content aggregation |
 
 
 ## Gaming
