@@ -171,7 +171,8 @@ This list varies from person to person [OPTIONAL]
 | Bangla dictionary                                | A dictionary for your language                     |
 | Obsidian                                         | Note taking application                            |
 | cam scanner                                      | Hard copy documents scanner                        |
-| [Daily You](https://github.com/Demizo/Daily_You) | Every day is worth remembering...                  | 
+| [Daily You](https://github.com/Demizo/Daily_You) | Every day is worth remembering...                  |
+| [Site Unreachable](https://github.com/SamAmco/track-and-graph)                                                  |                                                    |
 
 ## Simulation
 | Application                                                                   | Description                |
