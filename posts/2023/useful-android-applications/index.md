@@ -77,127 +77,64 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 {{< /admonition >}}
 
 ## Development
-| Application      | Description                                   |
-|:---------------- |:--------------------------------------------- |
-| gnome-boxes      | virtualization made simple                    |
-| code             | core text editor of vs-code (Code OSS)        |
-| kate             | text editor                                   |
-| gitg             | gnome based GUI tool of git                   |
-| jupyter-notebook | HTML notebook application for Project Jupyter |
-| bluegriffon      | WYSIWYG html & css                            |
-| publii           | Static site generator                         |
+| Application | Description         |
+|:----------- |:------------------- |
+| termux      | A terminal emulator |
+| acode       | Text editor         |
+| GitHub      | GitHub access       | 
 
 ## Education
-| Application | Description                                                                     |
-|:----------- |:------------------------------------------------------------------------------- |
-| xaos        | Interactive fractal zoomer                                                      |
-| geogebra    | Dynamic mathematics software with interactive graphics, algebra and spreadsheet |
-| kig         | Interactive geometry                                                            |
+| Application   | Description                                        |
+|:------------- |:-------------------------------------------------- |
+| Quran         | Al-Quran app (for muslims)                         |
+| Bangla Hadith | Hadith application for you own phone (for muslims) |
+| 991EX         | Scientific calculator                              |
+| Proto         | Circuit Simulation                                 |
+| Geogebra      | Graphing calculator                                |
 
 ## Games
-| Application   | Description                             |
-|:------------- |:--------------------------------------- |
-| tlauncher     | Freeware Minecraft launcher             |
-| minetest      | Infinity block sandbox like Minecraft   |
-| albion-online | Cross Platform sandbox MMO              |
-| assault cube  | Mini battle royal type lightweight game |
+It's totally upto you 🙃.
 
 ## Graphics
-| Application                                   | Description                       |
-|:--------------------------------------------- |:--------------------------------- |
-| blender                                       | 3D modeler                        |
-| gimp                                          | image editor                      |
-| [g'mic](https://gmic.eu/)                     | digital image processing (plugin) |
-| inkscape                                      | vector graphics                   |
-| krita                                         | digital painting                  |
-| gwenview                                      | image viewer                      |
-| natron                                        | open source compositing software  |
-| enve                                          | 2D animation software             |
-| kdenlive                                      | video editor                      |
-| Astrofox                                      | Audio visualization into video    |
-| glaxnimate                                    | Lightweight animation             |
-| [Upscayl](https://github.com/upscayl/upscayl)                                     | Image up-scaling using AI         |
+| Application      | Description                |
+|:---------------- |:-------------------------- |
+| video transcoder | Video encoding application |
+| Snapseed         | Image edtor by Google      |
+| Sketchbook       | Drawing tool               | 
+
 ## Internet
 | Application | Description                |
 |:----------- |:-------------------------- |
-| firefox     | browser                    |
-| caprine     | messenger electron copy    |
-| telegram    | messaging app              |
-| discord     | an another one             |
-| element     | matrix client              |
+| firefox     | browser [OPTIONAL]         | 
 | kde connect | desktop-mobile integration |
-| uget        | download manager           |
-| team viewer | remote desktop accessing   |
 
 ## Multimedia
-| Application            | Description                                                                                                                    |
-|:---------------------- |:------------------------------------------------------------------------------------------------------------------------------ |
-| ikona                  | Icon viewer                                                                                                                    |
-| vlc                    | media player                                                                                                                   |
-| handbrake              | video trans-coder                                                                                                              |
-| obs studio             | screen record and stream                                                                                                       |
-| screenkey              | shows which key is pressed on the screen                                                                                       |
-| simple screen recorder | screen recorder                                                                                                                |
-| picard                 | audio tagging tool (MusicBrainz Picard)                                                                                        |
-| audacity               | audio edit                                                                                                                     |
-| kid3-qt                | audio tag editor                                                                                                               |
-| sound converter        | GTK audio batch converter                                                                                                      |
-| digikam                | Photo management program with advanced feature like [photo gallery to HTML](https://sharafatkarim.github.io/wallpapers-2022/)! |
-| curlew                 | Batch audio or video converter                                                                                                 |
-| stremio                | A one-stop hub for video content aggregation                                                                                   |
-
-{{< admonition tip "BTW," >}}
-You can find a list of useful Multimedia related application in "Ubuntu Studio",
-- [Ubuntu Studio applications](https://help.ubuntu.com/community/UbuntuStudio/Applications)
-{{< /admonition >}}
+| Application | Description                                  |
+|:----------- |:-------------------------------------------- |
+| mpv         | media player                                 |
+| vlc         | media player                                 |
+| stremio     | A one-stop hub for video content aggregation |
+| CloudStream | Free streaming suite                         |
+| Dolby On    | Audio recording with dolby atmos             | 
 
 ## Office
-| Application | Description     |
-|:----------- |:--------------- |
-| libreoffice | office suite    |
-| okular      | document viewer |
-
-{{< admonition tip "And," >}}
-If you are coming from Windows 10 or mac then there's an intersting list you can check,
-- [Alternatives to windows app (zorin os)](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
-{{< /admonition >}}
+| Application | Description  |
+|:----------- |:------------ |
+| onlyoffice  | office suite |
+| librera     | PDF viewer   |
 
 ## System
-| Application | Description                   |
-|:----------- |:----------------------------- |
-| dolphin     | file manager                  |
-| ibus        | input method                  |
-| octopi      | software center for archandroid |
-| timeshift   | snapshot/backup tool          |
-| kvantum     | qt theme engine based on svg  |
+| Application | Description  |
+|:----------- |:------------ |
+| MiX         | file manager |
 
 ## Utilities
-| Application | Description                                     |
-|:----------- |:----------------------------------------------- |
-| ark         | archiving tool                                  |
-| redshift    | color temperature of display                    |
-| spectacle   | screenshot taker                                |
-| filelight   | disk usage statistics                           |
-| ventoy      | multi bootable USB drive creator                |
-| obsidian    | note talking app with markdown and 600+ plugins |
-| krdc        | rdc and vnc client - kde                        |
-| krfb        | desktop sharing - kde                           |
+| Application | Description          |
+|:----------- |:-------------------- |
+| Speed meter | Bandwidth tracker    |
+| Droid info  | Hardware information |
+| Speedometer | Motion velocity      |
 
-## Cross-Platform
-| Application | Description                 |
-|:----------- |:--------------------------- |
-| wine        | windows compatibility layer |
-| q4wine      | wine GUI                    |
-
-## Command-Line
-| Application | Description                                                                         |
-| ----------- | ----------------------------------------------------------------------------------- |
-| hugo        | static site generator                                                               |
-| ipython     | interactive python shell                                                            |
-| yt-dlp      | a better youtube-dl                                                                 |
-| imagemagick | easy image [conversation](https://sharafat.vercel.app/batch-conversation-with-loop) |
-| telebit     | port forwarding tool                                                                |
-| hdsentinel  | A freeware, closed source, SMART analysis tool                                      |
 
 ## Schedule
 - [ ] Team fortress 2 (game)
