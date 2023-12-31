@@ -130,11 +130,8 @@ It's totally up-to you 🙃 and may vary from person to person. Some popular one
 ## Streaming
 | Application      | Description                                  |
 |:---------------- |:-------------------------------------------- |
-| stremio          | A one-stop hub for video content aggregation |
-| CloudStream      | Free streaming suite                         |
 | New pipe         | YouTube alternative                          |
 | Seal             | YouTube downloader                           |
-| Saikou           | Anime stream                                 |
 | YouTube revanced | YouTube's alternative                        | 
 
 ## Entertainment 
@@ -142,10 +139,7 @@ It's totally up-to you 🙃 and may vary from person to person. Some popular one
 |:------------------------------------------------ |:-------------------------------------------- |
 | stremio                                          | A one-stop hub for video content aggregation |
 | CloudStream                                      | Free streaming suite                         |
-| New pipe                                         | YouTube alternative                          |
-| Seal                                             | YouTube downloader                           |
 | Saikou                                           | Anime stream                                 |
-| YouTube revanced                                 | YouTube's alternative                        |
 | [aniyomi](https://github.com/aniyomiorg/aniyomi) | Unofficial fork of Tachiyomi for anime       | 
 
 ## Gaming
