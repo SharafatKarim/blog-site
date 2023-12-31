@@ -137,15 +137,7 @@ It's totally upto you 🙃.
 
 
 ## Schedule
-- [ ] Team fortress 2 (game)
-- [ ] Armor Paint (texture painting)
-- [ ] jahshaka (3D metaverse)
-- [ ] [trackma](https://github.com/z411/trackma) (media tracking)
-- [ ] [NoiseTorch](https://github.com/noisetorch/NoiseTorch) (Noise Supression Application for PulseAudio or Pipewire)
-- [x] [stretchly](https://hovancik.net/stretchly/) (The break time reminder app)
-- [x] [Upscayl](https://github.com/upscayl/upscayl) (Upscale images with AI- GPU required)
-- [ ] [Celestia](https://celestia.space/) (real-time 3D visualization of space)
-- [ ] logseq (obsidian alternative)
+- [ ] Now in android
 
 {{< admonition quote "Besides," true >}}
 If you want to add more application in this list or,
