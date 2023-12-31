@@ -155,7 +155,8 @@ This list varies from person to person [OPTIONAL]
 | Quran             | Al-Quran app (for muslims)                         |
 | Bangla Hadith     | Hadith application for you own phone (for muslims) |
 | Bangla dictionary | A dictionary for your language                     |
-| Obsidian          | Note taking application                            | 
+| Obsidian          | Note taking application                            |
+| cam scanner       | Hard copy documents scanner                        | 
 
 ## System
 | Application | Description  |
