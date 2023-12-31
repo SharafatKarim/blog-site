@@ -125,7 +125,7 @@ It's totally up-to you 🙃 and may vary from person to person. Some popular one
 | AIMP        | Music player                                 |
 | Dolby On    | Audio recording with dolby atmos             |
 
-## Stream
+## Streaming
 | Application      | Description                                  |
 |:---------------- |:-------------------------------------------- |
 | stremio          | A one-stop hub for video content aggregation |
@@ -134,6 +134,9 @@ It's totally up-to you 🙃 and may vary from person to person. Some popular one
 | Seal             | YouTube downloader                           |
 | Saikou           | Anime stream                                 |
 | YouTube revanced | YouTube's alternative                        | 
+
+## Read
+
 
 ## Gaming
 | Application | Description                         |
