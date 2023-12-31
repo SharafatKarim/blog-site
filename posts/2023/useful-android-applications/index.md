@@ -122,7 +122,8 @@ It's totally up-to you 🙃 and may vary from person to person. Some popular one
 | kde connect | desktop-mobile integration |
 | syncthing   | File cross sync            |
 | scrcpy      | Display share over network |
-| connectbot  | SSH connection             | 
+| connectbot  | SSH connection             |
+| SocksDroid  | Proxy/Socks                | 
 
 ## Multimedia
 | Application | Description                                  |
