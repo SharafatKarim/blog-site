@@ -66,14 +66,14 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 ---
 
 Yet an another list of useful Applications that you
-can try in Android.
+can try in Android. FOSS (Free and Open Source) is always prioritized over proprietary. Feel free to help me to enrich this list!  
 
 {{< admonition note "Note" true >}}
 This list's formatting is "Applications name" and "short description".
 Play store or f-droid links are not provided by default and so I'll recommend you to use a search engine.
-Common applications which are almost known by everyone is omitted for simplicity.
+****Common applications which are almost known by everyone is omitted for simplicity.***
 
-This is my personal list that I've tried. If you need more detailed and vast list, try the following links:
+This list is nowhere near complete mostly collected by me and my friends. If you need more detailed and vast list, try the following link:
 - [GitHub :: LinuxCafeFederation/awesome-android](https://github.com/LinuxCafeFederation/awesome-android)
 {{< /admonition >}}
 
@@ -103,11 +103,19 @@ It's totally up-to you 🙃 and may vary from person to person. Some popular one
 | Sketchbook       | Drawing tool                  |
 | FFShare          | Compress media before sharing | 
 
-## Internet
+## Cloud
+| Application | Description        |
+|:----------- |:------------------ |
+| firefox     | browser [OPTIONAL] |
+| Bitwarden   | Password manager   | 
+
+## Networking
 | Application | Description                |
 |:----------- |:-------------------------- |
-| firefox     | browser [OPTIONAL]         | 
 | kde connect | desktop-mobile integration |
+| syncthing   | File cross sync            |
+| scrcpy      | Display share over network |
+| connectbot  | SSH connection             | 
 
 ## Multimedia
 | Application | Description                                  |
@@ -146,7 +154,8 @@ This list varies from person to person [OPTIONAL]
 |:----------------- |:-------------------------------------------------- |
 | Quran             | Al-Quran app (for muslims)                         |
 | Bangla Hadith     | Hadith application for you own phone (for muslims) |
-| Bangla dictionary | A dictionary for your language                     | 
+| Bangla dictionary | A dictionary for your language                     |
+| Obsidian          | Note taking application                            | 
 
 ## System
 | Application | Description  |
@@ -155,20 +164,22 @@ This list varies from person to person [OPTIONAL]
 | F-droid     | App store    | 
 
 ## Utilities
+Some applications that you may use depending on your needs.
+
 | Application   | Description                         |
 |:------------- |:----------------------------------- |
 | Speed meter   | Bandwidth tracker                   |
 | Droid info    | Hardware information                |
 | Speedometer   | Motion velocity                     |
 | Cache cleaner | Clear caches                        |
-| Ampere        | Calculate charging electricity flow | 
+| Ampere        | Calculate charging electricity flow |
+| 1DM           | Download manager                    | 
 
 ## Extra
-Some apps that I might try,
+Some apps that I may add,
 - [ ] Now in Android
 
 {{< admonition quote "Besides," true >}}
-If you want to add more application in this list or,
-want me to try more, feel free to suggest me.
-I'll appreciate it!
+If you want to add more application in this list or, want me to try more, feel free to suggest me.
+Or, directly give me a pull request on GitHub. I'll appreciate it!
 {{< /admonition >}}
