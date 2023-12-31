@@ -73,7 +73,7 @@ This list's formatting is "Applications name" and "short description".
 Play store or f-droid links are not provided by default and so I'll recommend you to use a search engine.
 
 This is my personal list that I've tried. If you need more detailed and vast list, try the following links:
-- [Fetching Title#ahig](https://github.com/LinuxCafeFederation/awesome-android)
+- [GitHub :: LinuxCafeFederation/awesome-android](https://github.com/LinuxCafeFederation/awesome-android)
 {{< /admonition >}}
 
 ## Development
