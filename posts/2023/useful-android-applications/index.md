@@ -135,11 +135,16 @@ It's totally up-to you 🙃 and may vary from person to person. Some popular one
 | Saikou           | Anime stream                                 |
 | YouTube revanced | YouTube's alternative                        | 
 
-## Read
-| Application      | Description                                  |
-|:---------------- |:-------------------------------------------- |
-| stremio          | A one-stop hub for video content aggregation |
-
+## Entertainment 
+| Application                                      | Description                                  |
+|:------------------------------------------------ |:-------------------------------------------- |
+| stremio                                          | A one-stop hub for video content aggregation |
+| CloudStream                                      | Free streaming suite                         |
+| New pipe                                         | YouTube alternative                          |
+| Seal                                             | YouTube downloader                           |
+| Saikou                                           | Anime stream                                 |
+| YouTube revanced                                 | YouTube's alternative                        |
+| [aniyomi](https://github.com/aniyomiorg/aniyomi) | Unofficial fork of Tachiyomi for anime       | 
 
 ## Gaming
 | Application | Description                         |
@@ -156,13 +161,14 @@ It's totally up-to you 🙃 and may vary from person to person. Some popular one
 ## Personalized
 This list varies from person to person [OPTIONAL]
 
-| Application       | Description                                        |
-|:----------------- |:-------------------------------------------------- |
-| Quran             | Al-Quran app (for muslims)                         |
-| Bangla Hadith     | Hadith application for you own phone (for muslims) |
-| Bangla dictionary | A dictionary for your language                     |
-| Obsidian          | Note taking application                            |
-| cam scanner       | Hard copy documents scanner                        | 
+| Application                                      | Description                                        |
+|:------------------------------------------------ |:-------------------------------------------------- |
+| Quran                                            | Al-Quran app (for muslims)                         |
+| Bangla Hadith                                    | Hadith application for you own phone (for muslims) |
+| Bangla dictionary                                | A dictionary for your language                     |
+| Obsidian                                         | Note taking application                            |
+| cam scanner                                      | Hard copy documents scanner                        |
+| [Daily You](https://github.com/Demizo/Daily_You) | Every day is worth remembering...                  | 
 
 ## System
 | Application | Description  |
