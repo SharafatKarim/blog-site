@@ -172,10 +172,11 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | krfb        | desktop sharing - kde                           |
 
 ## Cross-Platform
-| Application | Description                 |
-|:----------- |:--------------------------- |
-| wine        | windows compatibility layer |
-| q4wine      | wine GUI                    |
+| Application | Description                               |
+|:----------- |:----------------------------------------- |
+| wine        | windows compatibility layer               |
+| q4wine      | wine GUI                                  |
+| Lutris      | Game manager with cross platform support. |
 
 ## Command-Line
 | Application | Description                                                                         |
@@ -206,189 +207,225 @@ I'll appreciate it!
 
 ## Extra
 Here's a list of explicitly installed installed on my system,
-`update December 2022`
+`update December 2023`
 
 {{< admonition example "List of applications" false >}}
 
 > If you want to create a list like this one, [try to check this page!](https://sharafat.vercel.app/pacman-package-manager)
 
 ```
-	akm 2.13-1
-	alsa-firmware 1.2.4-2
-	alsa-utils 1.2.8-1
-	arcolinux-conky-collection-plasma-git 22.02-04
-	arcolinux-keyring 20230919-6
-	arcolinux-mirrorlist-git 22.04-01
-	arcolinux-neofetch-git 22.07-04
-	ark 22.08.3-1
-	audiocd-kio 22.08.3-1
-	autoconf 2.71-1
-	automake 1.16.5-1
-	b43-fwcutter 019-3
-	base 3-1
-	bison 3.8.2-4
-	blender 17:3.3.1-6
-	btop 1.2.13-1
-	caprine 2.57.0-1
-	chaotic-keyring 20220803-1
-	chaotic-mirrorlist 20221008-2
-	clipgrab 3.9.7-2
-	cmake 3.25.0-1
-	code 1.73.1-1
-	conky-manager 2.4-4
-	converseen 0.9.9.8-1
-	digikam 7.8.0-2
-	discord 0.0.21-2
-	distrobox 1.4.1-1
-	dolphin-plugins 22.08.3-1
-	downgrade 11.2.1-1
-	duf 0.8.1-2
-	efitools 1.9.2-5
-	element-desktop 1.11.10-2
-	elisa 22.08.3-1
-	endeavouros-keyring 20220614-1
-	endeavouros-mirrorlist 4.10-1
-	eos-apps-info 1.3-1
-	eos-hooks 1.8-1
-	eos-log-tool 1.14-1
-	eos-rankmirrors 2.10-1
-	eos-update-notifier 1.17-1
-	ethtool 1:6.0-1
-	falkon 22.08.3-2
-	ffmpegthumbnailer 2.2.2-4
-	filelight 22.08.3-1
-	fisher 4.4.3-1
-	fontforge 20220308-1
-	fsarchiver 0.8.6-1
-	geogebra 6.0.745.0-1
-	gimp-plugin-gmic 3.1.6-1
-	gitg 2:41-1
-	github-cli 2.20.2-1
-	glances 3.3.0-1
-	glaxnimate 0.5.1_1_g3a75daf1-1
-	gnome-boxes 43.1-1
-	grub-customizer 5.2.2-2
-	grub-tools 1.6.9-2
-	grub2-theme-endeavouros 20220602-1
-	gwenview 22.08.3-2
-	handbrake 1.5.1-2
-	haveged 1.9.18-1
-	hdparm 9.65-1
-	htop 3.2.1-1
-	hugo 0.105.0-1
-	hwdetect 2022.11-1
-	ibus-typing-booster 2.19.8-1
-	inetutils 2.3-1
-	inkscape 1.2.1-8
-	intel-ucode 20221108-1
-	ipw2100-fw 1.3-10
-	ipw2200-fw 3.1-8
-	jupyter-notebook 6.5.2-1
-	kalgebra 22.08.3-1
-	kate 22.08.3-1
-	kcalc 22.08.3-1
-	kcharselect 22.08.3-1
-	kcron 22.08.3-1
-	kdenlive 22.08.3-1
-	kdeplasma-addons 5.26.3-1
-	kfind 22.08.3-1
-	kgamma5 5.26.3-1
-	khelpcenter 22.08.3-1
-	khotkeys 5.26.3-1
-	kid3-qt 3.9.2-2
-	kig 22.08.3-1
-	kinit 5.100.0-1
-	kio-gdrive 22.08.3-1
-	konsave 2.1.2-2
-	krdc 22.08.3-1
-	krita 5.1.3-1
-	krusader 2.8.0-1
-	ksystemlog 22.08.3-1
-	kvantum 1.0.6-1
-	kwallet-pam 5.26.3-1
-	kwave 22.08.3-1
-	kwayland-integration 5.26.3-1
-	kwrited 5.26.3-1
-	latte-dock 0.10.8-2
-	libgsf 1.14.50-1
-	libreoffice-fresh-bn 7.4.3-1
-	libwnck3 43.0-3
-	lolcat 100.0.1-1
-	lsscsi 0.32-1
-	lutris 0.5.11-2
-	man-db 2.11.1-1
-	man-pages 6.01-1
-	minetest 5.6.1-2
-	minetest-server 5.6.1-2
-	mkinitcpio-openswap 0.1.0-3
-	mpv 1:0.35.0-2
-	nano-syntax-highlighting 2020.10.10-1
-	nbd 3.24-1
-	ndisc6 1.0.6-1
-	netctl 1.28-1
-	networkmanager-openvpn 1.10.2-1
-	nfs-utils 2.6.2-1
-	ngrok 3.1.0-1
-	nmap 7.93-1
-	nohang 0.2.0-1.1
-	notion-app-enhanced 2.0.18-1.1
-	ntp 4.2.8.p15-2
-	obs-studio 28.1.2-1
-	obsidian 1.0.3-1
-	octopi 0.14.0-2
-	okular 22.08.3-1
-	openbangla-keyboard-bin 2.0.0-1
-	opendesktop-fonts 1.4.2-6
-	oxygen 5.26.3-1
-	partitionmanager 22.08.3-1
-	pavucontrol 1:5.0+r61+gee77d86-2
-	pkgconf 1.8.0-1
-	plasma-browser-integration 5.26.3-1
-	plasma-disks 5.26.3-1
-	plasma-firewall 5.26.3-1
-	plasma-pa 5.26.3-1
-	plasma-sdk 5.26.3-1
-	plasma-systemmonitor 5.26.3-1
-	plasma-thunderbolt 5.26.3-1
-	plasma-vault 5.26.3-1
-	playonlinux 4.4+29+gd0ae9ce6-2
-	pptpclient 1.10.0-2
-	print-manager 22.08.3-1
-	publii 0.41.0-1
-	pv 1.6.20-2
-	python-pipx 1.1.0-1
-	qbittorrent 4.4.5-2
-	rebuild-detector 4.4.1-2
-	redshift 1.12-6
-	remmina 1:1.4.27-4
-	rp-pppoe 3.15-2
-	scrcpy 1.24-1
-	sddm-kcm 5.26.3-1
-	sg3_utils 1.47-1
-	simplescreenrecorder 0.4.4-1
-	sof-firmware 2.2.2-1
-	soundconverter 4.0.3-1
-	spectacle 22.08.3-1
-	syncthing 1.22.1-1
-	systemd-kcm 1.2.1-5.1
-	teamviewer 15.36.8-1
-	timeshift-autosnap 0.9-1.1
-	tlauncher 1:1.151.1-1
-	tldr 3.1.0-2
-	tmate 2.4.0-3
-	upscayl-bin 1.5.5-1
-	virtualbox 7.0.4-1
-	wakatime 1:1.57.0-1
-	welcome 3.43-1
-	whatsapp-for-linux 1.5.0-2.1
-	wine-meta 2-1
-	xaos 4.2.1-2
-	xerolinux-mirrorlist 0.1.2-1
-	xl2tpd 1.3.18-1
-	xorg-xinit 1.4.1-3
-	xorg-xinput 1.6.3-3
-	xorg-xkill 1.0.6-1
-	yakuake 22.08.3-1
-	yuzu-mainline-bin 0.1228-1
+airshipper 0.10.0-2
+android-tools 34.0.4-3
+anydesk-bin 6.3.0-1.1
+ark 23.08.4-1
+aspell-bn 0.02-1
+aspell-en 2020.12.07-1
+base 3-2
+base-devel 1-1
+bleachbit 4.6.0-1
+blender 17:4.0.2-6
+bootconfig 6.6-1
+bpf 6.6-1
+bpython 0.24-3
+cava 0.9.1-1
+cgroup_event_listener 6.6-1
+chaotic-keyring 20230616-1
+chaotic-mirrorlist 20231212-1
+chromium 120.0.6099.129-1
+cpupower 6.6-1
+darkhttpd 1.14-1
+discord 0.0.39-1
+discord-screenaudio 1.9.2-1
+dolphin-plugins 23.08.4-1
+easyeffects 7.1.3-1
+efitools 1.9.2-5
+elisa 23.08.4-1
+espeakup 0.90-2
+filelight 23.08.4-1
+firefox-pwa 2.9.1-1
+font-manager 0.8.8-1
+freecad 0.21.2-3
+frog-ocr 1.4.2+37+gf3490b6-1
+gimagereader-qt 3.4.1-4
+gimp-plugin-gmic 3.3.2-1
+github-cli 2.40.1-1
+gnome-disk-utility 45.1-1
+gradle 8.5-1
+gwenview 23.08.4-1
+handbrake 1.7.2-1
+haruna 0.12.3-1
+htop 3.2.2-1
+hugo 0.121.1-1
+hw-probe 1.6.5-1.2
+hydra 9.5-1
+hyperv 6.6-1
+icoextract 0.1.4-2
+inkscape 1.3.2-3
+intel-gpu-tools 1.27-2
+intel-ucode 20231114-1
+intellij-idea-community-edition 4:2023.3.2-1
+ipython 8.19.0-1
+jetbrains-toolbox 2.1.3.18901-1
+kalarm 23.08.4-1
+kalk 23.08.4-1
+kamoso 23.08.4-1
+kate-wakatime-git 1.3.10.r3.gdb4ea7a-1
+kcalc 23.08.4-1
+kcharselect 23.08.4-1
+kde-gtk-config 5.27.10-1
+kdenlive 23.08.4-1
+kdeplasma-addons 5.27.10-2
+kfind 23.08.4-1
+kgamma 5.27.10-2
+khotkeys 5.27.10-1
+kicad 7.0.9-2
+kio-gdrive 23.08.4-1
+kmag 23.08.4-1
+kmouth 23.08.4-1
+kvantum 1.0.10-2
+kwallet-pam 5.27.10-1
+librecad 2.2.0.2-2
+libreoffice-fresh-bn 7.6.4-1
+linux-zen 6.6.8.zen1-1
+lutris 0.5.14-1
+mari0 1.6.2-3
+minetest 5.8.0-1
+miniserve 0.24.0-1
+mkvtoolnix-gui 81.0-1
+mtr 0.95-4
+mysql-workbench 8.0.34-2
+mythes-en 20221102-2
+nano 7.2-1
+neofetch 7.1.0-2
+networkmanager-openvpn 1.10.2-3
+nmap 7.94-2
+nohang 0.2.0-1.3
+nvm 0.39.7-1
+nvtop 3.0.2-1
+obs-studio 30.0.2-1
+obsidian 1.5.3-1
+ocrfeeder 0.8.5-2
+octopi 0.15.0-1
+okular 23.08.4-1
+onlyoffice-bin 7.5.1-1
+otf-aurulent-nerd 3.1.1-1
+otf-codenewroman-nerd 3.1.1-1
+otf-comicshanns-nerd 3.1.1-1
+otf-droid-nerd 3.1.1-1
+otf-firamono-nerd 3.1.1-1
+otf-hasklig-nerd 3.1.1-1
+otf-hermit-nerd 3.1.1-1
+otf-opendyslexic-nerd 3.1.1-1
+otf-overpass-nerd 3.1.1-1
+pamac-aur 11.7.1-1
+partitionmanager 23.08.4-1
+pdfarranger 1.10.1-1
+perf 6.6-1
+persepolis 3.2.0-8
+plasma-browser-integration 5.27.10-1
+plasma-disks 5.27.10-1
+plasma-firewall 5.27.10-1
+plasma-pa 5.27.10-1
+plasma-sdk 5.27.10-1
+plasma-systemmonitor 5.27.10-1
+plasma-wayland-session 5.27.10-2
+plasma-welcome 5.27.10-1
+podman 4.8.2-1
+proxychains-ng 4.16-2
+pypy 7.3.14-1
+python-virtualenv 20.25.0-1
+q4wine-git 1.3.13.4.g82ced8e-1.3
+qbittorrent 4.6.2-2
+reflector 2023-1
+rmlint 2.10.2-1
+rustdesk-nightly 1.2.4-0
+sbctl 0.13-1
+screenkey 1.5-3
+sddm-kcm 5.27.10-1
+sigil 2.0.2-2
+sl 5.05-4
+spectacle 23.08.4-1
+speedtest-cli 2.1.3-7
+sqlitebrowser 3.12.2-3
+supertuxkart 1.4-5
+syncplay 1.7.1-2
+syncthing 1.27.1-1
+termdown 1.18.0-4
+texlive-bibtexextra 2023.66594-19
+texlive-context 2023.66594-19
+texlive-fontsextra 2023.66594-19
+texlive-fontutils 2023.66594-19
+texlive-formatsextra 2023.66594-19
+texlive-games 2023.66594-19
+texlive-humanities 2023.66594-19
+texlive-latexextra 2023.66594-19
+texlive-luatex 2023.66594-19
+texlive-mathscience 2023.66594-19
+texlive-metapost 2023.66594-19
+texlive-music 2023.66594-19
+texlive-publishers 2023.66594-19
+texlive-xetex 2023.66594-19
+timeshift-autosnap 0.9-1.3
+tlauncher 1:1.155.3-1
+tldr 3.2.0-1
+tmate 2.4.0-3
+tmon 6.6-1
+tree 2.1.1-1
+ttf-3270-nerd 3.1.1-1
+ttf-agave-nerd 3.1.1-1
+ttf-anonymouspro-nerd 3.1.1-1
+ttf-arimo-nerd 3.1.1-1
+ttf-bigblueterminal-nerd 3.1.1-1
+ttf-bitstream-vera-mono-nerd 3.1.1-1
+ttf-cascadia-code-nerd 3.1.1-1
+ttf-cousine-nerd 3.1.1-1
+ttf-daddytime-mono-nerd 3.1.1-1
+ttf-dejavu-nerd 3.1.1-1
+ttf-fantasque-nerd 3.1.1-1
+ttf-fira-sans 1:4.301-2
+ttf-firacode-nerd 3.1.1-1
+ttf-freebanglafont 20130212-5
+ttf-go-nerd 3.1.1-1
+ttf-hack-nerd 3.1.1-1
+ttf-heavydata-nerd 3.1.1-1
+ttf-iawriter-nerd 3.1.1-1
+ttf-ibmplex-mono-nerd 3.1.1-1
+ttf-inconsolata-go-nerd 3.1.1-1
+ttf-inconsolata-lgc-nerd 3.1.1-1
+ttf-inconsolata-nerd 3.1.1-1
+ttf-iosevka-nerd 3.1.1-1
+ttf-iosevkaterm-nerd 3.1.1-1
+ttf-jetbrains-mono-nerd 3.1.1-1
+ttf-lekton-nerd 3.1.1-1
+ttf-liberation-mono-nerd 3.1.1-1
+ttf-lilex-nerd 3.1.1-1
+ttf-meslo-nerd 3.1.1-1
+ttf-monofur-nerd 3.1.1-1
+ttf-monoid-nerd 3.1.1-1
+ttf-mononoki-nerd 3.1.1-1
+ttf-mplus-nerd 3.1.1-1
+ttf-nerd-fonts-symbols 3.1.1-1
+ttf-nerd-fonts-symbols-mono 3.1.1-1
+ttf-noto-nerd 3.1.1-1
+ttf-profont-nerd 3.1.1-1
+ttf-proggyclean-nerd 3.1.1-1
+ttf-roboto-mono-nerd 3.1.1-1
+ttf-sharetech-mono-nerd 3.1.1-1
+ttf-sourcecodepro-nerd 3.1.1-1
+ttf-space-mono-nerd 3.1.1-1
+ttf-terminus-nerd 3.1.1-1
+ttf-tinos-nerd 3.1.1-1
+ttf-ubuntu-mono-nerd 3.1.1-1
+ttf-ubuntu-nerd 3.1.1-1
+ttf-victor-mono-nerd 3.1.1-1
+turbostat 6.6-1
+upscayl-bin 2.9.5-1
+usbip 6.6-1
+vidcutter 6.0.5.1-7
+virt-manager 4.1.0-2
+visual-studio-code-bin 1.85.1-1
+x86_energy_perf_policy 6.6-1
+xdman8 8.0.25-2
+zsh 5.9-4
 ```
 {{< /admonition >}}
