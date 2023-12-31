@@ -137,7 +137,7 @@ It's totally upto you 🙃.
 
 
 ## Schedule
-- [ ] Now in android
+- [ ] Now in Android
 
 {{< admonition quote "Besides," true >}}
 If you want to add more application in this list or,
