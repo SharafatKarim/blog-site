@@ -195,20 +195,20 @@ This list varies from person to person [OPTIONAL]
 ## Utilities
 Some applications that you may use depending on your needs.
 
-| Application                                                              | Description                         |
-|:------------------------------------------------------------------------ |:----------------------------------- |
-| Speed meter                                                              | Bandwidth tracker                   |
-| Droid info                                                               | Hardware information                |
-| Speedometer                                                              | Motion velocity                     |
-| Cache cleaner                                                            | Clear caches                        |
-| Ampere                                                                   | Calculate charging electricity flow |
-| 1DM                                                                      | Download manager                    |
-| [QrAndBarcodeScanner](https://github.com/wewewe718/QrAndBarcodeScanner/) | QR scanner                          |
-| [GitHub - pelya/screen-dimmer-pixel-filter: Android screen dimmer, which disables individual pixels, for AMOLED screens](https://github.com/pelya/screen-dimmer-pixel-filter/)                                                                         |                                     |
+| Application                                                                        | Description                                    |
+|:---------------------------------------------------------------------------------- |:---------------------------------------------- |
+| Speed meter                                                                        | Bandwidth tracker                              |
+| Droid info                                                                         | Hardware information                           |
+| Speedometer                                                                        | Motion velocity                                |
+| Cache cleaner                                                                      | Clear caches                                   |
+| Ampere                                                                             | Calculate charging electricity flow            |
+| 1DM                                                                                | Download manager                               |
+| [QrAndBarcodeScanner](https://github.com/wewewe718/QrAndBarcodeScanner/)           | QR scanner                                     |
+| [screen-dimmer-pixel-filter](https://github.com/pelya/screen-dimmer-pixel-filter/) | disables individual pixels, for AMOLED screens | 
 
 ## Extra
 Some apps that I may add,
-- [ ] Now in Android
+- [x] Now in Android
 - [ ] [GitHub - Notsfsssf/pixez-flutter: 一个支持免代理直连及查看动图的第三方Pixiv flutter客户端](https://github.com/Notsfsssf/pixez-flutter/)  | Image downloader
 - [ ] [GitHub - SuhasDissa/MemerizeApp: Android app to view Memes](https://github.com/SuhasDissa/MemerizeApp) 
 
