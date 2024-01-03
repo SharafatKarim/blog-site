@@ -152,7 +152,9 @@ It's totally up-to you 🙃 and may vary from person to person. Some popular one
 | Application | Description                         |
 | ----------- | ----------------------------------- |
 | Steam       | Game library                        |
-| Tap Tap     | A better Game store than play store | 
+| Tap Tap     | A better Game store than play store |
+| Twitch      | Streaming Platform                  |
+| ppsspp      | PSP emulator                        | 
 
 ## Office
 | Application                                                                                   | Description    |
