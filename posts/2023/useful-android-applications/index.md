@@ -212,6 +212,10 @@ Some apps that I may add,
 - [ ] [GitHub - Notsfsssf/pixez-flutter: 一个支持免代理直连及查看动图的第三方Pixiv flutter客户端](https://github.com/Notsfsssf/pixez-flutter/)  | Image downloader
 - [ ] [GitHub - SuhasDissa/MemerizeApp: Android app to view Memes](https://github.com/SuhasDissa/MemerizeApp) 
 
+## Acknowledgements 
+Special thanks goes all of my friends to help me to collect, specially,
+- [Hasibul Islam](https://github.com/nabileus/)
+
 {{< admonition quote "Besides," true >}}
 If you want to add more application in this list or, want me to try more, feel free to suggest me.
 Or, directly give me a pull request on GitHub. I'll appreciate it!
