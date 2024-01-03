@@ -531,6 +531,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [GitHub - 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome) 
 - [List community](https://list.community/) - Easy way to browse curated lists and docs
 - [Easy With AI - Best AI Tools & Services](https://easywithai.com/) 
+- [Future Tools - Find The Exact AI Tool For Your Needs](https://www.futuretools.io/) 
 
 ### Software 
 - [Ekushey - Bangla keyboard](https://ekushey.org/)
