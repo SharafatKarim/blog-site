@@ -356,6 +356,11 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Smallpdf.com - A Free Solution to all your PDF Problems](https://smallpdf.com/)
 - [File Converter - FreeConvert.com](https://www.freeconvert.com/)
 
+### Site Wrapper
+- [Webpage archive](https://archive.ph/) 
+- [12ft](https://12ft.io/) 
+- [Scribe - Medium alternative](https://scribe.rip/)
+
 ### SEO
 - [Pre post SEO](https://www.prepostseo.com/) 
 
