@@ -180,7 +180,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Mage 🧙 | Free, Fast, Unlimited Stable Diffusion](https://www.mage.space/)
 - [Leonardo.Ai](https://app.leonardo.ai/)
 - [Lexica](https://lexica.art/) 
-- 
+- [AI text prompt to SVG | SVG.io](https://svg.io/) 
 - [LimeWire](https://limewire.com/) 
 
 ### Render
