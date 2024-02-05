@@ -18,7 +18,6 @@ comment:
 ---
 <p><img width="40%" align="right" alt="Github Header" src="https://raw.githubusercontent.com/SharafatKarim/SharafatKarim/main/git-header.svg"/></p>
 
-
 - 🐧 A Linux enthusiast
 - ❤️‍🔥 I like open-source projects
 - 🌱 I’m currently learning something useless, maybe
@@ -29,6 +28,7 @@ comment:
 ---
 
 - ⛱️ Communities
+
 <center>
 <a href="https://t.me/LinuxUniverse" title="Linux Community (telegram)" target="_blank">
 <img width="30%" alt="Share The Love of Linux" src="https://github.com/SharafatKarim/SharafatKarim/raw/main/share-the-love.svg"/>
@@ -42,7 +42,6 @@ comment:
 </center>
 
 ---
-
 
 <p><img width="28%" align="right" alt="Github Header" src="https://openclipart.org/download/231263/cherry-blossom-spinner.svg"/></p>
 
@@ -60,8 +59,7 @@ comment:
 
 - 🔮 GitHub STATS
 
-Coming soon!
-
+![](https://raw.githubusercontent.com/SharafatKarim/SharafatKarim/main/github-metrics.svg)
 
 ---
 
