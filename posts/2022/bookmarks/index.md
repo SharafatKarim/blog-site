@@ -298,6 +298,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [CodePen: Online Code Editor and Front End Web Developer Community](https://codepen.io/) 
 - [Free HTML Templates for Websites on HTMLrev](https://htmlrev.com/) 
 - [Explore 3000+ Free UI Elements: CSS & Tailwind](https://uiverse.io/) 
+- [Toptal Utilities - Tools & Resources Developers, Designers](https://www.toptal.com/utilities-tools)
 
 ### Site Generators
 - [The world’s fastest framework for building websites | Hugo](https://gohugo.io/)
