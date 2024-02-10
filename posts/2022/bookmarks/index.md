@@ -335,6 +335,9 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 ### Team
 - [Jitsi Meet](https://meet.jit.si/) - Meeting without even an account
 
+### Text share
+- [Hastebin](https://www.toptal.com/developers/hastebin) 
+
 ### File share
 - [xFile - Keep your Google Drive files safe with us](https://s5.xfile.pw/) 
 - [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
