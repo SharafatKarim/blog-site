@@ -732,10 +732,13 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Cheatography](https://cheatography.com/) - Cheat sheet | English
 - [Quick Ref](https://quickref.me/) 
 - [Regex Learn - Regex Cheatsheet](https://regexlearn.com/cheatsheet) 
+- [Shortcuts.design | Every shortcut for designers in one place 🚀](https://shortcuts.design/) 
+
 ### Reference
 - [SYMBL (◕‿◕) Symbols, Emojis, Characters, Scripts, Alphabets, Hieroglyphs and the entire Unicode](https://symbl.cc/en/)
 - [Google Cloud Developer Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)
 - [TryHackMe | Resources](https://tryhackme.com/r/resources/blog/free_path) | Free Tier
+
 ## Others 
 > And some leftovers, can you categorize them?
 
