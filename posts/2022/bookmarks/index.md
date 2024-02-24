@@ -57,6 +57,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 
 ### Storage
 - [Google Drive](https://drive.google.com/drive/my-drive) - Cloud storage and cloud editing for files.
+- [xFile - Keep your Google Drive files safe with us](https://s2.xfile.lol/) 
 - [Pastebin](https://pastebin.com/) - Store any text online for easy sharing.
 
 ### CDN
