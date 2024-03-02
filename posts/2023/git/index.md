@@ -167,7 +167,12 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 >  📜 or, try  `git reset . ` to reset everything or, `git reset --hard`, which may fix errors regarding `git pull`!
 
- 
+2. To remove files that are listed in the `.gitignore` but still on the repository,
+
+```bash
+git rm -r --cached .
+```
+ Then a commit should do the trick for you.
 
 ## Restore
 
