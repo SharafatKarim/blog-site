@@ -556,7 +556,7 @@ sudo pacman -S --asdeps --needed ari lrzip lzop p7zip unarchiver unrar
 
 - And finally for taking screenshots, we've `spectacle`. It has annotation support, and also it can integrate with your system perfectly if you're using KDE plasma! 
 
-Packages 
+> Upstream KDE has [package and setup recommendations](https://community.kde.org/Distributions/Packaging_Recommendations) to get a fully-featured Plasma session. Check this out for optional features!
 
 ### Recommendations
 Now it's time to install your favorite packages, I guess. For the list of essential and well-refined packages for your system I've a list for you. Check,
