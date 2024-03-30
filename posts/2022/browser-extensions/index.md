@@ -314,7 +314,9 @@ And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/
 
 {{< admonition quote "And," >}}
 If your'e a Firefox user, you can also try those CSS themes,
-- [FirefoxCSS Store](https://firefoxcss-store.github.io/)
+- [FirefoxCSS Store](https://firefoxcss-store.github.io/) 
+And to harden Firefox for extra security, check this blog,
+- [Firefox Hardening Guide](https://brainfucksec.github.io/firefox-hardening-guide) 
 {{< /admonition >}}
 
 ### Acknowledgements
@@ -322,3 +324,4 @@ If your'e a Firefox user, you can also try those CSS themes,
 Special thanks to,
 - [Alive @user](https://t.me/RankCoder) - founder of [Linux Bangla](https://t.me/linux_bangla) community.
 - [Shahid Parvez](http://mrsnailo.github.io) - Linux lover - Tech enthusiast - my teacher.
+- 
