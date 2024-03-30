@@ -324,4 +324,4 @@ And to harden Firefox for extra security, check this blog,
 Special thanks to,
 - [Alive @user](https://t.me/RankCoder) - founder of [Linux Bangla](https://t.me/linux_bangla) community.
 - [Shahid Parvez](http://mrsnailo.github.io) - Linux lover - Tech enthusiast - my teacher.
-- 
+- [@ahmubashshir](https://ahmubashshir.github.io/) - Enthusiast and an expert.
