@@ -435,6 +435,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Home | Linux Journey](https://linuxjourney.com/) - Linux Journey
 - [Arch-Linux-Guide · GitHub](https://github.com/mikeroyal/Arch-Linux-Guide/blob/main/README.md#kubernetes) - GitHub
 - [সহজ ভাষায় পাইথন ৩ | সহজ ভাষায় পাইথন ৩](https://python.maateen.me/) - Python in Bangla
+- [কৃত্রিম বুদ্ধিমত্তা | বাংলায়](https://aiwithr.github.io/) - AI roadmaps and books in Bangla
 - [W3schools](https://www.w3schools.com/) - The standard for Web Development.
 - [Ahrefs - SEO Tools & Resources To Grow Your Search Traffic](https://ahrefs.com/) 
 - [শাফায়েতের ব্লগ | প্রোগ্রামিং এবং অ্যালগরিদম টিউটোরিয়াল](https://www.shafaetsplanet.com/) 
