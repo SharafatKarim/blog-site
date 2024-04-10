@@ -166,6 +166,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [PhotoMosh](https://photomosh.com/) - glitch effect
 
 ### AI
+- [Vectorizer Image - Convert images to SVG online for free - Creative Fabrica](https://www.creativefabrica.com/studio/features/vectorize-image/) - Free SVG converter
 - [SynestheticAI](https://synesthetic.ai/) - inspiration
 - [Brandmark - make your logo in minutes](https://app.brandmark.io/v3/) 
 - [Bigjpg - AI Super-Resolution lossless image enlarging / upscaling tool using Deep Convolutional Neural Networks](https://bigjpg.com/)
