@@ -1,7 +1,7 @@
 ---
 title: Bookmarks Collection
 date: 2022-11-12T18:02:49+06:00
-lastmod: 2023-11-28T18:02:49+06:00
+lastmod: 2024-04-11T18:02:49+06:00
 draft: false
 author: Sharafat Karim
 authorLink: https://sharafat.pages.dev/about/
@@ -652,7 +652,8 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [NCS (NoCopyrightSounds) - Free Music for Creators](https://ncs.io/) 
 - [Music for Video Creators - Hear the Difference](https://www.bensound.com/) | BenSound
 - [Mixkit - Awesome free assets for your next video project](https://mixkit.co/) 
-- [Free Stock Music for Your YouTube Videos or Multimedia Projects - 100% Free](https://www.free-stock-music.com/) 
+- [Free Stock Music for Your YouTube Videos or Multimedia Projects - 100% Free](https://www.free-stock-music.com/)  
+- [Fetching Title#b668](https://www.myinstants.com/) 
 
 ### Fonts
 - [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/)
