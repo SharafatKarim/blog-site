@@ -653,7 +653,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Music for Video Creators - Hear the Difference](https://www.bensound.com/) | BenSound
 - [Mixkit - Awesome free assets for your next video project](https://mixkit.co/) 
 - [Free Stock Music for Your YouTube Videos or Multimedia Projects - 100% Free](https://www.free-stock-music.com/)  
-- [Fetching Title#b668](https://www.myinstants.com/) 
+- [My Instants](https://www.myinstants.com/) - randomly shared musics
 
 ### Fonts
 - [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/)
