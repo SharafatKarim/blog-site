@@ -315,6 +315,7 @@ And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/
 {{< admonition quote "And," >}}
 If your'e a Firefox user, you can also try those CSS themes,
 - [FirefoxCSS Store](https://firefoxcss-store.github.io/) 
+
 And to harden Firefox for extra security, check this blog,
 - [Firefox Hardening Guide](https://brainfucksec.github.io/firefox-hardening-guide) 
 {{< /admonition >}}
