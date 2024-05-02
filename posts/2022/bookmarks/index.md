@@ -468,6 +468,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Programming & Engineering Questions & Answers - Sanfoundry](https://www.sanfoundry.com/) 
 - [MOOC.org | Massive Open Online Courses | An edX Site](https://www.mooc.org/) 
 - [Exercism](https://exercism.org/) 
+- [Code Makes Perfect - Coddy](https://coddy.tech/courses) 
 
 ### Visual
 - [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
