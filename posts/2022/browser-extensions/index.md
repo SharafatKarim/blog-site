@@ -243,9 +243,14 @@ Get information instantly about websites' terms of service and privacy policies,
 
 ### DuckDuckGo tracker blocker
 - [DuckDuckGo Privacy essenstials](https://duckduckgo.com/app)
+
 ### Indicator (Firefox)
 A country flag on the address bar.
 - [Flagfox](https://flagfox.wordpress.com/)
+
+### Don't track me google 
+A useful extension to remove ugly links from Google.
+- [dont-track-me-google](https://github.com/Rob--W/dont-track-me-google)
 ## Developer 
 
 ### Userscript
