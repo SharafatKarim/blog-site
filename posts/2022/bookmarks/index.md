@@ -404,6 +404,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Email Alias | SimpleLogin](https://app.simplelogin.io/dashboard/) 
 - [Zero Width Shortener](https://zws.im/) 
 - [snippet generator](https://snippet-generator.app/) | vscode user snippets
+- [AI Detector, AI Checker, & AI Humanizer | Undetectable AI](https://undetectable.ai/) 
 
 ### Text generator
 - [Rytr - Best AI Writer, Content Generator & Writing Assistant](https://rytr.me/) 
@@ -705,6 +706,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Login | LightOJ](https://lightoj.com/home) 
 - [দ্বিমিক অনলাইন জাজ | Dimik OJ](https://dimikoj.com/) 
 - [StopStalk](https://www.stopstalk.com/dashboard) 
+- [Blockly Games](https://blockly.games/?lang=en) 
 
 ### Cloud gaming
 - [Online Games on Poki](https://poki.com/) - online gaming
