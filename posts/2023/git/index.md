@@ -288,7 +288,7 @@ Find more from,
 3. Change branch
 
  ```bash
- git checkout            branch-name            
+ git checkout branch-name            
  ```
 
 >  📜 Not just branch, you can also trigger a previous commit!
@@ -298,7 +298,7 @@ Find more from,
 4. Deleting a branch
 
  ```bash
- git branch -D            branch-name            
+ git branch -D branch-name            
  ```
 
 ## Merge
@@ -306,11 +306,19 @@ Find more from,
 1. Merge an another branch with the current one,
 
  ```bash
- git merge           another-branch           
+ git merge another-branch           
  ```
 
 >  📜 To fix errors, you may need,  ```git merge main --allow-unrelated-histories ```
- 
+
+While merging, there can be conflicts which needs to be resolved manually. Or perhaps you want to prefer your changes? Then, this command is for you,
+```bash
+`git merge -s ours`another-branch
+```
+ Likewise, if you prefer their changes, try,
+```bash
+git merge -X theirs another-branch
+```
 
 ## Sync
 
