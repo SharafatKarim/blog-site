@@ -389,7 +389,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Compare your Page Speed](https://pagespeed.compare/) - multiple web-page compare
 - [PageSpeed Insights](https://pagespeed.web.dev/) - Google's page speed insight
 - [Plagiarism Checker Free | Accurate with Percentage](https://plagiarismdetector.net/) 
-- [VirusTotal - Home](https://www.virustotal.com/gui/home/upload) 
+- [VirusTotal - File upload and check](https://www.virustotal.com/gui/home/upload) 
 
 ### DNS
 - [CONTROL D - Control Your Internet](https://controld.com/?noRedirect=true) - simple DNS
