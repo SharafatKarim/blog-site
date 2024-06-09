@@ -389,6 +389,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Compare your Page Speed](https://pagespeed.compare/) - multiple web-page compare
 - [PageSpeed Insights](https://pagespeed.web.dev/) - Google's page speed insight
 - [Plagiarism Checker Free | Accurate with Percentage](https://plagiarismdetector.net/) 
+- [VirusTotal - Home](https://www.virustotal.com/gui/home/upload) 
 
 ### DNS
 - [CONTROL D - Control Your Internet](https://controld.com/?noRedirect=true) - simple DNS
@@ -433,6 +434,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 ### General
 - [মুক্তপথ - সরকারী](https://muktopaath.gov.bd/)
 - [Learn anything](https://learn-anything.xyz) - Platform for knowledge discovery that helps you understand any topic through the most efficient paths, as voted by the community.
+- [MuscleWiki - Simplify your workout](https://musclewiki.com/) 
 
 ### Skill based (short)
 - [200+ Free Tutorials at GCFGlobal](https://edu.gcfglobal.org/en/topics/) - Basic articles of computer and internet
@@ -491,6 +493,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [eduMedia – Interactive simulations and videos for Science and Math](https://www.edumedia-sciences.com/en/) 
 - [SIMULATIONS](https://www.csun.edu/science/software/simulations/simulations.html) 
 - [Tungsteno](https://www.tungsteno.io/) 
+- [Animagraffs - Animated infographics about everything.](https://animagraffs.com/)
 
 ### Science
 - [What's New at Science Notes - Periodic Tables and More - Science Notes and Projects](https://sciencenotes.org/) 
