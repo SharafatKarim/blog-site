@@ -539,7 +539,7 @@ Now on the same page, scroll down a bit, you'll notice,
 
 We can avoid, **(make)** cause we are not building this! We just want to enhance it with more formats support. We can install those normally with `pacman -S` but later if you uninstall `ark`, these optional dependencies will be little hard to find. So here's what we will do, we can install those as dependencies, with the following command,
 ```bash
-sudo pacman -S --asdeps --needed ari lrzip lzop p7zip unarchiver unrar
+sudo pacman -S --asdeps --needed arj lrzip lzop p7zip unarchiver unrar
 ```
 
 > **FLAGS**
