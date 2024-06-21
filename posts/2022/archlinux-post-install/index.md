@@ -135,7 +135,7 @@ Besides a browser, for convenience we'll install our favorite file manager and t
 
 Let's let it install and let me describe what they are,
 ```bash
-pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-config
+pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-config kscreen
 ```
 
 And here's a short description,
