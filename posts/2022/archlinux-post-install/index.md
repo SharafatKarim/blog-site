@@ -139,15 +139,17 @@ pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-c
 ```
 
 And here's a short description,
-| Application name     | Application's description                                                                                                                                          |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| firefox              | A FOSS browser, which is favorite to a lot of linux users and you can also customize it with CSS. But of course you can also use anything else that you prefer.    |
-| plasma-nm            | Network manager integration with plasma. With this you can easily configure network with your plasma desktop.                                                      |
-| plasma-pa            |                                                                                                                                                                    |
-| dolphin              | A file manger for plasma. It's really recommended because of it's availability, user interface and a lot of features out of the box.                               |
-| konsole              | A terminal app for plasma. It's highly configurable through GUI and easy to integrate with plasma.                                                                 |
-| kdeplasma-addons     | **[OPTIONAL]** Extra addons like color picker and monitor.                                                                                                         |
-| kde-gtk-config       | It'll allow you to customize gtk apps through kde's setting and recommended to install                                                                             |
+
+| Application name | Application's description                                                                                                                                       |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| firefox          | A FOSS browser, which is favorite to a lot of linux users and you can also customize it with CSS. But of course you can also use anything else that you prefer. |
+| plasma-nm        | Network manager integration with plasma. With this you can easily configure network with your plasma desktop.                                                   |
+| plasma-pa        |                                                                                                                                                                 |
+| dolphin          | A file manger for plasma. It's really recommended because of it's availability, user interface and a lot of features out of the box.                            |
+| konsole          | A terminal app for plasma. It's highly configurable through GUI and easy to integrate with plasma.                                                              |
+| kdeplasma-addons | **[OPTIONAL]** Extra addons like color picker and monitor.                                                                                                      |
+| kde-gtk-config   | It'll allow you to customize gtk apps through kde's setting and recommended to install.                                                                         |
+| kscreen          | It does the job behind desktop and monitor configuration setting. Without it, monitor setting can be missing from the system settings.                          |
 
 > More `plasma-essentials` are listed on, [plasma extras section](#plasma-extras). Because plasma application needs to be installed with optional dependencies for extended features!
 
