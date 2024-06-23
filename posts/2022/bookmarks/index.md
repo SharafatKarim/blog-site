@@ -273,13 +273,14 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 
 ### Practice
 - [Hacker rank](https://www.hackerrank.com/) - Practice codes
-- [Project euler](https://projecteuler.net/archives)
+- [Project euler](https://projecteuler.net/archives) 
+- [Play with Docker](https://labs.play-with-docker.com/) 
 
 ### Deploy
 - [WebOps SaaS Platform for High Impact Websites | Pantheon](https://pantheon.io/) 
 - [Free Hosting, Paid Hosting, Reseller Services & VPS Servers : Byet Internet](https://byet.host/) 
 - [StackBlitz | Instant Dev Environments | Click. Code. Done.](https://stackblitz.com/) 
-- [cron-job.org Console](https://console.cron-job.org/) 
+- [cron-job.org Console](https://console.cron-job.org/)  
 
 ### Domain
 - [Namechk - Username and Domain Name Checker - Search All Domain Names and User Names to see if they're available](https://namechk.com/) 
