@@ -690,6 +690,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 ### Ability
 - [ZType – Typing Game - Type to Shoot](https://zty.pe/)
 - [Can't Unsee](https://cantunsee.space/) - Test your designing ability 
+- [SineRider](https://sinerider.com/)- Math Graph learning game
 
 ### Stats
 - [First PR](http://firstpr.me) - See the first GitHub Pull Request you made.
