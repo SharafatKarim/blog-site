@@ -425,7 +425,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Replicate – Run open-source machine learning models with a cloud API](https://replicate.com/) 
 - [Scribble Diffusion](https://scribblediffusion.com/) 
 
-### GPT
+### Generative models 
 - [BAI Chat](https://chatbot.theb.ai/#/chat/1002) 
 - [Pi, your personal AI](https://heypi.com/talk) 
 
