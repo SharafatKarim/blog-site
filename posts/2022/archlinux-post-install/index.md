@@ -79,7 +79,7 @@ ping 1.1.1.1
 
 > Tip: **Ctrl + c** to stop a process
 
-And it should work out of the box for Ethernet. This process is as same as installation of Arch Linux ([part one](/archlinux-install/)). If you encounter any problem, check `NetworkManager` 's status with,
+And it should work out of the box for Ethernet. But you have to manually setup if you are using wireless connections. If you encounter any problem, check `NetworkManager` 's status with,
 ```bash
 systemctl status NetworkManager
 ```

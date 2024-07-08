@@ -151,13 +151,14 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 {{< /admonition >}}
 
 ## System
-| Application | Description                   |
-|:----------- |:----------------------------- |
-| dolphin     | file manager                  |
-| ibus        | input method                  |
-| octopi      | software center for archlinux |
-| timeshift   | snapshot/backup tool          |
-| kvantum     | qt theme engine based on svg  |
+| Application      | Description                         |
+| :--------------- | :---------------------------------- |
+| dolphin          | file manager                        |
+| ibus             | input method                        |
+| octopi           | software center for archlinux       |
+| timeshift        | snapshot/backup tool                |
+| kvantum          | qt theme engine based on svg        |
+| appimagelauncher | App image integration to the system |
 
 ## Utilities
 | Application | Description                                     |
