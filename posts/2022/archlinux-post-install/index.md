@@ -86,6 +86,10 @@ systemctl status NetworkManager
 
 If it's disabled, you can enable and start with, `systemctl enable` and `systemctl start` command or just rebooting your system.
 
+> For Wi-Fi connection, you can use `nmcli`, a command line tool for network manager. For guidance, check,
+>- [nmcli-examples(7) — Arch manual pages](https://man.archlinux.org/man/nmcli-examples.7.en)  
+> - [How to Connect to Wi-Fi Through the Linux Terminal With Nmcli](https://www.makeuseof.com/connect-to-wifi-with-nmcli/).
+
 ### Boot time
 Try, `systemd-analyze` to print your boot time. If your boot time is less than 15 seconds, you can check Arch wiki for performance guideline. 
 
