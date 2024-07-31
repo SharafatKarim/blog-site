@@ -85,13 +85,13 @@ This list is nowhere near complete mostly collected by me and my friends. If you
 | GitHub      | GitHub access       | 
 
 ## Education
-| Application                                                                              | Description             |
-|:---------------------------------------------------------------------------------------- |:----------------------- |
-| 991EX                                                                                    | Scientific calculator   |
-| Proto                                                                                    | Circuit Simulation      |
-| Geogebra                                                                                 | Graphing calculator     |
-| Formula                                                                                  | Math or other formulas  |
-| [Cryptography](https://play.google.com/store/apps/details?id=com.nitramite.cryptography) | Cryptography collection | 
+| Application                                                                              | Description             |     
+| :--------------------------------------------------------------------------------------- | :---------------------- | 
+| 991EX                                                                                    | Scientific calculator   |     
+| Proto                                                                                    | Circuit Simulation      |    
+| Geogebra                                                                                 | Graphing calculator     |    
+| Formula                                                                                  | Math or other formulas  |    
+| [Cryptography](https://play.google.com/store/apps/details?id=com.nitramite.cryptography) | Cryptography collection |    
 
 ## Communication
 It's totally up-to you 🙃 and may vary from person to person. Some popular ones include, matrix, telegram, discord etc.
@@ -168,13 +168,14 @@ This list varies from person to person [OPTIONAL]
 
 | Application                                                   | Description                                        |
 |:------------------------------------------------------------- |:-------------------------------------------------- |
+| Ivy manager                                                   | Money management app                               |
 | Quran                                                         | Al-Quran app (for muslims)                         |
 | Bangla Hadith                                                 | Hadith application for you own phone (for muslims) |
 | Bangla dictionary                                             | A dictionary for your language                     |
 | Obsidian                                                      | Note taking application                            |
 | cam scanner                                                   | Hard copy documents scanner                        |
 | [Daily You](https://github.com/Demizo/Daily_You)              | Every day is worth remembering...                  |
-| [track-and-graph](https://github.com/SamAmco/track-and-graph) | tracking personal data and creating custom graphs  | 
+| [track-and-graph](https://github.com/SamAmco/track-and-graph) | tracking personal data and creating custom graphs  |
 
 ## Simulation
 | Application                                                                   | Description                |
