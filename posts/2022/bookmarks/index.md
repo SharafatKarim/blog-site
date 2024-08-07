@@ -393,6 +393,9 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Plagiarism Checker Free | Accurate with Percentage](https://plagiarismdetector.net/) 
 - [VirusTotal - File upload and check](https://www.virustotal.com/gui/home/upload) 
 
+### Encryption and certificates
+- [S/MIME certificates from Actalis | Actalis.com](https://www.actalis.com/s-mime-certificates.aspx)- S/MIME certificate for mail
+
 ### DNS
 - [CONTROL D - Control Your Internet](https://controld.com/?noRedirect=true) - simple DNS
 - [AdGuard DNS ](https://adguard-dns.io/) - ad blocking DNS server
