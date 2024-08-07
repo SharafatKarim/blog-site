@@ -203,7 +203,16 @@ Redesign the web with Stylus, a user styles manager. Stylus allows you to easily
 
 ### Read aloud
 Reading texts.
-- [Read Aloud](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+- [Read Aloud](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) 
+
+### RSS
+Rss can be a powerful tool if you want to optimize the speed of your exploration!
+- [shevabam/get-rss-feed-url-extension: Retreive RSS feeds URLs from WebSite](https://github.com/shevabam/get-rss-feed-url-extension)
+- [teddy-gustiaux/youtube-rss-finder: WebExtension helping you find the RSS feed of a YouTube channel or playlist.](https://github.com/teddy-gustiaux/youtube-rss-finder)
+- [Feedbro](https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+
+> As an alternative you can also use a RSS client. Some mailing type apps, e.g. **thunderbird**, also supports RSS.
+
 ## Tab management
 
 ### Session Management
