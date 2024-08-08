@@ -222,6 +222,9 @@ Is it free?
 Got any more question?
 - Feel free to text me ✨
 
+Default banner size?
+- For 1080p display, it's `      x 223.112`. So the ratio is around 3:1.
+
 ## Extra
 
 {{< admonition info >}}
