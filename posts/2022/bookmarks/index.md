@@ -724,6 +724,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Kirka.io](https://kirka.io/) 
 - [Home | Browseit](https://browseit.com.bd/) 
 - [CrazyGames - Free Online Games on CrazyGames.com](https://www.crazygames.com/) 
+- [Play Games Online – GamesFrog.com](https://gamesfrog.com/) - Old retro style games
 
 ### Games hub
 - [Itch.io](https://itch.io/) - Simple way to find and share indie games online for free.
