@@ -403,6 +403,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 
 ### Little tweaks
 - [10 min mail](https://10minutemail.com/10MinuteMail/index.html?dswid=-4717) - Have a temporary email for 10 minutes.
+- [Nullsto - Temporary education email](https://nullsto.edu.pl/) - Temp edu. mail with a specific name
 - [Temp Mail - Disposable Temporary Email](https://temp-mail.org/en/) 
 - [Just a moment...](https://fauxid.com/) - Fake ID
 - [ZXing Decoder Online](https://zxing.org/w/decode.jspx) - Decoder of bar-code | WiFi pass
