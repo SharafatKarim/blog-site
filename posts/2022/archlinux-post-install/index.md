@@ -502,6 +502,15 @@ sudo systemctl enable --now nohang-desktop.service
 
 > `nohang-desktop` provides notification when you're almost out of memory.
 
+### TRIM for SSD
+If you are using SSD, you might want to turn on TRIM for your SSD health. Check this page out,
+- [Solid state drive - ArchWiki](https://wiki.archlinux.org/title/Solid_state_drive#Periodic_TRIM)
+
+To enable periodic TRIM, you might like to try the following service,
+```shell
+
+```
+
 ## Configuration
 
 ### Hosts
