@@ -503,14 +503,24 @@ sudo systemctl enable --now nohang-desktop.service
 > `nohang-desktop` provides notification when you're almost out of memory.
 
 ### TRIM for SSD
-If you are using SSD, you might want to turn on TRIM for your SSD health. Check this page out,
+If you are using SSD, you might want to turn on TRIM for your SSD health. Read more here,
 - [Solid state drive - ArchWiki](https://wiki.archlinux.org/title/Solid_state_drive#Periodic_TRIM)
+
+To verify TRIM support, run:
+```shell
+lsblk --discard
+```
+
+And check the values of DISC-GRAN (discard granularity) and DISC-MAX (discard max bytes) columns. Non-zero values indicate TRIM support.
+
+For SATA SSDs only, the [hdparm](https://archlinux.org/packages/?name=hdparm) package can detect TRIM support via `hdparm -I /dev/sda | grep TRIM` as the [root user](https://wiki.archlinux.org/title/Root_user "Root user"). `hdparm` does however not support NVMe SSDs.
 
 To enable periodic TRIM, you might like to try the following service,
 ```shell
-
+systemctl enable --now fstrim.timer
 ```
 
+> It's not applicable for every single SSD out there. Please execute with caution.
 ## Configuration
 
 ### Hosts
