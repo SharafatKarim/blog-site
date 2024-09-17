@@ -581,7 +581,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [DesignValley | The Ultimate Design Tool](https://designvalley.club/) 
 
 ### API - dev
-- [Mock API](https://jsoning.com/api/) 
+- [JSONing - Mock API](https://jsoning.com/api/) 
 
 ### Alternatives
 - [Welcome to the CHATONS website | CHATONS](https://www.chatons.org/en) 
