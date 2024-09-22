@@ -270,6 +270,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 
 ### Debug
 - [GDB online Debugger | Compiler - Code, Compile, Run, Debug online C, C++](https://www.onlinegdb.com/) 
+- [Cyrilex | Test and debug regular expressions](https://extendsclass.com/regex-tester.html) 
 
 ### Practice
 - [Hacker rank](https://www.hackerrank.com/) - Practice codes
@@ -580,7 +581,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [DesignValley | The Ultimate Design Tool](https://designvalley.club/) 
 
 ### API - dev
-- [Free For Life](https://free-for.life/#/) 
+- [JSONing - Mock API](https://jsoning.com/api/) 
 
 ### Alternatives
 - [Welcome to the CHATONS website | CHATONS](https://www.chatons.org/en) 
