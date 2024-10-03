@@ -459,6 +459,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/) 
 - [Dashboard · USACO Guide](https://usaco.guide/dashboard/) 
 - [TryHackMe | Cyber Security Training](https://tryhackme.com/) 
+- [Javascript Playground (Sandbox, Repl)](https://playcode.io/)- Javascript playground 
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
