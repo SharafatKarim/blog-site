@@ -234,6 +234,12 @@ then, you can use reflector to generate a mirrolist. Here's an example,
 > ```bash
 > reflector -c BD --save /etc/pacman.d/mirrorlist
 > ```
+>
+> And in case you want to get the latest 20 mirrors, sorted by speed, you can also do this,
+>
+> ```bash
+> reflector --latest 20 --sort rate --save /etc/pacman.d/mirrorlist
+> ```
 
 #### Manually mirror setup
 We can use a text editor to edit the **mirrorlist** and set our desired mirrors also. To do that, you can use nano or vim text editor or install any CLI-based text editor if you need. And there's an online arch mirror list generator,
