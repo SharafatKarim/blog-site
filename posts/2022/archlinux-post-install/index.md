@@ -148,7 +148,7 @@ And here's a short description,
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | firefox          | A FOSS browser, which is favorite to a lot of linux users and you can also customize it with CSS. But of course you can also use anything else that you prefer. |
 | plasma-nm        | Network manager integration with plasma. With this you can easily configure network with your plasma desktop.                                                   |
-| plasma-pa        |                                                                                                                                                                 |
+| plasma-pa        | Plasma applet for audio volume management using  PulseAudio                                                                                                     |
 | dolphin          | A file manger for plasma. It's really recommended because of it's availability, user interface and a lot of features out of the box.                            |
 | konsole          | A terminal app for plasma. It's highly configurable through GUI and easy to integrate with plasma.                                                              |
 | kdeplasma-addons | **[OPTIONAL]** Extra addons like color picker and monitor.                                                                                                      |
@@ -176,6 +176,15 @@ systemctl start sddm
 ```
 
 Now you'll be greeted with a default login window. Feel free to login with your created user.
+
+## Drivers
+In linux, drivers are mostly included in the kernel. But for some proprietary drivers like Nvidia, you may need to install them manually. It's better to directly read the wiki for your use case.
+
+- [AMD GPU](https://wiki.archlinux.org/title/AMDGPU)
+- [Intel graphics](https://wiki.archlinux.org/title/Intel_graphics)
+- [Nvidia](https://wiki.archlinux.org/title/NVIDIA)
+
+> Don't have GPU? Well,  you can look for vulkan drivers!
 
 ## Packages
 
