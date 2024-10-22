@@ -628,7 +628,9 @@ sudo pacman -S --asdeps --needed arj lrzip lzop p7zip unarchiver unrar
 ```
 
 > **FLAGS**
+>
 > --asdeps    = as dependency.
+>
 > -- needed  = it won't reinstall if already exists in system.
 
 - In the same way, let's install `gwenview` with optional dependencies as our image viewer. And it can even support `PSD` with optional dependency! Here you can install `qt5-imageformats` and `kimageformats` as optional.
