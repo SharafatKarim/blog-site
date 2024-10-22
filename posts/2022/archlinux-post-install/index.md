@@ -259,6 +259,26 @@ Color ## 33'th line (default)
 #NoProgressBar
 ```
 
+### Multilib
+Multilib is a repository that contains 32-bit software for 64-bit systems. If you're using a 64-bit system then you might want to enable it. To do so, just edit the `/etc/pacman.conf` file and un-comment the lines,
+```bash
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+```
+
+### Parralel download
+You can also enable parallel download in pacman. To do so, just edit the `/etc/pacman.conf` file and un-comment the line `ParallelDownloads` (removing `#` from a line),
+```bash
+ParallelDownloads
+```
+
+### Bit of ASCII art
+And if you're a fan of ASCII art then you can enable it in pacman. To do so, just edit the `/etc/pacman.conf` file and add the line `ILoveCandy`,
+```bash
+ILoveCandy
+```
+> Where to put it? I just put it after `color` due to simillarity.
+
 ### Yay
 Yay is mainly an AUR helper, that can install AUR packages automatically. And you can install it from `chaotic-aur` or `aur`. If you're downloading from `aur`, then perhaps you can go with `yay-bin` which is a binary of yay. So you don't have to wait for it to finish installation.
 
@@ -288,11 +308,22 @@ yay -S pamac-aur
 ```
 
 ## Shell
+### Bash and zsh
 By default your shell is `bash`. And you can enhance your possibilities with an another shell like `zsh` or `fish`. You can also do a lot with your `.bashrc` file. If you're looking for a nice beautiful `zsh` shell with useful plugins like, auto coloring, auto completion then I've a separate tutorial for you.
 - [Zsh and antigen](/zsh-and-antigen/)
 
-And if you need a template for `bashrc` or `zshrc` then, I've it for you,
-- [bashrc template](https://sharafat.vercel.app/bashrc)
+### Autostart
+To autostart something, for example `fastfetch` (a `neofetch` alternative), or something funny like `cowsay` or `fortune` or `pokemon-colorscripts`, you can add it in your `~/.bashrc` or `~/.zshrc` file. Just open the file with a text editor and add the command at the end of the file. For example, for `fastfetch`,
+```bash
+fastfetch
+```
+Or, pokemon-colorscripts? It's `pokemon-colorscripts -r` to get a random pokemon 🙃.
+
+### Libnotify
+You can use `libnotify` to get notifications from your terminal. It's really useful when you're running a long process and you want to get notified when it's done. To install it, you can use pacman,
+```bash
+sudo pacman -S libnotify
+```
 
 ## Timeshift
 Now you may want to take snapshots, right? Let's install `timeshift`. If you're installing from AUR then perhaps the binary version?
@@ -615,10 +646,52 @@ Make sure `sonnet` is installed with `hunspell` or anything similar. And also do
 > If you install LibreOffice it'll be done automatically and I've a guide for you, check,
 > - [LibreOffice extended installation guide](/libreoffice-extended)
 
-### Fonts
-To enhance performance for terminal and other places you might want to Install `noto-sans` optional dependency, especially for `emoji-picker`.
+### KDE Wallet Manager
+You may find kde wallet whenever you connect your WiFi, or open your browser, asking for passwords. Instead of disabling it, you can actually use empty string as password. And then it won't ask for password anymore. Use `kwalletmanager` to set it up.
 
-If you face problem in default terminal and othere monospace fonts, try installing `ttf-dejavu` and `ttf-liberation`.
+### KDE Connect
+You can install `kdeconnect` to connect your phone with your system. It's a great tool to manage your phone from your system. You can also use it to share files, notifications, and even to control your system with your phone!
+
+### Fonts
+To enhance performance for terminal and other places you might want to Install `noto-fonts`, especially for `emoji-picker`,  `noto-fonts-emoji`.
+
+There are some issues like, emojies doesn't work in the notification. To fix, edit the `/home/sharafat/.config/fontconfig/fonts.conf` and use the following lines,
+```xml
+<?xml version='1.0'?>
+<!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
+<fontconfig>
+ <alias>
+  <family>sans-serif</family>
+  <prefer>
+   <family>Noto Sans</family>
+   <family>Noto Color Emoji</family>
+   <family>Noto Emoji</family>
+  </prefer>
+ </alias>
+ <alias>
+  <family>serif</family>
+  <prefer>
+   <family>Noto Serif</family>
+   <family>Noto Color Emoji</family>
+   <family>Noto Emoji</family>
+  </prefer>
+ </alias>
+ <alias>
+  <family>monospace</family>
+  <prefer>
+   <family>Noto Mono</family>
+   <family>Noto Color Emoji</family>
+   <family>Noto Emoji</family>
+  </prefer>
+ </alias>
+ <dir>~/.local/share/fonts</dir>
+</fontconfig>
+```
+
+> If above file doesn't exist, create one!
+
+### Microsoft fonts
+You can install `ttf-ms-fonts` to get Microsoft fonts. It's a good choice if you're working with Microsoft Office files. This package is available in AUR or chaotic AUR.
 
 ## Acknowledgements
 For helping me to collect more information and revising, special thanks to,
