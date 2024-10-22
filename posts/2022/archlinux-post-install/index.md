@@ -438,7 +438,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### Detecting other OS
-Probing for other operating systems is disabled for security reasons. If still want to enable this functionality install os-prober and uncomment to detect and include other operating systems.
+Probing for other operating systems is disabled for security reasons. If still want to enable this functionality install `os-prober` and uncomment to detect and include other operating systems.
 
 Edit `/etc/default/grub` (grub config file)
 ```bash
