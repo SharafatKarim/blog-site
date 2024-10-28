@@ -141,10 +141,11 @@ You can find a list of useful Multimedia related application in "Ubuntu Studio",
 {{< /admonition >}}
 
 ## Office
-| Application | Description     |
-|:----------- |:--------------- |
-| libreoffice | office suite    |
-| okular      | document viewer |
+| Application | Description                       |
+| :---------- | :-------------------------------- |
+| libreoffice | office suite                      |
+| okular      | document viewer                   |
+| pdfarranger | PDF file arrange and image to PDF |
 
 {{< admonition tip "And," >}}
 If you are coming from Windows 10 or mac then there's an intersting list you can check,
