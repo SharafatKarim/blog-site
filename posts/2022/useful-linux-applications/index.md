@@ -190,6 +190,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | imagemagick | easy image [conversation](https://sharafat.vercel.app/batch-conversation-with-loop) |
 | telebit     | port forwarding tool                                                                |
 | hdsentinel  | A freeware, closed source, SMART analysis tool                                      |
+| hyperfine   | Benchmark two commands                                                              |
 
 ## Schedule
 - [ ] Team fortress 2 (game)
