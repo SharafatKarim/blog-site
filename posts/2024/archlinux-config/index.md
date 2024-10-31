@@ -2,7 +2,7 @@
 title: "Archlinux Post Install with minimal plasma"
 date: 2022-12-20T18:38:11+06:00
 lastmod: 2023-01-29T18:38:11+06:00
-draft: false
+draft: true
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 description: "A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support!"
