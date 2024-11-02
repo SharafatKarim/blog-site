@@ -74,6 +74,7 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 | jupyter-notebook | HTML notebook application for Project Jupyter |
 | bluegriffon      | WYSIWYG html & css                            |
 | publii           | Static site generator                         |
+|                  |                                               |
 
 ## Education
 | Application                          | Description                                                                     |
