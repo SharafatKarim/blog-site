@@ -277,6 +277,9 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Project euler](https://projecteuler.net/archives) 
 - [Play with Docker](https://labs.play-with-docker.com/) 
 
+### API
+- [GroqCloud](https://console.groq.com) - generative AI 
+
 ### Deploy
 - [WebOps SaaS Platform for High Impact Websites | Pantheon](https://pantheon.io/) 
 - [Free Hosting, Paid Hosting, Reseller Services & VPS Servers : Byet Internet](https://byet.host/) 
