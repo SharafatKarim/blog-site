@@ -181,6 +181,9 @@ In linux, drivers are mostly included in the kernel. But for some proprietary dr
 - [Intel graphics](https://wiki.archlinux.org/title/Intel_graphics)
 - [Nvidia](https://wiki.archlinux.org/title/NVIDIA)
 
+And also check the following for your hardware acceleration. Can come handy while using hardware video encoding or recording.
+- [Hardware video acceleration - ArchWiki](https://wiki.archlinux.org/title/Hardware_video_acceleration) 
+
 > Don't have GPU? Well,  you can look for vulkan drivers!
 
 ## Packages
