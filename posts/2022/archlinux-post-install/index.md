@@ -1,24 +1,29 @@
 ---
-title: "Archlinux Post Install with minimal plasma"
+title: Archlinux Post Install with minimal plasma
 date: 2022-12-20T18:38:11+06:00
-lastmod: 2023-01-29T18:38:11+06:00
+lastmod: 2024-11-21T18:38:11+06:00
 draft: false
-author: "Sharafat Karim"
-authorLink: "https://sharafat.pages.dev/about/"
-description: "A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support!"
-license: ""
-images: []
+author: Sharafat Karim
+authorLink: https://sharafat.pages.dev/about/
+description: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support!
+license: <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+images: 
 resources:
-- name: "featured-image"
-  src: "featured.jpg"
-
-tags: ['linux', 'os', 'tutorial', 'arch', 'kde', 'btrfs', 'plasma']
-categories: ['tutorial']
-summary: "A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support! (part two)"
-
-featuredImage: "featured-image"
+  - name: featured-image
+    src: featured.jpg
+tags:
+  - linux
+  - os
+  - tutorial
+  - arch
+  - kde
+  - btrfs
+  - plasma
+categories:
+  - tutorial
+summary: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support! (part two)
+featuredImage: featured-image
 featuredImagePreview: ""
-
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: false
@@ -28,7 +33,6 @@ fraction: true
 fontawesome: true
 linkToMarkdown: true
 rssFullText: false
-
 toc:
   enable: true
   auto: true
@@ -37,30 +41,16 @@ code:
   maxShownLines: 50
 math:
   enable: false
-  # ...
-mapbox:
-  # ...
+mapbox: 
 share:
   enable: true
-  # ...
 comment:
   enable: true
-  # ...
 library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
+  css: 
+  js: 
 seo:
   images: []
-  # ...
-license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
 ## Introduction
@@ -182,7 +172,7 @@ Now you'll be greeted with a default login window. Feel free to login with your 
 For firmware security, try `fwupd` to update your firmware. It's a daemon to manage firmware updates. And it's recommended to install it. To install it, try,
 ```bash
 pacman -S fwupd
-```b
+```
 
 ### GPU
 In linux, drivers are mostly included in the kernel. But for some proprietary drivers like Nvidia, you may need to install them manually. It's better to directly read the wiki for your use case.
