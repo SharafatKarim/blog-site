@@ -737,10 +737,78 @@ If you reboot/ restart then you will first notice a GRUB bootloader which will w
 Why that GRUB and black and white terminal?
 - No need to worry, we'll both hide that GRUB 5 seconds and black and white login prompt in the next part.
 
-Stucked in GRUB?
+> Stucked in GRUB? If it's `grub-rescue` shell, then move on to the next section.
+
+### Grub rescue?
+Most probably, you have grub, but forgot `grub-mkconfig`? Try the following sequence of commands,
+#### 1. `ls`
+
+The `ls` command lists all the available partitions and devices. Use this command to identify the partition containing your Linux root file system.
+
+```shell
+grub rescue> ls
+```
+
+> If you don't know which partition, do use it like, `ls (hd0,msdos1)`
+
+#### 2. `set`
+
+The `set` command displays the current values of Grub environment variables. This information can help you identify the correct partition and configuration settings.
+
+```shell
+grub rescue> set
+```
+
+#### 3. `set prefix`
+
+To set the correct partition containing the Grub modules, use the `set prefix` command followed by the partition path.
+
+```shell
+grub rescue> set prefix=(hd0,msdos1)/boot/grub
+```
+
+Replace `(hd0,msdos1)` with the appropriate partition identifier.
+
+> If you are running `btrfs` file system, you may need to use something like, `set prefix=(hd0,msdos1)/@/boot/grub`. Check the `set` in the step 2 for accurate prefix template (if available).
+
+#### 4. `set root`
+
+Similar to the prefix, you need to set the root partition using the `set root` command.
+
+```shell
+grub rescue> set root=(hd0,msdos1)
+```
+
+#### 5. `insmod`
+
+The `insmod` command is used to load Grub modules, such as `normal` and `linux`. Start by loading the `normal` module:
+
+```shell
+grub rescue> insmod normal
+```
+
+#### 6. `normal`
+
+After loading the `normal` module, execute the `normal` command to exit the Grub rescue mode and return to the standard Grub menu.
+
+```shell
+grub rescue> normal
+```
+
+#### 7. `boot`
+
+If you’ve manually set up the boot parameters using Grub commands, use the `boot` command to boot the system.
+
+```shell
+grub rescue> boot
+```
+
+> **Remember:** You must load the required modules and set the boot parameters correctly before using the `boot` command. Above section is referenced from this [site](https://linuxnest.com/grub-rescue-commands-a-comprehensive-guide/).
+
+#### Alternative way
+If trying to get into the OS via `grub-rescue` didn't work then, try the following,
 - `arch-chroot` into your root and make sure, a kernel with base is installed and run `grub-mkconfig` again.
 - Unmount and reboot
-
 ### Forgot root password?
 - Boot into live ISO
 - Mount the root partiton
