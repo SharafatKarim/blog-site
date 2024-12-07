@@ -429,18 +429,19 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Text to speech generator free online ( TTS Free ) - TTSFree.com](https://ttsfree.com/text-to-speech) 
 - [Dubverse | Login](https://webapp.dubverse.ai/) 
 
-### AI
+### AI Quests
 - [CrowdAI](https://www.crowdai.org/) - Connects data science experts and enthusiasts with open data to solve specific problems, through challenges.
 - [DataQuest](https://www.dataquest.io/)
 - [Kaggle](https://www.kaggle.com/) - Site devoted to Data Analysis through Machine learning.
 - [Replicate – Run open-source machine learning models with a cloud API](https://replicate.com/) 
 - [Scribble Diffusion](https://scribblediffusion.com/) 
 
-### Generative models 
+### Generative Predictive models 
+- [AI Chat - DuckDuckGo](http://duck.ai/) 
 - [BAI Chat](https://chatbot.theb.ai/#/chat/1002) 
 - [Pi, your personal AI](https://heypi.com/talk) 
 - [Perplexity](https://www.perplexity.ai/) 
-- [Sign in - Google Accounts](https://notebooklm.google.com/) 
+- [Google NotebookLM - AI from your notes](https://notebooklm.google.com/) 
 
 ## Learn 
 > Learn as you go cause you can't finish it.
