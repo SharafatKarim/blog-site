@@ -439,7 +439,8 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 ### Generative models 
 - [BAI Chat](https://chatbot.theb.ai/#/chat/1002) 
 - [Pi, your personal AI](https://heypi.com/talk) 
-
+- [Perplexity](https://www.perplexity.ai/) 
+- [Sign in - Google Accounts](https://notebooklm.google.com/) 
 
 ## Learn 
 > Learn as you go cause you can't finish it.
