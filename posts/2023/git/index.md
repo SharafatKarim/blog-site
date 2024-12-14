@@ -155,7 +155,19 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 >  📜  ```git add . ``` will track untracked files (not ignored) but  ```git add -u ``` won’t!
 
- 
+## Clean ignored files
+
+1. To remove files that are listed in the `.gitignore` but still on the repository,
+
+```bash
+git rm -r --cached .
+```
+ This will remove all files from staged copy. Then a commit should do the trick for you due to  your `.gitignore`. And finally to remove ignored files locally, you can  try `git clean -d -x -f
+`.
+2. To remove files that are on the `.gitignore` but not on the repository (commit), then simple `git clean` should do the trick.
+```bash
+git clean -d -x -f
+```
 
 ## Reset
 
@@ -166,18 +178,6 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
  ```
 
 >  📜 or, try  `git reset . ` to reset everything or, `git reset --hard`, which may fix errors regarding `git pull`!
-
-2. To remove files that are listed in the `.gitignore` but still on the repository,
-
-```bash
-git rm -r --cached .
-```
- Then a commit should do the trick for you.
-
-## Clean
-
-
-
 ## Restore
 
 1. restore one file with  
