@@ -174,6 +174,10 @@ git rm -r --cached .
 ```
  Then a commit should do the trick for you.
 
+## Clean
+
+
+
 ## Restore
 
 1. restore one file with  
@@ -278,7 +282,7 @@ Find more from,
 2. New branch
 
  ```bash
- git branch            branch-name            
+ git branch branch-name            
  ```
 
 >  📜 Use  ```-M ``` to move a branch, like,  ```git branch -M main ```
