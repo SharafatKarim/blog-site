@@ -285,9 +285,7 @@ Find more from,
  git branch branch-name            
  ```
 
->  📜 Use  ```-M ``` to move a branch, like,  ```git branch -M main ```
-
- 
+>  📜 Use  `-M` to move a branch, like,  `git branch -M main`
 
 3. Change branch
 
@@ -297,7 +295,6 @@ Find more from,
 
 >  📜 Not just branch, you can also trigger a previous commit!
 
- 
 
 4. Deleting a branch
 
@@ -317,7 +314,7 @@ Find more from,
 
 While merging, there can be conflicts which needs to be resolved manually. Or perhaps you want to prefer your changes? Then, this command is for you,
 ```bash
-`git merge -s ours`another-branch
+git merge -s ours another-branch
 ```
  Likewise, if you prefer their changes, try,
 ```bash
@@ -350,7 +347,7 @@ git merge -X theirs another-branch
  git push -u remote branch        
  ```
 
->  📜    ```-  e ``` will save       remote       and _      branch      _, for you so next time, just run,  ```git push ```
+>  📜    `-u` will save remote and branch, for you so next time, just run,  `git push`!
 
 
 5. pull,
