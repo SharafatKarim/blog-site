@@ -104,6 +104,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Polotno Studio](https://studio.polotno.com/) - Make graphical designs
 - [miniPaint - image editor](http://viliusle.github.io/miniPaint/) 
 - [Disroot | Disroot](https://disroot.org/en) 
+- [Capacities – A studio for your mind](https://capacities.io/) 
 
 ## Design
 > It's sole aim is to make design easier, with some stock collections.
@@ -722,6 +723,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 ### Coding challengers
 - [Checkio](https://py.checkio.org/) - Games for coding.
 - [Code combat](https://codecombat.com/) - Programming Game designed for Students.
+- [Math + Programming - Project Euler](https://projecteuler.net/) 
 - [Codewars](https://www.codewars.com/)
 - [Codingame](https://www.codingame.com/home)
 - [Login | LightOJ](https://lightoj.com/home) 
