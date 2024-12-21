@@ -512,6 +512,9 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Tungsteno](https://www.tungsteno.io/) 
 - [Animagraffs - Animated infographics about everything.](https://animagraffs.com/)
 
+### AI Study
+- [They See Your Photos](https://theyseeyourphotos.com/) - AI transcription of our bitmaps
+
 ### Science
 - [What's New at Science Notes - Periodic Tables and More - Science Notes and Projects](https://sciencenotes.org/) 
 - [Course Hero | Own the study hour](https://www.coursehero.com/) 
