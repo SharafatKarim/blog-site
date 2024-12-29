@@ -568,6 +568,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 
 ### Multi Linked
 - [GitHub - 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome) 
+- [To the Fediverse!](https://www.fediverse.to/) - collection of community-owned, ad-free, decentralised, and privacy-centric social networks.
 - [List community](https://list.community/) - Easy way to browse curated lists and docs
 - [Easy With AI - Best AI Tools & Services](https://easywithai.com/) 
 - [Future Tools - Find The Exact AI Tool For Your Needs](https://www.futuretools.io/) 
