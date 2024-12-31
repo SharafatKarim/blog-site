@@ -1,24 +1,26 @@
 ---
-title: "Useful Browser Extensions"
+title: Useful Browser Extensions
 date: 2022-11-06T09:08:10+06:00
-lastmod: 2022-11-06T09:08:10+06:00
+lastmod: 2024-12-31T09:08:10+06:00
 draft: false
-author: "Sharafat Karim"
-authorLink: "https://sharafat.pages.dev/about/"
-description: "Some of the useful desktop browser extentions for daily driving."
-license: ""
-images: []
+author: Sharafat Karim
+authorLink: https://sharafat.pages.dev/about/
+description: Some of the useful desktop browser extentions for daily driving.
+license: <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+images: 
 resources:
-- name: "featured-image"
-  src: "featured.jpg"
-
-tags: ["notes", "browser", "internet", "collection"]
-categories: ["collection"]
-summary: "Some of the useful desktop browser extentions for daily driving."
-
-featuredImage: "featured-image"
-featuredImagePreview: "featured-image"
-
+  - name: featured-image
+    src: featured.jpg
+tags:
+  - notes
+  - browser
+  - internet
+  - collection
+categories:
+  - collection
+summary: Some of the useful desktop browser extentions for daily driving.
+featuredImage: featured-image
+featuredImagePreview: featured-image
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: false
@@ -28,7 +30,6 @@ fraction: true
 fontawesome: true
 linkToMarkdown: true
 rssFullText: false
-
 toc:
   enable: true
   auto: true
@@ -37,30 +38,16 @@ code:
   maxShownLines: 50
 math:
   enable: false
-  # ...
-mapbox:
-  # ...
+mapbox: 
 share:
   enable: true
-  # ...
 comment:
   enable: true
-  # ...
 library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
+  css: 
+  js: 
 seo:
   images: []
-  # ...
-license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
 Some of the useful desktop browser extensions for daily driving. Some of the extensions are only available for ***Firefox*** or Firefox based browsers. Please keep it in mind.
@@ -213,6 +200,12 @@ Rss can be a powerful tool if you want to optimize the speed of your exploration
 
 > As an alternative you can also use a RSS client. Some mailing type apps, e.g. **thunderbird**, also supports RSS.
 
+### Music scribble
+Track what music you are playing and share with your friends from YouTube, spotify, dezzer etc.
+- [web-scrobbler: Scrobble music all around the web!](https://github.com/web-scrobbler/web-scrobbler) 
+
+> Supports - [Last.fm](http://www.last.fm/), [Libre.fm](https://libre.fm/), [ListenBrainz](https://listenbrainz.org/), [Maloja](https://github.com/krateng/maloja), and [Pleroma](https://pleroma.social/).
+
 ## Tab management
 
 ### Session Management
@@ -296,7 +289,10 @@ Browser extension which parses competitive programming problems and linking supp
 There might be more better translation extensions I don't know. You can do your own research and don't forget to share 🫠.
 {{< /admonition >}}
 
-### PWA (Firefox)
+
+### Firefox specials
+
+#### PWA (Firefox)
 Currently chromium based browsers has it as a built in feature. For firefox some ways to run progressive web apps (or similar) using Firefox.
 1) Separate profile + install desktop shortcut + linked to main firefox
 - https://pwasforfirefox.filips.si/#about
@@ -309,10 +305,20 @@ Currently chromium based browsers has it as a built in feature. For firefox some
 (navigation bar and distraction free window)
 - https://github.com/ettoolong/PopupWindow
 
+#### Customization
 
-### Firefox specials
+Check the following extension to apply color based on the page you are visiting,
+- [Adaptive-Tab-Bar-Colour: Changes the colour of Firefox theme to match the website’s appearance.](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour) 
 
-### Extras
+{{< admonition quote "And," >}}
+If your'e a Firefox user, you can also try those CSS themes,
+- [FirefoxCSS Store](https://firefoxcss-store.github.io/) 
+
+And to harden Firefox for extra security, check this blog,
+- [Firefox Hardening Guide](https://brainfucksec.github.io/firefox-hardening-guide) 
+{{< /admonition >}}
+
+#### Extras
 
 If you want to explore more, here's a short suggestion,
 
@@ -328,14 +334,6 @@ If you want to explore more, here's a short suggestion,
 9. 🍧 [Notion Boost](https://addons.mozilla.org/en-US/firefox/addon/notion-boost/)
 
 And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/en-US/firefox/). (Especially the recommended part)
-
-{{< admonition quote "And," >}}
-If your'e a Firefox user, you can also try those CSS themes,
-- [FirefoxCSS Store](https://firefoxcss-store.github.io/) 
-
-And to harden Firefox for extra security, check this blog,
-- [Firefox Hardening Guide](https://brainfucksec.github.io/firefox-hardening-guide) 
-{{< /admonition >}}
 
 ### Acknowledgements
 
