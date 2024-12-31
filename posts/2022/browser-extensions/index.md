@@ -309,6 +309,9 @@ Currently chromium based browsers has it as a built in feature. For firefox some
 (navigation bar and distraction free window)
 - https://github.com/ettoolong/PopupWindow
 
+
+### Firefox specials
+
 ### Extras
 
 If you want to explore more, here's a short suggestion,
