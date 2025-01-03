@@ -698,6 +698,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [1001 Free Fonts | Download Fonts](https://www.1001freefonts.com/) 
 - [Fancy > Curly fonts | dafont.com](https://www.dafont.com/theme.php?cat=105) 
 - [Font Get](https://www.fontget.com/) 
+- [Fancy fonts - Free Fonts Download: Unique Font Collection for Designers](https://fancy-fonts.com/category/free-fonts/) 
 
 ## Fun
 > Let machine automate your fun.
