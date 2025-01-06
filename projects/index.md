@@ -13,6 +13,16 @@ math:
 comment:
   enable: false
 ---
+## 2024
+- [Metro-api :: Metro-API, a lightweight, user-friendly backend for handling user balances. Easily recharge, discharge, and manage user data with a powerful FastAPI framework.](https://github.com/SharafatKarim/metro-api)
+- [DSA :: Notes about Data Structrue and Algorithms](https://github.com/SharafatKarim/dsa) 
+- [GraphCraft :: Graph Visualization & Analysis Tool](https://github.com/SharafatKarim/GraphCraft)
+- [FrequencyCraft :: Frequency Craft is a web application that allows users to generate frequency distributions and corresponding graphs based on input data.](https://github.com/SharafatKarim/FrequencyCraft)
+- [Smart-Grid-Guard-Meter :: A smart prepaid meter with IOT.](https://github.com/SharafatKarim/Smart-Grid-Guard-Meter)
+- [PSTU-CSE-CGPA-calculator :: calculates CGPA! Specifically made for PSTU CSE students.](https://github.com/SharafatKarim/PSTU-CSE-CGPA-calculator)
+- [SafesyncContacts :: An isolated contact management application integrating MySQL for local contacts and Firebase for a dynamic public database.](https://github.com/SharafatKarim/SafesyncContacts) 
+- [Flaric-reports :: An streamlit app to take reports as survey anonymously.](https://github.com/SharafatKarim/flaric-reports)
+
 ## 2023
 - [WebsiteAsApp: Turn your websites into a native android app within a few minutes, with splash screen support and even more!](https://github.com/SharafatKarim/WebsiteAsApp) 
 - [ArchMate - Arch Linux configuration tool](https://github.com/SharafatKarim/archmate)
