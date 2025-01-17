@@ -282,6 +282,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 ### API
 - [GroqCloud](https://console.groq.com) - generative AI 
 - [Simple CRUD API - Fast & Free RESTful API for Your Projects](https://simplecrudapi.com/) 
+- [FreeApi.app](https://freeapi.app/) - API learning zone
 
 ### Deploy
 - [WebOps SaaS Platform for High Impact Websites | Pantheon](https://pantheon.io/) 
