@@ -188,7 +188,7 @@ Redesign the web with Stylus, a user styles manager. Stylus allows you to easily
 - [Website](https://add0n.com/stylus.html)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 ### Stylebot
-An stylus alternative but more advanced! You can pick up an element and tweak it's setting with UI or CSS.
+An stylus alternative but more advanced! You can pick up an element and tweak it's setting with UI or CSS. Also 
 ### Read aloud
 Reading texts.
 - [Read Aloud](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) 
