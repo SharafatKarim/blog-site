@@ -283,6 +283,12 @@ Automated auditing, performance metrics, and best practices for the web.
 
 ### Time tracking
 -  [WakaTime - Dashboards for developers](https://wakatime.com/) 
+
+### Savepage - single file
+Save an entire web page—including images and styling—as a single HTML file.
+- [SingleFile | GitHub](https://github.com/gildas-lormeau/SingleFile)
+- [SingleFile – 🦊 Firefox](https://addons.mozilla.org/en-US/firefox/addon/single-file/) 
+
 # Also,
 check some of those. Maybe you will find something unexpected, 🎃 who knows ؟
 ### Plasma Integration
