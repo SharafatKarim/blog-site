@@ -187,7 +187,8 @@ TinEye uses image identification technology, not keywords: when you upload an im
 Redesign the web with Stylus, a user styles manager. Stylus allows you to easily install themes and skins for many popular sites.
 - [Website](https://add0n.com/stylus.html)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-
+### Stylebot
+An stylus alternative but more advanced! You can pick up an element and tweak it's setting with UI or CSS.
 ### Read aloud
 Reading texts.
 - [Read Aloud](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) 
