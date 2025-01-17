@@ -208,6 +208,11 @@ Track what music you are playing and share with your friends from YouTube, spoti
 
 > Supports - [Last.fm](http://www.last.fm/), [Libre.fm](https://libre.fm/), [ListenBrainz](https://listenbrainz.org/), [Maloja](https://github.com/krateng/maloja), and [Pleroma](https://pleroma.social/).
 
+### Audio Equalizer
+[Audio Equalizer](https://prod.outgoing.prod.webservices.mozgcp.net/v1/dff4b15797e84db8f28903285366e86e8ee57c35dcb046b57f3c659f687ef392/https%3A//mybrowseraddon.com/audio-equalizer.html) is a lite add-on that let you easily adjust audio settings (the balance between frequency components in audio file) from toolbar popup.
+- [Audio Equalizer | Homepage](https://prod.outgoing.prod.webservices.mozgcp.net/v1/dff4b15797e84db8f28903285366e86e8ee57c35dcb046b57f3c659f687ef392/https%3A//mybrowseraddon.com/audio-equalizer.html)
+- [Audio Equalizer – 🦊 Firefox](https://addons.mozilla.org/en-US/firefox/addon/audio-equalizer-wext/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured) 
+
 ## Tab management
 
 ### Session Management
