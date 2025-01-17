@@ -188,7 +188,8 @@ Redesign the web with Stylus, a user styles manager. Stylus allows you to easily
 - [Website](https://add0n.com/stylus.html)
 - [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 ### Stylebot
-An stylus alternative but more advanced! You can pick up an element and tweak it's setting with UI or CSS. Also 
+An stylus alternative but more advanced! You can pick up an element and tweak it's setting with UI or CSS. 
+- [Firefox store](https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured) 
 ### Read aloud
 Reading texts.
 - [Read Aloud](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) 
@@ -212,6 +213,11 @@ Track what music you are playing and share with your friends from YouTube, spoti
 ### Session Management
 WebExtensions for restoring and saving window / tab states.
 - [Tab Session Manager](https://tab-session-manager.sienori.com/)
+
+### Auto Tab reloader
+Reload tab automatically after a certain period of time,
+- [Tab Reloader (page auto refresh) – 🦊 Firefox](https://addons.mozilla.org/en-US/firefox/addon/tab-reloader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured) 
+
 ### Tree Style Tab
 Show tabs like a tree. You'll get it when you'll use, no big deal!
 - [Website](https://piro.sakura.ne.jp/xul/_treestyletab.html.en)
