@@ -478,6 +478,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [TryHackMe | Cyber Security Training](https://tryhackme.com/) 
 - [Javascript Playground (Sandbox, Repl)](https://playcode.io/)- Javascript playground 
 - [Advanced JavaScript – Reactive Accelarator](https://reactive-accelarator.vercel.app/reactive-accilarator/javascript-refresher) 
+- [সিস্টেম ডিজাইন বাংলা | system-design-bangla](https://lahin31.github.io/system-design-bangla/) 
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
