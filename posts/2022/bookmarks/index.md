@@ -264,6 +264,9 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [CodePen: Online Code Editor and Front End Web Developer Community](https://codepen.io/trending) 
 - [VSCode web](https://github.dev/github/dev)
 
+### AI Builder
+- [CerebrasCoder](https://cerebrascoder.com/) 
+
 ### Markdown
 - [readme.so](https://readme.so/bn) - easy GitHub read me file generate
 - [GitHub Profilator](https://profilator.deno.dev/) - GitHub user photo to markdown
@@ -470,6 +473,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Dashboard · USACO Guide](https://usaco.guide/dashboard/) 
 - [TryHackMe | Cyber Security Training](https://tryhackme.com/) 
 - [Javascript Playground (Sandbox, Repl)](https://playcode.io/)- Javascript playground 
+- [Advanced JavaScript – Reactive Accelarator](https://reactive-accelarator.vercel.app/reactive-accilarator/javascript-refresher) 
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
