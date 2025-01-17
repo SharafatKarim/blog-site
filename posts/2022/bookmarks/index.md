@@ -315,6 +315,10 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Free HTML Templates for Websites on HTMLrev](https://htmlrev.com/) 
 - [Explore 3000+ Free UI Elements: CSS & Tailwind](https://uiverse.io/) 
 - [Toptal Utilities - Tools & Resources Developers, Designers](https://www.toptal.com/utilities-tools)
+- [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/) 
+- [DevDocs API Documentation](https://devdocs.io/) 
+- [Responsinator](http://www.responsinator.com/) 
+- [regex101: build, test, and debug regex](https://regex101.com/) 
 
 ### Site Generators
 - [The world’s fastest framework for building websites | Hugo](https://gohugo.io/)
