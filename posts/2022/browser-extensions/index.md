@@ -1,7 +1,7 @@
 ---
 title: Useful Browser Extensions
 date: 2022-11-06T09:08:10+06:00
-lastmod: 2024-12-31T09:08:10+06:00
+lastmod: 2025-1-17T09:08:10+06:00
 draft: false
 author: Sharafat Karim
 authorLink: https://sharafat.pages.dev/about/
@@ -212,6 +212,9 @@ Track what music you are playing and share with your friends from YouTube, spoti
 [Audio Equalizer](https://prod.outgoing.prod.webservices.mozgcp.net/v1/dff4b15797e84db8f28903285366e86e8ee57c35dcb046b57f3c659f687ef392/https%3A//mybrowseraddon.com/audio-equalizer.html) is a lite add-on that let you easily adjust audio settings (the balance between frequency components in audio file) from toolbar popup.
 - [Audio Equalizer | Homepage](https://prod.outgoing.prod.webservices.mozgcp.net/v1/dff4b15797e84db8f28903285366e86e8ee57c35dcb046b57f3c659f687ef392/https%3A//mybrowseraddon.com/audio-equalizer.html)
 - [Audio Equalizer – 🦊 Firefox](https://addons.mozilla.org/en-US/firefox/addon/audio-equalizer-wext/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured) 
+
+> If you are only looking for increase the audio of YouTube videos, you might [check this one](https://addons.mozilla.org/en-US/firefox/addon/soundfixer/). 
+
 
 ## Tab management
 
