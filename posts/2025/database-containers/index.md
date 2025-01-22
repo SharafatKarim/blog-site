@@ -65,65 +65,158 @@ seo:
 license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
-আসসালমু আলাইকুম। আশা করি ভালোই আছেন আপনারা। সত্য বলতে তাড়াহুড়ো করে লেখা, তাই ভুলগুলো ক্ষমাসুন্দর দৃষ্টিতে দেখার অনুরোধ রইলো।
+## My SQL
 
-## VS CODE
+MySQL is a RDBMS software which use SQL like syntax to manage databases. Nowadays most of the major linux distributions come with maria db preinstalled, which is an open source drop in replace ment for MySQL. I’ll be writing about some ways to install MySQL in linux based operating systems,
 
-কথা না বাড়িয়ে চলে আসি vscode (visual studio code) নিয়ে। এটা একটা টেক্সট এডিটর। আসলেই কি তাই?
+## XAMPP
 
-যখন আপনাকে সিম্পল একটা টেক্সট ফাইল এডিট করতে বলা হবে, হয়তো নোটপ্যাড আছে। যতটুকু দরকার প্রায় সবই করা যাবে, তাই না? যারা একটু প্রোগ্রামিং সম্পর্কে ধারণা রাখেন, তারা হয়তো বলবে vscode এর কথা। তাহলে নোডপ্যাড আর vscode তো একই কাজের জন্য, তাই না?
+Xampp is a popular tool which is an open source cross-platform web server solution stack package developed by Apache friends. It can be installed via the official website’s installer. Here a `.run` file will be downloaded which can be installed by executing from a terminal. But it is not recommended to install in this way.
+The most recommended way is to search for a similar package in distros native package manager. For example, in Arch Linux the package is available through AUR (Arch User Repository). Here’s the git-clone URL,
 
-যারা নিয়মিত ব্যবহার করেন vscode, কেউ কেউ উত্তরস্বরূপ উপস্থাপন করতে পারেন, বিভিন্ন প্রোগ্রামিং ভাষার কোডের বিভিন্ন অংশ বিভিন্ন বর্ণে রঙিন হয়ে থাকে, এক কথায় syntax highligting। আবার কেউ বা অন্যান্য কিছূ সুবিধা যেমন, snippet, auto suggestion এর কথা স্মরণ করিয়ে দিবেন। আর কেউ বা extension এর কথাও বলতে পারেন। তবে আমি সেদিকে যাচ্ছি না আজ।
+- <https://aur.archlinux.org/packages/xampp>
 
-![vscode](https://grplusbd.net/wp-content/uploads/2024/05/image-4-1536x613.png)
+To install it, we can use a AUR wrapper like `yay`. To do so, use the following command to query and install the latest version of `xampp`.
 
-যারা একেবারেই, vscode নিয়ে জানেন না তাদের জন্য একটি লিংক রেখে যাচ্ছি,
-<https://code.visualstudio.com/>
+```bash
+yay xampp
+```
 
-## The Question
+After installing open the app, head over to the second tab and start database and web server. Web UI will be available under `localhost`.
 
-তাহলে এতটুকু ধারণা করা যায়, যে এটার মাধ্যমে আমরা সহজে কোড তো লিখতে পারবো। কিন্তু যেহেতু কোড বলে কথা, একটু তো প্রাইভেসি এর দরকার আছে তাই না? আপনি নিশ্চয়ই চাইবেন না যেনো, আপনার হাড়ভাঙা পরিশ্রমের লেখা কোড অন্য কোনো তৃতীয় পক্ষ তাদের মেশিন লার্নিং এ ব্যবহার করে। তাই না?
+## Podman Container
 
-এই প্রাইভেসি সমস্যা সমাধানে, বেশ কয়েকটি উপায়ের মধ্যে, আমার দৃষ্টিতে সেরা উপায়টা হলো open source সফটওয়্যার ব্যবহার। আর vs code বলা যায় open source software। তাহলে সমস্যা সমাধান তো হয়েই গেলো। তাই না?
+One another good way to install MySQL is to use a podman or docker container. I personally prefer podman so I will be writing about it. Installing a container running only MySQL is pretty much easy. We just have to grub the image and run it in a container. It’s volume will be created automatically. Or if we also want to include a phpmyadmin web app to manage our image then we actually have to use a pod to contain two different containers.
 
-## The Twist
+### MySQL image
 
-মজার ব্যাপার টা এখানে, যে আসলে সত্য বলতে কিছুই সমাধান হয় নি। vs code সম্পূর্ণরূপে open source না। কিছুটা proprietery এর ছোঁয়া রয়েই গেছে (source code)। আর আপনি এটাও জানেন না যে GitHub থেকে তারা exact code নিয়ে build করে নাকি কিছূ পরিবর্তন করে build করে। তাহলে উপায়?
+To setting up MySQL image, we can pull it from dockerhub. The command will be like,
 
-এই প্রসঙ্গে পরিচয় করিয়ে দেই, দুটো বেশ জনপ্রিয় vs code এর open source alternative যাদের উৎপত্তি vs code থেকেই। তাহলে আমরা যদি এদেরকে vs code এর derivative বা সন্তান ধরি, আশা করি আমি ভুল নই। আমি দুটো বলেছি, তার মানে আবার এটা আপনারা ধরে নিয়েন না যে কেবল দুটোই আছে।
+```bash
+podman pull mysql
+```
 
-## VSCODIUM
+then, we can start and run our image with the following command,
 
-Vscodium বলা যায় vscode এর উপর ভিত্তি করা সবচেয়ে জনপ্রিয় বিল্ড। এখানে microsoft এর টেলিমেট্রি গুলো ছাঁটাই করা হয়েছে, অপ্রয়োজনীয় dependency আর ঝামেলা মুক্ত। একেবারেই open source। বেশ মজার, তাই না?
+```bash
+podman run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=tree --name mysql-db mysql:latest
+```
 
-এর website টা হলো, <https://vscodium.com/>
+Here our root password is defined as tree by the environement variable `MYSQL_ROOT_PASSWORD`.
+And if we try to do list running process we can execute,
 
-এখানে ভিজিট করে আপনারা হয়তো নিশ্চয়ই এর বৈশিষ্ট্য গুলো জেনে নিয়েছে। সেদিকে আমি না হয় নাই বললাম, আমি বরং সমস্যাগুলোতে ফোকাস করি। সমস্যার কথা যদি বলতেই হয়, তাহলে যেটা আপনাকে চিন্তিত করার জন্য যথেষ্ঠ সেটা হলো extension!
+```bash
+podman ps
+```
 
-![vscodium](https://grplusbd.net/wp-content/uploads/2024/05/image-5.png)
+It will see our image up and running. Now let’s actually enter to our server!
 
-হ্যাঁ, আপনি সব vs code এর extension পাবেন না। পাবেন না বলতে আমি বলতে চাচ্ছি বাম পাশের (by deafault তো বামেই থাকে তাই না?) extension এর store থেকে পাবেন না। তবে হ্যাঁ, আপনি চাইলে vs code এর official website থেকে extension bundle নামিয়ে তারপর install করতেই পারবেন। আর চাইলে vs code এর extension source entry ও করে নিতে পারবেন। বাকিটা আর বললাম না, কারণ আপনি নিশ্চয়ই এতোক্ষণে সার্চ ইঞ্জিনে এতোক্ষণে অনেক কিছূ খুঁজে নিয়েছেন। একটা লিংক রেখে গেলাম একপলকে step গুলো দেখে নিতে পারেন, <https://milicendev.netlify.app/article/install-vs-codium-and-integrate-vs-code-extensions/>
+```bash
+podman exec -it mysql-db mysql -u root -p
+```
 
-আরেকটা হয়তো ছোটখাটো চিন্তা মাথায় আপনার ক্রস করতে পারে, setting and account sync? সত্য বলতে vscodium এর setting.json টা আপনি backup রাখুন। extension এর বেলাতেও একই কথা প্রযোজ্য। একটা লিংক রেখে যাচ্ছি, <https://superuser.com/questions/1080682/how-do-i-back-up-my-vs-code-settings-and-list-of-installed-extensions> । আশা করি আপনারা নিজেরাই বুৃঝে গেছেন এতোক্ষনে।
+Let’s run a command to verify,
 
-## Code OSS
+```bash
+show databases;
+```
 
-এটাও আরেকটা alternative vscode build। এটা তাদের জন্য যারা একটু সিকিউরিটি নিয়ে বেশীই concerned। আমি লিংক রেখে যাচ্ছি, <https://github.com/code-oss-dev/code>
+It’ll list all databases.
+Now with `localhost:3306` you can access this database from mysql workbench or other clients.
 
-সাধারণত বিভিন্ন লিনাক্স ডিস্ট্রোগুলো by default এই package ship করে, যেমন, Arch Linux. এটা একটু বেশীই lightweight এবং হয়তো এখানে বেশ কিছূ proprietery extension একেবারেই কাজ নাও করতে পারে। একদম bare minimal বলে যদি কিছূ একটা থাকে তাহলে এর প্রকৃষ্ঠ উদাহারণ হতে পারে এই প্রজেক্ট। খুব সুন্দর একটা বিষয়, তাই না?
+### Phpmyadmin image
 
-![code oss](https://grplusbd.net/wp-content/uploads/2024/05/image-6-1536x1152.png)
+Phpmyadmin is a web UI for managing MySQL databases. Let’s pull it first,
 
-তাহলে কি আমরা এখানেও vscodium এর মতো extension যুক্ত করতে পারবো। অবশ্যই। বলা যায় একই প্রসেস। তবে যেহেতু code oss লিনাক্সে বেশী প্রচলিত তাই আপনি vs code এর marketplace যুক্ত করার জন্য আলাদা package ই পেয়ে যাবেন আশা করি। তাহলে তো কষ্ট কমে গেলো, তাই না?
+```bash
+podman pull phpmyadmin
+```
 
-যেমন, Archlinux এ আপনারা এই package পেয়ে যাবেন, Arch user repository তে, <https://aur.archlinux.org/packages/code-marketplace>
+Now if run this image we won’t be able to access another image (MySQL) because there’s no connection in between them. So we will be using podman pod. Let’s create a podman pod,
 
-সত্য বলতে, ঠিক এইধরণের pacakge আপনারা vscodium এর জন্যও পেয়ে যাবেন। এবার পছন্দ আপনার!
+```bash
+podman pod create --name mysql -p 8080:8080 3306:3306
+```
 
-## Wrapping up
+If we have previously created an image as per this guide and that is up and running, try the follwing command to stop and delete,
 
-এবার বিদায়ের পালা। আশা করি আপনার পোষ্ট টা উপভোগ করেছেন। তবে হ্যাঁ, আমি details এ কিছূই লেখি নি। আশা করি বাকি পথ আপনারা আপনার পছন্দের সার্চ ইঞ্জিনের সাথে চলতে পারবেন। আর প্রয়োজন হলে জানাতে পারেন। বিস্তারিত যদি কোনো স্টেপ জানার প্রয়োজন হয়। যেকোনো ভুল জন্য ক্ষমা করবেন। আজকের মতো এখানেই বিদায় নিলাম।
+```bash
+podman stop mysql-db && podman rm mysql-db
+```
 
-{{< admonition type=info title="মজার ব্যাপার," open=true >}}
-এই আর্টিকেলটি আমার একজন বড় ভাই এর ব্লগসাইটের জন্য মূলত লেখা হয়েছিলো। এখান থেকে সেটা দেখে নিতে পারেন। এই পেইজের ইমেজগুলো সরাসরি সেখান থেকে লিংক করা।
-{{< /admonition >}}
+Now let’s start our mysql server under this pod,
+
+```bash
+podman run -d -e MYSQL_ROOT_PASSWORD=tree --pod mysql --name mysql-db mysql:latest
+```
+
+And finally let’s open our phpmyadmin with this pod,
+
+```bash
+podman run --name phpmyadmin -e PMA_ARBITRARY=1 -d --pod mysql phpmyadmin
+
+```
+
+It will be availabe under port 8080, as like we defined earlier. So let’s head over to,
+
+- <http://localhost:8080/>
+
+Here, our,
+
+```text
+Server = localhost:3306
+Username = root
+Password = tree
+This can be also done graphically with the help of `podman desktop`.
+```
+
+### Docker
+
+- Pull the image from the docker hub
+
+```bash
+docker pull mysql
+```
+
+or, using podman?
+
+```bash
+podman pull docker.io/library/mysql
+```
+
+- Now, let’s create our first container from the mysql image. Here is the command we will use:
+
+```bash
+docker run --name test-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=tree -d mysql
+```
+
+> run: creates a new container or starts an existing one
+>
+> --name CONTAINER_NAME: gives the container a name. The name should be readable and short. In our case, the name is test-mysql.
+>
+> -e ENV_VARIABLE=value: the -e tag creates an environment variable that will be accessible within the container. It is crucial to set MYSQL_ROOT_PASSWORD so that we can run SQL commands later from the container. Make sure to store your strong password somewhere safe (not your brain).
+>
+> -d: short for detached, the -d tag makes the container run in the background. If you remove this tag, the command will keep printing logs until the container stops.
+>
+> image_name: the final argument is the image name the container will be built from. In this case, our image is mysql.
+>
+> -p HOST_PORT:CONTAINER_PORT: the -p tag maps a port from the host machine to the container. In this case, we are mapping port 3306 from the host to the container. This is the default port for MySQL.
+>
+
+If the command returns a long string of gibberish (the container ID), it means the container has started. You can check its status with docker ps:
+
+- To access the terminal inside your container, you can use the following command:
+
+```bash
+docker exec -it container_name bash
+```
+
+- And then to login to mysql:
+
+```bash
+mysql -u root -p
+```
+
+## Troubleshooting
+
+- <https://stackoverflow.com/questions/41645309/mysql-error-access-denied-for-user-rootlocalhost>
