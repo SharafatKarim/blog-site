@@ -69,7 +69,7 @@ license: '<a rel="license external nofollow noopener noreffer" href="https://cre
 
 MySQL is a RDBMS software which use SQL like syntax to manage databases. Nowadays most of the major linux distributions come with maria db preinstalled, which is an open source drop in replace ment for MySQL. I’ll be writing about some ways to install MySQL in linux based operating systems,
 
-## XAMPP
+### XAMPP
 
 Xampp is a popular tool which is an open source cross-platform web server solution stack package developed by Apache friends. It can be installed via the official website’s installer. Here a `.run` file will be downloaded which can be installed by executing from a terminal. But it is not recommended to install in this way.
 The most recommended way is to search for a similar package in distros native package manager. For example, in Arch Linux the package is available through AUR (Arch User Repository). Here’s the git-clone URL,
