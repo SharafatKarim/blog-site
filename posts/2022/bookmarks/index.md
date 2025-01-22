@@ -451,6 +451,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Perplexity](https://www.perplexity.ai/) 
 - [Google NotebookLM - AI from your notes](https://notebooklm.google.com/) 
 - [HuggingChat](https://huggingface.co/chat/) 
+- [Deepseek AI](https://chat.deepseek.com/) 
 
 ## Learn 
 > Learn as you go cause you can't finish it.
