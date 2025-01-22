@@ -84,7 +84,7 @@ yay xampp
 
 After installing open the app, head over to the second tab and start database and web server. Web UI will be available under `localhost`.
 
-## Podman Container
+### Podman Container
 
 One another good way to install MySQL is to use a podman or docker container. I personally prefer podman so I will be writing about it. Installing a container running only MySQL is pretty much easy. We just have to grub the image and run it in a container. It’s volume will be created automatically. Or if we also want to include a phpmyadmin web app to manage our image then we actually have to use a pod to contain two different containers.
 
