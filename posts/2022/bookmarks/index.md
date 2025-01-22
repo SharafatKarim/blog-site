@@ -451,6 +451,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Pi, your personal AI](https://heypi.com/talk) 
 - [Perplexity](https://www.perplexity.ai/) 
 - [Google NotebookLM - AI from your notes](https://notebooklm.google.com/) 
+- [Hugging Face – The AI community building the future.](https://huggingface.co/) 
 
 ## Learn 
 > Learn as you go cause you can't finish it.
