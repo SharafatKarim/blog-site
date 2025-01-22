@@ -447,7 +447,6 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 
 ### Generative Predictive models 
 - [AI Chat - DuckDuckGo](http://duck.ai/) 
-- [BAI Chat](https://chatbot.theb.ai/#/chat/1002) 
 - [Pi, your personal AI](https://heypi.com/talk) 
 - [Perplexity](https://www.perplexity.ai/) 
 - [Google NotebookLM - AI from your notes](https://notebooklm.google.com/) 
