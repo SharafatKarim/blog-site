@@ -273,17 +273,7 @@ podman start oracle-db
 
 > You may need to start the container if you have restarted your system!
 
-### Misc
-
-#### Port address
-
-To get your outgoing forwarded port from podman, use the following,
-
-```bash
-podman port oracle-db     
-```
-
-#### vscode integration
+### Vscode integration
 
 It would be weird if we have to use terminal everytime we want to access our database, right?
 Let's use vscode. Simply install the following extension,
@@ -322,3 +312,31 @@ For Microsoft SQL Server, you can do the same with above steps. Official docs ar
 - [Deploy and Connect to SQL Server Linux Containers - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment?view=sql-server-ver16&pivots=cs1-bash) 
 
 > Hope you can figure out the rest! With the same approach as above, it's easy to setup any database. But if your'e using `docker`, unlike me, then you may need `kubernate` for creating pods. (Linking multiple containers).
+
+## Misc
+
+### Port address
+
+To get your outgoing forwarded port from podman, use the following,
+
+```bash
+podman port oracle-db     
+```
+
+### Listing all images
+
+To list all of your podman images for space consumption, you can try,
+
+```bash
+podman images
+```
+
+Here's an example output,
+
+```
+REPOSITORY                                   TAG               IMAGE ID      CREATED        SIZE  
+mcr.microsoft.com/mssql/server               2022-latest       b823451808db  12 days ago    1.63 GB  
+docker.io/library/mysql                      latest            56a8c14e1404  3 months ago   621 MB  
+container-registry.oracle.com/database/free  23.5.0.0-lite     742f1b37af1d  5 months ago   1.84 GB    
+docker.io/library/phpmyadmin                 latest            f3764e4737b6  18 months ago  571 MB
+```
