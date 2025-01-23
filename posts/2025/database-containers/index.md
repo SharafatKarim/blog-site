@@ -1,26 +1,28 @@
 ---
-title: "Database setup with podman/ Docker containers"
+title: Database setup with podman/ Docker containers
 date: 2025-01-22T19:18:35+06:00
 lastmod: 2025-01-22T19:18:35+06:00
-draft: true
-author: "Sharafat Karim"
-authorLink: "https://sharafat.pages.dev/about/"
-description: "An Quickstart guide for starting your journey with database alongside a bit of containers, especially for Linux guys!"
-license: ""
-images: []
+draft: false
+author: Sharafat Karim
+authorLink: https://sharafat.pages.dev/about/
+description: A quick start guide for starting your journey with database alongside a bit of containers, especially for Linux guys!
+license: <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+images: 
 resources:
-- name: "featured-image"
-  src: "featured-image.jpg"
-- name: "featured-image-preview"
-  src: "featured-image.jpg"
-
-tags: ["software", "basic", "linux", "arch"]
-categories: ["tutorial"]
-summary: "An Quickstart guide for starting your journey with database alongside a bit of containers, especially for Linux guys!"
-
-featuredImage: "featured-image"
-featuredImagePreview: "featured-image-preview"
-
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image.jpg
+tags:
+  - software
+  - basic
+  - linux
+  - arch
+categories:
+  - tutorial
+summary: A quick start guide for starting your journey with database alongside a bit of containers, especially for Linux guys!
+featuredImage: featured-image
+featuredImagePreview: featured-image-preview
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: false
@@ -30,7 +32,6 @@ fraction: true
 fontawesome: true
 linkToMarkdown: true
 rssFullText: false
-
 toc:
   enable: true
   auto: true
@@ -39,39 +40,37 @@ code:
   maxShownLines: 50
 math:
   enable: false
-  # ...
-mapbox:
-  # ...
+mapbox: 
 share:
   enable: true
-  # ...
 comment:
   enable: true
-  # ...
 library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
+  css: 
+  js: 
 seo:
   images: []
-  # ...
-license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
+
+A quick start guide for starting your journey with database alongside a bit of containers, especially for Linux guys! Please refer to the table of contents for jumping to the part you need!
 
 ## My SQL
 
 MySQL is a RDBMS software which use SQL like syntax to manage databases. Nowadays most of the major Linux distributions come with maria db preinstalled, which is an open source drop in replacement for MySQL. I’ll be writing about some ways to install MySQL in linux based operating systems,
 
-### Podman Container
+### Container Installation
 
 One another good way to install MySQL is to use a podman or docker container. I personally prefer podman so I will be writing about it. Installing a container running only MySQL is pretty much easy. We just have to grub the image and run it in a container. It’s volume will be created automatically. Or if we also want to include a phpmyadmin web app to manage our image then we actually have to use a pod to contain two different containers.
+
+#### Setup a container
+
+Whatever, let's install podman! You can follow the official documentation for this. I guess most of the major linux distributions have podman in their official repositories.
+
+Like, for Arch Linux:
+
+```bash
+sudo pacman -S podman
+```
 
 #### MySQL image
 
@@ -191,9 +190,12 @@ Mainly I will be focusing linux, but will work on mac as well, with some of it's
 >
 > - <https://www.oracle.com/database/technologies/xe-downloads.html>
 
-### Setup a container
+
+### Container Installation
 
 Docker and podman are the two most popular containerization tools. I will be using podman for this, and I will recommend podman as well. Why? Maybe I will write a blog on this later.
+
+#### Setup a container
 
 Whatever, let's install podman! You can follow the official documentation for this. I guess most of the major linux distributions have podman in their official repositories.
 
@@ -203,7 +205,7 @@ Like, for Arch Linux:
 sudo pacman -S podman
 ```
 
-### Pull the image
+#### Pull the image
 
 There are mainly two images available for free, full and lite.
 
@@ -219,7 +221,7 @@ And to be honest, it's a huge image around 9.48 G. So, I will recommend the lite
 podman pull container-registry.oracle.com/database/free:23.5.0.0-lite
 ```
 
-### Run the container
+#### Run the container
 
 Now let's go ahead and actually run the container.
 
@@ -236,7 +238,7 @@ And the port `1521` is the default port for Oracle Database. You can change it i
 
 > Flag `--name` is used to give a name to the container. (Try to remember it!)
 
-### Set a password
+#### Set a password
 
 Here I have used `1234` as the password. You can use whatever you want.
 
@@ -244,7 +246,7 @@ Here I have used `1234` as the password. You can use whatever you want.
 podman exec -it oracle-db ./setPassword.sh 1234
 ```
 
-### Connect to the database
+#### Connect to the database
 
 You can use any database client to connect to the database. I will be using SQL\*Plus.
 
@@ -257,13 +259,13 @@ And then enter the following details:
 - Username: `system`
 - Password: `1234` (Or the one you set in the previous step!)
 
-### Stop the container
+#### Stop the container
 
 ```bash
 podman stop oracle-db
 ```
 
-### Start the container
+#### Start the container
 
 ```bash
 podman start oracle-db
@@ -271,9 +273,9 @@ podman start oracle-db
 
 > You may need to start the container if you have restarted your system!
 
-## Misc
+### Misc
 
-### Port address
+#### Port address
 
 To get your outgoing forwarded port from podman, use the following,
 
@@ -281,9 +283,7 @@ To get your outgoing forwarded port from podman, use the following,
 podman port oracle-db     
 ```
 
-## Integration
-
-### VSCODE
+#### vscode integration
 
 It would be weird if we have to use terminal everytime we want to access our database, right?
 Let's use vscode. Simply install the following extension,
@@ -291,9 +291,9 @@ Let's use vscode. Simply install the following extension,
 - <https://marketplace.visualstudio.com/items?itemName=Oracle.sql-developer>
 
 > Or, Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
->
-> `ext install Oracle.sql-developer`
->
+> 
+> `ext install Oracle.sql-developer`.
+> 
 > The size of this extension is more than 300 M, so it'll take a bit of time.
 
 - Now on our left/ right toolbar, you will find a icon, and maybe try to add a new connection? You will asked to fill up a form.
@@ -313,3 +313,12 @@ WHERE NAME = 'service_names';
 ```
 
 And you are good to go!
+
+## SQL server
+
+For Microsoft SQL Server, you can do the same with above steps. Official docs are available here. Let's take a look,
+
+- [Docker: Install Containers for SQL Server on Linux - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver16)
+- [Deploy and Connect to SQL Server Linux Containers - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment?view=sql-server-ver16&pivots=cs1-bash) 
+
+> Hope you can figure out the rest! With the same approach as above, it's easy to setup any database. But if your'e using `docker`, unlike me, then you may need `kubernate` for creating pods. (Linking multiple containers).
