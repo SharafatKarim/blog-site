@@ -445,13 +445,14 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Replicate – Run open-source machine learning models with a cloud API](https://replicate.com/) 
 - [Scribble Diffusion](https://scribblediffusion.com/) 
 
-### Generative Predictive models 
+### Generative Predictive models (LLM)
 - [AI Chat - DuckDuckGo](http://duck.ai/) 
 - [Pi, your personal AI](https://heypi.com/talk) 
 - [Perplexity](https://www.perplexity.ai/) 
 - [Google NotebookLM - AI from your notes](https://notebooklm.google.com/) 
 - [HuggingChat](https://huggingface.co/chat/) 
 - [Deepseek AI](https://chat.deepseek.com/) 
+- [Qwen](https://chat.qwenlm.ai/) 
 
 ## Learn 
 > Learn as you go cause you can't finish it.
