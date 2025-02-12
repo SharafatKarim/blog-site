@@ -1,24 +1,29 @@
 ---
-title: "Archlinux minimal Install with btrfs"
+title: Archlinux minimal Install with btrfs
 date: 2022-12-19T15:25:33+06:00
-lastmod: 2022-12-19T15:25:33+06:00
+lastmod: 2025-2-12T15:25:33+06:00
 draft: false
-author: "Sharafat Karim"
-authorLink: "https://sharafat.pages.dev/about/"
-description: "A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support!"
-license: ""
-images: []
+author: Sharafat Karim
+authorLink: https://sharafat.pages.dev/about/
+description: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support!
+license: <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+images: 
 resources:
-- name: "featured-image"
-  src: "featured.jpg"
-
-tags: ['linux', 'os', 'tutorial', 'arch', 'kde', 'btrfs', 'plasma']
-categories: ['tutorial']
-summary: "A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support! (part one)"
-
-featuredImage: "featured-image"
+  - name: featured-image
+    src: featured.jpg
+tags:
+  - linux
+  - os
+  - tutorial
+  - arch
+  - kde
+  - btrfs
+  - plasma
+categories:
+  - tutorial
+summary: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support! (part one)
+featuredImage: featured-image
 featuredImagePreview: ""
-
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: false
@@ -28,7 +33,6 @@ fraction: true
 fontawesome: true
 linkToMarkdown: true
 rssFullText: false
-
 toc:
   enable: true
   auto: true
@@ -37,30 +41,16 @@ code:
   maxShownLines: 50
 math:
   enable: false
-  # ...
-mapbox:
-  # ...
+mapbox: 
 share:
   enable: true
-  # ...
 comment:
   enable: true
-  # ...
 library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
+  css: 
+  js: 
 seo:
   images: []
-  # ...
-license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
 # Arch Linux Installation Guide
@@ -179,6 +169,11 @@ For example, my country is Bangladesh and I've a mirror available. I can achieve
 
 It's always recommended to select the latest version. File name is like,
 - *archlinux-2022.12.01-x86_64.iso*
+{{< /admonition >}}
+
+{{< admonition tip "And," false >}}
+If you want, you can also try third party builds of ArchLinux. Check the following link,
+- [Archboot - Additional Arch Linux ISOs And UKIs](https://archboot.com/)
 {{< /admonition >}}
 
 ### Installation medium
