@@ -345,6 +345,19 @@ To configure it, use `/etc/timeshift-autosnap.conf`. But default configuration s
 sudo timeshift-autosnap
 ```
 
+### Exclude swapfile
+If you are using `swapfile`, then you might want to edit, `/etc/timeshift.json` or, `/etc/timeshift/timeshift.json` and add swap to the exclude list.
+
+```bash
+{
+...
+"exclude" : [
+    "/*swap*"
+  ],
+...
+}
+```
+
 ## GRUB
 
 ### grub-btrfs
