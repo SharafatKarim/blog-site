@@ -314,6 +314,26 @@ For Microsoft SQL Server, you can do the same with above steps. Official docs ar
 - [Docker: Install Containers for SQL Server on Linux - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver16)
 - [Deploy and Connect to SQL Server Linux Containers - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment?view=sql-server-ver16&pivots=cs1-bash) 
 
+### Container Installation
+
+#### Setup a container
+
+Whatever, let's install podman! You can follow the official documentation for this. I guess most of the major linux distributions have podman in their official repositories.
+
+Like, for Arch Linux:
+
+```bash
+sudo pacman -S podman
+```
+
+#### Pull the image
+Let's pull the image first,
+
+```bash
+podman pull mcr.microsoft.com/mssql/server:2022-latest
+```
+
+
 ## Misc
 
 ### Port address
