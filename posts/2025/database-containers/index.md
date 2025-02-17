@@ -332,7 +332,7 @@ SQL Server's latest version may require podman with root. So lemme use an older 
 Let's pull the image first,
 
 ```bash
-docker pull mcr.microsoft.com/mssql/server:2019-latest
+podman pull mcr.microsoft.com/mssql/server:2019-latest
 ```
 
 #### Run the container
