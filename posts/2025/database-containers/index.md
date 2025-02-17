@@ -350,6 +350,14 @@ Finally connect with,
 podman exec -it sql-server /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "ADayHas@24Hours" -C
 ```
 
+Here, if you want to work in the CLI, write your commands but you won't see any output. For output use, `GO` query. Like this one,
+```sql
+CREATE DATABASE sharafat;
+SELECT name
+FROM sys.databases;
+GO
+```
+
 ## Misc
 
 ### Port address
