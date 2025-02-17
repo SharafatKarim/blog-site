@@ -344,6 +344,11 @@ podman run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=ADayHas@24Hours" \
   mcr.microsoft.com/mssql/server:2019-latest
 ```
 
+#### Connect to the database
+Finally connect with,
+```bash
+podman exec -it sql-server /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "ADayHas@24Hours" -C
+```
 
 ## Misc
 
