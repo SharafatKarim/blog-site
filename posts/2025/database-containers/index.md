@@ -162,6 +162,9 @@ Password = tree
 This can be also done graphically with the help of `podman desktop`.
 ```
 
+
+> Hope you can figure out the rest! With the same approach as above, it's easy to setup any database. But if your'e using `docker`, unlike me, then you may need `kubernate` for creating pods. (Linking multiple containers).
+
 ### XAMPP
 
 Xampp is a popular tool which is an open source cross-platform web server solution stack package developed by Apache friends. It can be installed via the official website’s installer. Here a `.run` file will be downloaded which can be installed by executing from a terminal. But it is not recommended to install in this way.
@@ -310,8 +313,6 @@ For Microsoft SQL Server, you can do the same with above steps. Official docs ar
 
 - [Docker: Install Containers for SQL Server on Linux - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver16)
 - [Deploy and Connect to SQL Server Linux Containers - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment?view=sql-server-ver16&pivots=cs1-bash) 
-
-> Hope you can figure out the rest! With the same approach as above, it's easy to setup any database. But if your'e using `docker`, unlike me, then you may need `kubernate` for creating pods. (Linking multiple containers).
 
 ## Misc
 
