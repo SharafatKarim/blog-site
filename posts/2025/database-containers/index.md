@@ -350,12 +350,28 @@ Finally connect with,
 podman exec -it sql-server /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "ADayHas@24Hours" -C
 ```
 
+> We may need to use `-C` flag to trust connection.
+
 Here, if you want to work in the CLI, write your commands but you won't see any output. For output use, `GO` query. Like this one,
 ```sql
-CREATE DATABASE sharafat;
+CREATE DATABASE university;
 SELECT name
 FROM sys.databases;
 GO
+```
+
+### Vscode integration
+In vscode, you can use the [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) extension to easily get the GUI! Create a new database project and connect with,
+
+```
+Profile Name             : Anything
+Server name*             : localhost
+Trust server certificate : yes 
+Authentication type*     : SQL Login
+User name*               : sa
+Password*                : ADayHas@24Hours 
+Save Password            : yes [OPTIONAL]
+Database name            : university (We created earlier from CLI)
 ```
 
 ## Misc
