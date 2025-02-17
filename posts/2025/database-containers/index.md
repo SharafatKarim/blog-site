@@ -327,10 +327,18 @@ sudo pacman -S podman
 ```
 
 #### Pull the image
+SQL Server's latest version may require podman with root. So lemme use an older version instead for now.
+
 Let's pull the image first,
 
 ```bash
-podman pull mcr.microsoft.com/mssql/server:2022-latest
+docker pull mcr.microsoft.com/mssql/server:2019-latest
+```
+
+#### Run the container
+Let's run it now,
+```bash
+
 ```
 
 
