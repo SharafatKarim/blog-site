@@ -453,6 +453,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [HuggingChat](https://huggingface.co/chat/) 
 - [Deepseek AI](https://chat.deepseek.com/) 
 - [Qwen](https://chat.qwenlm.ai/) 
+- [Grok](https://grok.com/) - by X (formerly twitter).
 
 ## Learn 
 > Learn as you go cause you can't finish it.
