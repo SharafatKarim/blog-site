@@ -77,12 +77,13 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 | sqlitebrowser    | Browse SQLite files                           |
 
 ## Education
-| Application                          | Description                                                                     |
-|:------------------------------------ |:------------------------------------------------------------------------------- |
-| xaos                                 | Interactive fractal zoomer                                                      |
-| geogebra                             | Dynamic mathematics software with interactive graphics, algebra and spreadsheet |
-| kig                                  | Interactive geometry                                                            |
-| [qalc](https://qalculate.github.io/) | Calculator app [GTK/ QT/ CMD]                                                   |
+| Application                                                                 | Description                                                                                       |
+| :-------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
+| xaos                                                                        | Interactive fractal zoomer                                                                        |
+| geogebra                                                                    | Dynamic mathematics software with interactive graphics, algebra and spreadsheet                   |
+| kig                                                                         | Interactive geometry                                                                              |
+| [qalc](https://qalculate.github.io/)                                        | Calculator app [GTK/ QT/ CMD]                                                                     |
+| [logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | [Digital logic design tool and simulator](https://github.com/logisim-evolution/logisim-evolution) |
 
 ## Games
 | Application   | Description                             |
