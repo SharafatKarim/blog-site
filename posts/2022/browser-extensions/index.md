@@ -292,6 +292,9 @@ Save an entire web page—including images and styling—as a single HTML file.
 - [SingleFile | GitHub](https://github.com/gildas-lormeau/SingleFile)
 - [SingleFile – 🦊 Firefox](https://addons.mozilla.org/en-US/firefox/addon/single-file/) 
 
+### Page assist
+Page Assist is an open-source browser extension that provides a sidebar and web UI for your local AI model (like *ollama*). It allows you to interact with your model from any webpage.
+- [page-assist: Use your locally running AI models to assist you in your web browsing](https://github.com/n4ze3m/page-assist)
 # Also,
 check some of those. Maybe you will find something unexpected, 🎃 who knows ؟
 ### Plasma Integration
