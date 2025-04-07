@@ -292,7 +292,8 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Free Hosting, Paid Hosting, Reseller Services & VPS Servers : Byet Internet](https://byet.host/) 
 - [StackBlitz | Instant Dev Environments | Click. Code. Done.](https://stackblitz.com/) 
 - [cron-job.org Console](https://console.cron-job.org/)  
-- [Hosting made for everyone | alwaysdata](https://www.alwaysdata.com/en/) - Free 100 MB data
+- [Hosting made for everyone | alwaysdata](https://www.alwaysdata.com/en/) - Free 100 MB data (MySQL+db available)
+- [Free Unlimited Web Hosting with PHP, MySQL, FTP - ProFreeHost](https://profreehost.com/) 
 
 ### Domain
 - [Namechk - Username and Domain Name Checker - Search All Domain Names and User Names to see if they're available](https://namechk.com/) 
