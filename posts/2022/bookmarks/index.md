@@ -656,8 +656,6 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Pixabay](https://pixabay.com/) 
 - [Unsplash](https://unsplash.com/) 
 - [Free Icons, Clipart Illustrations, Photos, and Music](https://icons8.com/)
-- [Openclipart - Clipping Culture](https://openclipart.org/)
-- [unDraw - Open source illustrations for any idea](https://undraw.co/) 
 - [Home — Food Pictures • Foodiesfeed • Free Food PhotosFood Pictures • Foodiesfeed • Free Food Photos](https://www.foodiesfeed.com/) 
 - [Free Stock Photos, Images, and Vectors](https://www.stockvault.net/)
 - [Moveast](https://moveast.me/)
@@ -670,6 +668,9 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Free Commercial Stock Photos & Royalty Free Images | PikWizard](https://pikwizard.com/) 
 
 ### Illustration
+- [Openclipart - Clipping Culture](https://openclipart.org/)
+- [SVG Repo - Free SVG Vectors and Icons](https://www.svgrepo.com/) 
+- [unDraw - Open source illustrations for any idea](https://undraw.co/) 
 - [Storyset | Customize, animate and download illustration for free](https://storyset.com/) 
 - [Open Doodles - Free sketchy illustrations](https://opendoodles.com/)
 - [Open Peeps, Hand-Drawn Illustration Library](https://www.openpeeps.com/) 
