@@ -326,6 +326,9 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Build optimized websites quickly, focus on your content | Docusaurus](https://docusaurus.io/) 
 - [Primo — build, edit, and publish static sites](https://primo.so/) 
 
+### Misc
+- [Awesome MCP Servers](https://mcpservers.org/) - A collection of servers for the Model Context Protocol (For communicating with AI).
+
 ### Reference
 - [Can I use](http://caniuse.com/) - Use Google Analytics to decide whether users can use a feature in your website.
 
