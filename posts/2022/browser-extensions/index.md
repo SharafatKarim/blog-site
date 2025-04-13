@@ -342,6 +342,10 @@ And to harden Firefox for extra security, check this blog,
 - [Firefox Hardening Guide](https://brainfucksec.github.io/firefox-hardening-guide) 
 {{< /admonition >}}
 
+#### Privacy concerned?
+Use the following site to create a profile, which should be more privacy focused.
+- [Firefox Profilemaker](https://ffprofile.com/)
+
 #### Extras
 
 If you want to explore more, here's a short suggestion,
