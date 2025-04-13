@@ -114,6 +114,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [editor.md](http://editor.md.ipandao.com/en.html) - markdown online editor
 - [Flowchart Maker & Online Diagram Software](https://app.diagrams.net/) - draw.io
 - [Simple Collaborative Mind Maps & Flow Charts - Coggle](https://coggle.it/) 
+- [Mermaid Chart - Create complex, visual diagrams with text. A smarter way of creating diagrams.](https://www.mermaidchart.com/) 
 
 ### Colors
 - [Flat UI colours](https://flatuicolors.com/) - color palettes
