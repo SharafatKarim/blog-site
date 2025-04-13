@@ -116,6 +116,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Simple Collaborative Mind Maps & Flow Charts - Coggle](https://coggle.it/) 
 - [Online FlowChart & Diagrams Editor - Mermaid Live Editor](https://mermaid.live/) 
 - [Mermaid Chart - Create complex, visual diagrams with text. A smarter way of creating diagrams.](https://www.mermaidchart.com/) 
+- [markmap.js.org/repl](https://markmap.js.org/repl) - Mindmap playgroiund | Markdown to mindmap gen.
 
 ### Colors
 - [Flat UI colours](https://flatuicolors.com/) - color palettes
