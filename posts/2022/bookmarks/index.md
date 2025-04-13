@@ -112,7 +112,8 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 ### Draw & Notes
 - [tldraw](https://www.tldraw.com/) - drawing tool
 - [editor.md](http://editor.md.ipandao.com/en.html) - markdown online editor
-- [Flowchart Maker & Online Diagram Software](https://app.diagrams.net/) 
+- [Flowchart Maker & Online Diagram Software](https://app.diagrams.net/) - draw.io
+- [Simple Collaborative Mind Maps & Flow Charts - Coggle](https://coggle.it/) 
 
 ### Colors
 - [Flat UI colours](https://flatuicolors.com/) - color palettes
