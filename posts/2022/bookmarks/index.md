@@ -750,6 +750,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Invidious - An open source alternative front-end to YouTube](https://invidious.io/) 
 - [@DarkHatHacker75](https://youtube-views.ytpremium35.repl.co/) - Multi play YouTube
 - [Stremio - Freedom to Stream](https://www.stremio.com/) 
+- [Watch Global & Local Live TV Online for Free - tv.garden](https://tv.garden/) 
 
 ### Coding challengers
 - [Checkio](https://py.checkio.org/) - Games for coding.
