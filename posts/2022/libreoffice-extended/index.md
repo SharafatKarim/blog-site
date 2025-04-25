@@ -158,18 +158,17 @@ Libre Office's default interface is similar to Open Office. You can change it to
 
 - try `tabbed` or play with them 🎃
 
-![](https://res.cloudinary.com/dte603aka/image/upload/v1667880531/blog/2022/Screenshot_20221108_100821_jgdqcu.png)
+![https://res.cloudinary.com/sharafat/image/upload/v1667880531/blog/2022/Screenshot_20221108_100821_jgdqcu.png](https://res.cloudinary.com/sharafat/image/upload/v1667880531/blog/2022/Screenshot_20221108_100821_jgdqcu.png)
 
 - finally `apply`
 
 {{< admonition warning "And also, plasma or QT users," >}}
 Tabbed interface or anything other than default may not respect your theme (breeze or breeze-dark) especially if you're using dark theme!
 
-![](https://res.cloudinary.com/dte603aka/image/upload/v1667880812/blog/2022/photo_2022-11-08_10-13-19_ivkfyz.jpg)
+![https://res.cloudinary.com/sharafat/image/upload/v1667880812/blog/2022/photo_2022-11-08_10-13-19_ivkfyz.jpg](https://res.cloudinary.com/sharafat/image/upload/v1667880812/blog/2022/photo_2022-11-08_10-13-19_ivkfyz.jpg)
 
 If this is the case, try `kvantum` theme engine to change your QT theme. I use `qogir-qt` and here's the look,
-
-![](https://res.cloudinary.com/dte603aka/image/upload/v1667880997/blog/2022/Screenshot_20221108_101502_cx4ah8.png)
+![https://res.cloudinary.com/sharafat/image/upload/v1667880997/blog/2022/Screenshot_20221108_101502_cx4ah8.png](https://res.cloudinary.com/sharafat/image/upload/v1667880997/blog/2022/Screenshot_20221108_101502_cx4ah8.png)
 
 {{< /admonition >}}
 
@@ -214,11 +213,11 @@ Let's solve it!
 ### Extra toolbar
 If you've extra toolbars like this one,
 
-![extra toolbar](https://res.cloudinary.com/dte603aka/image/upload/v1667877560/blog/2022/Screenshot_20221108_091852_hirad5.png)
+![https://res.cloudinary.com/sharafat/image/upload/v1667877281/blog/2022/Screenshot_20221108_091352_loo2bd.png](https://res.cloudinary.com/sharafat/image/upload/v1667877281/blog/2022/Screenshot_20221108_091352_loo2bd.png)
 
 From the menubar, view, Toolbars, disable corresponding entry.
 
-![](https://res.cloudinary.com/dte603aka/image/upload/v1667877708/blog/2022/Screenshot_20221108_092125_zkaqnj.png)
+![https://res.cloudinary.com/sharafat/image/upload/v1667877708/blog/2022/Screenshot_20221108_092125_zkaqnj.png](https://res.cloudinary.com/sharafat/image/upload/v1667877708/blog/2022/Screenshot_20221108_092125_zkaqnj.png)
 
 ## Wrapping Up
 
