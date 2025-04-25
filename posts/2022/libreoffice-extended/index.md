@@ -126,13 +126,13 @@ For older releases, try the following method,
 - download it's extension [from here](https://extensions.libreoffice.org/en/extensions/show/languagetool) (*.oxt file). Latest version is recommended. File size is around 160 MB.
 - manually install it in LibreOffice through Tools > Extension. (ctrl + alt + e)
 
-![](https://res.cloudinary.com/dte603aka/image/upload/v1667876796/blog/2022/Screenshot_20221108_090549-1_isfwdu.png)
+![https://res.cloudinary.com/sharafat/image/upload/v1667876796/blog/2022/Screenshot_20221108_090549-1_isfwdu.png](https://res.cloudinary.com/sharafat/image/upload/v1667876796/blog/2022/Screenshot_20221108_090549-1_isfwdu.png)
 
 After installation, got an additional toolbar? If you don't like it [you can remove it also.](#extra-toolbar)
 {{< admonition warning "Confused?" false >}}
 This tool is for Grammar checking, not for spelling check.
 
-![](https://res.cloudinary.com/dte603aka/image/upload/v1667877281/blog/2022/Screenshot_20221108_091352_loo2bd.png)
+![https://res.cloudinary.com/sharafat/image/upload/v1667877281/blog/2022/Screenshot_20221108_091352_loo2bd.png](https://res.cloudinary.com/sharafat/image/upload/v1667877281/blog/2022/Screenshot_20221108_091352_loo2bd.png)
 
 For spelling check, read top sections.
 {{< /admonition >}}
@@ -154,7 +154,7 @@ If you're coming from `Microsoft Office` this section is just for you!
 Libre Office's default interface is similar to Open Office. You can change it to tabbed mode like Microsoft office. To do so,
 - From menubar, view, select `User Interface...`
 
-![](https://res.cloudinary.com/dte603aka/image/upload/v1667880430/blog/2022/Screenshot_20221108_100657_qfuosk.png)
+![](https://res.cloudinary.com/sharafat/image/upload/v1667877708/blog/2022/Screenshot_20221108_092125_zkaqnj.png)
 
 - try `tabbed` or play with them 🎃
 
