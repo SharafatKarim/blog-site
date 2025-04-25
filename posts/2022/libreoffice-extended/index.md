@@ -197,8 +197,7 @@ Change the icon style in
 
 to `Breeze Dark` or another readable icon style. You may need to install the `breeze-gtk` package.
 
-![](https://res.cloudinary.com/dte603aka/image/upload/v1667879757/blog/2022/photo_2022-11-08_09-55-34_aetlrt.jpg)
-
+![](https://res.cloudinary.com/sharafat/image/upload/v1667879757/blog/2022/photo_2022-11-08_09-55-34_aetlrt.jpg)
 ### Unreadable text in math editor? 
 
 With dark themes, you may face dark background with dark text in math editor.
