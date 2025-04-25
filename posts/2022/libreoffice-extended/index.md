@@ -200,6 +200,17 @@ to `Breeze Dark` or another readable icon style. You may need to install the `br
 
 ![](https://res.cloudinary.com/dte603aka/image/upload/v1667879757/blog/2022/photo_2022-11-08_09-55-34_aetlrt.jpg)
 
+### Unreadable text in math editor? 
+
+With dark themes, you may face dark background with dark text in math editor.
+Let's solve it!
+
+- Go to Tools > Setting (ALT + F12)
+- Under Libreoffice group, go to "Appearance" tab
+- There's a Add more themes button, on the right hand side of the libreoffice themes.
+- From there install "Light Application Colors"
+- And finally apply it, and hit enter!
+
 ### Extra toolbar
 If you've extra toolbars like this one,
 
