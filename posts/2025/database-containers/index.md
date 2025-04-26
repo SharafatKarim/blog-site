@@ -229,7 +229,7 @@ podman pull container-registry.oracle.com/database/free:latest-lite
 Now let's go ahead and actually run the container.
 
 ```bash
-podman run -d -p 1521:1521 --name oracle-db container-registry.oracle.com/database/free:23.5.0.0-lite
+podman run -d -p 1521:1521 --name oracle-db container-registry.oracle.com/database/free:latest-lite
 ```
 
 Here, I have used the lite version of the image. You can use the full version as well. Just replace the image name.
