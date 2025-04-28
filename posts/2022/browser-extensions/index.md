@@ -360,6 +360,7 @@ If you want to explore more, here's a short suggestion,
 7. ⚔️ Netcraft
 8. 👻 Canvas Fingerprint Defender
 9. 🍧 [Notion Boost](https://addons.mozilla.org/en-US/firefox/addon/notion-boost/)
+10. 🛞 [refined-github: :octocat: Browser extension that simplifies the GitHub interface and adds useful features](https://github.com/refined-github/refined-github)
 
 And find it even more from [Firefox's add-on's page](https://addons.mozilla.org/en-US/firefox/). (Especially the recommended part)
 
