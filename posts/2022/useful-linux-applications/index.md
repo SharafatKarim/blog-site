@@ -166,17 +166,19 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | appimagelauncher | App image integration to the system |
 
 ## Utilities
-| Application  | Description                                                    |
-| :----------- | :------------------------------------------------------------- |
-| ark          | archiving tool                                                 |
-| redshift     | color temperature of display                                   |
-| spectacle    | screenshot taker                                               |
-| filelight    | disk usage statistics                                          |
-| ventoy       | multi bootable USB drive creator                               |
-| obsidian     | note talking app with markdown and 600+ plugins                |
-| krdc         | rdc and vnc client - kde                                       |
-| krfb         | desktop sharing - kde                                          |
-| gImageReader | GUI tool to utilize tesseract OCR engine for extracting texts. |
+| Application                                                 | Description                                                                         |
+| :---------------------------------------------------------- | :---------------------------------------------------------------------------------- |
+| ark                                                         | archiving tool                                                                      |
+| redshift                                                    | color temperature of display                                                        |
+| spectacle                                                   | screenshot taker                                                                    |
+| filelight                                                   | disk usage statistics                                                               |
+| ventoy                                                      | multi bootable USB drive creator                                                    |
+| obsidian                                                    | note talking app with markdown and 600+ plugins                                     |
+| krdc                                                        | rdc and vnc client - kde                                                            |
+| krfb                                                        | desktop sharing - kde                                                               |
+| gImageReader                                                | GUI tool to utilize tesseract OCR engine for extracting texts.                      |
+| syncthing                                                   | A utility to sync files through multiple devices (r/w).                             |
+| [Syncthing Tray](https://martchus.github.io/syncthingtray/) | Syncthing Tray provides a tray icon and further platform integration for Syncthing. |
 
 ## Cross-Platform
 | Application | Description                               |
