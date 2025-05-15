@@ -775,6 +775,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 ### Games hub
 - [Itch.io](https://itch.io/) - Simple way to find and share indie games online for free.
 - [Aternos | Free Minecraft Server](https://aternos.org/servers/) 
+- [List of games - Libregamewiki](https://libregamewiki.org/List_of_games) 
 
 ### Animation
 - [Matrix multiplication](http://matrixmultiplication.xyz/)
@@ -787,7 +788,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [MDN](https://developer.mozilla.org/en-US/)
 - [Free for developers](https://free-for.dev/#/)
 - [Numba: A High Performance Python Compiler](https://numba.pydata.org/) 
-- [List of games - Libregamewiki](https://libregamewiki.org/List_of_games)
+- [We oppose DRM. | Defective by Design](https://www.defectivebydesign.org/)
 
 ### CheatSheet
 - [tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr) 
