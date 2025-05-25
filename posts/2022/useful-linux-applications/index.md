@@ -198,6 +198,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | hdsentinel  | A freeware, closed source, SMART analysis tool                                      |
 | hyperfine   | Benchmark two commands                                                              |
 | tesseract   | FOSS OCR engine                                                                     |
+| tealdear    | tl;dr, but with rust and speed!                                                     |
 
 ## Schedule
 - [ ] Team fortress 2 (game)
