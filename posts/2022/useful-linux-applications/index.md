@@ -204,6 +204,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | duf         | Disk Usage/Free Utility (Linux, BSD, macOS & Windows)                                          |
 | eza         | A modern alternative to ls                                                                     |
 | fd          | A simple, fast and user-friendly alternative to 'find'                                         |
+| dust        | A more intuitive version of du in rust.                                                        |
 
 ## Schedule
 - [ ] Team fortress 2 (game)
