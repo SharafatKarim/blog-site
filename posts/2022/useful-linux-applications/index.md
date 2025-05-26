@@ -201,7 +201,9 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | tealdear    | tl;dr, but with rust and speed!                                                                |
 | httpie      | HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers. |
 | bat         | Cat clone with syntax highlighting and git integration                                         |
-| duf         | Disk Usage/Free Utility (Linux, BSD, macOS & Windows)                                                                                               |
+| duf         | Disk Usage/Free Utility (Linux, BSD, macOS & Windows)                                          |
+| eza         | A modern alternative to ls                                                                     |
+|             |                                                                                                |
 
 ## Schedule
 - [ ] Team fortress 2 (game)
