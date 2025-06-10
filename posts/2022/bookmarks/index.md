@@ -597,6 +597,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Easy With AI - Best AI Tools & Services](https://easywithai.com/) 
 - [Future Tools - Find The Exact AI Tool For Your Needs](https://www.futuretools.io/) 
 - [AI Tools Directory & List of Best Free AI by Category (Top 10) | Aixploria](https://www.aixploria.com/en/) 
+- [Best AI Tools Directory & AI Tools List - Toolify](https://www.toolify.ai/) 
 
 ### Software 
 - [Ekushey - Bangla keyboard](https://ekushey.org/)
