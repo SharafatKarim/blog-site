@@ -751,6 +751,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Piped | YouTube lightweight](https://piped.video/) 
 - [Invidious - An open source alternative front-end to YouTube](https://invidious.io/) 
 - [@DarkHatHacker75](https://youtube-views.ytpremium35.repl.co/) - Multi play YouTube
+- [Web-SyncPlay](https://web-syncplay.de/) - Watch online media like YouTube, Vimeo, Soundcloud or video/audio files in sync.
 - [Stremio - Freedom to Stream](https://www.stremio.com/) 
 - [Watch Global & Local Live TV Online for Free - tv.garden](https://tv.garden/) 
 
