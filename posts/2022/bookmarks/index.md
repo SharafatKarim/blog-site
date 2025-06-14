@@ -115,6 +115,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Flowchart Maker & Online Diagram Software](https://app.diagrams.net/) - draw.io
 - [Simple Collaborative Mind Maps & Flow Charts - Coggle](https://coggle.it/) 
 - [Online FlowChart & Diagrams Editor - Mermaid Live Editor](https://mermaid.live/) 
+- [Open-source tool that uses simple textual descriptions to draw beautiful UML diagrams.](https://plantuml.com/)- PlantUML
 - [Mermaid Chart - Create complex, visual diagrams with text. A smarter way of creating diagrams.](https://www.mermaidchart.com/) 
 - [markmap.js.org/repl](https://markmap.js.org/repl) - Mindmap playgroiund | Markdown to mindmap gen.
 
