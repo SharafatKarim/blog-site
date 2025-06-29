@@ -137,6 +137,7 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 | curlew                 | Batch audio or video converter                                                                                                 |
 | stremio                | A one-stop hub for video content aggregation                                                                                   |
 | gpu-screen-recorder    | A screen recorder with GPU integration                                                                                         |
+| easyeffects            | An easy way to pre-process your audio on Linux (for pipewire)                                                                  |
 
 {{< admonition tip "BTW," >}}
 You can find a list of useful Multimedia related application in "Ubuntu Studio",
@@ -167,7 +168,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 
 ## Utilities
 | Application                                                 | Description                                                                         |
-| :---------------------------------------------------------- | :---------------------------------------------------------------------------------- |
+|:----------------------------------------------------------- |:----------------------------------------------------------------------------------- |
 | ark                                                         | archiving tool                                                                      |
 | redshift                                                    | color temperature of display                                                        |
 | spectacle                                                   | screenshot taker                                                                    |
@@ -205,6 +206,7 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 | eza         | A modern alternative to ls                                                                     |
 | fd          | A simple, fast and user-friendly alternative to 'find'                                         |
 | dust        | A more intuitive version of du in rust.                                                        |
+| rclone      | An easy way to sync between cloud storage and your PC                                          |
 
 ## Schedule
 - [ ] Team fortress 2 (game)
@@ -213,7 +215,6 @@ If you are coming from Windows 10 or mac then there's an intersting list you can
 - [ ] [trackma](https://github.com/z411/trackma) (media tracking)
 - [ ] [NoiseTorch](https://github.com/noisetorch/NoiseTorch) (Noise Supression Application for PulseAudio or Pipewire)
 - [x] [stretchly](https://hovancik.net/stretchly/) (The break time reminder app)
-- [x] [Upscayl](https://github.com/upscayl/upscayl) (Upscale images with AI- GPU required)
 - [ ] [Celestia](https://celestia.space/) (real-time 3D visualization of space)
 - [ ] logseq (obsidian alternative)
 
