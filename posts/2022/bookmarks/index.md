@@ -369,7 +369,10 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Jitsi Meet](https://meet.jit.si/) - Meeting without even an account
 
 ### Text share
+- [Instance Directory - Welcome!](https://privatebin.info/directory/) 
 - [Hastebin](https://www.toptal.com/developers/hastebin) 
+- [NoPaste](https://nopaste.boris.sh/) 
+- [New Paste | Rocket Powered Pastebin](https://paste.rs/web) 
 
 ### Text extraction
 - [MinerU](https://mineru.net/) 
