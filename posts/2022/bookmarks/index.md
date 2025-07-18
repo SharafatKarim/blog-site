@@ -371,6 +371,9 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 ### Text share
 - [Hastebin](https://www.toptal.com/developers/hastebin) 
 
+### Text extraction
+- [MinerU](https://mineru.net/) 
+
 ### File share 
 - [Wormhole - Simple, private file sharing](https://wormhole.app/) 
 - [xFile - Keep your Google Drive files safe with us](https://s5.xfile.pw/) 
