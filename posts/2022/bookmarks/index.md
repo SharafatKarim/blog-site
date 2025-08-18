@@ -463,6 +463,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Kaggle](https://www.kaggle.com/) - Site devoted to Data Analysis through Machine learning.
 - [Replicate – Run open-source machine learning models with a cloud API](https://replicate.com/) 
 - [Scribble Diffusion](https://scribblediffusion.com/) 
+- [AI Horde](https://aihorde.net/) 
 
 ### Generative Predictive models (LLM)
 - [AI Chat - DuckDuckGo](http://duck.ai/) 
