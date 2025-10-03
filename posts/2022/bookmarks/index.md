@@ -105,6 +105,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [miniPaint - image editor](http://viliusle.github.io/miniPaint/) 
 - [Disroot | Disroot](https://disroot.org/en) 
 - [Capacities – A studio for your mind](https://capacities.io/) 
+- [OpenCut](https://opencut.app/)- CapCut but free! 
 
 ## Design
 > It's sole aim is to make design easier, with some stock collections.
