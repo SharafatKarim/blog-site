@@ -355,3 +355,8 @@ git merge -X theirs another-branch
  ```bash
  git pull 
  ```
+
+## Troubleshooting
+
+Messed up too badly? Take a loot here :)
+- [Oh Shit, Git!?!](https://ohshitgit.com/) 
