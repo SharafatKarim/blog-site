@@ -607,6 +607,10 @@ sudo systemctl restart NetworkManager.service
 
 > For convenience you can use kate text editor as it can edit system text files.
 
+### Vpn with NetworkManager
+By default `NetworkManager` may not support 'em, but with plugins, you can do a variety of things, like connecting to `openvpn` without any external tool. Take a look here,
+- 
+
 ### Arch Mate
 To make things more easy, I've a python script for you. With the support of that script, you can automate chaotic AUR installation, pacman packages inspection, installing essential packages etc. Here's the repository,
 - [Arch Mate | A simple, lightweight, user-friendly tool for managing and configuring Arch Linux systems, written with python.](https://github.com/SharafatKarim/archmate)
