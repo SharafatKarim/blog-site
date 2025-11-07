@@ -609,7 +609,7 @@ sudo systemctl restart NetworkManager.service
 
 ### Vpn with NetworkManager
 By default `NetworkManager` may not support 'em, but with plugins, you can do a variety of things, like connecting to `openvpn` without any external tool. Take a look here,
-- 
+- [Arch Linux - Package Search - networkmanger](https://archlinux.org/packages/?sort=&q=networkmanager-&maintainer=&flagged=) 
 
 ### Arch Mate
 To make things more easy, I've a python script for you. With the support of that script, you can automate chaotic AUR installation, pacman packages inspection, installing essential packages etc. Here's the repository,
