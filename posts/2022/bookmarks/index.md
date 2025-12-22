@@ -520,6 +520,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Web development tutorials | w3resource](https://www.w3resource.com/index.php) 
 - [tutorials point](https://www.tutorialspoint.com/index.htm) 
 - [Leetcode](https://leetcode.com) - Platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
+- [InterviewPrep - Leetcode](https://fantasy-08.github.io/LeetcodeCompanyWiseCode/)- Leetcode premium resoruces 
 - [Exercism](http://exercism.io/) - Online execution of programming problems.
 - [Programming & Engineering Questions & Answers - Sanfoundry](https://www.sanfoundry.com/) 
 - [MOOC.org | Massive Open Online Courses | An edX Site](https://www.mooc.org/) 
