@@ -56,13 +56,17 @@ seo:
 ## Introduction
 
 This is the continuation of the Arch Linux installation's [part one](/archlinux-install/). In the [part one](/archlinux-install/), we've installed Arch with as less afford as possible. In this part we'll install from desktop environment to our GRUB setup with BTRFS snapshots integration and a lot of possibilities! In case you haven't checked [part one](/archlinux-install/) yet, it's recommended if you want to install to Arch from scratch,
+
 - [Arch minimal installation | part one](/archlinux-install/)
 
 ## Prerequisite
+
 If you've followed my [part one](/archlinux-install/), you are probably in a black background with white bash prompt. Feel free to login with your username, 'root' and your root account's password. Now let's check our system a bit,
 
 ### Intenet
+
 Check your internet connection with ping,
+
 ```bash
 ping 1.1.1.1
 ```
@@ -70,6 +74,7 @@ ping 1.1.1.1
 > Tip: **Ctrl + c** to stop a process
 
 And it should work out of the box for Ethernet. But you have to manually setup if you are using wireless connections. If you encounter any problem, check `NetworkManager` 's status with,
+
 ```bash
 systemctl status NetworkManager
 ```
@@ -77,16 +82,20 @@ systemctl status NetworkManager
 If it's disabled, you can enable and start with, `systemctl enable` and `systemctl start` command or just rebooting your system.
 
 > For Wi-Fi connection, you can use `nmcli`, a command line tool for network manager. For guidance, check,
->- [nmcli-examples(7) — Arch manual pages](https://man.archlinux.org/man/nmcli-examples.7.en)
+>
+> - [nmcli-examples(7) — Arch manual pages](https://man.archlinux.org/man/nmcli-examples.7.en)
 > - [How to Connect to Wi-Fi Through the Linux Terminal With Nmcli](https://www.makeuseof.com/connect-to-wifi-with-nmcli/).
 
 ### Boot time
+
 Try, `systemd-analyze` to print your boot time. If your boot time is less than 15 seconds, you can check Arch wiki for performance guideline.
 
 >With an old HDD, my boot time was around 11 seconds.
 
 ## User Management
+
 To learn deeply about user management's I would recommend you to read the arch wiki. For now, I'll create a user with root privileges so that I don't have to stay in root. Later after installing KDE plasma desktop, I can mange users in the system setting, so, for now let's create a user.
+
 ```bash
 useradd -m -G wheel arch
 ```
@@ -94,11 +103,13 @@ useradd -m -G wheel arch
 >Here, `-m` to create a home directory. And if it exists then it won't be overwritten. And the `-G` flag is to set a group. Here `wheel` group users can actually run `sudo` commands. And finally `arch` is my username.
 
 Now, let's set a password for our new user, `arch`,
+
 ```bash
 passwd arch
 ```
 
 Now we've to give access to wheel group users to actually able to run `sudo` commands, to do so, edit a file with the following command,
+
 ```bash
 EDITOR=nano visudo
 ```
@@ -106,6 +117,7 @@ EDITOR=nano visudo
 > Here, nano is the text editors name. Feel free to use your favorite text editor.
 
 Then, I'll un-comment the line (removing `#` from a line),
+
 ```bash
 ## Uncomment to allow members of group wheel to execute any command
 %wheel ALL=(ALL:ALL) ALL
@@ -114,20 +126,23 @@ Then, I'll un-comment the line (removing `#` from a line),
 > In `nano` text editor you can use `ctrl + w` to search. Then press, `ctrl + o` to save, followed by an `enter` and then `ctrl + x` to exit.
 
 ## Minimal Plasma
+
 Now in this post, I'll be installing minimal KDE plasma desktop environment without any bloat or any extra packages! So that if you need further packages or services like bluetooth or printer support, you can do it later. And of course, instead of plasma, you can try anything else like, gnome, xfce or maybe a window manager!
 
 To install minimal plasma, try,
+
 ```bash
 pacman -S plasma-desktop
 ```
 
 Now, it'll give you several choices. You can go with the default values. For font you can choose, `noto-sans` and as a back-end for media thumbnail in the file manager, you can try `vlc` as it's recommended by upstream developers.
 
-
 ## Plasma Essential
+
 Besides a browser, for convenience we'll install our favorite file manager and terminal utilities. And if you're going for plasma we'll also try some plasma integrations like, network manager support and kde plasmoids.
 
 Let's let it install and let me describe what they are,
+
 ```bash
 pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-config kscreen
 ```
@@ -148,7 +163,9 @@ And here's a short description,
 > More `plasma-essentials` are listed on, [plasma extras section](#plasma-extras). Because plasma application needs to be installed with optional dependencies for extended features!
 
 ## SDDM
+
 For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like. To install SDDM, try,
+
 ```bash
 pacman -S sddm sddm-kcm
 ```
@@ -156,25 +173,33 @@ pacman -S sddm sddm-kcm
 > `sddm-kcm` is only recommended when you're installing plasma. It'll integrate your sddm  with kde's setting. So you can customize your sddm right from kde plasma's setting.
 
 And the enable it's service with,
+
 ```bash
 systemctl enable sddm
 ```
 
 And finally, start it with,
+
 ```bash
 systemctl start sddm
 ```
 
 Now you'll be greeted with a default login window. Feel free to login with your created user.
 
+> Most probably `sddm` in the official repository has some bugs, like delayed `shutdown`. In order to avoid that you can install `sddm-git` from `chaotic-aur` or `aur`. *(Chaotic AUR is described later in this post)*
+
 ## Drivers
+
 ### Firmware Security
+
 For firmware security, try `fwupd` to update your firmware. It's a daemon to manage firmware updates. And it's recommended to install it. To install it, try,
+
 ```bash
 pacman -S fwupd
 ```
 
 ### GPU
+
 In linux, drivers are mostly included in the kernel. But for some proprietary drivers like Nvidia, you may need to install them manually. It's better to directly read the wiki for your use case.
 
 - [AMD GPU](https://wiki.archlinux.org/title/AMDGPU)
@@ -182,18 +207,23 @@ In linux, drivers are mostly included in the kernel. But for some proprietary dr
 - [Nvidia](https://wiki.archlinux.org/title/NVIDIA)
 
 And also check the following for your hardware acceleration. Can come handy while using hardware video encoding or recording.
-- [Hardware video acceleration - ArchWiki](https://wiki.archlinux.org/title/Hardware_video_acceleration) 
+
+- [Hardware video acceleration - ArchWiki](https://wiki.archlinux.org/title/Hardware_video_acceleration)
 
 > Don't have GPU? Well,  you can look for vulkan drivers!
 
 ## Packages
 
 ### Official packages
+
 Arch has a great collection of free and open source software. And they are quite strict about their collection. You can browse through them from here,
+
 - [Official repositories - ArchWiki](https://wiki.archlinux.org/title/Official_repositories)
 
 ### AUR
+
 AUR means **Arch User Repository**. It contains more packages than the official one and undoubtedly one of the main reason for a lot of people to actually use Arch Linux. Learn more about it from here,
+
 - [Arch User Repository - ArchWiki](https://wiki.archlinux.org/title/Arch_User_Repository)
 
 Installing a AUR packages are rather simple! You can also use AUR helpers which do the job in the background so that you don't have to make your hands dirty. Now `yay` and `paru` AUR helpers are quite popular.
@@ -201,31 +231,42 @@ Installing a AUR packages are rather simple! You can also use AUR helpers which 
 To install an AUR package git clone it and then build it with `makepkg` or directly build and install with `makepkg -si`.
 
 ### Third party repo
+
 If you've used AUR then you may know how time consuming certain builds can be. Some AUR packages even take several hours for example browsers. That's where third party repository comes in. One of the popular one is `chaotic-AUR`. They build packages automatically and put the binary in a hosting service so that you don't have to build manually.
 
 ### Chaotic AUR
+
 Once you install `chaotic-AUR` you can just use your pacman to install from chaotic AUR. To setup `chaotic AUR` you can go to it's [official website](https://aur.chaotic.cx/) and follow along. Or, make sure `wget` is installed (`sudo pacman -S --needed wget`) and run this script, it'll do the job for you(made by me). Just open terminal and run,
+
 ```bash
 wget -q -O chaotic-AUR-installer.bash https://raw.githubusercontent.com/SharafatKarim/chaotic-AUR-installer/main/install.bash && sudo bash chaotic-AUR-installer.bash && rm chaotic-AUR-installer.bash
 ```
 
 ## Package management
+
 ### Pacman
+
 Arch linux use `pacman` to mange it's packages. It's really good and fast. You can learn about it with more details in the archwiki.
+
 - [pacman - ArchWiki](https://wiki.archlinux.org/title/Pacman)
 - [pacman/Tips and tricks - ArchWiki](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks)
 
 And for quick reference, you can check my handy reference,
+
 - [Pacman package manager](https://sharafat.vercel.app/pacman-package-manager)
 
 And for configuration, you can set mirror just like you did in the arch installation process ([part one](/archlinux-install/)),
+
 #### Reflector
+
 With reflector you can easily set a mirror. To do that, first let's make sure our package list is with sync with server by,
+
 ```bash
 pacman -Sy
 ```
 
 then, let's install reflector,
+
 ```bash
 pacman -S reflector
 ```
@@ -251,16 +292,21 @@ then, you can use reflector to generate a mirrolist. Here's an example,
 > ```
 
 #### Manually mirror setup
+
 We can use a text editor to edit the **mirrorlist** and set our desired mirrors also. To do that, you can use nano or vim text editor or install any CLI-based text editor if you need. And there's an online arch mirror list generator,
+
 - [Arch Linux - Pacman Mirrorlist Generator](https://archlinux.org/mirrorlist/)
 
 Simply edit the `mirrorlist` file, like,
+
 ```bash
 nano /etc/pacman.d/mirrorlist
 ```
 
 ### Colored pacman
+
 And another thing, you can actually make pacman's output colored! To do so, just edit the `/etc/pacman.conf` file and un-comment the line `Color` (removing `#` from a line),
+
 ```bash
 # Misc options
 #UseSyslog
@@ -269,34 +315,44 @@ Color ## 33'th line (default)
 ```
 
 ### Multilib
+
 Multilib is a repository that contains 32-bit software for 64-bit systems. If you're using a 64-bit system then you might want to enable it. To do so, just edit the `/etc/pacman.conf` file and un-comment the lines,
+
 ```bash
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
 
 ### Parralel download
+
 You can also enable parallel download in pacman. To do so, just edit the `/etc/pacman.conf` file and un-comment the line `ParallelDownloads` (removing `#` from a line),
+
 ```bash
 ParallelDownloads
 ```
 
 ### Bit of ASCII art
+
 And if you're a fan of ASCII art then you can enable it in pacman. To do so, just edit the `/etc/pacman.conf` file and add the line `ILoveCandy`,
+
 ```bash
 ILoveCandy
 ```
+
 > Where to put it? I just put it after `color` due to simillarity.
 
 ### Yay
+
 Yay is mainly an AUR helper, that can install AUR packages automatically. And you can install it from `chaotic-aur` or `aur`. If you're downloading from `aur`, then perhaps you can go with `yay-bin` which is a binary of yay. So you don't have to wait for it to finish installation.
 
 If you've installed `chaotic-aur`, then install yay with,
+
 ```bash
 sudo pacman -S yay
 ```
 
 Or, if you wish to install from AUR, try in this way,
+
 ```bash
 pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay-bin.git
@@ -309,43 +365,57 @@ If your pacman is colored then so will be your yay or paru AUR helper
 {{< /admonition >}}
 
 ### Pamac
+
 Pamac is a graphical installer for pacman with AUR support. And it can help you to install dependency packages much more easily. With sorting you can also list you orphaned packages or other packages into different categories. So if you wish to use pamac, you can install it from chaotic AUR, or from AUR.
 
 If you've yay installed, then you can use it now in this way,
+
 ```bash
 yay -S pamac-aur
 ```
 
 ## Shell
+
 ### Bash and zsh
+
 By default your shell is `bash`. And you can enhance your possibilities with an another shell like `zsh` or `fish`. You can also do a lot with your `.bashrc` file. If you're looking for a nice beautiful `zsh` shell with useful plugins like, auto coloring, auto completion then I've a separate tutorial for you.
+
 - [Zsh and antigen](/zsh-and-antigen/)
 
 ### Autostart
+
 To autostart something, for example `fastfetch` (a `neofetch` alternative), or something funny like `cowsay` or `fortune` or `pokemon-colorscripts`, you can add it in your `~/.bashrc` or `~/.zshrc` file. Just open the file with a text editor and add the command at the end of the file. For example, for `fastfetch`,
+
 ```bash
 fastfetch
 ```
+
 Or, pokemon-colorscripts? It's `pokemon-colorscripts -r` to get a random pokemon 🙃.
 
 ### Libnotify
+
 You can use `libnotify` to get notifications from your terminal. It's really useful when you're running a long process and you want to get notified when it's done. To install it, you can use pacman,
+
 ```bash
 sudo pacman -S libnotify
 ```
 
 ## Timeshift
+
 Now you may want to take snapshots, right? Let's install `timeshift`. If you're installing from AUR then perhaps the binary version?
 
 ### timeshift-autosnap
+
 `timeshift-autosnap` package will trigger timeshift to take a snap everytime when pacman upgrades your system. Just install it! Available in both chaotic AUR or AUR.
 
 To configure it, use `/etc/timeshift-autosnap.conf`. But default configuration should be enough! You can test it with,
+
 ```bash
 sudo timeshift-autosnap
 ```
 
 ### Exclude swapfile
+
 If you are using `swapfile`, then you might want to edit, `/etc/timeshift.json` or, `/etc/timeshift/timeshift.json` and add swap to the exclude list.
 
 ```bash
@@ -361,13 +431,15 @@ If you are using `swapfile`, then you might want to edit, `/etc/timeshift.json` 
 ## GRUB
 
 ### grub-btrfs
+
 It'll add btrfs snapshots in your GRUB boot options. To use, install `grub-btrfs`. And regenerate the `grub.cfg` with,
+
 ```bash
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-
 ### GRUB timeout
+
 Every time you start your system GRUB shows up and waits 5 seconds for you, right? You can actually remove it. And grub will be shown if and only if you hold `shift` key while starting. In order to achieve the fastest possible boot, instead of having GRUB wait for a timeout, it is possible for GRUB to hide the menu, unless the `Shift` key is held down during GRUB's start-up.
 
 In order to achieve this, you should add the following line to `/etc/default/grub`:
@@ -377,11 +449,13 @@ GRUB_FORCE_HIDDEN_MENU="true"
 ```
 
 Then create the file `/etc/grub.d/31_hold_shift` with,
+
 ```bash
 sudo touch /etc/grub.d/31_hold_shift
 ```
 
 Then, open the file with,
+
 ```bash
 xdg-open /etc/grub.d/31_hold_shift
 ```
@@ -475,6 +549,7 @@ EOF
 ```
 
 then make it [executable](https://wiki.archlinux.org/title/Executable "Executable"),
+
 ```bash
 sudo chmod +x /etc/grub.d/31_hold_shift
 ```
@@ -488,18 +563,22 @@ grub-mkconfig -o /boot/grub/grub.cfg
 **Note:** This setup uses keystatus to detect keypress event so it may not work on some machines.
 
 ### Info screen after grub
+
 When you system starts first comes grub, and then? Something like, stating linux-zen-...., right? And do you remember when you were installing arch, while booting you say some green and white combination type progress like interface. You can actually toggle them. You have to remove a kernel parameter, called `quiet`.
 
 To edit kernel parameters, edit `/etc/default/grub`.
 And regenerate the `grub.cfg` with,
+
 ```bash
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### Detecting other OS
+
 Probing for other operating systems is disabled for security reasons. If still want to enable this functionality install `os-prober` and uncomment to detect and include other operating systems.
 
 Edit `/etc/default/grub` (grub config file)
+
 ```bash
 # Probing for other operating systems is disabled for security reasons. Read
 # documentation on GRUB_DISABLE_OS_PROBER, if still want to enable this
@@ -507,50 +586,68 @@ Edit `/etc/default/grub` (grub config file)
 # operating systems.
 GRUB_DISABLE_OS_PROBER=false
 ```
+
 And finally regenerate the `grub.cfg` with,
+
 ```bash
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ## Extra partitions
+
 Besides we'll have to mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. So install `ntfs-3g`. And now you can mount ntfs partitions with `sudo mount` but it's not an idea solution. To make changes permanently you've to edit `fstab`.
 
 ### swap partition
+
 Our swap partition should work out of the box if you've followed my [part one](/archlinux-install/) of this arch install post. To verify, run, `swapon` or, `free -h`.
 If you need swap file or, maybe an another swap partition or you didn't follow my guide, check this guide from manjaro. It's good to follow,
+
 - [Swap - Manjaro](https://wiki.manjaro.org/index.php/Swap)
 
 Also check out the `systemd-swap`, it's even better choice, I think instead of tradition swap, if you want.
 
 ### Other partitions
+
 If you want you can easily set other partitions to mount by default with the help of  `partitionmanager` or `gnome-disk-utility` and it's recommend to avoid errors. You can also edit `fstab` manually.
 
 #### KDE partition manager
+
 It's recommended to use `/mnt` directory. If you want you can create a sub directory inside first with,
+
 ```bash
 sudo mkdir /mnt/data
 ```
+
 Later launch kde partition manager, select your partition. From the right click menu, select `Edit mount point` and select the path `/mnt/data`. Finally click ok and you can reboot your session to check changes.
 
 #### Gnome Disk Utility
+
 The same as kde partition manager but you don't have to create the directory manually.
 
 #### Editing fstab
+
 You can manually set by editing, `/etc/fstab` and create an entry. To find the **UUID** try,
+
 ```bash
 lsblk -f
 ```
+
 To learn more, try arch wiki,
+
 - [Fstab - Arch Wiki](https://wiki.archlinux.org/title/Fstab)
 
 Here's a sample `/etc/fstab` for `ntfs` drive with path. Don't forget to make the directly first (/mnt/DATA) first!
+
 ```bash
 /dev/nvme0n1pX                              /mnt/DATA    ntfs    nofail                                                                                                  0 0
 ```
 
 ## Performance
+
 ### Swap
+
 Swap refers to the space in SSD/ HDD, which will be be used as RAM (random access), to decrease the load of your RAM. In easier words, it's necessary when you think your RAM may run out. A good gudie is available on the Arch wiki, as well as manjaro wiki.
+
 - [Swap - Arch Wiki](https://wiki.archlinux.org/title/Swap)
 - [Swap - Manjaro Wiki](https://wiki.manjaro.org/index.php?title=Swap)
 
@@ -559,7 +656,9 @@ Note: For Btrfs, follow the procedure described in [Btrfs#Swap](https://wiki.arc
 {{< /admonition >}}
 
 ### zram and zwap
+
 With zram generator you can easily generate zram and you can definitely try if you've a bigger ram. With zram your swap won't be used and it's definitely a bad idea to enable both zram and zswap. And `zswap` is enabled by default for most cases so you don't need to modify anything. To make sure zram is enabled, you can try,
+
 ```bash
 sudo dmesg | grep swap
 ```
@@ -567,8 +666,10 @@ sudo dmesg | grep swap
 You may see somehing like, `[    0.357361] zswap: loaded using pool lz4/z3fold` if your zwap is running.
 
 ### nohang
-A low ram handler. First install `nohang` from AUR or chaotic AUR. It can prevent OOM(Out of Memory). Learn more [here](https://github.com/hakavlad/nohang).
+
+A low ram handler. First install `nohang` from AUR or chaotic AUR. It can prevent OOM(Out of Memory). [Learn more here...](https://github.com/hakavlad/nohang).
 Start and enable `nohang.service` or `nohang-desktop.service` after installing,
+
 ```bash
 sudo systemctl enable --now nohang-desktop.service
 ```
@@ -576,10 +677,13 @@ sudo systemctl enable --now nohang-desktop.service
 > `nohang-desktop` provides notification when you're almost out of memory.
 
 ### TRIM for SSD
+
 If you are using SSD, you might want to turn on TRIM for your SSD health. Read more here,
+
 - [Solid state drive - ArchWiki](https://wiki.archlinux.org/title/Solid_state_drive#Periodic_TRIM)
 
 To verify TRIM support, run:
+
 ```shell
 lsblk --discard
 ```
@@ -589,18 +693,24 @@ And check the values of DISC-GRAN (discard granularity) and DISC-MAX (discard ma
 For SATA SSDs only, the [hdparm](https://archlinux.org/packages/?name=hdparm) package can detect TRIM support via `hdparm -I /dev/sda | grep TRIM` as the [root user](https://wiki.archlinux.org/title/Root_user "Root user"). `hdparm` does however not support NVMe SSDs.
 
 To enable periodic TRIM, you might like to try the following service,
+
 ```shell
 systemctl enable --now fstrim.timer
 ```
 
 > It's not applicable for every single SSD out there. Please execute with caution.
+>
+
 ## Configuration
 
 ### Hosts
+
 You can edit host files to do more than just redirecting your `localhost`. Like, ad-blocking, adult sites blocking and even more! Here's a good collection of hosts and it's regularly updated,
+
 - [GitHub - StevenBlack/hosts: 🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.](https://github.com/StevenBlack/hosts)
 
 In the repository you'll find a file named, `host`, or just [follow this link](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), and edit your `/etc/hosts` file and enter those texts. And then, just run,
+
 ```bash
 sudo systemctl restart NetworkManager.service
 ```
@@ -608,11 +718,15 @@ sudo systemctl restart NetworkManager.service
 > For convenience you can use kate text editor as it can edit system text files.
 
 ### Vpn with NetworkManager
+
 By default `NetworkManager` may not support 'em, but with plugins, you can do a variety of things, like connecting to `openvpn` without any external tool. Take a look here,
-- [Arch Linux - Package Search - networkmanger](https://archlinux.org/packages/?sort=&q=networkmanager-&maintainer=&flagged=) 
+
+- [Arch Linux - Package Search - networkmanger](https://archlinux.org/packages/?sort=&q=networkmanager-&maintainer=&flagged=)
 
 ### Arch Mate
+
 To make things more easy, I've a python script for you. With the support of that script, you can automate chaotic AUR installation, pacman packages inspection, installing essential packages etc. Here's the repository,
+
 - [Arch Mate | A simple, lightweight, user-friendly tool for managing and configuring Arch Linux systems, written with python.](https://github.com/SharafatKarim/archmate)
 
 > If you know python and want to contribute, feel free to send merge request or, contact with me!
@@ -620,26 +734,30 @@ To make things more easy, I've a python script for you. With the support of that
 ## Essential packages
 
 ### Plasma extras
+
 - As for your convenience you can try some powerful applications from KDE plasma! First of all, you can try `plasma-firewall` alongside a back-end (`ufw` or `firewalld`).
 
 - Then to manage archives, you can try `ark`. It's pretty much strong. But you may also have to install some optional dependencies as well to make it more strong. For example, to know what to install, head over to arch packages website, [ark (x86_64)](https://archlinux.org/packages/extra/x86_64/ark/)
 
 You can install it with,
+
 ```bash
 sudo pacman -S ark
 ```
 
 Now on the same page, scroll down a bit, you'll notice,
--   [arj](https://archlinux.org/packages/community/x86_64/arj/ "View package details for arj") (optional) - ARJ format support
--   [lrzip](https://archlinux.org/packages/community/x86_64/lrzip/ "View package details for lrzip") (optional) - LRZ format support
--   [lzop](https://archlinux.org/packages/extra/x86_64/lzop/ "View package details for lzop") (optional) - LZO format support
--   [p7zip](https://archlinux.org/packages/extra/x86_64/p7zip/ "View package details for p7zip") (optional) - 7Z format support
--   [unarchiver](https://archlinux.org/packages/community/x86_64/unarchiver/ "View package details for unarchiver") (optional) - RAR format support
--   [unrar](https://archlinux.org/packages/extra/x86_64/unrar/ "View package details for unrar") (optional) - RAR decompression support
--   [extra-cmake-modules](https://archlinux.org/packages/extra/any/extra-cmake-modules/ "View package details for extra-cmake-modules") (make)
--   [kdoctools](https://archlinux.org/packages/extra/x86_64/kdoctools/ "View package details for kdoctools") (make)
+
+- [arj](https://archlinux.org/packages/community/x86_64/arj/ "View package details for arj") (optional) - ARJ format support
+- [lrzip](https://archlinux.org/packages/community/x86_64/lrzip/ "View package details for lrzip") (optional) - LRZ format support
+- [lzop](https://archlinux.org/packages/extra/x86_64/lzop/ "View package details for lzop") (optional) - LZO format support
+- [p7zip](https://archlinux.org/packages/extra/x86_64/p7zip/ "View package details for p7zip") (optional) - 7Z format support
+- [unarchiver](https://archlinux.org/packages/community/x86_64/unarchiver/ "View package details for unarchiver") (optional) - RAR format support
+- [unrar](https://archlinux.org/packages/extra/x86_64/unrar/ "View package details for unrar") (optional) - RAR decompression support
+- [extra-cmake-modules](https://archlinux.org/packages/extra/any/extra-cmake-modules/ "View package details for extra-cmake-modules") (make)
+- [kdoctools](https://archlinux.org/packages/extra/x86_64/kdoctools/ "View package details for kdoctools") (make)
 
 We can avoid, **(make)** cause we are not building this! We just want to enhance it with more formats support. We can install those normally with `pacman -S` but later if you uninstall `ark`, these optional dependencies will be little hard to find. So here's what we will do, we can install those as dependencies, with the following command,
+
 ```bash
 sudo pacman -S --asdeps --needed arj lrzip lzop p7zip unarchiver unrar
 ```
@@ -656,7 +774,7 @@ sudo pacman -S --asdeps --needed arj lrzip lzop p7zip unarchiver unrar
 
 - Now if you're thinking about power management, you can install `powerdevil`. With it you can mange your power settings right from your setting in plasma.
 
--  `plasma-systemmonitor` , a nice looking system monitor that you may want to try. You can also avoid it if you're happy with `htop` or anything else
+- `plasma-systemmonitor` , a nice looking system monitor that you may want to try. You can also avoid it if you're happy with `htop` or anything else
 
 - And finally for taking screenshots, we've `spectacle`. It has annotation support, and also it can integrate with your system perfectly if you're using KDE plasma!
 
@@ -664,28 +782,63 @@ sudo pacman -S --asdeps --needed arj lrzip lzop p7zip unarchiver unrar
 
 > Upstream KDE has [package and setup recommendations](https://community.kde.org/Distributions/Packaging_Recommendations) to get a fully-featured Plasma session. Check this out for optional features!
 
+### Bluetooth
+
+To isntall bluetooth support, try,
+
+```bash
+sudo pacman -S bluez bluez-utils bluedevil
+```
+
+> `bluedevil` is only recommended when you're installing plasma. It'll integrate your bluetooth with kde's setting. So you can manage your bluetooth right from kde plasma's setting.
+
+Then enable bluetooth service with,
+
+```bash
+sudo systemctl enable --now bluetooth.service
+```
+
+### Printer
+
+Install `cups`, and enable it's service with,
+
+```bash
+sudo pacman -S cups
+sudo systemctl enable --now cups
+```
+
+Navigate to <http://localhost:631> to manage your printer.
+
 ### Recommendations
+
 Now it's time to install your favorite packages, I guess. For the list of essential and well-refined packages for your system I've a list for you. Check,
+
 - [Linux essential packages collection](/useful-linux-applications)
 
 ## Plasma Specials
 
 ### Spell check
+
 Make sure `sonnet` is installed with `hunspell` or anything similar. And also don't forget to install a language pack for `hunspell`.
 
 > If you install LibreOffice it'll be done automatically and I've a guide for you, check,
+>
 > - [LibreOffice extended installation guide](/libreoffice-extended)
 
 ### KDE Wallet Manager
+
 You may find kde wallet whenever you connect your WiFi, or open your browser, asking for passwords. Instead of disabling it, you can actually use empty string as password. And then it won't ask for password anymore. Use `kwalletmanager` to set it up.
 
 ### KDE Connect
+
 You can install `kdeconnect` to connect your phone with your system. It's a great tool to manage your phone from your system. You can also use it to share files, notifications, and even to control your system with your phone!
 
 ### Fonts
+
 To enhance performance for terminal and other places you might want to Install `noto-fonts`, especially for `emoji-picker`,  `noto-fonts-emoji`.
 
 There are some issues like, emojies doesn't work in the notification. To fix, edit the `/home/sharafat/.config/fontconfig/fonts.conf` and use the following lines,
+
 ```xml
 <?xml version='1.0'?>
 <!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
@@ -721,17 +874,22 @@ There are some issues like, emojies doesn't work in the notification. To fix, ed
 > If above file doesn't exist, create one!
 
 ### Microsoft fonts
+
 You can install `ttf-ms-fonts` to get Microsoft fonts. It's a good choice if you're working with Microsoft Office files. This package is available in AUR or chaotic AUR.
 
 ### Laptop Battery Saving
+
 Try `power-profiles-daemon` for power profiles support for `powerdevil`. It's a great tool to manage your power settings.
 
 ## Acknowledgements
+
 For helping me to collect more information and revising, special thanks to,
+
 - [Muhammed Naim](http://t.me/NaimsArchive)
 - [Shahid Parvez](https://mrsnailo.github.io/)
 
 ## References
+
 - [General recommendations - ArchWiki](https://wiki.archlinux.org/title/General_recommendations)
 - [KDE - ArchWiki](https://wiki.archlinux.org/title/KDE)
 - [GRUB/Tips and tricks - ArchWiki](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks)
