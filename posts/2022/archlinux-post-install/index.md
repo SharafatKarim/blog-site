@@ -1,7 +1,7 @@
 ---
 title: Archlinux Post Install with minimal plasma
 date: 2022-12-20T18:38:11+06:00
-lastmod: 2024-11-21T18:38:11+06:00
+lastmod: 2025-12-26T09:00:00+06:00
 draft: false
 author: Sharafat Karim
 authorLink: https://sharafat.pages.dev/about/

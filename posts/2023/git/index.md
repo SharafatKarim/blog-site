@@ -64,299 +64,295 @@ seo:
 license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
-# Initializing GIT
+# Git Simple Cheatsheet
+
+This is a collection of some of the daily driving and most used git commands for easier reference and navigation.
 
 ## Configuration
 
-1. Name,
+- Set author name
 
- ```bash
- git config --global user.name "Your Name" 
- ```
+  ```bash
+  git config --global user.name "Your Name"
+  ```
 
-2. Email,
+- Set author email
 
- ```bash
- git config --global user.email "email@example.com" 
- ```
+  ```bash
+  git config --global user.email "email@example.com"
+  ```
 
->📜 "...." - words in this note mean variable. You have to change ‘em!
+> 📜 Replace the quoted values with your own.
 
 ## Initialization
 
-1. Initialize on a empty directory,
+- Start a new repo in an empty directory
 
- ```bash
- git init 
- ```
+  ```bash
+  git init
+  ```
 
-2. Clone from a GitHub/ similar repository,
+- Clone an existing repository
 
-```bash
- git clone "repo-user/repo-name"
-```
+  ```bash
+  git clone "repo-user/repo-name"
+  ```
 
-3. Clone with all sub-modules,
+- Clone including submodules
 
- ```bash
- git clone --recurse-submodules user/name          
- ```
+  ```bash
+  git clone --recurse-submodules user/name
+  ```
 
->  📜  `-j8 ` can be used to boost performance!
+  > 📜 Add `-j8` to speed up large clones.
+- Populate submodules in an already-cloned repo
 
+  ```bash
+  git submodule update --init --recursive
+  ```
 
-4. For an already cloned repository,
+## Staging and Committing
 
- ```bash
- git submodule update --init --recursive 
- ```
+- Check status
 
-## Working with GIT
+  ```bash
+  git status
+  ```
 
-## Commit  
+- Stage specific paths
 
-1. Check status
+  ```bash
+  git add "file|folder"
+  ```
 
- ```bash
- git status 
- ```
+- Stage everything except ignored files
 
-2. Add a (file|folder) | Work → Stage
+  ```bash
+  git add --all
+  ```
 
- ```bash
- git add "file|folder"
- ```
+  or
 
->  📜 file = file | folder = folder/
+  ```bash
+  git add .
+  ```
 
- 
+- Commit staged changes
 
-3. Add everything (except files in the  ```.gitignore ```)
+  ```bash
+  git commit -m "message"
+  ```
 
- ```bash
- git add --all 
- ``` 
- or,  
- ```bash
- git add . 
- ```
+- Commit tracked changes without re-adding
 
-4. Git commit, | Stage → Commit
+  ```bash
+  git commit -am "message"
+  ```
 
- ```bash
- git commit -m "message" 
- ```
+  > 📜 `git add .` also picks up new (unignored) files; `git add -u` does not.
 
-5. Git commit with tracked file changes,
+## Cleaning
 
- ```bash
- git commit -am "message" 
- ```
+- Drop tracked files that are now ignored (clears stage)
 
->  📜  ```git add . ``` will track untracked files (not ignored) but  ```git add -u ``` won’t!
+  ```bash
+  git rm -r --cached .
+  ```
 
-## Clean ignored files
+  Then commit; to remove ignored files locally: `git clean -d -x -f`.
+- Remove ignored/untracked files locally only
 
-1. To remove files that are listed in the `.gitignore` but still on the repository,
+  ```bash
+  git clean -d -x -f
+  ```
 
-```bash
-git rm -r --cached .
-```
- This will remove all files from staged copy. Then a commit should do the trick for you due to  your `.gitignore`. And finally to remove ignored files locally, you can  try `git clean -d -x -f
-`.
-2. To remove files that are on the `.gitignore` but not on the repository (commit), then simple `git clean` should do the trick.
-```bash
-git clean -d -x -f
-```
+## Reset and Restore
 
-## Reset
+- Unstage changes (Stage → Work)
 
-1. reset staged changes | Stage → Work
+  ```bash
+  git reset "file|folder"
+  ```
 
- ```bash
- git reset "file|folder"
- ```
+  > 📜 `git reset .` unstages everything; `git reset --hard` also discards working copy changes.
+- Restore one file
 
->  📜 or, try  `git reset . ` to reset everything or, `git reset --hard`, which may fix errors regarding `git pull`!
-## Restore
+  ```bash
+  git restore file/folder
+  ```
 
-1. restore one file with  
-```bash
-git restore file/folder            
-```
-2. restore everything with,
- ```bash
- git restore . 
- ```
+- Restore everything
 
-## Logging
+  ```bash
+  git restore .
+  ```
 
-1. Show the sequence of commits starting from the current one, in reverse chronological order of the Git repository in the current working directory:
+## History and Inspection
 
- ```bash
- git log 
- ```
+- Full log
 
-2. Show the history of a particular file or directory, including differences:
+  ```bash
+  git log
+  ```
 
- ```bash
- git log -p  path/to/file_or_directory  
- ```
+- File/directory history with patches
 
-3. Show an overview of which file(s) changed in each commit:
+  ```bash
+  git log -p path/to/target
+  ```
 
- ```bash
- git log --stat 
- ```
+- Commit overview with per-file stats
 
-4. Show a graph of commits in the current branch using only the first line of each commit message:
+  ```bash
+  git log --stat
+  ```
 
- ```bash
- git log --oneline --graph 
- ```
+- One-line graph of current branch
 
-5. Show a graph of all commits, tags and branches in the entire repository:
+  ```bash
+  git log --oneline --graph
+  ```
 
- ```bash
- git log --oneline --decorate --all --graph 
- ```
+- One-line graph of everything
 
-6. Show only commits whose messages include a given string (case-insensitively):
+  ```bash
+  git log --oneline --decorate --all --graph
+  ```
 
- ```bash
- git log -i --grep  search_string  
- ```
+- Search commit messages (case-insensitive)
 
-7. Show the last N commits from a certain author:
+  ```bash
+  git log -i --grep search_string
+  ```
 
- ```bash
- git log -n  number  --author= author  
- ```
+- Last N commits by author
 
-8. Show commits between two dates (  yyyy-mm-dd  ):
+  ```bash
+  git log -n number --author=author
+  ```
 
- ```bash
- git log --before=" 2017-01-29 " --after=" 2017-01-17 " 
- ```
+- Commits between dates (yyyy-mm-dd)
 
-- Copyright
-    
-    [https://github.com/tldr-pages/tldr](https://github.com/tldr-pages/tldr)
-    
+  ```bash
+  git log --before="2017-01-29" --after="2017-01-17"
+  ```
 
-## Sub-module
+## Branches
 
-1. First set it by,
+- List branches (add `-r` for remote, `-a` for all)
 
- ```bash
- git submodule add "https://github.com/user/repo-name" "path/"      
- ```
+  ```bash
+  git branch
+  ```
 
-> You can track them from  `.gitmodules` file (a hidden text file) and to sync it’s update with the parent,  `cd ` into it,  `git pull ` and then,  `git add ` in the parent.
+- Create a branch
 
-## Large file
+  ```bash
+  git branch branch-name
+  ```
 
-1. Install    `git-lfs`  first. Available on most of official repository of various Linux distributions.
-    
-2. set it up (  once per user  ) by running,
- ```git lfs install ```
+- Rename current branch
 
-> make sure file is tracked in the  `.gitattributes` and add it in git. For migrations  `git-lfs-migrate`  
-> [This link](https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-migrate.adoc?utm_source=gitlfs_site&utm_medium=doc_man_migrate_link&utm_campaign=gitlfs) can help you further.
+  ```bash
+  git branch -M main
+  ```
 
-Find more from,
+- Switch branches (or checkout a commit)
 
-[Git Large File Storage](https://git-lfs.github.com/)
+  ```bash
+  git checkout branch-name
+  ```
 
-## Remote Branch
+- Delete a branch
 
-1. List all local branches
+  ```bash
+  git branch -D branch-name
+  ```
 
- ```bash
- git branch 
- ```
+## Merging
 
->  📜 use  `-r` for remote branches or,  `-a` for all (remote + local)
+- Merge another branch into current
 
- 
-2. New branch
+  ```bash
+  git merge another-branch
+  ```
 
- ```bash
- git branch branch-name            
- ```
+  > 📜 For unrelated histories: `git merge main --allow-unrelated-histories`.
+- Prefer current branch changes on conflict
 
->  📜 Use  `-M` to move a branch, like,  `git branch -M main`
+  ```bash
+  git merge -s ours another-branch
+  ```
 
-3. Change branch
+- Prefer incoming branch changes on conflict
 
- ```bash
- git checkout branch-name            
- ```
+  ```bash
+  git merge -X theirs another-branch
+  ```
 
->  📜 Not just branch, you can also trigger a previous commit!
+## Remotes and Sync
 
+- List remotes
 
-4. Deleting a branch
+  ```bash
+  git remote -v
+  ```
 
- ```bash
- git branch -D branch-name            
- ```
+- Add a remote
 
-## Merge
+  ```bash
+  git remote add origin url
+  ```
 
-1. Merge an another branch with the current one,
+- Remove a remote
 
- ```bash
- git merge another-branch           
- ```
+  ```bash
+  git remote remove origin
+  ```
 
->  📜 To fix errors, you may need,  ```git merge main --allow-unrelated-histories ```
+- Push (and set upstream once)
 
-While merging, there can be conflicts which needs to be resolved manually. Or perhaps you want to prefer your changes? Then, this command is for you,
-```bash
-git merge -s ours another-branch
-```
- Likewise, if you prefer their changes, try,
-```bash
-git merge -X theirs another-branch
-```
+  ```bash
+  git push -u remote branch
+  ```
 
-## Sync
+  > 📜 After upstream is set, use `git push`.
+- Pull latest
 
-1. List all remote,
+  ```bash
+  git pull
+  ```
 
- ```bash
- git remote -v 
- ```
+## Submodules
 
-2. add remote,
+- Add a submodule
 
- ```bash
- git remote add url    
- ```
+  ```bash
+  git submodule add "https://github.com/user/repo-name" "path/"
+  ```
 
-3. remove remote,
+  > Track them in `.gitmodules`; to update, `cd` into the submodule, `git pull`, then stage in the parent.
 
- ```bash
- git remote remove origin  
- ```
+## Large Files (Git LFS)
 
-4. push,
+- Install Git LFS (once per user)
 
- ```bash
- git push -u remote branch        
- ```
+  ```bash
+  git lfs install
+  ```
 
->  📜    `-u` will save remote and branch, for you so next time, just run,  `git push`!
+  > Ensure files are tracked in `.gitattributes`; for migrations see `git-lfs-migrate` and the docs below.
+- Docs: [Git Large File Storage](https://git-lfs.github.com/)
 
+## Signing Commits
 
-5. pull,
-
- ```bash
- git pull 
- ```
+To sign commits, and send signed tags, you need to have GPG installed and configured. Follow this guide,
+- <https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key>
 
 ## Troubleshooting
 
-Messed up too badly? Take a loot here :)
-- [Oh Shit, Git!?!](https://ohshitgit.com/) 
+- Handy reference when things go sideways: [Oh Shit, Git!?!](https://ohshitgit.com/)
+
+## Acknowledgements
+
+- Copyright: [https://github.com/tldr-pages/tldr](https://github.com/tldr-pages/tldr)
