@@ -1,7 +1,7 @@
 ---
 title: "Git Simple Cheatsheet"
 date: 2023-06-19T14:26:29+06:00
-lastmod: 2023-06-19T14:26:29+06:00
+lastmod: 2025-12-26T09:00:00+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
@@ -344,10 +344,25 @@ This is a collection of some of the daily driving and most used git commands for
   > Ensure files are tracked in `.gitattributes`; for migrations see `git-lfs-migrate` and the docs below.
 - Docs: [Git Large File Storage](https://git-lfs.github.com/)
 
-## Signing Commits
+## Authentication (GitHub)
+
+You can simply use `github-cli` to authenticate with GitHub. Install it, and run,
+
+```bash
+gh auth login
+```
+
+## Signing Commits (GPG)
 
 To sign commits, and send signed tags, you need to have GPG installed and configured. Follow this guide,
+
 - <https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key>
+
+To sign all commits by default,
+
+```bash
+git config --global commit.gpgSign true
+```
 
 ## Troubleshooting
 
