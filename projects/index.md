@@ -13,9 +13,19 @@ math:
 comment:
   enable: false
 ---
+
+## 2025
+- [Python Notebook :: A documentation of my experiments, learning, and insights as I explore Python, Numerical Methods, AI and Data Science](https://github.com/SharafatKarim/python-notebook)
+- [PSTU Diary :: A cross-platform application designed to help students and faculty members of PSTU efficiently access resources and contact information of various departments, faculties, and administrative offices](https://github.com/SharafatKarim/pstu-diary)
+- [URL Shortner ::  A professional, minimal, and privacy-focused URL shortener built with Next.js and Firebase.](https://github.com/SharafatKarim/url-shortner)
+- [Paste :: A minimal, distraction-free, and feature-rich pastebin clone with Next JS and Firebase.](https://github.com/SharafatKarim/paste)
+- [RDT Visualizer :: A Python implementation of Reliable Data Transfer protocols, Go-Back-N (GBN) and Selective Repeat (SR), with visualization for understanding the core process](https://github.com/SharafatKarim/RDT-Visualizer)
+- [Anonymous localserver based chatroom, built with python, socket and tk!](https://github.com/SharafatKarim/anonymous-local-chatroom)
+- [SQL Judge :: An SQL learning platform that allows users to learn and practice SQL queries with Blogs and Cheatsheet support](https://github.com/SharafatKarim/SQL-Judge)
+
 ## 2024
-- [Metro-api :: Metro-API, a lightweight, user-friendly backend for handling user balances. Easily recharge, discharge, and manage user data with a powerful FastAPI framework.](https://github.com/SharafatKarim/metro-api)
 - [DSA :: Notes about Data Structrue and Algorithms](https://github.com/SharafatKarim/dsa) 
+- [Metro-api :: Metro-API, a lightweight, user-friendly backend for handling user balances. Easily recharge, discharge, and manage user data with a powerful FastAPI framework.](https://github.com/SharafatKarim/metro-api)
 - [GraphCraft :: Graph Visualization & Analysis Tool](https://github.com/SharafatKarim/GraphCraft)
 - [FrequencyCraft :: Frequency Craft is a web application that allows users to generate frequency distributions and corresponding graphs based on input data.](https://github.com/SharafatKarim/FrequencyCraft)
 - [Smart-Grid-Guard-Meter :: A smart prepaid meter with IOT.](https://github.com/SharafatKarim/Smart-Grid-Guard-Meter)
