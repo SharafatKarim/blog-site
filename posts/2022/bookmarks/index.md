@@ -380,6 +380,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 
 ### File share 
 - [Wormhole - Simple, private file sharing](https://wormhole.app/) 
+- [Tango share - Share Files Securely, Peer to Peer](https://www.tangoshare.com/) 
 - [xFile - Keep your Google Drive files safe with us](https://s5.xfile.pw/) 
 - [Wikisend: free file sharing service](http://wikisend.com/download/) - File share
 - [WebWormhole](https://webwormhole.io/) - secure file transfer
