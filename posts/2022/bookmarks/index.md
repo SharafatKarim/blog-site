@@ -527,6 +527,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [MOOC.org | Massive Open Online Courses | An edX Site](https://www.mooc.org/) 
 - [Exercism](https://exercism.org/) 
 - [Code Makes Perfect - Coddy](https://coddy.tech/courses) 
+- [Learn to code with Scrimba](https://scrimba.com/home) 
 
 ### Visual
 - [Algorithm visualiser](http://algo-visualizer.jasonpark.me/)
