@@ -504,6 +504,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Javascript Playground (Sandbox, Repl)](https://playcode.io/)- Javascript playground 
 - [Advanced JavaScript – Reactive Accelarator](https://reactive-accelarator.vercel.app/reactive-accilarator/javascript-refresher) 
 - [সিস্টেম ডিজাইন বাংলা | system-design-bangla](https://lahin31.github.io/system-design-bangla/) 
+- [AI Planet (formerly DPhi) - Democratizing Data Science Learning](https://aiplanet.com/community)
 
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
@@ -644,8 +645,8 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [PDF Archive - Host, share, publish and archive your PDF documents](https://www.pdf-archive.com/)
 - [LibZen](https://www.google.com/search?q=libgen&newwindow=1)
 - [Library Genesis](http://libgen.is/) 
-- zlibrary-redirect.se | Z-Lib 
-- https://welib.st/ 
+- [Z-Lib redirect](zlibrary-redirect.se) | Z-Lib 
+- [WeLib](https://welib.st/) - Free books over 43 million 
 
 ### Plugins
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
