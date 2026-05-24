@@ -645,6 +645,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [LibZen](https://www.google.com/search?q=libgen&newwindow=1)
 - [Library Genesis](http://libgen.is/) 
 - zlibrary-redirect.se | Z-Lib 
+- https://welib.st/ 
 
 ### Plugins
 - [Vim awesome](http://vimawesome.com/) - Find vim plugins.
