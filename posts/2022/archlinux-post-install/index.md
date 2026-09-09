@@ -5,7 +5,7 @@ lastmod: 2025-12-26T09:00:00+06:00
 draft: false
 author: Sharafat Karim
 authorLink: https://sharafat.pages.dev/about/
-description: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support!
+description: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advanced snapshot support!
 license: <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
 images: 
 resources:
@@ -21,7 +21,7 @@ tags:
   - plasma
 categories:
   - tutorial
-summary: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support! (part two)
+summary: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advanced snapshot support! (part two)
 featuredImage: featured-image
 featuredImagePreview: ""
 hiddenFromHomePage: false
@@ -55,7 +55,7 @@ seo:
 
 ## Introduction
 
-This is the continuation of the Arch Linux installation's [part one](/archlinux-install/). In the [part one](/archlinux-install/), we've installed Arch with as less afford as possible. In this part we'll install from desktop environment to our GRUB setup with BTRFS snapshots integration and a lot of possibilities! In case you haven't checked [part one](/archlinux-install/) yet, it's recommended if you want to install to Arch from scratch,
+This is the continuation of the Arch Linux installation's [part one](/archlinux-install/). In the [part one](/archlinux-install/), we've installed Arch with as little effort as possible. In this part we'll install from desktop environment to our GRUB setup with BTRFS snapshots integration and a lot of possibilities! In case you haven't checked [part one](/archlinux-install/) yet, it's recommended if you want to install to Arch from scratch,
 
 - [Arch minimal installation | part one](/archlinux-install/)
 
@@ -63,7 +63,7 @@ This is the continuation of the Arch Linux installation's [part one](/archlinux-
 
 If you've followed my [part one](/archlinux-install/), you are probably in a black background with white bash prompt. Feel free to login with your username, 'root' and your root account's password. Now let's check our system a bit,
 
-### Intenet
+### Internet
 
 Check your internet connection with ping,
 
@@ -81,7 +81,13 @@ systemctl status NetworkManager
 
 If it's disabled, you can enable and start with, `systemctl enable` and `systemctl start` command or just rebooting your system.
 
-> For Wi-Fi connection, you can use `nmcli`, a command line tool for network manager. For guidance, check,
+> For Wi-Fi connection, you can use `nmtui` (NetworkManager TUI) for an easy interactive curses interface:
+>
+> ```bash
+> nmtui
+> ```
+>
+> Or use `nmcli`, the command line tool for network manager. For guidance, check:
 >
 > - [nmcli-examples(7) — Arch manual pages](https://man.archlinux.org/man/nmcli-examples.7.en)
 > - [How to Connect to Wi-Fi Through the Linux Terminal With Nmcli](https://www.makeuseof.com/connect-to-wifi-with-nmcli/).
@@ -94,7 +100,7 @@ Try, `systemd-analyze` to print your boot time. If your boot time is less than 1
 
 ## User Management
 
-To learn deeply about user management's I would recommend you to read the arch wiki. For now, I'll create a user with root privileges so that I don't have to stay in root. Later after installing KDE plasma desktop, I can mange users in the system setting, so, for now let's create a user.
+To learn deeply about user management I would recommend you to read the arch wiki. For now, I'll create a user with root privileges so that I don't have to stay in root. Later after installing KDE plasma desktop, I can manage users in the system setting, so, for now let's create a user.
 
 ```bash
 useradd -m -G wheel arch
@@ -114,7 +120,7 @@ Now we've to give access to wheel group users to actually able to run `sudo` com
 EDITOR=nano visudo
 ```
 
-> Here, nano is the text editors name. Feel free to use your favorite text editor.
+> Here, nano is the text editor's name. Feel free to use your favorite text editor.
 
 Then, I'll un-comment the line (removing `#` from a line),
 
@@ -129,10 +135,10 @@ Then, I'll un-comment the line (removing `#` from a line),
 
 Now in this post, I'll be installing minimal KDE plasma desktop environment without any bloat or any extra packages! So that if you need further packages or services like bluetooth or printer support, you can do it later. And of course, instead of plasma, you can try anything else like, gnome, xfce or maybe a window manager!
 
-To install minimal plasma, try,
+To install minimal plasma along with modern PipeWire audio stack, try,
 
 ```bash
-pacman -S plasma-desktop
+pacman -S plasma-desktop pipewire pipewire-pulse wireplumber
 ```
 
 Now, it'll give you several choices. You can go with the default values. For font you can choose, `noto-sans` and as a back-end for media thumbnail in the file manager, you can try `vlc` as it's recommended by upstream developers.
@@ -153,8 +159,8 @@ And here's a short description,
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | firefox          | A FOSS browser, which is favorite to a lot of linux users and you can also customize it with CSS. But of course you can also use anything else that you prefer. |
 | plasma-nm        | Network manager integration with plasma. With this you can easily configure network with your plasma desktop.                                                   |
-| plasma-pa        | Plasma applet for audio volume management using  PulseAudio                                                                                                     |
-| dolphin          | A file manger for plasma. It's really recommended because of it's availability, user interface and a lot of features out of the box.                            |
+| plasma-pa        | Plasma applet for audio volume management using PipeWire (via `pipewire-pulse`).                                                                                |
+| dolphin          | A file manager for plasma. It's really recommended because of its availability, user interface and a lot of features out of the box.                            |
 | konsole          | A terminal app for plasma. It's highly configurable through GUI and easy to integrate with plasma.                                                              |
 | kdeplasma-addons | **[OPTIONAL]** Extra addons like color picker and monitor.                                                                                                      |
 | kde-gtk-config   | It'll allow you to customize gtk apps through kde's setting and recommended to install.                                                                         |
@@ -172,7 +178,7 @@ pacman -S sddm sddm-kcm
 
 > `sddm-kcm` is only recommended when you're installing plasma. It'll integrate your sddm  with kde's setting. So you can customize your sddm right from kde plasma's setting.
 
-And the enable it's service with,
+And enable its service with,
 
 ```bash
 systemctl enable sddm
@@ -246,7 +252,7 @@ wget -q -O chaotic-AUR-installer.bash https://raw.githubusercontent.com/Sharafat
 
 ### Pacman
 
-Arch linux use `pacman` to mange it's packages. It's really good and fast. You can learn about it with more details in the archwiki.
+Arch linux use `pacman` to manage its packages. It's really good and fast. You can learn about it with more details in the archwiki.
 
 - [pacman - ArchWiki](https://wiki.archlinux.org/title/Pacman)
 - [pacman/Tips and tricks - ArchWiki](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks)
@@ -331,7 +337,7 @@ Multilib is a repository that contains 32-bit software for 64-bit systems. If yo
 Include = /etc/pacman.d/mirrorlist
 ```
 
-### Parralel download
+### Parallel download
 
 You can also enable parallel download in pacman. To do so, just edit the `/etc/pacman.conf` file and un-comment the line `ParallelDownloads` (removing `#` from a line),
 
@@ -347,7 +353,7 @@ And if you're a fan of ASCII art then you can enable it in pacman. To do so, jus
 ILoveCandy
 ```
 
-> Where to put it? I just put it after `color` due to simillarity.
+> Where to put it? I just put it after `color` due to similarity.
 
 ### Yay
 
@@ -408,50 +414,69 @@ You can use `libnotify` to get notifications from your terminal. It's really use
 sudo pacman -S libnotify
 ```
 
-## Snapper
+## Snapper & GRUB Snapshots
 
-To configure `snappper` use the following guide,
-- <https://zstg.is-a.dev/posts/linux/arch/arch-part3/>
+Now let's configure automated, copy-on-write snapshot management with **Snapper**, **snap-pac** (automatic pre/post snapshots for pacman updates), and **grub-btrfs** (snapshot boot entries in GRUB).
 
-> I will update here, after testing...
+### Install Snapper & Tools
 
-## Timeshift
-
-Now you may want to take snapshots, right? Let's install `timeshift`. If you're installing from AUR then perhaps the binary version?
-
-### timeshift-autosnap
-
-`timeshift-autosnap` package will trigger timeshift to take a snap everytime when pacman upgrades your system. Just install it! Available in both chaotic AUR or AUR.
-
-To configure it, use `/etc/timeshift-autosnap.conf`. But default configuration should be enough! You can test it with,
+First, install the necessary packages:
 
 ```bash
-sudo timeshift-autosnap
+sudo pacman -S snapper snap-pac grub-btrfs
 ```
 
-### Exclude swapfile
+### Link Snapper to the `@snapshots` Subvolume
 
-If you are using `swapfile`, then you might want to edit, `/etc/timeshift.json` or, `/etc/timeshift/timeshift.json` and add swap to the exclude list.
+In [part one](/archlinux-install/) we created an isolated `@snapshots` subvolume and mounted it to `/.snapshots`. Snapper's default `create-config` creates its own nested subvolume at `/.snapshots`, which would obscure our mount. Let's link Snapper properly to our `@snapshots` subvolume:
 
 ```bash
-{
-...
-"exclude" : [
-    "/*swap*"
-  ],
-...
-}
+# Unmount and clean up the mount point
+sudo umount /.snapshots
+sudo rm -rf /.snapshots
+
+# Create the root Snapper configuration
+sudo snapper -c root create-config /
+
+# Remove the default subvolume created by Snapper and recreate mount point
+sudo btrfs subvolume delete /.snapshots
+sudo mkdir /.snapshots
+
+# Remount our Part 1 @snapshots subvolume
+sudo mount -a
+
+# Set secure permissions for wheel group users
+sudo chmod 750 /.snapshots
+sudo chown :wheel /.snapshots
 ```
 
-## GRUB
+### Enable Automatic Timeline Snapshots & Cleanup
 
-### grub-btrfs
-
-It'll add btrfs snapshots in your GRUB boot options. To use, install `grub-btrfs`. And regenerate the `grub.cfg` with,
+Snapper includes systemd timers to take periodic hourly snapshots and clean up old snapshots automatically based on limits:
 
 ```bash
-grub-mkconfig -o /boot/grub/grub.cfg
+sudo systemctl enable --now snapper-timeline.timer
+sudo systemctl enable --now snapper-cleanup.timer
 ```
+
+### Enable Automatic GRUB Snapshot Menu Generation
+
+To make sure new snapshots are automatically detected and added to your GRUB bootloader menu on the fly, enable the `grub-btrfsd` daemon:
+
+```bash
+sudo systemctl enable --now grub-btrfsd
+```
+
+### How to Roll Back a Snapshot
+
+If a system update or tinkering breaks your installation:
+1. Reboot your computer and select **Arch Linux snapshots** from the GRUB menu.
+2. Select the snapshot you want to boot into (it boots into a read-only snapshot of that exact point in time).
+3. Once booted into the desktop/terminal, restore the snapshot:
+   - **GUI method:** Launch `btrfs-assistant` and click restore on your snapshot.
+   - **CLI method:** Run `sudo snapper-rollback <snapshot_id>` or use `snapper` to replace the default subvolume, then reboot normally!
+
+## GRUB Customization
 
 ### GRUB timeout
 
@@ -469,10 +494,10 @@ Then create the file `/etc/grub.d/31_hold_shift` with,
 sudo touch /etc/grub.d/31_hold_shift
 ```
 
-Then, open the file with,
+Then, open the file with `sudo nano`:
 
 ```bash
-xdg-open /etc/grub.d/31_hold_shift
+sudo nano /etc/grub.d/31_hold_shift
 ```
 
 and paste following codes, [source](https://gist.githubusercontent.com/anonymous/8eb2019db2e278ba99be/raw/257f15100fd46aeeb8e33a7629b209d0a14b9975/gistfile1.sh)
@@ -572,7 +597,7 @@ sudo chmod +x /etc/grub.d/31_hold_shift
 And finally regenerate the grub configuration with,
 
 ```bash
-grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 **Note:** This setup uses keystatus to detect keypress event so it may not work on some machines.
@@ -585,7 +610,7 @@ To edit kernel parameters, edit `/etc/default/grub`.
 And regenerate the `grub.cfg` with,
 
 ```bash
-grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### Detecting other OS
@@ -605,21 +630,22 @@ GRUB_DISABLE_OS_PROBER=false
 And finally regenerate the `grub.cfg` with,
 
 ```bash
-grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ## Extra partitions
 
-Besides we'll have to mount our extra **disk partitions** as well and for that purpose we'll add NTFS support. So install `ntfs-3g`. And now you can mount ntfs partitions with `sudo mount` but it's not an idea solution. To make changes permanently you've to edit `fstab`.
+Modern Linux kernels mount NTFS drives natively using the built-in `ntfs3` driver without needing third-party drivers. However, it's highly recommended to install `ntfs-3g` so you have access to user-space utilities like `ntfsfix`, which is essential if Windows Fast Startup or hibernation leaves an NTFS drive in an unclean or "dirty" state:
 
-### swap partition
+```bash
+sudo pacman -S ntfs-3g
+```
 
-Our swap partition should work out of the box if you've followed my [part one](/archlinux-install/) of this arch install post. To verify, run, `swapon` or, `free -h`.
-If you need swap file or, maybe an another swap partition or you didn't follow my guide, check this guide from manjaro. It's good to follow,
+If Windows ever locks an NTFS partition and prevents Linux from mounting it read-write, you can easily repair it with:
 
-- [Swap - Manjaro](https://wiki.manjaro.org/index.php/Swap)
-
-Also check out the `systemd-swap`, it's even better choice, I think instead of tradition swap, if you want.
+```bash
+sudo ntfsfix /dev/sdXY
+```
 
 ### Other partitions
 
@@ -657,33 +683,58 @@ Here's a sample `/etc/fstab` for `ntfs` drive with path. Don't forget to make th
 /dev/nvme0n1pX                              /mnt/DATA    ntfs    nofail                                                                                                  0 0
 ```
 
-## Performance
+## Performance & Memory Management
 
-### Swap
+### Btrfs Swapfile Setup
 
-Swap refers to the space in SSD/ HDD, which will be be used as RAM (random access), to decrease the load of your RAM. In easier words, it's necessary when you think your RAM may run out. A good gudie is available on the Arch wiki, as well as manjaro wiki.
-
-- [Swap - Arch Wiki](https://wiki.archlinux.org/title/Swap)
-- [Swap - Manjaro Wiki](https://wiki.manjaro.org/index.php?title=Swap)
-
-{{< admonition type=note title="And," open=false >}}
-Note: For Btrfs, follow the procedure described in [Btrfs#Swap](https://wiki.archlinux.org/title/Btrfs#Swap_file) in Arch Wiki.
-{{< /admonition >}}
-
-### zram and zwap
-
-With zram generator you can easily generate zram and you can definitely try if you've a bigger ram. With zram your swap won't be used and it's definitely a bad idea to enable both zram and zswap. And `zswap` is enabled by default for most cases so you don't need to modify anything. To make sure zram is enabled, you can try,
+In [part one](/archlinux-install/), we avoided locking up disk space in a rigid swap partition. On Btrfs, we can create an elastic swapfile with Copy-on-Write properly disabled:
 
 ```bash
-sudo dmesg | grep swap
+# Create an 8 GiB Btrfs swapfile
+sudo btrfs filesystem mkswapfile --size 8g --uuid clear /swapfile
+
+# Activate the swapfile
+sudo swapon /swapfile
+
+# Add to /etc/fstab for persistence
+echo "/swapfile none swap defaults 0 0" | sudo tee -a /etc/fstab
 ```
 
-You may see somehing like, `[    0.357361] zswap: loaded using pool lz4/z3fold` if your zwap is running.
+Verify your swap with:
+
+```bash
+swapon --show
+```
+
+### zram (Compressed RAM Swap)
+
+With `zram-generator`, you can compress RAM dynamically instead of (or alongside) a swapfile. It creates a compressed swap device directly in RAM:
+
+Install `zram-generator`:
+
+```bash
+sudo pacman -S zram-generator
+```
+
+Create `/etc/systemd/zram-generator.conf`:
+
+```ini
+[zram0]
+zram-size = ram / 2
+compression-algorithm = zstd
+```
+
+Start the service:
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl start /dev/zram0
+```
 
 ### nohang
 
-A low ram handler. First install `nohang` from AUR or chaotic AUR. It can prevent OOM(Out of Memory). [Learn more here...](https://github.com/hakavlad/nohang).
-Start and enable `nohang.service` or `nohang-desktop.service` after installing,
+A low ram handler. First install `nohang` from AUR or chaotic AUR. It can prevent OOM (Out of Memory). [Learn more here...](https://github.com/hakavlad/nohang).
+Start and enable `nohang.service` or `nohang-desktop.service` after installing:
 
 ```bash
 sudo systemctl enable --now nohang-desktop.service
@@ -710,11 +761,10 @@ For SATA SSDs only, the [hdparm](https://archlinux.org/packages/?name=hdparm) pa
 To enable periodic TRIM, you might like to try the following service,
 
 ```shell
-systemctl enable --now fstrim.timer
+sudo systemctl enable --now fstrim.timer
 ```
 
 > It's not applicable for every single SSD out there. Please execute with caution.
->
 
 ## Configuration
 
@@ -787,7 +837,7 @@ sudo pacman -S --asdeps --needed arj lrzip lzop p7zip unarchiver unrar
 
 - For text editing you can `kate`. You can use it simply or can enhance it with plugins. To enable LSP-server and markdown support, install it with full optional dependency.
 
-- Now if you're thinking about power management, you can install `powerdevil`. With it you can mange your power settings right from your setting in plasma.
+- Now if you're thinking about power management, you can install `powerdevil`. With it you can manage your power settings right from your setting in plasma.
 
 - `plasma-systemmonitor` , a nice looking system monitor that you may want to try. You can also avoid it if you're happy with `htop` or anything else
 
@@ -799,7 +849,7 @@ sudo pacman -S --asdeps --needed arj lrzip lzop p7zip unarchiver unrar
 
 ### Bluetooth
 
-To isntall bluetooth support, try,
+To install bluetooth support, try,
 
 ```bash
 sudo pacman -S bluez bluez-utils bluedevil
@@ -852,7 +902,7 @@ You can install `kdeconnect` to connect your phone with your system. It's a grea
 
 To enhance performance for terminal and other places you might want to Install `noto-fonts`, especially for `emoji-picker`,  `noto-fonts-emoji`.
 
-There are some issues like, emojies doesn't work in the notification. To fix, edit the `/home/sharafat/.config/fontconfig/fonts.conf` and use the following lines,
+There are some issues like, emojies doesn't work in the notification. To fix, edit `~/.config/fontconfig/fonts.conf` and use the following lines,
 
 ```xml
 <?xml version='1.0'?>
@@ -909,3 +959,4 @@ For helping me to collect more information and revising, special thanks to,
 - [KDE - ArchWiki](https://wiki.archlinux.org/title/KDE)
 - [GRUB/Tips and tricks - ArchWiki](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks)
 - [How to do a Minimal KDE Plasma Desktop Install in Arch Linux - Tuxinit](https://tuxinit.com/minimal-kde-plasma-install-arch-linux/)
+

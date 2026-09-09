@@ -64,7 +64,7 @@ If you don't know about Arch Linux, and willing to learn, then check this post,
 In this guide I'll be installing Arch Linux with BTRFS. And [in a separate article](/archlinux-post-install/) I'll show you the way to a minimal KDE plasma desktop along with some extended possibilities. If you're reading this I can assume you are already familiar with [archwiki](https://wiki.archlinux.org/) - a great place to learn about Arch Linux!
 
 {{< admonition tip >}}
-This post will be long and may be hard to navigate without TOS (table of contents). So please use table of contents. On desktop it's placed on the right side and mobile device users can access it from the very top of the post.
+This post will be long and may be hard to navigate without TOC (Table of Contents). So please use table of contents. On desktop it's placed on the right side and mobile device users can access it from the very top of the post.
 {{< /admonition >}}
 
 ## Why Arch?
@@ -116,13 +116,13 @@ From [ArchWiki](https://wiki.archlinux.org/title/Frequently_asked_questions)
 
 ## Why BTRFS?
 
-You might be familiar with [computer storage formats](https://en.wikipedia.org/wiki/Journaling_file_system) like ntfs, fat32 or exfat. BTRFS (better F S ) is just like that with copy-on-write principal.
+You might be familiar with [computer storage formats](https://en.wikipedia.org/wiki/Journaling_file_system) like ntfs, fat32 or exfat. Btrfs (B-tree Filesystem, nicknamed Butter FS) is a modern filesystem built around the copy-on-write principle.
 
 ### Snapshots
 
 As Arch Linux is a rolling model, often called bleeding edge, system will be updated a lot and a lot of things can break or repair on each update.
 
-With btrfs you can take snapshots within seconds and it'll use less resource due to it's copy-on-write principal. And what's more you can also recover to a previous snap within a few seconds (just a simple restart),
+With btrfs you can take snapshots within seconds and it'll use less resource due to it's copy-on-write principle. And what's more you can also recover to a previous snap within a few seconds (just a simple restart),
 
 ### Boot from snapshots
 
@@ -203,12 +203,12 @@ First, go to bios/ uefi setting. Different motherboard has different keybindings
 Extended guide in Arch Wiki,
 
 - [Acquire an installation image](https://wiki.archlinux.org/title/Installation_guide#Acquire_an_installation_image)
-- [repare an installation medium](https://wiki.archlinux.org/title/Installation_guide#Prepare_an_installation_medium)
+- [Prepare an installation medium](https://wiki.archlinux.org/title/Installation_guide#Prepare_an_installation_medium)
 - [Boot the live environment](https://wiki.archlinux.org/title/Installation_guide#Boot_the_live_environment)
 
 ## Preparation
 
-As for preparation, we'll make sure we have an active internet connection and set our keyboard's layout and time zone **[optional]**. I'll install minimal KDE plasma desktop and I can manage my time zone and keyboard's layout later using GUI. If you're using a differnet layout than English, you may want to check,
+As for preparation, we'll make sure we have an active internet connection and set our keyboard's layout and time zone **[optional]**. I'll install minimal KDE plasma desktop and I can manage my time zone and keyboard's layout later using GUI. If you're using a different layout than English, you may want to check,
 
 - [Set the console keyboard layout](https://wiki.archlinux.org/title/Installation_guide#Set_the_console_keyboard_layout)
 - [Update the system clock](https://wiki.archlinux.org/title/Installation_guide#Update_the_system_clock)
@@ -229,7 +229,7 @@ ping 1.1.1.1
 
 > Tip: **Ctrl + c** to stop a process
 
-**Summery**,
+**Summary**,
 
 | utility | achievement           |
 | ------- | --------------------- |
@@ -239,7 +239,7 @@ ping 1.1.1.1
 
 ### Remote Installation (SSH)
 
-If you want to let your friend install Arch on your PC, he can easily do it securely if both if your'e under the same local network,
+If you want to let your friend install Arch on your PC, he can easily do it securely if both if your're under the same local network,
 
 Start SSH
 
@@ -262,7 +262,7 @@ ip address
 From your other computer, connect via SSH (You'll be prompted for the root password you just set)
 
 ```bash
-ssh "root@<IP-OF-THE-FIRST-PC>
+ssh root@<IP-OF-THE-FIRST-PC>
 ```
 
 ### Remote Installation (Internet)
@@ -319,14 +319,14 @@ If you're going for `archinstall`, then I would highly recommend you to install 
 
 You can list you drives along with partitions using `lsblk` or `fdisk -l`. You may find something like, sda, sdb, etc. Here sda and sdb are two different drive/ disk. You'll also notice their partitions (if they exist). If you need to change a partition table or create or remove or resize partitions there are several tools. I'll recommend to use `cfdisk`. And to check disks and partitions size, try `df -H`.
 
-**Summery**,
+**Summary**,
 
 | command  | achievement                                    |
 | -------- | ---------------------------------------------- |
 | lsblk    | list drives along with existing partitions     |
 | fdisk -l | same as above with more information            |
 | df -H    | list partitions size                           |
-| cfdisk   | manage partitons                               |
+| cfdisk   | manage partitions                              |
 | parted   | third party to manage partitions (Gparted CLI) |
 
 ### Layouts
@@ -362,295 +362,162 @@ Most of the modern system supports UEFI (even BIOS can have it! Please check you
 
 ### Our layout
 
-I'll be using 4 partition. A separate home partition. It'll allow me to keep the home partition even if I reinstall or change distro.
+Instead of creating a rigid, separate `ext4` partition for `/home` and a dedicated swap partition, we will use a clean 2-partition scheme with a unified Btrfs storage pool. With Btrfs, subvolumes (such as `@` for root and `@home` for user directories) dynamically share the same free space across the pool. There's no need to guess ahead of time how many gigabytes `/` or `/home` will need—both grow and shrink dynamically as files are created and removed!
 
-> **Fun fact**
->
-> Once I downloaded the same file (using firefox) in 3 differnent Linux distro (like, 10% here, 70% there and rest in another distro). It was possible because of same home partition. But things may go ugly if you install a distro with different desktop manager, such as, plasma or gnome or, a distro with different package (like firefox 89 and firefox 108)
+For swap, we will set up a flexible Btrfs swapfile in the [post-installation part (part 2)](/archlinux-post-install/) rather than locking up storage in a fixed partition.
+
+We standardize our EFI system partition mount point to `/boot` (FAT32, at least 512 MiB–1 GiB).
 
 **Layout,** (let our disk be **sda**)
 
-| Mount point | partition | suggested size        | partiton type       |
-| ----------- | --------- | --------------------- | ------------------- |
-| /boot/efi   | sda1      | At least 300 MiB      | EFI system partiton |
-| /           | sda2      | More than 10 GiB      | Linux x86-64        |
-| /home       | sda3      | More than 3 GiB       | Linux x86-64        |
-| [SWAP]      | sda4      | Twice the size of RAM | Linux swap          |
-|             | sda5      |                       | Windows NTFS        |
+| Mount Point | Partition | Suggested Size | Partition Type | Filesystem |
+| :--- | :--- | :--- | :--- | :--- |
+| `/boot` | `sda1` | 512 MiB – 1 GiB | EFI system partition | FAT32 |
+| Btrfs Pool | `sda2` | Remaining space | Linux filesystem | Btrfs |
+| Data / Windows | `sda3` | Optional | NTFS / ExFAT | NTFS |
 
-> We have an extra partition, right? We'll think about it later! So whatever we do won't effect this one. Think it as a data partiton.
+> We have an extra partition, right? We'll think about it later! So whatever we do won't affect this one. Think of it as a data partition.
 
 {{< admonition question "F.A.Q.'s" true >}}
 
-Why I arranged in this way?
+Why a unified Btrfs pool instead of separate partitions?
 
-- Well, it really doesn't matter. You can arrange in whatever way you want. I put swap at the end because in future it can allow me to resize home and swap! Some upstream suggest to put it at the beginning if you're using HDD as this part has little more read/ write rate.
+- Btrfs subvolumes act like self-contained filesystems inside a single partition. Since `@` and `@home` share remaining disk space dynamically, you never run into situations where your root partition runs out of space while your `/home` partition sits mostly empty.
 
-Why swap?
+Why no swap partition?
 
-- [Read here](https://wiki.archlinux.org/title/Swap) . You don't have to use swap partition if you want. In fact there is `systemd-swap` and `zram` concept. So feel free to avoid if you know what you're doing!
-
-Why swap is twice the size of RAM?
-
-- It'll help you if you hibernate your system. Most probably, you may never need to use more than 8 GiB for swap! If you don't need hibernate then equal the size of RAM is more than enough.
-
-I have a large amount of RAM, can I avoid swap?
-
-- Sure! In fact you should. Besides even if you've 1 GB ram you can avoid swap. Swap can be also created later as a swapfile!
-
-Why swap partiton?
-
-- Well, if you dual boot linux, won't it be more easy to share the same space instead of using  two separate swapfile?
+- Dedicated swap partitions waste disk space if you don't need them constantly. Modern Btrfs supports swapfiles cleanly, or you can use `zram-generator` (RAM compression). We will create and configure a swapfile in the [post-installation guide](/archlinux-post-install/).
 
 {{< /admonition >}}
 
 ## Formatting partitions
 
-First of all, if you are coming from an another distro and want to keep the **same home** partition along with users, then **avoid formatting** home partition.
-
-For home partition (`/home`),
-
-```bash
-mkfs.ext4 /dev/sda3
-```
-
-And you don't need to format `/boot/efi` either! In fact it can **destroy** other boot-loaders if you're trying to dual boot.
-
-For `/boot/efi`,
+For the EFI partition (`/boot`), format it as FAT32 (make sure you don't accidentally reformat an existing EFI partition if you are dual-booting with Windows!):
 
 ```bash
 mkfs.fat -F 32 /dev/sda1
 ```
 
- For root partition (`/`),
+For our main Btrfs storage pool partition:
 
- ```bash
+```bash
 mkfs.btrfs /dev/sda2
 ```
 
- And finally, if you've created `swap` then initialize it by,
-
- ```bash
- mkswap /dev/sda4
-```
-
 {{< admonition tip >}}
-After formatting, you can label your partitions for easily identifying them later. For example,
+After formatting, you can label your partitions for easily identifying them later. For example:
 
 ```bash
-e2label /dev/sda3 home
-btrfs filesystem label /dev/sda2 root
-fatlabel /dev/sda1 efi
+fatlabel /dev/sda1 EFI
+btrfs filesystem label /dev/sda2 ARCH
 ```
 
 {{< /admonition >}}
 
-## Mounting partitions
+## Mounting partitions & Btrfs Subvolumes
 
-### btrfs root
+### Btrfs Subvolume Layout
 
-We need to mount our created partitions into our linux hierarchy. **First** we need to mount sda3 (root) into /mnt.
+We create **subvolumes** to organize our data, enable instant snapshots, and cleanly separate dynamic or cache directories from system rollbacks.
 
-{{< admonition tip >}}
-If your root partition is **exfat** then simply try, `mount /dev/_root_partition_ /mnt` and avoid this section.
+We standardize on the official 5-subvolume layout used by `archinstall`:
+
+- `@` -> `/` (Root filesystem)
+- `@home` -> `/home` (User personal files & configs)
+- `@pkg` -> `/var/cache/pacman/pkg` (Pacman package download cache)
+- `@log` -> `/var/log` (System and journal logs)
+- `@snapshots` -> `/.snapshots` (Btrfs root snapshot store)
+
+{{< admonition danger "Do NOT isolate /var or /var/lib/pacman!" >}}
+Never create a generic `@var` subvolume or separate `/var/lib/pacman` into its own subvolume! The package database in `/var/lib/pacman` must stay inside the root `@` subvolume. If `/var/lib/pacman` is isolated, rolling back your root filesystem snapshot will cause the installed binaries on `/` and the pacman package database to become desynchronized, leading to broken dependencies and system corruption.
 {{< /admonition >}}
 
-We create **subvolumes** to better organize our data and to **exclude** them from btrfs snapshots.
+### Creating Subvolumes
 
-- @ – This is the main root subvolume /.
-- @log – Contains logs, temp. files, caches, games, etc.
-- @pkg – Contains all the pacman packages
-- @var - Contains logs, temp. files, caches, games, etc.
-- @opt - Contains third party products
-- @tmp – Contains certain temporory files and caches
-- @srv - This directory contains site-specific data that is served by this system.
-
-{{< admonition question "F.A.Q.'s" true >}}
-If I don't use separate home partiton?
-
-- @home – Then you have to create this subvolume!
-{{< /admonition >}}
-
-Let's mount first,
+Let's mount the Btrfs partition to `/mnt` temporarily:
 
 ```bash
 mount /dev/sda2 /mnt
 ```
 
-Then, create required subvolumes,
+Now create the 5 subvolumes:
 
 ```bash
-btrfs su cr /mnt/@
-
-btrfs su cr /mnt/@root
-
-btrfs su cr /mnt/@srv
-
-btrfs su cr /mnt/@log
-
-btrfs su cr /mnt/@cache
-
-btrfs su cr /mnt/@tmp
+btrfs subvolume create /mnt/@
+btrfs subvolume create /mnt/@home
+btrfs subvolume create /mnt/@pkg
+btrfs subvolume create /mnt/@log
+btrfs subvolume create /mnt/@snapshots
 ```
 
-Now we see all the sub-volumes we created by using,
+You can view all the subvolumes you created using:
 
 ```bash
-btrfs su li /mnt
+btrfs subvolume list /mnt
 ```
 
-| Command | Meaning   |
-| ------- | --------- |
-| su      | subvolume |
-| cr      | create    |
-| li      | list      |
-
-Let us unmount `/mnt` and remount all sub volumes.
+Unmount `/mnt`:
 
 ```bash
-cd /
-
 umount /mnt
 ```
 
-Then, mount root with,
+### Mounting Subvolumes & Partitions
+
+Now we remount the root subvolume (`@`) with safe, modern mount options:
 
 ```bash
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@ /dev/sda2 /mnt
+# Mount root
+mount -o noatime,compress=zstd,subvol=@ /dev/sda2 /mnt
 ```
 
-And create directory for other subvolumes,
+Create the directory mount points:
 
 ```bash
-mkdir  /mnt/root
-
-mkdir  /mnt/srv
-
+# Create mount points
+mkdir -p /mnt/{boot,home,.snapshots}
 mkdir -p /mnt/var/log
-
-mkdir -p /mnt/var/cache/
-
-mkdir /mnt/tmp
+mkdir -p /mnt/var/cache/pacman/pkg
 ```
 
->Or, you can do with a one line,
->
->```bash
->  mkdir -p /mnt/{root,srv,var/log,var/cache,tmp}
->```
-
-Then, you can check your work with,
+Mount the remaining subvolumes and EFI partition:
 
 ```bash
-lsblk
+# Mount remaining subvolumes
+mount -o noatime,compress=zstd,subvol=@home /dev/sda2 /mnt/home
+mount -o noatime,compress=zstd,subvol=@pkg /dev/sda2 /mnt/var/cache/pacman/pkg
+mount -o noatime,compress=zstd,subvol=@log /dev/sda2 /mnt/var/log
+mount -o noatime,compress=zstd,subvol=@snapshots /dev/sda2 /mnt/.snapshots
+
+# Mount EFI partition
+mount /dev/sda1 /mnt/boot
 ```
 
-Then we mount the sub volumes.
-
-```bash
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@root /dev/sda2 /mnt/root
-
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@tmp /dev/sda2 /mnt/tmp
-
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@srv /dev/sda2 /mnt/srv
-
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@log /dev/sda2 /mnt/var/log
-
-mount -o defaults,noatime,compress=zstd,commit=120,subvol=@cache /dev/sda2 /mnt/var/cache
-```
-
-{{< admonition info "Btrfs options meaning," >}}
+{{< admonition info "Btrfs mount options explained:" >}}
 
 | Option   | Meaning                                                                                          |
 | -------- | ------------------------------------------------------------------------------------------------ |
-| noatime  | No access time. Improves system performace by not writing time when the file was accessed        |
-| commit   | Periodic interval (in sec) in which data is synchronized to permanent storage.                   |
-| compress | Choosing the algorithm for compress. I have set zstd as it has good compression level and speed. |
-| subvol   | Choosing the subvol to mount.                                                                    |
+| noatime  | Disables access time updates on files when read. Greatly improves I/O performance and SSD life.  |
+| compress | Enables transparent compression (`zstd`). Saves significant disk space and improves read speeds.|
+| subvol   | Specifies which Btrfs subvolume to mount at the target mount point.                              |
 
 {{< /admonition >}}
-
-{{< admonition info "Other guides" false >}}
-You can also look at these guides if things go wrong,
-YouTube,
-{{< youtube Kc-ngqE84tQ  >}}
-or, blog posts,
-
-- [Installing Arch Linux with a BTRFS filesystem | ArcoLinuxD](https://www.arcolinuxd.com/installing-arch-linux-with-a-btrfs-filesystem/)
-- [Arch Linux with BTRFS Installation (Base) | Tech it Out](https://www.nishantnadkarni.tech/posts/arch_installation/#step-6-partitioning-your-drive)
-{{< /admonition >}}
-
-### EFI
-
-Create a `mnt/boot/efi` directory,
-
-```bash
-mkdir -p /mnt/boot/efi
-```
-
-And then mount,
-
-```bash
-mount /dev/sda1 /mnt/boot/efi
-```
-
-### Home
-
-And also one directory for `/home`,
-
-```bash
-mount --mkdir /dev/sda3 /mnt/home
-```
-
-### Swap On
-
-And if you've created a swap partition, enable it using,
-
-```bash
-swapon /dev/sda4
-```
-
-> Now we also have a data partition with ntfs file system and we can mount it to `/mnt/any-name`, but I'll do it later. (GUI available)
 
 ## Selecting mirror
 
-By default in the live boot, arch will generate 20 mirrors in your **mirrorlist** file, sorted by download speed. But you can achieve better internet speed by using your local mirror or by using reflector.
+By default in the live boot, arch will generate mirrors in your **mirrorlist** file. You can achieve better download speeds by sorting fast local mirrors using reflector.
 
 ### Reflector
 
-With reflector you can easily set a mirror. To do that, first let's make sure our package list is with sync with server by,
+With reflector you can easily update your mirrorlist:
 
 ```bash
-pacman -Sy
+reflector --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
 ```
-
-then, let's install reflector,
-
-```bash
-pacman -S reflector
-```
-
-then, you can use reflector to generate a mirrolist. Here's an example,
-
-> My country is Bangladesh so I can display my available local mirrors in this way,
->
-> ```bash
-> reflector -c BD
-> ```
->
-> and, I can save this list to my mirrorlist in this way,
->
-> ```bash
-> reflector -c BD --save /etc/pacman.d/mirrorlist
-> ```
 
 ### Manually
 
-We can use a text editor to edit the **mirrorlist** and set our desired mirrors also. To do that, you can use nano or vim text editor or install any CLI-based text editor if you need. And there's an online arch mirror list generator,
-
-- [Arch Linux - Pacman Mirrorlist Generator](https://archlinux.org/mirrorlist/)
-
-Simply edit the `mirrorlist` file, like,
+You can also use a text editor to edit `/etc/pacman.d/mirrorlist` directly:
 
 ```bash
 nano /etc/pacman.d/mirrorlist
@@ -658,52 +525,36 @@ nano /etc/pacman.d/mirrorlist
 
 ## archlinux-keyring
 
-Without installing this package, you may face `Failed to commit transaction (invalid or corrupted package)` or similar. To avoid, first sync with,
+To prevent `invalid or corrupted package` signature errors during installation, ensure the keyring is up to date:
 
 ```bash
-pacman -Sy
-```
-
-and then install **archlinux-keyring** with,
-
-```bash
-pacman -S archlinux-keyring
+pacman -Sy archlinux-keyring
 ```
 
 ## Essential packages
 
-Use the [pacstrap(8)](https://man.archlinux.org/man/pacstrap.8) script to install the [base](https://archlinux.org/packages/?name=base) package and firmware for common hardware,
+Use the [pacstrap(8)](https://man.archlinux.org/man/pacstrap.8) script with `-K` (to initialize an empty pacman keyring in the target system) to install the base system, kernel, development tools, Btrfs utilities, and networking:
 
 ```bash
-pacstrap -K /mnt base base-devel linux-firmware
+pacstrap -K /mnt base base-devel linux-zen linux-firmware btrfs-progs nano networkmanager
 ```
 
-And, then you can also install the `linux` kernel like, but I'll be installing `linux-zen` kernel. It's your choice. For installing `linux-zen` my command will be,
-
-```bash
-pacstrap  /mnt linux-zen
-```
+> **Note on Kernels:** We are installing `linux-zen` for optimized desktop performance. If you prefer the standard upstream kernel or the long-term stable kernel, simply replace `linux-zen` with `linux` or `linux-lts`.
 
 {{< admonition tip >}}
-If you are considering `linux-zen` kernel, you can optionally install `linux-zen-headers` for building some modules later (like, `virtualbox` guest modules etc.),
+If you are using the `linux-zen` kernel, you can optionally install `linux-zen-headers` for building kernel modules (such as DKMS drivers, VirtualBox, or NVIDIA):
 
 ```bash
-bashpacstrap  /mnt linux-zen-headers
+pacstrap /mnt linux-zen-headers
 ```
 
 {{< /admonition >}}
-
-> For `vanilla-linux` kernel, try,
->
-> ```bash
-> pacstrap  /mnt linux
-> ```
 
 ## System configuration
 
 ### fstab
 
-When you start your system it'll help Arch to determine mount points which [we set manually](#mounting-partitions). To generate it, use,
+Generate the `fstab` file using UUIDs so Arch knows where to mount your Btrfs subvolumes and EFI partition on boot:
 
 ```bash
 genfstab -U /mnt >> /mnt/etc/fstab
@@ -711,7 +562,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 ### entering chroot
 
-Now change root into our system!
+Now change root into your new system!
 
 ```bash
 arch-chroot /mnt
@@ -719,29 +570,21 @@ arch-chroot /mnt
 
 ## chroot
 
-This section covers some suggested tasks that you may want to after [entering chroot](#entering-chroot).
+This section covers essential configuration inside your new system.
 
 ### root password
 
-To set `root password` try,
+To set the `root` password:
 
 ```bash
 passwd
 ```
 
-> We'll need this password later, so try not to forget it!
+> We'll need this password to log in on first boot, so make sure to remember it!
 
 ### network
 
-#### network manager
-
-Install a network manager with,
-
-```bash
-pacman -S networkmanager
-```
-
-and then, enable it with,
+Enable NetworkManager so network services start automatically on boot:
 
 ```bash
 systemctl enable NetworkManager.service
@@ -749,166 +592,148 @@ systemctl enable NetworkManager.service
 
 #### host-name
 
-use a text-editor to set a host name,
+Set your system hostname:
 
 ```bash
 nano /etc/hostname
 ```
 
-In the text file, put any name and save it!
+Enter your desired machine name (e.g. `archlinux`) and save.
 
 #### hosts
 
-**[OPTIONAL]** I'll be editing my hosts later. Because with hosts you can even do ad-blocking, malicious site blocking or adult site blocking. I'll add it in the [post installation part](/archlinux-post-install/). For now you can safely avoid this part.
-
-But if you want to allow resolving the local host-name, edit,
+Configure `/etc/hosts`:
 
 ```bash
 nano /etc/hosts
 ```
 
-and append these lines (recommended by Arch Wiki),
+Append the standard local loopback entries:
 
-```bash
+```text
 127.0.0.1        localhost
 ::1              localhost
-127.0.1.1        _myhostname_
+127.0.1.1        myhostname
 ```
 
-> replace ***myhostname*** with your actual host-name, you set before!
+> Replace `myhostname` with the actual hostname you configured above.
 
 ### Microcode
 
-To acquire updated microcode, depending on the processor, [install](https://wiki.archlinux.org/title/Install "Install") one of the following packages,
+Install processor microcode updates:
 
-- [amd-ucode](https://archlinux.org/packages/?name=amd-ucode) for AMD processors,
-- [intel-ucode](https://archlinux.org/packages/?name=intel-ucode) for Intel processors.
-
-for `intel`, my command will be,
-
-```bash
-pacman -S intel-ucode
-```
-
-> Do this before the [next step](#bootloader) to make sure it's starting with bootloader.
+- For AMD CPUs:
+  ```bash
+  pacman -S amd-ucode
+  ```
+- For Intel CPUs:
+  ```bash
+  pacman -S intel-ucode
+  ```
 
 ### Bootloader
 
-This step is different for UEFI and non-UEFI systems. For EFI, inside the `arch-chroot`,
-install `grub` and `efibootmgr`,
+Install GRUB and EFI boot manager utilities:
 
 ```bash
 pacman -S grub efibootmgr
 ```
 
-and then install grub like,
+Install GRUB to the `/boot` EFI directory:
 
 ```bash
-grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
+grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot
 ```
 
-Then generate config with,
+Then generate the GRUB configuration file:
 
 ```bash
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-### Text editor
-
-For the next steps, we may need a text editor. So let's install one. I'll be installing `nano` as it's easy to use. You can install any other text editor if you want.
-
-```bash
-pacman -S nano
-```
-
-### NTFS-3G
-
-If one of your partition is NTFS (like, data partition from Windows), then you may want to install `ntfs-3g` for better read/ write support.
-
-```bash
-pacman -S ntfs-3g
-```
-
-> If you have a partition with ntfs, which is included in your `fstab`, then avoid this step. As without this package, that partition may not mount properly. Resulting you unable to boot!
-
 ### Localization
 
-edit your `locale.gen` file, like,
+Edit `/etc/locale.gen`:
 
 ```bash
 nano /etc/locale.gen
 ```
 
-Then search for your desired locale, write it down (take note) ,and un-comment it (remove the `#` from the beginning of a line). In `nano` text editor you can use `ctrl + w` to search. Then press, `ctrl + o` to save, followed by an `enter` and then `ctrl + x` to exit.
+Un-comment your locale (for instance, remove the `#` before `en_US.UTF-8 UTF-8`). Save and exit (`Ctrl+O`, `Enter`, `Ctrl+X` in nano).
 
-Later, generate your config by running,
+Generate the locales:
 
 ```bash
 locale-gen
 ```
 
-And, add it to the config file, (remember I told you to note that down? You have to use the first part),
+Set the system locale in `/etc/locale.conf`:
 
 ```bash
-nano /etc/locale.conf
-```
-
-Here's a sample (I'm using US English)
-
-```bash
-LANG=en_US.UTF-8
+echo "LANG=en_US.UTF-8" > /etc/locale.conf
 ```
 
 ### Additional steps
 
-Now you can do some additional configuration if you want, like setting up timezone, initial services etc. I will be installing KDE plasma and I can do all of those from plasma's setting so I'll avoid those. But if you want you can do it. Here are some references,
+#### Timezone & Hardware Clock
 
-- [Time zone](https://wiki.archlinux.org/title/Installation_guide#Time_zone)
+Set your local timezone and synchronize the hardware clock to prevent clock desynchronization on first boot:
+
+```bash
+ln -sf /usr/share/zoneinfo/Asia/Dhaka /etc/localtime
+hwclock --systohc
+```
+
+> Substitute `Asia/Dhaka` with your region/city (see available zones in `/usr/share/zoneinfo/`).
+
+You can also check the ArchWiki for further initramfs or console customization:
+
 - [Initramfs](https://wiki.archlinux.org/title/Installation_guide#Initramfs) **[OPTIONAL]**
 
 ## Wrapping up
 
 ### Reboot
 
-After configuring from inside of `arch-chroot` you can leave `arch-chroot` by using,
+Leave the chroot environment:
 
 ```bash
 exit
 ```
 
-And, believe it or not, we've successfully installed Arch. Now feel free to reboot with,
+Unmount all partitions and reboot into your new Arch Linux system:
 
 ```bash
+umount -R /mnt
 reboot
 ```
 
-### What to expect?
+### What to expect on first boot
 
-If you reboot/ restart then you will first notice a GRUB bootloader which will wait 5 seconds for you, or you can just select your kernel and hit enter. Later you'll be greeted with a CLI login prompt where you can login as `root` (username = 'root')! Remember the password [from this part](#root-password)? Use it to login.
+After rebooting, select Arch Linux in the GRUB menu. You'll arrive at a terminal login prompt:
+1. Log in as `root` using the password you set during installation.
+2. For connecting to Wi-Fi via terminal, use the interactive NetworkManager TUI tool:
+   ```bash
+   nmtui
+   ```
+   Select **Activate a connection**, choose your Wi-Fi SSID, enter the password, and you're online!
 
-Why that GRUB and black and white terminal?
-
-- No need to worry, we'll both hide that GRUB 5 seconds and black and white login prompt in the next part.
-
-> Stucked in GRUB? If it's `grub-rescue` shell, then move on to the next section.
+> Stuck in GRUB? If you ever find yourself in the `grub-rescue` shell, see below.
 
 ### Grub rescue?
 
-Most probably, you have grub, but forgot `grub-mkconfig`? Try the following sequence of commands,
+If you ever encounter the grub rescue shell (e.g. if `grub-mkconfig` was missed):
 
 #### 1. `ls`
 
-The `ls` command lists all the available partitions and devices. Use this command to identify the partition containing your Linux root file system.
+List all available partitions and devices:
 
 ```shell
 grub rescue> ls
 ```
 
-> If you don't know which partition, do use it like, `ls (hd0,msdos1)`
-
 #### 2. `set`
 
-The `set` command displays the current values of Grub environment variables. This information can help you identify the correct partition and configuration settings.
+Inspect current Grub environment variables:
 
 ```shell
 grub rescue> set
@@ -916,27 +741,23 @@ grub rescue> set
 
 #### 3. `set prefix`
 
-To set the correct partition containing the Grub modules, use the `set prefix` command followed by the partition path.
+Set the prefix pointing to your GRUB directory (since `/boot` is mounted on partition 1):
 
 ```shell
-grub rescue> set prefix=(hd0,msdos1)/boot/grub
+grub rescue> set prefix=(hd0,gpt1)/grub
 ```
-
-Replace `(hd0,msdos1)` with the appropriate partition identifier.
-
-> If you are running `btrfs` file system, you may need to use something like, `set prefix=(hd0,msdos1)/@/boot/grub`. Check the `set` in the step 2 for accurate prefix template (if available).
 
 #### 4. `set root`
 
-Similar to the prefix, you need to set the root partition using the `set root` command.
+Set the root partition to the boot partition:
 
 ```shell
-grub rescue> set root=(hd0,msdos1)
+grub rescue> set root=(hd0,gpt1)
 ```
 
 #### 5. `insmod`
 
-The `insmod` command is used to load Grub modules, such as `normal` and `linux`. Start by loading the `normal` module:
+Load the normal boot module:
 
 ```shell
 grub rescue> insmod normal
@@ -944,7 +765,7 @@ grub rescue> insmod normal
 
 #### 6. `normal`
 
-After loading the `normal` module, execute the `normal` command to exit the Grub rescue mode and return to the standard Grub menu.
+Launch the standard menu:
 
 ```shell
 grub rescue> normal
@@ -952,49 +773,21 @@ grub rescue> normal
 
 #### 7. `boot`
 
-If you’ve manually set up the boot parameters using Grub commands, use the `boot` command to boot the system.
+Boot the system:
 
 ```shell
 grub rescue> boot
 ```
 
-> **Remember:** You must load the required modules and set the boot parameters correctly before using the `boot` command. Above section is referenced from this [site](https://linuxnest.com/grub-rescue-commands-a-comprehensive-guide/).
-
-#### Alternative way
-
-If trying to get into the OS via `grub-rescue` didn't work then, try the following,
-
-- `arch-chroot` into your root and make sure, a kernel with base is installed and run `grub-mkconfig` again.
-- Unmount and reboot
-
-### Forgot root password?
-
-- Boot into live ISO
-- Mount the root partiton
-- `arch-chroot` into root
-- Use the `passwd` command to set the new password (you will not be prompted for an old one).
-- Unmount and reboot
-
-### Forgot to install ntfs-3g?
-
-You don't really have to do `arch-chroot`. Just press enter to login as root from the CLI prompt, connect to the internet (use `nmcli` for WiFi) and then install `ntfs-3g` with,
-
-```bash
-pacman -S ntfs-3g
-```
-
-or, edit the `fstab` file to avoid mounting that partition and reboot!
-
 ### References
 
 - [Installation guide - ArchWiki](https://wiki.archlinux.org/title/Installation_guide#Configure_the_system)
-- [How to Install Arch Linux in 2022 | It'sFOSS](https://itsfoss.com/install-arch-linux/)
-- [Arch Linux Installation Guide For Developers | LunaTrace](https://www.lunasec.io/docs/blog/arch-linux-installation-guide/#enabling-ssh)
+- [Btrfs - ArchWiki](https://wiki.archlinux.org/title/Btrfs)
+- [How to Install Arch Linux | It'sFOSS](https://itsfoss.com/install-arch-linux/)
 - [Installing Arch Linux with a BTRFS filesystem | ArcoLinuxD](https://www.arcolinuxd.com/installing-arch-linux-with-a-btrfs-filesystem/)
-- [Arch Linux with BTRFS Installation (Base) | Tech it Out](https://www.nishantnadkarni.tech/posts/arch_installation/#step-6-partitioning-your-drive)
 
 ### What's next?
 
-Now you can install any desktop environment or any window manager with your favorite softwares! If you want I can pick you up right from where you're now with my next post,
+Now you can install your choice of desktop environment or window manager! Follow along in the next post for setting up minimal KDE Plasma and automated Btrfs snapshot boot support:
 
 - [Arch Linux Post Install with minimal plasma and more](/archlinux-post-install/)
