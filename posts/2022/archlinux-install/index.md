@@ -1,11 +1,11 @@
 ---
 title: Archlinux minimal Install with btrfs
 date: 2022-12-19T15:25:33+06:00
-lastmod: 2025-12-26T09:00:00+06:00
+lastmod: 2026-09-09T19:05:57+06:00
 draft: false
 author: Sharafat Karim
 authorLink: https://sharafat.pages.dev/about/
-description: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support!
+description: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advanced snapshot support!
 license: <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
 images: 
 resources:
@@ -21,7 +21,7 @@ tags:
   - plasma
 categories:
   - tutorial
-summary: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support! (part one)
+summary: A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advanced snapshot support! (part one)
 featuredImage: featured-image
 featuredImagePreview: ""
 hiddenFromHomePage: false
