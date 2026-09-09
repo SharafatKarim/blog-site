@@ -314,6 +314,14 @@ Color ## 33'th line (default)
 #NoProgressBar
 ```
 
+### Auto pacman cache cleanup
+
+Simply install the following [package](https://aur.archlinux.org/packages/paccache-hook), which will set up a pacman hook to do the heavy lifting...
+
+```shell
+sudo pacman -S paccache-hook
+```
+
 ### Multilib
 
 Multilib is a repository that contains 32-bit software for 64-bit systems. If you're using a 64-bit system then you might want to enable it. To do so, just edit the `/etc/pacman.conf` file and un-comment the lines,
@@ -380,7 +388,7 @@ yay -S pamac-aur
 
 By default your shell is `bash`. And you can enhance your possibilities with an another shell like `zsh` or `fish`. You can also do a lot with your `.bashrc` file. If you're looking for a nice beautiful `zsh` shell with useful plugins like, auto coloring, auto completion then I've a separate tutorial for you.
 
-- [Zsh and antigen](/zsh-and-antigen/)
+- [Zsh and antigen](/zsh-and-antigen/) (Not recommended anymore...)
 
 ### Autostart
 
@@ -399,6 +407,13 @@ You can use `libnotify` to get notifications from your terminal. It's really use
 ```bash
 sudo pacman -S libnotify
 ```
+
+## Snapper
+
+To configure `snappper` use the following guide,
+- <https://zstg.is-a.dev/posts/linux/arch/arch-part3/>
+
+> I will update here, after testing...
 
 ## Timeshift
 
