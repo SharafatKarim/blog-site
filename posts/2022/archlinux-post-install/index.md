@@ -131,68 +131,63 @@ Then, I'll un-comment the line (removing `#` from a line),
 
 > In `nano` text editor you can use `ctrl + w` to search. Then press, `ctrl + o` to save, followed by an `enter` and then `ctrl + x` to exit.
 
-## Minimal Plasma
+## Installing KDE Plasma
 
-Now in this post, I'll be installing minimal KDE plasma desktop environment without any bloat or any extra packages! So that if you need further packages or services like bluetooth or printer support, you can do it later. And of course, instead of plasma, you can try anything else like, gnome, xfce or maybe a window manager!
+When installing KDE Plasma on Arch Linux, there are two distinct approaches:
 
-To install minimal plasma along with modern PipeWire audio stack, try,
+1. **Minimal Installation (Recommended):** Build up your desktop from `plasma-desktop` plus only the essential utilities you actually use. This avoids background services, game controllers, and development SDKs you might never need.
+2. **Full Group Alternative (`pacman -S plasma`):** If you want everything KDE offers out-of-the-box, you can install the full 75-package `plasma` group by pressing `Enter` to accept all defaults. If you take this route, you can easily clean up unnecessary packages afterwards:
+   ```bash
+   sudo pacman -Rns plasma-bigscreen plasma-sdk krdp wacomtablet plymouth-kcm
+   ```
 
-```bash
-pacman -S plasma-desktop pipewire pipewire-pulse wireplumber
-```
+### Recommended Minimal Plasma Installation
 
-Now, it'll give you several choices. You can go with the default values. For font you can choose, `noto-sans` and as a back-end for media thumbnail in the file manager, you can try `vlc` as it's recommended by upstream developers.
-
-## Plasma Essential
-
-Besides a browser, for convenience we'll install our favorite file manager and terminal utilities. And if you're going for plasma we'll also try some plasma integrations like, network manager support and kde plasmoids.
-
-Let's let it install and let me describe what they are,
+We will install minimal Plasma alongside the modern PipeWire audio stack, Wayland portal integration, polkit authentication agent, power management, and essential apps:
 
 ```bash
-pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-config kscreen
+sudo pacman -S plasma-desktop \
+  xdg-desktop-portal-kde polkit-kde-agent powerdevil \
+  pipewire pipewire-pulse wireplumber \
+  plasma-nm plasma-pa dolphin konsole kscreen \
+  plasma-browser-integration plasma-systemmonitor spectacle
 ```
 
-And here's a short description,
+Now, it'll prompt you for provider choices (e.g. for fonts or backends). You can go with the default values. For fonts choose `noto-fonts` (or `noto-sans`), and for media thumbnail backend in the file manager choose `vlc` or `ffmpegthumbs`.
 
-| Application name | Application's description                                                                                                                                       |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| firefox          | A FOSS browser, which is favorite to a lot of linux users and you can also customize it with CSS. But of course you can also use anything else that you prefer. |
-| plasma-nm        | Network manager integration with plasma. With this you can easily configure network with your plasma desktop.                                                   |
-| plasma-pa        | Plasma applet for audio volume management using PipeWire (via `pipewire-pulse`).                                                                                |
-| dolphin          | A file manager for plasma. It's really recommended because of its availability, user interface and a lot of features out of the box.                            |
-| konsole          | A terminal app for plasma. It's highly configurable through GUI and easy to integrate with plasma.                                                              |
-| kdeplasma-addons | **[OPTIONAL]** Extra addons like color picker and monitor.                                                                                                      |
-| kde-gtk-config   | It'll allow you to customize gtk apps through kde's setting and recommended to install.                                                                         |
-| kscreen          | It does the job behind desktop and monitor configuration setting. Without it, monitor setting can be missing from the system settings.                          |
+Here is what these essential components do:
 
-> More `plasma-essentials` are listed on, [plasma extras section](#plasma-extras). Because plasma application needs to be installed with optional dependencies for extended features!
+| Application name | Application's description |
+| ---------------- | ------------------------- |
+| `plasma-desktop` | The core KDE Plasma desktop shell and basic settings. |
+| `xdg-desktop-portal-kde` | Essential Wayland portal for screen sharing, file pickers, and flatpak integration. |
+| `polkit-kde-agent` | Graphical authentication dialogue prompt for elevated `sudo`/root privileges. |
+| `pipewire-pulse` / `wireplumber` | Modern, low-latency audio server replacing legacy PulseAudio. |
+| `plasma-nm` | NetworkManager applet integration for easy Wi-Fi/Ethernet management. |
+| `plasma-pa` | Audio volume management applet powered by PipeWire (via `pipewire-pulse`). |
+| `dolphin` | Highly configurable file manager for Plasma. |
+| `konsole` | Terminal emulator with native Plasma theme integration. |
+| `kscreen` | Display and multi-monitor management daemon and settings module. |
+| `plasma-systemmonitor` | Modern, visual task manager and system resource monitor. |
+| `spectacle` | Full-featured screenshot and screen recording tool with annotation support. |
 
-## SDDM
+## Display Manager (`plasma-login-manager`)
 
-For plasma's login manager we'll use SDDM, as you can integrate it with plasma's setting. If you want you can also try **lightdm** or anything you like. To install SDDM, try,
+Instead of older display managers like SDDM which require separate theme packages and configurations, we'll use KDE's official first-party display manager: **`plasma-login-manager`** (PLM).
+
+### Why `plasma-login-manager`?
+- **Unified Theming:** Seamlessly inherits your Plasma lockscreen and global theme styling without needing separate SDDM KCM modules.
+- **Native Wayland Support:** Built natively for modern Wayland sessions from the ground up.
+- **Clean & Lightweight:** Eliminates display-manager shutdown hangs and legacy dependency overhead.
+
+Install and enable `plasma-login-manager`:
 
 ```bash
-pacman -S sddm sddm-kcm
+sudo pacman -S plasma-login-manager
+sudo systemctl enable plasmalogin.service
 ```
 
-> `sddm-kcm` is only recommended when you're installing plasma. It'll integrate your sddm  with kde's setting. So you can customize your sddm right from kde plasma's setting.
-
-And enable its service with,
-
-```bash
-systemctl enable sddm
-```
-
-And finally, start it with,
-
-```bash
-systemctl start sddm
-```
-
-Now you'll be greeted with a default login window. Feel free to login with your created user.
-
-> Most probably `sddm` in the official repository has some bugs, like delayed `shutdown`. In order to avoid that you can install `sddm-git` from `chaotic-aur` or `aur`. *(Chaotic AUR is described later in this post)*
+Now on reboot, you'll be greeted with a modern, beautifully integrated Plasma login greeter!
 
 ## Drivers
 
