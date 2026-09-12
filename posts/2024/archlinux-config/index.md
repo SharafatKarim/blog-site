@@ -6,7 +6,6 @@ draft: true
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 description: "A complete guide to install Arch Linux with btrfs, linux zen kernel and minimal kde plasma with advace snapshot support!"
-license: ""
 images: []
 resources:
 - name: "featured-image"

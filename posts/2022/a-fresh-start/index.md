@@ -6,7 +6,6 @@ date: 2022-10-17T10:11:05+06:00
 draft: false
 
 description: "Starting of a new journey, with HUGO"
-license: ""
 images: []
 resources:
 - name: "featured-image"

@@ -3,10 +3,8 @@ title: "Software Telemetry কি | Basic Concepts"
 date: 2022-10-21T08:44:28+06:00
 lastmod: 2022-10-21T08:44:28+06:00
 draft: false
-author: ""
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
-license: ""
 images: []
 resources:
 - name: "featured-image"

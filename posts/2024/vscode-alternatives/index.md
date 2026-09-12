@@ -6,7 +6,6 @@ draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 description: "Yet an another list of useful Applications that you can try in Android."
-license: ""
 images: []
 resources:
 - name: "featured-image"

@@ -6,7 +6,6 @@ draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 description: "A proper way to do some extended checkups and troubleshooting for LibrOffice."
-license: ""
 images: []
 resources:
 - name: "featured-image"

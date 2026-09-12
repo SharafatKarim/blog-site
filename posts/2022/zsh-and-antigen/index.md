@@ -6,7 +6,6 @@ draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 description: "A guide to install and customize zsh along with different plugins with the help of antigen plugin manager."
-license: ""
 images: []
 resources:
 - name: "featured-image"

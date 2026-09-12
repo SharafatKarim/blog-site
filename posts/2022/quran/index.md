@@ -6,7 +6,6 @@ draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 description: "Al-Quran mp3 library with download and live stream support."
-license: ""
 images: []
 resources:
 - name: "featured-image"

@@ -1,7 +1,7 @@
 ---
 title: Useful Browser Extensions
 date: 2022-11-06T09:08:10+06:00
-lastmod: 2025-1-17T09:08:10+06:00
+lastmod: 2025-01-17T09:08:10+06:00
 draft: false
 author: Sharafat Karim
 authorLink: https://sharafat.pages.dev/about/

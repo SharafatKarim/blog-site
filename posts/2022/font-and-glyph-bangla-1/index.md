@@ -6,7 +6,6 @@ draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
 description: ""
-license: ""
 images: []
 resources:
 - name: "featured-image"
