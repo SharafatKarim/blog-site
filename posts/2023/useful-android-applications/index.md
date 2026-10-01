@@ -1,11 +1,18 @@
 ---
 title: "Useful Android Applications"
 date: 2023-12-31T11:18:35+06:00
-lastmod: 2023-12-31T11:18:35+06:00
+lastmod: 2026-10-01T21:58:52+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
+<<<<<<< HEAD
 description: "Yet an another list of useful Applications that you can try in Android."
+||||||| parent of 1644745 (Auto push at 22:11:05)
+description: "Yet an another list of useful Applications that you can try in Android."
+license: ""
+=======
+description: "A curated list of useful, privacy-respecting, and FOSS applications for Android."
+>>>>>>> 1644745 (Auto push at 22:11:05)
 images: []
 resources:
 - name: "featured-image"
@@ -15,7 +22,7 @@ resources:
 
 tags: ["android","software","notes"]
 categories: ["android"]
-summary: "Yet an another list of useful Applications that you can try in Android."
+summary: "A curated list of useful, privacy-respecting, and FOSS applications for Android."
 
 featuredImage: "featured-image"
 featuredImagePreview: "featured-image-preview"
@@ -38,187 +45,213 @@ code:
   maxShownLines: 50
 math:
   enable: false
-  # ...
 mapbox:
-  # ...
 share:
   enable: true
-  # ...
 comment:
   enable: true
-  # ...
 library:
   css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []
-  # ...
 license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
-Yet an another list of useful Applications that you
-can try in Android. FOSS (Free and Open Source) is always prioritized over proprietary. Feel free to help me to enrich this list!  
+A curated list of useful applications for Android. Free and Open Source Software (FOSS) is strongly prioritized over proprietary alternatives.
 
 {{< admonition note "Note" true >}}
-This list's formatting is "Applications name" and "short description".
-Play store or f-droid links are not provided by default and so I'll recommend you to use a search engine.
-****Common applications which are almost known by everyone is omitted for simplicity.***
+Every application is linked directly to its official website, GitHub repository, F-Droid, or Play Store page.
+***Common applications known by almost everyone are omitted for simplicity.***
 
-This list is nowhere near complete mostly collected by me and my friends. If you need more detailed and vast list, try the following link:
+For an even larger community-maintained catalogue, check:
 - [GitHub :: LinuxCafeFederation/awesome-android](https://github.com/LinuxCafeFederation/awesome-android)
 {{< /admonition >}}
 
 ## Development
-| Application | Description         |
-|:----------- |:------------------- |
-| termux      | A terminal emulator |
-| acode       | Text editor         |
-| GitHub      | GitHub access       | 
+| Application | Description |
+| :--- | :--- |
+| [termux](https://termux.dev/) | Android terminal emulator and Linux environment |
+| [acode](https://acode.app/) | Powerful and lightweight mobile code editor |
+| [Squircle CE](https://github.com/massivemadness/Squircle-CE) | Code editor with multi-language syntax highlighting and SFTP support |
+| [MGit](https://f-droid.org/packages/com.manichord.mgit) | Standalone Git client for Android |
+| [GitHub](https://github.com/mobile) | Official GitHub client for notifications, issues, and code browsing |
+| [APK Explorer & Editor](https://github.com/apk-editor/APK-Explorer-Editor) | Open-source APK explorer, inspector, and manifest editor |
 
-## Education
-| Application                                                                              | Description             |     
-| :--------------------------------------------------------------------------------------- | :---------------------- | 
-| 991EX                                                                                    | Scientific calculator   |     
-| Proto                                                                                    | Circuit Simulation      |    
-| Geogebra                                                                                 | Graphing calculator     |    
-| Formula                                                                                  | Math or other formulas  |    
-| [Cryptography](https://play.google.com/store/apps/details?id=com.nitramite.cryptography) | Cryptography collection |    
+## Privacy, Security & Isolation
+| Application | Description |
+| :--- | :--- |
+| [Bitwarden](https://bitwarden.com/) | Open-source password and passkey manager |
+| [Shizuku](https://shizuku.rikka.app/) | Access elevated ADB system APIs without root |
+| [Canta](https://github.com/samolego/Canta) | Shizuku-powered app uninstaller and bloatware remover |
+| [Hail](https://github.com/aistra0528/Hail) | Freeze, suspend, and hide background applications via Shizuku/root |
+| [Shelter](https://gitea.angry.im/PeterCxy/Shelter) | Isolate non-free apps inside an Android Work Profile sandbox |
+| [Rethink](https://rethinkdns.com/) | DNS-over-HTTPS/TLS client with per-app firewall controls |
+| [TrackerControl](https://trackercontrol.org/) | Monitor and block in-app tracking and telemetry traffic |
+| [Exodus](https://reports.exodus-privacy.eu.org/) | Privacy scanner auditing embedded trackers and app permissions |
+| [DroidFS](https://github.com/hardcore-sushi/DroidFS) | Encrypted virtual filesystem for sensitive files |
+| [OpenKeychain](https://www.openkeychain.org/) | OpenPGP key manager and encryption provider |
+| [Orbot](https://orbot.app/) | Official Tor proxy client for system-wide or per-app routing |
+| [InviZible Pro](https://invizible.net/) | Comprehensive DNSCrypt, Tor, and I2P privacy suite |
+
+## Networking & File Transfer
+| Application | Description |
+| :--- | :--- |
+| [KDE Connect](https://kdeconnect.kde.org/) | Desktop-mobile integration, clipboard sharing, and notifications |
+| [LocalSend](https://localsend.org/) | Cross-platform local network file transfer (AirDrop alternative) |
+| [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) | Enhanced Syncthing client for continuous device file synchronization |
+| [RustDesk](https://rustdesk.com/) | Open-source remote desktop client and server |
+| [scrcpy](https://github.com/Genymobile/scrcpy) | Low-latency screen mirroring and control over USB/network |
+| [ConnectBot](https://connectbot.org/) | Secure and robust SSH/Telnet terminal client |
+| [SocksDroid](https://github.com/PeterCxy/SocksDroid) | SOCKS5 proxy client for Android |
+| [WiFiAnalyzer](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer) | Wi-Fi network scanner and channel congestion analyzer |
+
+## Education & Science
+| Application | Description |
+| :--- | :--- |
+| [991EX](https://play.google.com/store/apps/details?id=advanced.scientific.calculator.calc991.plus) | Advanced scientific and algebraic calculator |
+| [Proto](https://play.google.com/store/apps/details?id=com.proto.circuit) | Interactive real-time electronic circuit simulator |
+| [GeoGebra](https://www.geogebra.org/) | Dynamic mathematics, geometry, and graphing engine |
+| [Formula](https://play.google.com/store/apps/details?id=com.nsc.formulas.free) | Pocket reference for math, physics, and chemistry formulas |
+| [Cryptography](https://play.google.com/store/apps/details?id=com.nitramite.cryptography) | Collection of classic and modern encryption algorithms |
+| [phyphox](https://phyphox.org/) | Physical science experiments utilizing phone sensors |
+| [Signal Generator](https://f-droid.org/en/packages/org.billthefarmer.siggen/) | Accurate audio tone and signal waveform generator |
 
 ## Communication
-It's totally up-to you 🙃 and may vary from person to person. Some popular ones include, matrix, telegram, discord etc.
+| Application | Description |
+| :--- | :--- |
+| [Element](https://element.io/) | Decentralized, end-to-end encrypted Matrix client |
+| [FluffyChat](https://fluffychat.im/) | Modern, user-friendly Matrix messenger |
+| [Telegram](https://telegram.org/android) | Feature-rich cloud-based messaging platform |
+| [Discord](https://discord.com/) | Community chat, voice channels, and gaming hub |
+| [Jitsi Meet](https://jitsi.org/) | Fully encrypted, open-source video conferencing |
+| [Revolution IRC](https://github.com/MCMrARM/revolution-irc) | Clean and customizable modern IRC client |
 
-## Graphics
-| Application                                                                                        | Description                     |
-|:-------------------------------------------------------------------------------------------------- |:------------------------------- |
-| video transcoder                                                                                   | Video encoding application      |
-| Snapseed                                                                                           | Image edtor by Google           |
-| Sketchbook                                                                                         | Drawing tool                    |
-| FFShare                                                                                            | Compress media before sharing   |
-| [Color Grab](https://play.google.com/store/apps/details?id=com.loomatix.colorgrab)                 | color detection                 |
-| [Music Audio editor](https://play.google.com/store/apps/details?id=com.tianxingjian.supersound)    | Audio editor                    |
-| [Video cutter & editor](https://play.google.com/store/apps/details?id=com.betteridea.video.editor) | Video crop, cut and some basics |
-| [T2S: Text to Voice/Read aloud](https://play.google.com/store/apps/details?id=hesoft.T2S)          | TTS generator                   | 
+## Web Browsers
+| Application | Description |
+| :--- | :--- |
+| [Firefox](https://www.mozilla.org/firefox/browsers/mobile/android/) | Gecko-based browser with full extension and privacy support |
+| [Via Browser](https://play.google.com/store/apps/details?id=mark.via.gp) | Tiny, lightning-fast web browser with custom CSS/scripting |
 
-## Cloud
-| Application                                                              | Description                        |
-|:------------------------------------------------------------------------ |:---------------------------------- |
-| firefox                                                                  | firefox browser [OPTIONAL]         |
-| [Via Browser](https://play.google.com/store/apps/details?id=mark.via.gp) | via browser lightweight [OPTIONAL] | 
-| Bitwarden                                                                | Password manager                   |
-| [Telegraph X](https://play.google.com/store/apps/details?id=com.telex)   | Telegraph :: publishing tool       |
+## Multimedia & Audio/Video
+| Application | Description |
+| :--- | :--- |
+| [mpv](https://github.com/mpv-android/mpv-android) | Minimalist video player powered by libmpv |
+| [VLC](https://www.videolan.org/vlc/download-android.html) | Universal media player with broad codec support |
+| [AIMP](https://www.aimp.ru/?do=download&os=android) | High-fidelity local music player with equalizer |
+| [FocusPodcast](https://github.com/allen-town/FocusPodcast) | Lightweight, privacy-focused podcast player |
+| [Dolby On](https://www.dolby.com/apps/dolby-on/) | Audio and music recording with automated sound mastering |
+| [Video Transcoder](https://github.com/brarcher/video-transcoder) | Open-source FFmpeg-based video and audio re-encoder |
+| [FFShare](https://github.com/caydey/ffshare) | Quick media compression and resizing prior to sharing |
+| [ScreenCam](https://github.com/orpheusdroid/ScreenCam) | Lightweight and clean open-source screen recorder |
+| [Super Sound](https://play.google.com/store/apps/details?id=com.tianxingjian.supersound) | Multi-track audio editing, cutting, and mixing tool |
+| [Video Cutter & Editor](https://play.google.com/store/apps/details?id=com.betteridea.video.editor) | Video trimmer, cropper, and basic editor |
+| [T2S](https://play.google.com/store/apps/details?id=hesoft.T2S) | Text-to-speech converter and article voice reader |
 
-## Networking
-| Application | Description                |
-|:----------- |:-------------------------- |
-| kde connect | desktop-mobile integration |
-| syncthing   | File cross sync            |
-| scrcpy      | Display share over network |
-| connectbot  | SSH connection             |
-| SocksDroid  | Proxy/Socks                | 
+## Streaming & Media Downloads
+| Application | Description |
+| :--- | :--- |
+| [NewPipe](https://newpipe.net/) | Privacy-respecting YouTube client without Google Play Services |
+| [LibreTube](https://libretube.dev/) | YouTube frontend utilizing Piped API with SponsorBlock |
+| [YouTube ReVanced](https://revanced.app/) | Extended YouTube client with background playback and ad-blocking |
+| [Seal](https://github.com/JunkFood02/Seal) | Clean Material You video/audio downloader powered by yt-dlp |
+| [YTDLnis](https://ytdlnis.org/) | Feature-complete yt-dlp GUI with batch queues and chapter slicing |
+| [1DM](https://play.google.com/store/apps/details?id=idm.internet.download.manager) | Multi-segmented high-speed download manager |
+| [Download Navi](https://github.com/TachibanaGeneralLaboratories/download-navi) | Free, open-source download manager with background resume |
 
-## Multimedia
-| Application | Description                                  |
-|:----------- |:-------------------------------------------- |
-| mpv         | media player                                 |
-| vlc         | media player                                 |
-| AIMP        | Music player                                 |
-| Dolby On    | Audio recording with dolby atmos             |
+## Entertainment, Comics & Art
+| Application | Description |
+| :--- | :--- |
+| [Stremio](https://www.stremio.com/) | Streaming platform aggregating movies, TV series, and media add-ons |
+| [CloudStream](https://github.com/recloudstream/cloudstream) | Open, plugin-based streaming and media aggregator |
+| [Saikou](https://github.com/brahmkshatriya/saikou) | Anime and manga streaming client powered by AniList |
+| [Aniyomi](https://github.com/aniyomiorg/aniyomi) | Tachiyomi fork extending manga reading to video anime streaming |
+| [PixEz](https://github.com/Notsfsssf/pixez-flutter) | Flutter client for Pixiv art exploration |
+| [Memerize](https://github.com/SuhasDissa/MemerizeApp) | Fast and lightweight meme browser |
 
-## Streaming
-| Application      | Description                                  |
-|:---------------- |:-------------------------------------------- |
-| New pipe         | YouTube alternative                          |
-| Seal             | YouTube downloader                           |
-| YouTube revanced | YouTube's alternative                        | 
+## Gaming & Emulation
+| Application | Description |
+| :--- | :--- |
+| [Steam](https://store.steampowered.com/mobile) | Steam game library, community market, and Steam Guard |
+| [TapTap](https://www.taptap.io/mobile) | Global mobile gaming community and alternative app store |
+| [Twitch](https://www.twitch.tv/) | Live streaming service for gaming, esports, and creative media |
+| [PPSSPP](https://www.ppsspp.org/) | Sony PlayStation Portable (PSP) emulator for Android |
 
-## Entertainment 
-| Application                                      | Description                                  |
-|:------------------------------------------------ |:-------------------------------------------- |
-| stremio                                          | A one-stop hub for video content aggregation |
-| CloudStream                                      | Free streaming suite                         |
-| Saikou                                           | Anime stream                                 |
-| [aniyomi](https://github.com/aniyomiorg/aniyomi) | Unofficial fork of Tachiyomi for anime       | 
+## Reading, Feeds & Research
+| Application | Description |
+| :--- | :--- |
+| [Read You](https://github.com/Ashinch/ReadYou) | Minimalist, elegant Material You RSS/Atom feed reader |
+| [Hacki](https://github.com/Livinglist/Hacki) | Clean, gesture-driven Hacker News reader |
+| [ScholArxiv](https://github.com/dagmawibabi/ScholArxiv) | Mobile reader and paper bookmarking tool for arXiv |
+| [Librera Reader](https://librera.mobi/) | Feature-dense reader for PDF, EPUB, MOBI, and comic book files |
+| [Xodo PDF](https://play.google.com/store/apps/details?id=com.xodo.pdf.reader) | PDF viewer with advanced form filling and annotations |
 
-## Gaming
-| Application | Description                         |
-| ----------- | ----------------------------------- |
-| Steam       | Game library                        |
-| Tap Tap     | A better Game store than play store |
-| Twitch      | Streaming Platform                  |
-| ppsspp      | PSP emulator                        |  
+## Office, Notes & Document Scanning
+| Application | Description |
+| :--- | :--- |
+| [Obsidian](https://obsidian.md/) | Markdown knowledge graph and personal knowledge management |
+| [Logseq](https://logseq.com/) | Local-first, privacy-focused outliner with bidirectional linking |
+| [ONLYOFFICE](https://www.onlyoffice.com/office-for-android.aspx) | Full-featured office suite for DOCX, XLSX, and PPTX documents |
+| [OSS Document Scanner](https://github.com/Akylas/OSS-DocumentScanner) | Open-source mobile document scanner with OCR and PDF export |
+| [CamScanner](https://www.camscanner.com/) | Scanner for paper documents and receipts |
+| [Telegraph X](https://play.google.com/store/apps/details?id=com.telex) | Client for authoring and managing Telegraph articles |
 
-## Office
-| Application                                                                                   | Description    |
-|:--------------------------------------------------------------------------------------------- |:-------------- |
-| onlyoffice                                                                                    | office suite   |
-| librera                                                                                       | PDF viewer     |
-| [Xodo PDF Reader & Editor](https://play.google.com/store/apps/details?id=com.xodo.pdf.reader) | PDF viewer [2] |
+## File Management & Gallery
+| Application | Description |
+| :--- | :--- |
+| [Aves Libre](https://github.com/deckerst/aves) | Modern photo and video gallery with metadata, tags, and map browsing |
+| [Material Files](https://github.com/zhanghai/MaterialFiles) | Open-source Material Design file manager with root and archive support |
+| [MiXplorer](https://mixplorer.com/) | Advanced dual-pane file manager with cloud storage integration |
 
-## Personalized
-This list varies from person to person [OPTIONAL]
+## Navigation & Mapping
+| Application | Description |
+| :--- | :--- |
+| [OsmAnd~](https://osmand.net/) | Offline OpenStreetMap navigation with topographic contour overlays |
+| [Vespucci](https://vespucci.io/) | Full-featured on-device OpenStreetMap editor |
 
-| Application                                                   | Description                                        |
-|:------------------------------------------------------------- |:-------------------------------------------------- |
-| Ivy manager                                                   | Money management app                               |
-| Quran                                                         | Al-Quran app (for muslims)                         |
-| Bangla Hadith                                                 | Hadith application for you own phone (for muslims) |
-| Bangla dictionary                                             | A dictionary for your language                     |
-| Obsidian                                                      | Note taking application                            |
-| cam scanner                                                   | Hard copy documents scanner                        |
-| [Daily You](https://github.com/Demizo/Daily_You)              | Every day is worth remembering...                  |
-| [track-and-graph](https://github.com/SamAmco/track-and-graph) | tracking personal data and creating custom graphs  |
+## Graphics & Photography
+| Application | Description |
+| :--- | :--- |
+| [Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed) | Professional photo editor by Google |
+| [Sketchbook](https://sketchbook.com/) | Professional drawing, sketching, and illustration engine |
+| [Color Grab](https://play.google.com/store/apps/details?id=com.loomatix.colorgrab) | Real-time optical color identifier, palette generator, and picker |
 
-## Simulation
-| Application                                                                   | Description                |
-|:----------------------------------------------------------------------------- |:-------------------------- |
-| [phyphox-android](https://github.com/phyphox/phyphox-android/)                | Physical Phone Experiments |
-| [Signal Generator](https://f-droid.org/en/packages/org.billthefarmer.siggen/) | Signal generator           | 
-
-## Fun
-| Application                                                        | Description                  |
-|:------------------------------------------------------------------ |:---------------------------- |
-| [EweSticker](https://github.com/fredhappyface/android.EweSticker/) | sticker keyboard application | 
-
-## System
-| Application                                                                        | Description                                    |
-|:---------------------------------------------------------------------------------- |:---------------------------------------------- |
-| MiX                                                                                | file manager                                   |
-| F-droid                                                                            | App store                                      |
-| [screen-dimmer-pixel-filter](https://github.com/pelya/screen-dimmer-pixel-filter/) | disables individual pixels, for AMOLED screens | 
+## System & App Stores
+| Application | Description |
+| :--- | :--- |
+| [Droid-ify](https://github.com/Droid-ify/client) | Fast, responsive Material You client for F-Droid repositories |
+| [F-Droid](https://f-droid.org/) | Official repository client for Free and Open Source Android software |
+| [Key Mapper](https://keymapper.org/) | Remap device physical hardware buttons and fingerprint gestures |
+| [CPU Info](https://github.com/kgurgul/cpu-info) | Detailed SOC, CPU, GPU, memory, and sensor telemetry |
+| [Droid Info](https://play.google.com/store/apps/details?id=com.inkwired.droidinfo) | Comprehensive hardware diagnostic and specification viewer |
+| [screen-dimmer-pixel-filter](https://github.com/pelya/screen-dimmer-pixel-filter) | Disables individual screen pixels for true AMOLED power saving |
 
 ## Utilities
-Some applications that you may use depending on your needs.
+| Application | Description |
+| :--- | :--- |
+| [SD Maid 2 / SE](https://github.com/d4rken-org/sdmaid-se) | Comprehensive filesystem cleaner and app management utility |
+| [Cache Cleaner](https://github.com/bmx666/appcachecleaner) | Cleans app caches using Android Accessibility without root |
+| [Ampere](https://play.google.com/store/apps/details?id=com.gombosdev.ampere) | Measures and analyzes battery charging and discharge currents |
+| [Internet Speed Meter](https://play.google.com/store/apps/details?id=delit.internet.speed.meter.lite) | Live network bandwidth monitor in the notification status bar |
+| [GPS Speedometer](https://play.google.com/store/apps/details?id=com.luutinhit.speedometer) | Accurate velocity, distance, and trip tracker |
+| [Barcode Scanner](https://github.com/atharok/BarcodeScanner) | Lightweight, tracker-free QR code and barcode scanner |
 
-| Application                                                                        | Description                                    |
-|:---------------------------------------------------------------------------------- |:---------------------------------------------- |
-| Speed meter                                                                        | Bandwidth tracker                              |
-| Droid info                                                                         | Hardware information                           |
-| Speedometer                                                                        | Motion velocity                                |
-| Cache cleaner                                                                      | Clear caches                                   |
-| Ampere                                                                             | Calculate charging electricity flow            |
-| 1DM                                                                                | Download manager                               |
-| [QrAndBarcodeScanner](https://github.com/wewewe718/QrAndBarcodeScanner/)           | QR scanner                                     |
-| [screen-dimmer-pixel-filter](https://github.com/pelya/screen-dimmer-pixel-filter/) | disables individual pixels, for AMOLED screens | 
+## Personal & Lifestyle
+| Application | Description |
+| :--- | :--- |
+| [Ivy Wallet](https://github.com/Ivy-Apps/ivy-wallet) | Modern open-source personal budget and money management app |
+| [Al Quran (Tafsir & by Word)](https://gtaf.org/apps/quran/) | Quran reader featuring word-by-word analysis and translations |
+| [Bangla Hadith](https://play.google.com/store/apps/details?id=com.ihadis.ihadis) | Complete collection of canonical Hadith books translated in Bangla |
+| [Bangla Dictionary](https://play.google.com/store/apps/details?id=com.bdword.e2b) | Offline English-to-Bangla dictionary and vocabulary tool |
+| [Daily You](https://github.com/Demizo/Daily_You) | Minimalist, distraction-free daily diary |
+| [Track & Graph](https://github.com/SamAmco/track-and-graph) | Flexible habit, medical, and personal metric tracker with visual charts |
+| [EweSticker](https://github.com/fredhappyface/android.EweSticker) | Custom sticker keyboard supporting user-added sticker packs |
 
-## Extra
-Some apps that I may add,
-- [x] Now in Android
-- [ ] [GitHub - Notsfsssf/pixez-flutter: 一个支持免代理直连及查看动图的第三方Pixiv flutter客户端](https://github.com/Notsfsssf/pixez-flutter/)  | Image downloader
-- [ ] [GitHub - SuhasDissa/MemerizeApp: Android app to view Memes](https://github.com/SuhasDissa/MemerizeApp) 
-
-## Acknowledgements 
-Special thanks goes all of my friends to help me to collect, specially,
+## Acknowledgements
+Special thanks to all of my friends who helped me collect these, especially:
 - [Hasibul Islam](https://github.com/nabileus/)
 
 {{< admonition quote "Besides," true >}}
-If you want to add more application in this list or, want me to try more, feel free to suggest me.
-Or, directly give me a pull request on GitHub. I'll appreciate it!
+If you want to add more applications to this list or want me to try more, feel free to suggest them.
+Or directly open a pull request on GitHub. I'll appreciate it!
 {{< /admonition >}}

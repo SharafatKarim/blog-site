@@ -1,11 +1,11 @@
 ---
 title: Useful Linux Applications
 date: 2022-10-29T08:34:36+06:00
-lastmod: 2023-12-31T08:34:36+06:00
+lastmod: 2026-10-01T21:49:09+06:00
 draft: false
 author: Sharafat Karim
 authorLink: https://sharafat.pages.dev/about/
-description: Yet an another list of useful Applications that you can try in Linux.
+description: Yet another list of useful applications that you can try in Linux.
 license: <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
 images: 
 resources:
@@ -19,7 +19,7 @@ tags:
   - notes
 categories:
   - linux
-summary: Yet an another list of useful Applications that you can try in Linux.
+summary: Yet another list of useful applications that you can try in Linux.
 featuredImage: featured-image
 featuredImagePreview: featured-image-preview
 hiddenFromHomePage: false
@@ -51,15 +51,15 @@ seo:
   images: []
 ---
 
-Yet an another list of useful Applications that you
+Yet another list of useful applications that you
 can try in Linux.
 
 {{< admonition note "Note" true >}}
-This list's formatting is "Applications name" and "short description".
-Applications name may vary among disto to distro and may have multiple sources along with documentations.
-This is why I'll recommend you to use a search engine.
+This list's formatting is "Application name" and "short description".
+Application names may vary from distro to distro and may have multiple sources along with documentation.
+This is why I recommend you use a search engine.
 
-This is my personal list that I've tried. If you need more detailed and vast list, try the following links:
+This is my personal list that I've tried. If you need a more detailed and vast list, try the following links:
 - [List of Applications (Arch Wiki)](https://wiki.archlinux.org/title/List_of_applications)
 - [Awesome-Linux-Software from "Luong Vo"](https://luong-komorebi.github.io/Awesome-Linux-Software/)
 {{< /admonition >}}
@@ -67,384 +67,176 @@ This is my personal list that I've tried. If you need more detailed and vast lis
 ## Development
 | Application      | Description                                   |
 |:---------------- |:--------------------------------------------- |
-| gnome-boxes      | virtualization made simple                    |
-| code             | core text editor of vs-code (Code OSS)        |
-| kate             | text editor                                   |
-| gitg             | gnome based GUI tool of git                   |
-| jupyter-notebook | HTML notebook application for Project Jupyter |
-| bluegriffon      | WYSIWYG html & css                            |
-| publii           | Static site generator                         |
-| sqlitebrowser    | Browse SQLite files                           |
+| [gnome-boxes](https://apps.gnome.org/Boxes/) | virtualization made simple |
+| [code](https://code.visualstudio.com/) | core text editor of vs-code (Code OSS) |
+| [kate](https://kate-editor.org/) | text editor |
+| [gitg](https://wiki.gnome.org/Apps/Gitg) | gnome based GUI tool of git |
+| [jupyter-notebook](https://jupyter.org/) | HTML notebook application for Project Jupyter |
+| [bluegriffon](http://bluegriffon.org/) | WYSIWYG html & css |
+| [publii](https://getpublii.com/) | Static site generator |
+| [sqlitebrowser](https://sqlitebrowser.org/) | Browse SQLite files |
+| [zed](https://zed.dev/) | High-performance code editor written in Rust |
+| [podman-desktop](https://podman-desktop.io/) | GUI for managing containers and pods |
 
 ## Education
 | Application                                                                 | Description                                                                                       |
 | :-------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
-| xaos                                                                        | Interactive fractal zoomer                                                                        |
-| geogebra                                                                    | Dynamic mathematics software with interactive graphics, algebra and spreadsheet                   |
-| kig                                                                         | Interactive geometry                                                                              |
-| [qalc](https://qalculate.github.io/)                                        | Calculator app [GTK/ QT/ CMD]                                                                     |
+| [xaos](https://xaos-project.github.io/) | Interactive fractal zoomer |
+| [geogebra](https://www.geogebra.org/) | Dynamic mathematics software with interactive graphics, algebra and spreadsheet |
+| [kig](https://apps.kde.org/kig/) | Interactive geometry |
+| [qalc](https://qalculate.github.io/) | Calculator app [GTK/ QT/ CMD] |
 | [logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | [Digital logic design tool and simulator](https://github.com/logisim-evolution/logisim-evolution) |
 
 ## Games
 | Application   | Description                             |
 |:------------- |:--------------------------------------- |
-| tlauncher     | Freeware Minecraft launcher             |
-| minetest      | Infinity block sandbox like Minecraft   |
-| albion-online | Cross Platform sandbox MMO              |
-| assault cube  | Mini battle royal type lightweight game |
+| [tlauncher](https://tlauncher.org/) | Freeware Minecraft launcher |
+| [minetest](https://www.minetest.net/) | Infinity block sandbox like Minecraft |
+| [albion-online](https://albiononline.com/) | Cross Platform sandbox MMO |
+| [assault cube](https://assault.cubers.net/) | Mini battle royale type lightweight game |
 
 ## Graphics
 | Application                                   | Description                       |
 |:--------------------------------------------- |:--------------------------------- |
-| blender                                       | 3D modeler                        |
-| gimp                                          | image editor                      |
-| [g'mic](https://gmic.eu/)                     | digital image processing (plugin) |
-| inkscape                                      | vector graphics                   |
-| krita                                         | digital painting                  |
-| gwenview                                      | image viewer                      |
-| natron                                        | open source compositing software  |
-| enve                                          | 2D animation software             |
-| kdenlive                                      | video editor                      |
-| Astrofox                                      | Audio visualization into video    |
-| glaxnimate                                    | Lightweight animation             |
-| [Upscayl](https://github.com/upscayl/upscayl)                                     | Image up-scaling using AI         |
+| [blender](https://www.blender.org/) | 3D modeler |
+| [gimp](https://www.gimp.org/) | image editor |
+| [g'mic](https://gmic.eu/) | digital image processing (plugin) |
+| [inkscape](https://inkscape.org/) | vector graphics |
+| [krita](https://krita.org/) | digital painting |
+| [gwenview](https://apps.kde.org/gwenview/) | image viewer |
+| [natron](https://natrongithub.github.io/) | open source compositing software |
+| [enve](https://github.com/MaurycyLiebner/enve) | 2D animation software |
+| [kdenlive](https://kdenlive.org/) | video editor |
+| [Astrofox](https://astrofox.io/) | Audio visualization into video |
+| [glaxnimate](https://glaxnimate.mattbas.org/) | Lightweight animation |
+| [Upscayl](https://github.com/upscayl/upscayl) | Image up-scaling using AI |
+
 ## Internet
 | Application | Description                |
 |:----------- |:-------------------------- |
-| firefox     | browser                    |
-| caprine     | messenger electron copy    |
-| telegram    | messaging app              |
-| discord     | an another one             |
-| element     | matrix client              |
-| kde connect | desktop-mobile integration |
-| uget        | download manager           |
-| team viewer | remote desktop accessing   |
+| [firefox](https://www.mozilla.org/firefox/) | browser |
+| [caprine](https://github.com/sindresorhus/caprine) | messenger electron copy |
+| [telegram](https://desktop.telegram.org/) | messaging app |
+| [discord](https://discord.com/) | another one |
+| [element](https://element.io/) | matrix client |
+| [kde connect](https://kdeconnect.kde.org/) | desktop-mobile integration |
+| [uget](https://sourceforge.net/projects/urlget/) | download manager |
+| [team viewer](https://www.teamviewer.com/) | remote desktop access |
 
 ## Multimedia
 | Application            | Description                                                                                                                    |
 |:---------------------- |:------------------------------------------------------------------------------------------------------------------------------ |
-| ikona                  | Icon viewer                                                                                                                    |
-| vlc                    | media player                                                                                                                   |
-| handbrake              | video trans-coder                                                                                                              |
-| obs studio             | screen record and stream                                                                                                       |
-| screenkey              | shows which key is pressed on the screen                                                                                       |
-| simple screen recorder | screen recorder                                                                                                                |
-| picard                 | audio tagging tool (MusicBrainz Picard)                                                                                        |
-| audacity               | audio edit                                                                                                                     |
-| kid3-qt                | audio tag editor                                                                                                               |
-| sound converter        | GTK audio batch converter                                                                                                      |
-| digikam                | Photo management program with advanced feature like [photo gallery to HTML](https://sharafatkarim.github.io/wallpapers-2022/)! |
-| curlew                 | Batch audio or video converter                                                                                                 |
-| stremio                | A one-stop hub for video content aggregation                                                                                   |
-| gpu-screen-recorder    | A screen recorder with GPU integration                                                                                         |
-| easyeffects            | An easy way to pre-process your audio on Linux (for pipewire)                                                                  |
+| [ikona](https://invent.kde.org/sdk/ikona) | Icon viewer |
+| [vlc](https://www.videolan.org/vlc/) | media player |
+| [handbrake](https://handbrake.fr/) | video transcoder |
+| [obs studio](https://obsproject.com/) | screen record and stream |
+| [screenkey](https://www.thregr.org/~wavexx/software/screenkey/) | shows which key is pressed on the screen |
+| [simple screen recorder](https://www.maartenbaert.be/simplescreenrecorder/) | screen recorder |
+| [picard](https://picard.musicbrainz.org/) | audio tagging tool (MusicBrainz Picard) |
+| [audacity](https://www.audacityteam.org/) | audio editor |
+| [kid3-qt](https://kid3.kde.org/) | audio tag editor |
+| [sound converter](https://soundconverter.org/) | GTK audio batch converter |
+| [digikam](https://www.digikam.org/) | Photo management program with advanced feature like [photo gallery to HTML](https://sharafatkarim.github.io/wallpapers-2022/)! |
+| [curlew](https://github.com/chamfay/Curlew) | Batch audio or video converter |
+| [stremio](https://www.stremio.com/) | A one-stop hub for video content aggregation |
+| [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) | A screen recorder with GPU integration |
+| [easyeffects](https://github.com/wwmm/easyeffects) | An easy way to pre-process your audio on Linux (for pipewire) |
+| [haruna](https://apps.kde.org/haruna/) | Lightweight Qt/mpv video player for KDE |
 
 {{< admonition tip "BTW," >}}
-You can find a list of useful Multimedia related application in "Ubuntu Studio",
+You can find a list of useful multimedia-related applications in "Ubuntu Studio",
 - [Ubuntu Studio applications](https://help.ubuntu.com/community/UbuntuStudio/Applications)
 {{< /admonition >}}
 
 ## Office
 | Application | Description                       |
 | :---------- | :-------------------------------- |
-| libreoffice | office suite                      |
-| okular      | document viewer                   |
-| pdfarranger | PDF file arrange and image to PDF |
+| [libreoffice](https://www.libreoffice.org/) | office suite |
+| [okular](https://okular.kde.org/) | document viewer |
+| [pdfarranger](https://github.com/pdfarranger/pdfarranger) | PDF file arrange and image to PDF |
+| [tectonic](https://tectonic-typesetting.github.io/) | Self-contained TeX/LaTeX engine with on-demand downloads |
+| [typst](https://typst.app/) | Fast, modern markup-based typesetting (LaTeX alternative) |
 
 {{< admonition tip "And," >}}
-If you are coming from Windows 10 or mac then there's an intersting list you can check,
+If you are coming from Windows 10 or macOS then there's an interesting list you can check,
 - [Alternatives to windows app (zorin os)](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
 {{< /admonition >}}
 
 ## System
 | Application      | Description                         |
 | :--------------- | :---------------------------------- |
-| dolphin          | file manager                        |
-| ibus             | input method                        |
-| octopi           | software center for archlinux       |
-| timeshift        | snapshot/backup tool                |
-| kvantum          | qt theme engine based on svg        |
-| appimagelauncher | App image integration to the system |
+| [dolphin](https://apps.kde.org/dolphin/) | file manager |
+| [ibus](https://github.com/ibus/ibus) | input method |
+| [octopi](https://tintaescura.com/projects/octopi/) | software center for archlinux |
+| [timeshift](https://github.com/linuxmint/timeshift) | snapshot/backup tool |
+| [kvantum](https://github.com/tsujan/Kvantum) | qt theme engine based on svg |
+| [appimagelauncher](https://github.com/TheAssassin/AppImageLauncher) | AppImage integration to the system |
 
 ## Utilities
 | Application                                                 | Description                                                                         |
 |:----------------------------------------------------------- |:----------------------------------------------------------------------------------- |
-| ark                                                         | archiving tool                                                                      |
-| redshift                                                    | color temperature of display                                                        |
-| spectacle                                                   | screenshot taker                                                                    |
-| filelight                                                   | disk usage statistics                                                               |
-| ventoy                                                      | multi bootable USB drive creator                                                    |
-| obsidian                                                    | note talking app with markdown and 600+ plugins                                     |
-| krdc                                                        | rdc and vnc client - kde                                                            |
-| krfb                                                        | desktop sharing - kde                                                               |
-| gImageReader                                                | GUI tool to utilize tesseract OCR engine for extracting texts.                      |
-| syncthing                                                   | A utility to sync files through multiple devices (r/w).                             |
+| [ark](https://apps.kde.org/ark/) | archiving tool |
+| [redshift](https://github.com/jonls/redshift) | color temperature of display |
+| [spectacle](https://apps.kde.org/spectacle/) | screenshot taker |
+| [filelight](https://apps.kde.org/filelight/) | disk usage statistics |
+| [ventoy](https://www.ventoy.net/) | multi bootable USB drive creator |
+| [obsidian](https://obsidian.md/) | note taking app with markdown and 600+ plugins |
+| [krdc](https://apps.kde.org/krdc/) | rdc and vnc client - kde |
+| [krfb](https://apps.kde.org/krfb/) | desktop sharing - kde |
+| [gImageReader](https://github.com/manisandro/gImageReader) | GUI tool to utilize tesseract OCR engine for extracting text. |
+| [syncthing](https://syncthing.net/) | A utility to sync files through multiple devices (r/w). |
 | [Syncthing Tray](https://martchus.github.io/syncthingtray/) | Syncthing Tray provides a tray icon and further platform integration for Syncthing. |
+| [btrfs-assistant](https://gitlab.com/btrfs-assistant/btrfs-assistant) | GUI management tool for Btrfs filesystems and Snapper snapshots |
+| [rclone-browser-qt6](https://github.com/kRHYME7/RcloneBrowser) | GUI frontend for rclone remote storage and transfers |
 
 ## Cross-Platform
 | Application | Description                               |
 |:----------- |:----------------------------------------- |
-| wine        | windows compatibility layer               |
-| q4wine      | wine GUI                                  |
-| Lutris      | Game manager with cross platform support. |
+| [wine](https://www.winehq.org/) | windows compatibility layer |
+| [q4wine](https://q4wine.brezblock.org.ua/) | wine GUI |
+| [Lutris](https://lutris.net/) | Game manager with cross platform support. |
 
 ## Command-Line
 | Application | Description                                                                                    |
 | ----------- | ---------------------------------------------------------------------------------------------- |
-| hugo        | static site generator                                                                          |
-| ipython     | interactive python shell                                                                       |
-| yt-dlp      | a better youtube-dl                                                                            |
-| imagemagick | easy image [conversation](https://sharafat.vercel.app/batch-conversation-with-loop)            |
-| telebit     | port forwarding tool                                                                           |
-| hdsentinel  | A freeware, closed source, SMART analysis tool                                                 |
-| hyperfine   | Benchmark two commands                                                                         |
-| tesseract   | FOSS OCR engine                                                                                |
-| tealdear    | tl;dr, but with rust and speed!                                                                |
-| httpie      | HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers. |
-| bat         | Cat clone with syntax highlighting and git integration                                         |
-| duf         | Disk Usage/Free Utility (Linux, BSD, macOS & Windows)                                          |
-| eza         | A modern alternative to ls                                                                     |
-| fd          | A simple, fast and user-friendly alternative to 'find'                                         |
-| dust        | A more intuitive version of du in rust.                                                        |
-| rclone      | An easy way to sync between cloud storage and your PC                                          |
+| [hugo](https://gohugo.io/) | static site generator |
+| [ipython](https://ipython.org/) | interactive python shell |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | a better youtube-dl |
+| [imagemagick](https://imagemagick.org/) | easy image [conversion](https://sharafat.vercel.app/batch-conversation-with-loop) |
+| [telebit](https://telebit.cloud/) | port forwarding tool |
+| [hdsentinel](https://www.hdsentinel.com/) | A freeware, closed source, SMART analysis tool |
+| [hyperfine](https://github.com/sharkdp/hyperfine) | Benchmark two commands |
+| [tesseract](https://github.com/tesseract-ocr/tesseract) | FOSS OCR engine |
+| [tealdeer](https://github.com/tealdeer-rs/tealdeer) | tl;dr, but with rust and speed! |
+| [httpie](https://httpie.io/) | HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers. |
+| [bat](https://github.com/sharkdp/bat) | Cat clone with syntax highlighting and git integration |
+| [duf](https://github.com/muesli/duf) | Disk Usage/Free Utility (Linux, BSD, macOS & Windows) |
+| [eza](https://github.com/eza-community/eza) | A modern alternative to ls |
+| [fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' |
+| [dust](https://github.com/bootandy/dust) | A more intuitive version of du in rust. |
+| [rclone](https://rclone.org/) | An easy way to sync between cloud storage and your PC |
+| [fzf](https://github.com/junegunn/fzf) | Interactive command-line fuzzy finder |
+| [zoxide](https://github.com/ajeetdsouza/zoxide) | Smarter cd command inspired by z and autojump |
+| [fastfetch](https://github.com/fastfetch-cli/fastfetch) | Fast, maintained system information fetch tool |
+| [uv](https://github.com/astral-sh/uv) | Extremely fast Python package manager and resolver |
+| [ncdu](https://dev.yorhel.nl/ncdu) | NCurses interactive disk usage analyzer |
+| [chafa](https://hpjansson.org/chafa/) | Terminal graphics and image viewer (Sixel/Unicode) |
+| [copyparty](https://github.com/9001/copyparty) | Portable, lightweight HTTP file server with streaming |
 
 ## Schedule
-- [ ] Team fortress 2 (game)
-- [ ] Armor Paint (texture painting)
-- [ ] jahshaka (3D metaverse)
+- [ ] [Team fortress 2](https://www.teamfortress.com/) (game)
+- [ ] [Armor Paint](https://armorpaint.org/) (texture painting)
+- [ ] [jahshaka](https://github.com/jahshaka) (3D metaverse)
 - [ ] [trackma](https://github.com/z411/trackma) (media tracking)
-- [ ] [NoiseTorch](https://github.com/noisetorch/NoiseTorch) (Noise Supression Application for PulseAudio or Pipewire)
+- [ ] [NoiseTorch](https://github.com/noisetorch/NoiseTorch) (Noise Suppression Application for PulseAudio or Pipewire)
 - [x] [stretchly](https://hovancik.net/stretchly/) (The break time reminder app)
 - [ ] [Celestia](https://celestia.space/) (real-time 3D visualization of space)
-- [ ] logseq (obsidian alternative)
+- [ ] [logseq](https://logseq.com/) (obsidian alternative)
 
 {{< admonition quote "Besides," true >}}
-If you want to add more application in this list or,
-want me to try more, feel free to suggest me.
+If you want to add more applications to this list or
+want me to try more, feel free to suggest them.
 I'll appreciate it!
 {{< /admonition >}}
 
-## Extra
-Here's a list of explicitly installed installed on my system,
-`update December 2023`
-
-{{< admonition example "List of applications" false >}}
-
-> If you want to create a list like this one, [try to check this page!](https://sharafat.vercel.app/pacman-package-manager)
-
-```
-airshipper 0.10.0-2
-android-tools 34.0.4-3
-anydesk-bin 6.3.0-1.1
-ark 23.08.4-1
-aspell-bn 0.02-1
-aspell-en 2020.12.07-1
-base 3-2
-base-devel 1-1
-bleachbit 4.6.0-1
-blender 17:4.0.2-6
-bootconfig 6.6-1
-bpf 6.6-1
-bpython 0.24-3
-cava 0.9.1-1
-cgroup_event_listener 6.6-1
-chaotic-keyring 20230616-1
-chaotic-mirrorlist 20231212-1
-chromium 120.0.6099.129-1
-cpupower 6.6-1
-darkhttpd 1.14-1
-discord 0.0.39-1
-discord-screenaudio 1.9.2-1
-dolphin-plugins 23.08.4-1
-easyeffects 7.1.3-1
-efitools 1.9.2-5
-elisa 23.08.4-1
-espeakup 0.90-2
-filelight 23.08.4-1
-firefox-pwa 2.9.1-1
-font-manager 0.8.8-1
-freecad 0.21.2-3
-frog-ocr 1.4.2+37+gf3490b6-1
-gimagereader-qt 3.4.1-4
-gimp-plugin-gmic 3.3.2-1
-github-cli 2.40.1-1
-gnome-disk-utility 45.1-1
-gradle 8.5-1
-gwenview 23.08.4-1
-handbrake 1.7.2-1
-haruna 0.12.3-1
-htop 3.2.2-1
-hugo 0.121.1-1
-hw-probe 1.6.5-1.2
-hydra 9.5-1
-hyperv 6.6-1
-icoextract 0.1.4-2
-inkscape 1.3.2-3
-intel-gpu-tools 1.27-2
-intel-ucode 20231114-1
-intellij-idea-community-edition 4:2023.3.2-1
-ipython 8.19.0-1
-jetbrains-toolbox 2.1.3.18901-1
-kalarm 23.08.4-1
-kalk 23.08.4-1
-kamoso 23.08.4-1
-kate-wakatime-git 1.3.10.r3.gdb4ea7a-1
-kcalc 23.08.4-1
-kcharselect 23.08.4-1
-kde-gtk-config 5.27.10-1
-kdenlive 23.08.4-1
-kdeplasma-addons 5.27.10-2
-kfind 23.08.4-1
-kgamma 5.27.10-2
-khotkeys 5.27.10-1
-kicad 7.0.9-2
-kio-gdrive 23.08.4-1
-kmag 23.08.4-1
-kmouth 23.08.4-1
-kvantum 1.0.10-2
-kwallet-pam 5.27.10-1
-librecad 2.2.0.2-2
-libreoffice-fresh-bn 7.6.4-1
-linux-zen 6.6.8.zen1-1
-lutris 0.5.14-1
-mari0 1.6.2-3
-minetest 5.8.0-1
-miniserve 0.24.0-1
-mkvtoolnix-gui 81.0-1
-mtr 0.95-4
-mysql-workbench 8.0.34-2
-mythes-en 20221102-2
-nano 7.2-1
-neofetch 7.1.0-2
-networkmanager-openvpn 1.10.2-3
-nmap 7.94-2
-nohang 0.2.0-1.3
-nvm 0.39.7-1
-nvtop 3.0.2-1
-obs-studio 30.0.2-1
-obsidian 1.5.3-1
-ocrfeeder 0.8.5-2
-octopi 0.15.0-1
-okular 23.08.4-1
-onlyoffice-bin 7.5.1-1
-otf-aurulent-nerd 3.1.1-1
-otf-codenewroman-nerd 3.1.1-1
-otf-comicshanns-nerd 3.1.1-1
-otf-droid-nerd 3.1.1-1
-otf-firamono-nerd 3.1.1-1
-otf-hasklig-nerd 3.1.1-1
-otf-hermit-nerd 3.1.1-1
-otf-opendyslexic-nerd 3.1.1-1
-otf-overpass-nerd 3.1.1-1
-pamac-aur 11.7.1-1
-partitionmanager 23.08.4-1
-pdfarranger 1.10.1-1
-perf 6.6-1
-persepolis 3.2.0-8
-plasma-browser-integration 5.27.10-1
-plasma-disks 5.27.10-1
-plasma-firewall 5.27.10-1
-plasma-pa 5.27.10-1
-plasma-sdk 5.27.10-1
-plasma-systemmonitor 5.27.10-1
-plasma-wayland-session 5.27.10-2
-plasma-welcome 5.27.10-1
-podman 4.8.2-1
-proxychains-ng 4.16-2
-pypy 7.3.14-1
-python-virtualenv 20.25.0-1
-q4wine-git 1.3.13.4.g82ced8e-1.3
-qbittorrent 4.6.2-2
-reflector 2023-1
-rmlint 2.10.2-1
-rustdesk-nightly 1.2.4-0
-sbctl 0.13-1
-screenkey 1.5-3
-sddm-kcm 5.27.10-1
-sigil 2.0.2-2
-sl 5.05-4
-spectacle 23.08.4-1
-speedtest-cli 2.1.3-7
-sqlitebrowser 3.12.2-3
-supertuxkart 1.4-5
-syncplay 1.7.1-2
-syncthing 1.27.1-1
-termdown 1.18.0-4
-texlive-bibtexextra 2023.66594-19
-texlive-context 2023.66594-19
-texlive-fontsextra 2023.66594-19
-texlive-fontutils 2023.66594-19
-texlive-formatsextra 2023.66594-19
-texlive-games 2023.66594-19
-texlive-humanities 2023.66594-19
-texlive-latexextra 2023.66594-19
-texlive-luatex 2023.66594-19
-texlive-mathscience 2023.66594-19
-texlive-metapost 2023.66594-19
-texlive-music 2023.66594-19
-texlive-publishers 2023.66594-19
-texlive-xetex 2023.66594-19
-timeshift-autosnap 0.9-1.3
-tlauncher 1:1.155.3-1
-tldr 3.2.0-1
-tmate 2.4.0-3
-tmon 6.6-1
-tree 2.1.1-1
-ttf-3270-nerd 3.1.1-1
-ttf-agave-nerd 3.1.1-1
-ttf-anonymouspro-nerd 3.1.1-1
-ttf-arimo-nerd 3.1.1-1
-ttf-bigblueterminal-nerd 3.1.1-1
-ttf-bitstream-vera-mono-nerd 3.1.1-1
-ttf-cascadia-code-nerd 3.1.1-1
-ttf-cousine-nerd 3.1.1-1
-ttf-daddytime-mono-nerd 3.1.1-1
-ttf-dejavu-nerd 3.1.1-1
-ttf-fantasque-nerd 3.1.1-1
-ttf-fira-sans 1:4.301-2
-ttf-firacode-nerd 3.1.1-1
-ttf-freebanglafont 20130212-5
-ttf-go-nerd 3.1.1-1
-ttf-hack-nerd 3.1.1-1
-ttf-heavydata-nerd 3.1.1-1
-ttf-iawriter-nerd 3.1.1-1
-ttf-ibmplex-mono-nerd 3.1.1-1
-ttf-inconsolata-go-nerd 3.1.1-1
-ttf-inconsolata-lgc-nerd 3.1.1-1
-ttf-inconsolata-nerd 3.1.1-1
-ttf-iosevka-nerd 3.1.1-1
-ttf-iosevkaterm-nerd 3.1.1-1
-ttf-jetbrains-mono-nerd 3.1.1-1
-ttf-lekton-nerd 3.1.1-1
-ttf-liberation-mono-nerd 3.1.1-1
-ttf-lilex-nerd 3.1.1-1
-ttf-meslo-nerd 3.1.1-1
-ttf-monofur-nerd 3.1.1-1
-ttf-monoid-nerd 3.1.1-1
-ttf-mononoki-nerd 3.1.1-1
-ttf-mplus-nerd 3.1.1-1
-ttf-nerd-fonts-symbols 3.1.1-1
-ttf-nerd-fonts-symbols-mono 3.1.1-1
-ttf-noto-nerd 3.1.1-1
-ttf-profont-nerd 3.1.1-1
-ttf-proggyclean-nerd 3.1.1-1
-ttf-roboto-mono-nerd 3.1.1-1
-ttf-sharetech-mono-nerd 3.1.1-1
-ttf-sourcecodepro-nerd 3.1.1-1
-ttf-space-mono-nerd 3.1.1-1
-ttf-terminus-nerd 3.1.1-1
-ttf-tinos-nerd 3.1.1-1
-ttf-ubuntu-mono-nerd 3.1.1-1
-ttf-ubuntu-nerd 3.1.1-1
-ttf-victor-mono-nerd 3.1.1-1
-turbostat 6.6-1
-upscayl-bin 2.9.5-1
-usbip 6.6-1
-vidcutter 6.0.5.1-7
-virt-manager 4.1.0-2
-visual-studio-code-bin 1.85.1-1
-x86_energy_perf_policy 6.6-1
-xdman8 8.0.25-2
-zsh 5.9-4
-```
-{{< /admonition >}}
+All of my installed packages are listed [here](https://github.com/SharafatKarim/dotfiles/tree/main/dot_sharafat/packages).
