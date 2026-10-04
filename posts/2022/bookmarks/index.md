@@ -505,7 +505,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [Advanced JavaScript – Reactive Accelarator](https://reactive-accelarator.vercel.app/reactive-accilarator/javascript-refresher) 
 - [সিস্টেম ডিজাইন বাংলা | system-design-bangla](https://lahin31.github.io/system-design-bangla/) 
 - [AI Planet (formerly DPhi) - Democratizing Data Science Learning](https://aiplanet.com/community)
-
+- [DevOps OOAAOW Lab — বাংলায় DevOps শেখার ল্যাব — Linux, Networking, Git, Kubernetes, Helm ও Python](https://devops-bd.vercel.app/)
 ### Skill based (long)
 - [GitHub - EbookFoundation](https://github.com/EbookFoundation/free-programming-books) - Books & interactive tutorials
 - [Freecodecamp](https://www.freecodecamp.com/)
