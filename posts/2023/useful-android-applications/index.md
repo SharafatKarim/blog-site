@@ -1,18 +1,11 @@
 ---
 title: "Useful Android Applications"
 date: 2023-12-31T11:18:35+06:00
-lastmod: 2026-10-01T21:58:52+06:00
+lastmod: 2026-10-10T22:11:37+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
-<<<<<<< HEAD
-description: "Yet an another list of useful Applications that you can try in Android."
-||||||| parent of 1644745 (Auto push at 22:11:05)
-description: "Yet an another list of useful Applications that you can try in Android."
-license: ""
-=======
 description: "A curated list of useful, privacy-respecting, and FOSS applications for Android."
->>>>>>> 1644745 (Auto push at 22:11:05)
 images: []
 resources:
 - name: "featured-image"
@@ -139,6 +132,7 @@ For an even larger community-maintained catalogue, check:
 | [mpv](https://github.com/mpv-android/mpv-android) | Minimalist video player powered by libmpv |
 | [VLC](https://www.videolan.org/vlc/download-android.html) | Universal media player with broad codec support |
 | [AIMP](https://www.aimp.ru/?do=download&os=android) | High-fidelity local music player with equalizer |
+| [SongSync](https://github.com/Lambada10/SongSync) | Automatically download and embed synchronized lyrics for local music |
 | [FocusPodcast](https://github.com/allen-town/FocusPodcast) | Lightweight, privacy-focused podcast player |
 | [Dolby On](https://www.dolby.com/apps/dolby-on/) | Audio and music recording with automated sound mastering |
 | [Video Transcoder](https://github.com/brarcher/video-transcoder) | Open-source FFmpeg-based video and audio re-encoder |
@@ -166,6 +160,11 @@ For an even larger community-maintained catalogue, check:
 | [CloudStream](https://github.com/recloudstream/cloudstream) | Open, plugin-based streaming and media aggregator |
 | [Saikou](https://github.com/brahmkshatriya/saikou) | Anime and manga streaming client powered by AniList |
 | [Aniyomi](https://github.com/aniyomiorg/aniyomi) | Tachiyomi fork extending manga reading to video anime streaming |
+| [Animetail](https://github.com/Animetailapp/Animetail) | Modern Aniyomi fork for anime streaming and manga reading |
+| [Anikku](https://github.com/komikku-app/anikku) | Free and open-source anime watcher with Tachiyomi-based UX |
+| [Komikku](https://github.com/komikku-app/komikku) | Tachiyomi-based manga reader with Material 3 design |
+| [Taihon](https://github.com/Saud-97/taihon) | Fast, highly customizable Mihon/Tachiyomi manga reader fork |
+| [Manatan](https://github.com/KolbyML/Manatan) | Immersion language learning reader and player with instant subtitle/OCR lookup |
 | [PixEz](https://github.com/Notsfsssf/pixez-flutter) | Flutter client for Pixiv art exploration |
 | [Memerize](https://github.com/SuhasDissa/MemerizeApp) | Fast and lightweight meme browser |
 
@@ -189,6 +188,7 @@ For an even larger community-maintained catalogue, check:
 ## Office, Notes & Document Scanning
 | Application | Description |
 | :--- | :--- |
+| [KashCal](https://github.com/KashCal/KashCal) | Private calendar client syncing CalDAV, iCloud, Google, and Outlook |
 | [Obsidian](https://obsidian.md/) | Markdown knowledge graph and personal knowledge management |
 | [Logseq](https://logseq.com/) | Local-first, privacy-focused outliner with bidirectional linking |
 | [ONLYOFFICE](https://www.onlyoffice.com/office-for-android.aspx) | Full-featured office suite for DOCX, XLSX, and PPTX documents |
@@ -208,6 +208,7 @@ For an even larger community-maintained catalogue, check:
 | :--- | :--- |
 | [OsmAnd~](https://osmand.net/) | Offline OpenStreetMap navigation with topographic contour overlays |
 | [Vespucci](https://vespucci.io/) | Full-featured on-device OpenStreetMap editor |
+| [GMaps WV](https://f-droid.org/packages/us.spotco.maps) | Sandboxed web wrapper for Google Maps when OpenStreetMap falls short |
 
 ## Graphics & Photography
 | Application | Description |
@@ -232,6 +233,7 @@ For an even larger community-maintained catalogue, check:
 | [SD Maid 2 / SE](https://github.com/d4rken-org/sdmaid-se) | Comprehensive filesystem cleaner and app management utility |
 | [Cache Cleaner](https://github.com/bmx666/appcachecleaner) | Cleans app caches using Android Accessibility without root |
 | [Ampere](https://play.google.com/store/apps/details?id=com.gombosdev.ampere) | Measures and analyzes battery charging and discharge currents |
+| [Traffic Light](https://github.com/leekleak/traffic-light) | Privacy-respecting network speed and mobile data usage tracker |
 | [Internet Speed Meter](https://play.google.com/store/apps/details?id=delit.internet.speed.meter.lite) | Live network bandwidth monitor in the notification status bar |
 | [GPS Speedometer](https://play.google.com/store/apps/details?id=com.luutinhit.speedometer) | Accurate velocity, distance, and trip tracker |
 | [Barcode Scanner](https://github.com/atharok/BarcodeScanner) | Lightweight, tracker-free QR code and barcode scanner |
