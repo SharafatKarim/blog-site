@@ -132,7 +132,7 @@ For an even larger community-maintained catalogue, check:
 | [mpv](https://github.com/mpv-android/mpv-android) | Minimalist video player powered by libmpv |
 | [VLC](https://www.videolan.org/vlc/download-android.html) | Universal media player with broad codec support |
 | [AIMP](https://www.aimp.ru/?do=download&os=android) | High-fidelity local music player with equalizer |
-| [SongSync](https://github.com/Lambada10/SongSync) | Automatically download and embed synchronized lyrics for local music |
+| [MusicResync](https://github.com/DynamycSound/MusicResync) | Smart synced .lrc lyrics fetcher and player for local music |
 | [FocusPodcast](https://github.com/allen-town/FocusPodcast) | Lightweight, privacy-focused podcast player |
 | [Dolby On](https://www.dolby.com/apps/dolby-on/) | Audio and music recording with automated sound mastering |
 | [Video Transcoder](https://github.com/brarcher/video-transcoder) | Open-source FFmpeg-based video and audio re-encoder |
