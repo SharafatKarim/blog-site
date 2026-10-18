@@ -1,0 +1,21 @@
+// Git repositories (prevents lock conflicts and index churn)
+.git
+
+// OS-generated junk (allow deletion if removing parent dir)
+(?d).DS_Store
+(?d)Thumbs.db
+(?d)ehthumbs.db
+
+// Python cache & virtual environments
+__pycache__
+*.py[cod]
+*$py.class
+.venv
+venv
+ENV/
+
+// Editor / IDE configs
+.idea
+.vscode
+*.swp
+*~
