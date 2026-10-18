@@ -1,7 +1,7 @@
 ---
 title: "Useful Android Applications"
 date: 2023-12-31T11:18:35+06:00
-lastmod: 2026-10-10T22:11:37+06:00
+lastmod: 2026-10-18T21:39:20+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
@@ -80,6 +80,7 @@ For an even larger community-maintained catalogue, check:
 | [Hail](https://github.com/aistra0528/Hail) | Freeze, suspend, and hide background applications via Shizuku/root |
 | [Shelter](https://gitea.angry.im/PeterCxy/Shelter) | Isolate non-free apps inside an Android Work Profile sandbox |
 | [Rethink](https://rethinkdns.com/) | DNS-over-HTTPS/TLS client with per-app firewall controls |
+| [Athena](https://github.com/Kin69/Athena) | Material You firewall and DNS ad blocker supporting Root, VPN, and Shizuku |
 | [TrackerControl](https://trackercontrol.org/) | Monitor and block in-app tracking and telemetry traffic |
 | [Exodus](https://reports.exodus-privacy.eu.org/) | Privacy scanner auditing embedded trackers and app permissions |
 | [DroidFS](https://github.com/hardcore-sushi/DroidFS) | Encrypted virtual filesystem for sensitive files |
@@ -138,6 +139,7 @@ For an even larger community-maintained catalogue, check:
 | [Video Transcoder](https://github.com/brarcher/video-transcoder) | Open-source FFmpeg-based video and audio re-encoder |
 | [FFShare](https://github.com/caydey/ffshare) | Quick media compression and resizing prior to sharing |
 | [ScreenCam](https://github.com/orpheusdroid/ScreenCam) | Lightweight and clean open-source screen recorder |
+| [Alibi](https://github.com/Myzel394/Alibi) | Background dashcam and rolling audio/video recorder |
 | [Super Sound](https://play.google.com/store/apps/details?id=com.tianxingjian.supersound) | Multi-track audio editing, cutting, and mixing tool |
 | [Video Cutter & Editor](https://play.google.com/store/apps/details?id=com.betteridea.video.editor) | Video trimmer, cropper, and basic editor |
 | [T2S](https://play.google.com/store/apps/details?id=hesoft.T2S) | Text-to-speech converter and article voice reader |
@@ -225,6 +227,7 @@ For an even larger community-maintained catalogue, check:
 | [Key Mapper](https://keymapper.org/) | Remap device physical hardware buttons and fingerprint gestures |
 | [CPU Info](https://github.com/kgurgul/cpu-info) | Detailed SOC, CPU, GPU, memory, and sensor telemetry |
 | [Droid Info](https://play.google.com/store/apps/details?id=com.inkwired.droidinfo) | Comprehensive hardware diagnostic and specification viewer |
+| [Athena](https://github.com/SebaUbuntu/Athena) | Material You open-source device and system info viewer |
 | [screen-dimmer-pixel-filter](https://github.com/pelya/screen-dimmer-pixel-filter) | Disables individual screen pixels for true AMOLED power saving |
 
 ## Utilities
@@ -236,7 +239,7 @@ For an even larger community-maintained catalogue, check:
 | [Traffic Light](https://github.com/leekleak/traffic-light) | Privacy-respecting network speed and mobile data usage tracker |
 | [Internet Speed Meter](https://play.google.com/store/apps/details?id=delit.internet.speed.meter.lite) | Live network bandwidth monitor in the notification status bar |
 | [GPS Speedometer](https://play.google.com/store/apps/details?id=com.luutinhit.speedometer) | Accurate velocity, distance, and trip tracker |
-| [Barcode Scanner](https://github.com/atharok/BarcodeScanner) | Lightweight, tracker-free QR code and barcode scanner |
+| [Barcode Scanner](https://atharok.gitlab.io/site/projects/barcode-scanner/) | Lightweight, tracker-free QR code and barcode scanner |
 
 ## Personal & Lifestyle
 | Application | Description |
