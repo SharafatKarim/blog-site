@@ -1,7 +1,7 @@
 ---
 title: "Useful Android Applications"
 date: 2023-12-31T11:18:35+06:00
-lastmod: 2026-10-18T21:39:20+06:00
+lastmod: 2026-10-19T15:07:48+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
@@ -70,6 +70,7 @@ For an even larger community-maintained catalogue, check:
 | [MGit](https://f-droid.org/packages/com.manichord.mgit) | Standalone Git client for Android |
 | [GitHub](https://github.com/mobile) | Official GitHub client for notifications, issues, and code browsing |
 | [APK Explorer & Editor](https://github.com/apk-editor/APK-Explorer-Editor) | Open-source APK explorer, inspector, and manifest editor |
+| [Sketchware Pro](https://sketchware.pro/) | Visual block-based and text IDE for building Android apps on-device |
 
 ## Privacy, Security & Isolation
 | Application | Description |
