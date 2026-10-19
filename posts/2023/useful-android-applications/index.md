@@ -1,7 +1,7 @@
 ---
 title: "Useful Android Applications"
 date: 2023-12-31T11:18:35+06:00
-lastmod: 2026-10-19T15:07:48+06:00
+lastmod: 2026-10-19T15:24:41+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
@@ -71,6 +71,14 @@ For an even larger community-maintained catalogue, check:
 | [GitHub](https://github.com/mobile) | Official GitHub client for notifications, issues, and code browsing |
 | [APK Explorer & Editor](https://github.com/apk-editor/APK-Explorer-Editor) | Open-source APK explorer, inspector, and manifest editor |
 | [Sketchware Pro](https://sketchware.pro/) | Visual block-based and text IDE for building Android apps on-device |
+| [GitSync](https://github.com/ViscousPot/GitSync) | Mobile Git client for syncing repositories between remote and local directories |
+| [klyx](https://github.com/klyx-dev/klyx) | Lightweight, high-performance mobile code editor |
+| [Local Desktop](https://localdesktop.github.io/) | Run full desktop Linux environments directly on Android |
+| [termux-linux-setup](https://github.com/orailnoor/termux-linux-setup) | Automated configuration scripts for setting up desktop Linux environments in Termux |
+| [Exodus (Binary Relocator)](https://github.com/intoli/exodus) | Relocate Linux binaries and dependencies without containers for Termux/proot environments |
+| [Morphe Manager](https://github.com/MorpheApp/morphe-manager) | Android application patcher and mod manager |
+| [Universal ReVanced Manager](https://github.com/Jman-Github/Universal-ReVanced-Manager) | Advanced manager for ReVanced and Morphe with third-party patch bundles and batch repatching |
+| [MeowBottomNavigation](https://github.com/oneHamidreza/MeowBottomNavigation) | Curved and animated bottom navigation component library for Android |
 
 ## Privacy, Security & Isolation
 | Application | Description |
@@ -100,6 +108,9 @@ For an even larger community-maintained catalogue, check:
 | [ConnectBot](https://connectbot.org/) | Secure and robust SSH/Telnet terminal client |
 | [SocksDroid](https://github.com/PeterCxy/SocksDroid) | SOCKS5 proxy client for Android |
 | [WiFiAnalyzer](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer) | Wi-Fi network scanner and channel congestion analyzer |
+| [Shadowsocks](https://github.com/shadowsocks/shadowsocks-android) | High-performance secure SOCKS5 proxy client for Android |
+| [QtScrcpy](https://github.com/barry-ran/QtScrcpy) | Real-time Android screen mirroring and multi-touch control via USB or network |
+| [Weylus](https://github.com/H-M-H/Weylus) | Use Android tablet or phone as a graphic tablet and touch screen for PC |
 
 ## Education & Science
 | Application | Description |
@@ -111,6 +122,7 @@ For an even larger community-maintained catalogue, check:
 | [Cryptography](https://play.google.com/store/apps/details?id=com.nitramite.cryptography) | Collection of classic and modern encryption algorithms |
 | [phyphox](https://phyphox.org/) | Physical science experiments utilizing phone sensors |
 | [Signal Generator](https://f-droid.org/en/packages/org.billthefarmer.siggen/) | Accurate audio tone and signal waveform generator |
+| [AI Edge Gallery](https://github.com/google-ai-edge/gallery) | On-device GenAI and machine learning showcase running models locally |
 
 ## Communication
 | Application | Description |
@@ -121,6 +133,7 @@ For an even larger community-maintained catalogue, check:
 | [Discord](https://discord.com/) | Community chat, voice channels, and gaming hub |
 | [Jitsi Meet](https://jitsi.org/) | Fully encrypted, open-source video conferencing |
 | [Revolution IRC](https://github.com/MCMrARM/revolution-irc) | Clean and customizable modern IRC client |
+| [bitchat](https://github.com/permissionlesstech/bitchat) | Offline peer-to-peer Bluetooth mesh messaging with IRC vibes |
 
 ## Web Browsers
 | Application | Description |
@@ -144,6 +157,7 @@ For an even larger community-maintained catalogue, check:
 | [Super Sound](https://play.google.com/store/apps/details?id=com.tianxingjian.supersound) | Multi-track audio editing, cutting, and mixing tool |
 | [Video Cutter & Editor](https://play.google.com/store/apps/details?id=com.betteridea.video.editor) | Video trimmer, cropper, and basic editor |
 | [T2S](https://play.google.com/store/apps/details?id=hesoft.T2S) | Text-to-speech converter and article voice reader |
+| [SongSync](https://github.com/Lambada10/SongSync) | Download and synchronize LRC lyrics for local music library |
 
 ## Streaming & Media Downloads
 | Application | Description |
@@ -155,6 +169,7 @@ For an even larger community-maintained catalogue, check:
 | [YTDLnis](https://ytdlnis.org/) | Feature-complete yt-dlp GUI with batch queues and chapter slicing |
 | [1DM](https://play.google.com/store/apps/details?id=idm.internet.download.manager) | Multi-segmented high-speed download manager |
 | [Download Navi](https://github.com/TachibanaGeneralLaboratories/download-navi) | Free, open-source download manager with background resume |
+| [PowerTube](https://github.com/razar-dev/PowerTube) | Fast YouTube and media downloader frontend based on youtube-dl/yt-dlp |
 
 ## Entertainment, Comics & Art
 | Application | Description |
@@ -170,6 +185,10 @@ For an even larger community-maintained catalogue, check:
 | [Manatan](https://github.com/KolbyML/Manatan) | Immersion language learning reader and player with instant subtitle/OCR lookup |
 | [PixEz](https://github.com/Notsfsssf/pixez-flutter) | Flutter client for Pixiv art exploration |
 | [Memerize](https://github.com/SuhasDissa/MemerizeApp) | Fast and lightweight meme browser |
+| [Mangayomi](https://github.com/kodjodevf/mangayomi) | Multi-source reader for manga, light novels, and anime streaming |
+| [AnymeX](https://github.com/RyanYuuki/AnymeX) | Unified media tracking client integrating AniList, MyAnimeList, and SIMKL |
+| [ReDantotsu](https://github.com/AsrOfficialDev/ReDantotsu) | Anime and manga tracking app with AniList/MAL integration based on Dantotsu |
+| [SkyStream](https://github.com/akashdh11/skystream) | Modular media streaming client using custom JavaScript scraping plugins |
 
 ## Gaming & Emulation
 | Application | Description |
@@ -178,6 +197,8 @@ For an even larger community-maintained catalogue, check:
 | [TapTap](https://www.taptap.io/mobile) | Global mobile gaming community and alternative app store |
 | [Twitch](https://www.twitch.tv/) | Live streaming service for gaming, esports, and creative media |
 | [PPSSPP](https://www.ppsspp.org/) | Sony PlayStation Portable (PSP) emulator for Android |
+| [Winlator](https://github.com/brunodev85/winlator) | Run Windows x86/x64 PC applications and games via Wine and Box86/Box64 |
+| [OpenClaw Android](https://github.com/aidanpark/openclaw-android) | Port of the Captain Claw platformer engine running natively on Android |
 
 ## Reading, Feeds & Research
 | Application | Description |
@@ -230,6 +251,12 @@ For an even larger community-maintained catalogue, check:
 | [Droid Info](https://play.google.com/store/apps/details?id=com.inkwired.droidinfo) | Comprehensive hardware diagnostic and specification viewer |
 | [Athena](https://github.com/SebaUbuntu/Athena) | Material You open-source device and system info viewer |
 | [screen-dimmer-pixel-filter](https://github.com/pelya/screen-dimmer-pixel-filter) | Disables individual screen pixels for true AMOLED power saving |
+| [Obtainium](https://github.com/ImranR98/Obtainium) | Install and track app updates directly from GitHub, GitLab, F-Droid, and web sources |
+| [ObtainX](https://github.com/bikram-agarwal/ObtainX) | Enhanced Obtainium fork with granular update channels and Shizuku/root installation |
+| [Komi Store](https://github.com/komi-store/komi-store) | App store browsing and installing developer releases from GitHub, Codeberg, and Forgejo |
+| [Universal Installer](https://github.com/pass-with-high-score/universal-installer) | Package manager with split APK support, Shizuku silent installation, and VirusTotal scanning |
+| [anyapk](https://github.com/sam1am/anyapk) | Package installer bypassing Android install restrictions |
+| [Kvaesitso](https://github.com/MM2-0/Kvaesitso) | Highly customizable, search-focused Android launcher |
 
 ## Utilities
 | Application | Description |
@@ -241,6 +268,9 @@ For an even larger community-maintained catalogue, check:
 | [Internet Speed Meter](https://play.google.com/store/apps/details?id=delit.internet.speed.meter.lite) | Live network bandwidth monitor in the notification status bar |
 | [GPS Speedometer](https://play.google.com/store/apps/details?id=com.luutinhit.speedometer) | Accurate velocity, distance, and trip tracker |
 | [Barcode Scanner](https://atharok.gitlab.io/site/projects/barcode-scanner/) | Lightweight, tracker-free QR code and barcode scanner |
+| [SwiftSlate](https://github.com/Musheer360/SwiftSlate) | Accessibility-powered on-device AI text rewriting and transformation across apps |
+| [NoDistract](https://github.com/JayedAhsan/NoDistract) | Accessibility tool to suppress and block addictive short-form Facebook Reels |
+| [QrAndBarcodeScanner](https://github.com/wewewe718/QrAndBarcodeScanner) | Fast, open-source Material design QR code and barcode scanner |
 
 ## Personal & Lifestyle
 | Application | Description |
@@ -252,6 +282,8 @@ For an even larger community-maintained catalogue, check:
 | [Daily You](https://github.com/Demizo/Daily_You) | Minimalist, distraction-free daily diary |
 | [Track & Graph](https://github.com/SamAmco/track-and-graph) | Flexible habit, medical, and personal metric tracker with visual charts |
 | [EweSticker](https://github.com/fredhappyface/android.EweSticker) | Custom sticker keyboard supporting user-added sticker packs |
+| [Simple Time Tracker](https://github.com/Razeeman/Android-SimpleTimeTracker) | Minimalist, tracker-free personal activity and time tracking app |
+| [wmkeyboard](https://github.com/wasi-master/wmkeyboard) | Privacy-first on-device intelligent keyboard supporting 600+ languages and addons |
 
 ## Acknowledgements
 Special thanks to all of my friends who helped me collect these, especially:
