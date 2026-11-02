@@ -1,7 +1,7 @@
 ---
 title: "Useful Android Applications"
 date: 2023-12-31T11:18:35+06:00
-lastmod: 2026-10-19T15:24:41+06:00
+lastmod: 2026-11-02T08:33:00+06:00
 draft: false
 author: "Sharafat Karim"
 authorLink: "https://sharafat.pages.dev/about/"
@@ -145,6 +145,8 @@ For an even larger community-maintained catalogue, check:
 | Application | Description |
 | :--- | :--- |
 | [mpv](https://github.com/mpv-android/mpv-android) | Minimalist video player powered by libmpv |
+| [mpvEx](https://github.com/marlboro-advance/mpvEx) | Jetpack Compose and libmpv video player fork with Material 3 design |
+| [mpvRx](https://github.com/Riteshp2001/mpvRx) | Feature-packed libmpv video player fork with Material 3 Expressive UI and gesture controls |
 | [VLC](https://www.videolan.org/vlc/download-android.html) | Universal media player with broad codec support |
 | [AIMP](https://www.aimp.ru/?do=download&os=android) | High-fidelity local music player with equalizer |
 | [MusicResync](https://github.com/DynamycSound/MusicResync) | Smart synced .lrc lyrics fetcher and player for local music |
