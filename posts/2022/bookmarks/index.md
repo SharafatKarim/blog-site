@@ -768,6 +768,7 @@ My personal bookmarks collection. Bookmarks of this list can be outdated as well
 - [@DarkHatHacker75](https://youtube-views.ytpremium35.repl.co/) - Multi play YouTube
 - [Web-SyncPlay](https://web-syncplay.de/) - Watch online media like YouTube, Vimeo, Soundcloud or video/audio files in sync.
 - [Stremio - Freedom to Stream](https://www.stremio.com/) 
+- [Linkstreams](https://linkstreams.app/) - Android/Android TV player with shareable addon collections and device-local history; no Linkstreams account required.
 - [Watch Global & Local Live TV Online for Free - tv.garden](https://tv.garden/) 
 
 ### Coding challengers
